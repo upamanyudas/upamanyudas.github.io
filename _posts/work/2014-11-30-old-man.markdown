@@ -1,0 +1,14 @@
+---
+layout: work
+title: "Old Man"
+date: 2014-11-30 20:58
+comments: true
+categories: works
+published: true
+image: old_man.jpg
+---
+<img src="/images/works/old_man.jpg" align="middle"/>
+
+Old Man.
+
+The drawing is wiggly.

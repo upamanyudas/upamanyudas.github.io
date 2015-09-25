@@ -1,0 +1,12 @@
+---
+layout: work
+title: "Hatti - The Elephant"
+date: 2014-08-12 20:58
+comments: true
+categories: works
+published: true
+image: hatti.jpg
+---
+<img src="/images/works/hatti.jpg" align="middle"/>
+
+Moments after posting the last update, I read this - ([http://on.fb.me/Xfla0r](http://on.fb.me/Xfla0r)) And hence another update. [#WorldElephantDay](https://www.facebook.com/hashtag/worldelephantday) - [http://worldelephantday.org/](http://worldelephantday.org/).

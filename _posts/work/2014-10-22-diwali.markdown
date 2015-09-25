@@ -1,0 +1,14 @@
+---
+layout: work
+title: "Diwali 2014"
+date: 2014-10-22 20:58
+comments: true
+categories: works
+published: true
+image: diwali2014.jpg
+---
+<img src="/images/works/diwali2014.jpg" align="middle"/>
+
+Happy Diwali.
+
+Lets celebrate the festival of lights.

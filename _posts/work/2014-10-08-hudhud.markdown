@@ -1,0 +1,14 @@
+---
+layout: work
+title: "Hudhud Cyclone"
+date: 2014-10-08 20:58
+comments: true
+categories: works
+published: true
+image: hudhud.jpg
+---
+<img src="/images/works/hudhud.jpg" align="middle"/>
+
+The Indian Meteorological Department has issued a cylone alert for the north coastal Andhra Pradesh, south Odisha.
+
+Storm is coming. [#Hudhud](https://www.facebook.com/hashtag/hudhud) [#Cyclone](https://www.facebook.com/hashtag/cyclone)

@@ -1,0 +1,12 @@
+---
+layout: work
+title: "Nested"
+date: 2014-08-26 20:58
+comments: true
+categories: works
+published: true
+image: nested.jpg
+---
+<img src="/images/works/nested.jpg" align="middle"/>
+
+Nested ~ soft pastel on paper

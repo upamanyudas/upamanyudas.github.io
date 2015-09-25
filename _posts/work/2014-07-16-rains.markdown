@@ -1,0 +1,12 @@
+---
+layout: work
+title: "Rains"
+date: 2014-07-16 20:58
+comments: true
+categories: works
+published: true
+image: rains.jpg
+---
+<img src="/images/works/rains.jpg" align="middle"/>
+
+Experimenting with the newly bought <a href="http://www.wacom.com/en-us/products/pen-tablets/intuos-pro-small">Wacom Intuos Pro Small</a>. Little different from Bamboo. Heavy rains outside. Just some scribbles

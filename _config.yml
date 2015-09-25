@@ -1,0 +1,17 @@
+permalink: '/blog/:year/:title/'
+base: http://upamanyu.in
+
+name: Upamanyu Das
+title: Upamanyu &bull; Portfolio of the graphic designer
+url: http://upamanyu.in
+host: 0.0.0.0
+oneliner: Founder, Designer at Cloudstudio
+description: Founder, Designer at Cloudstudio, Product Design grad from Sir J.J Scool of Arts
+twitter: cloudstudio
+github: upamanyudas
+gravatar_url: http://www.gravatar.com/avatar/91d05b8aab2671b4abc8a8c76435bf5a
+
+googleplus_user: '100301306098556898455'
+googleplus_hidden: false
+
+google_analytics_tracking_id: UA-39534503-2

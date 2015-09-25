@@ -1,0 +1,39 @@
+{% include top.html %}
+
+{% include header.html %}
+
+<article class="main-content">
+
+    <div class="wrapper">
+
+        <header class="section-header">
+            <h1 class="section-title">{{ page.title }}</h1>
+            <span class="section-subtitle"><time datetime="{{ page.date }}" pubdate>{{ page.date | date_to_string }}</time>{% for tag in page.tags %}, <a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a>{% endfor %}</span>
+        </header>
+      
+        <section class="post-content">
+
+            {{ page.content | markdownify }}
+
+            <div class="post-nav">
+
+                <span class="section-subtitle">Share on <a href="https://twitter.com/home?status={{ page.title }}+{{ site.base }}{{ page.url }}" target="_blank">Twitter</a>, <a href="https://www.facebook.com/share.php?u={{ site.base }}{{ page.url }}&amp;title={{ page.title }}" target="_blank">Facebook</a>, <a href="https://plus.google.com/share?url={{ site.base }}{{ page.url }}" target="_blank">Google+</a></span><br>
+
+                {% if page.previous and page.previous.categories contains "works" %} 
+                    <a href="{{page.previous.url}}" class="button">Prev</a>
+                {% endif %} 
+                {% if page.next and page.next.categories contains "works" %} 
+                    <a href="{{page.next.url}}" class="button">Next</a>
+                {% endif %} 
+
+            </div>
+
+        </section>
+
+    </div>
+
+</article>
+
+{% include footer.html %}
+
+{% include bottom.html %}

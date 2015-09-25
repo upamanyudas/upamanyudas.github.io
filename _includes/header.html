@@ -1,0 +1,52 @@
+<section class="main-header {% if page.path == 'index.html' %}home{% else %}regular{% endif %}">
+
+    <div class="vertical-container">
+
+    	<div class="wrapper clearfix">
+
+	        <header>
+	        	{% if page.path != 'index.html' %}<a href="/">{% endif %}
+		            <h1 id="main-title">Upamanyu Das</h1>
+		            <h2 id="main-subtitle">Graphic Designer / Illustrator / Reader / Reviewer</h2>
+	        	{% if page.path != 'index.html' %}</a>{% endif %}
+
+	        	{% if page.path == 'index.html' %}
+                    <br>
+                    <div id="main-social">
+                        <a href="https://www.facebook.com/profile.php?id=100001505433242" target="_blank">b</a>
+                        <a href="http://twitter.com/cloudstudio" target="_blank">a</a>
+                        <a href="https://plus.google.com/+UpamanyuDas" target="_blank">c</a>
+                        <a href="http://instagram.com/cloudstudio" target="_blank">x</a>
+                        <a href="https://github.com/upamanyudas/" target="_blank">Q</a>
+                        <a href="http://upamanyu.tumblr.com/" target="_blank">z</a>
+                        <a href="skype:upamanyudas@hotmail.com?userinfo">g</a>
+                        <a href="http://youtube.com/UpmanyuDas" target="_blank">r</a>
+                        <a href="http://behance.net/cloudstudios" target="_blank">H</a>
+                        <a href="https://www.flickr.com/photos/upamanyudas" target="_blank">v </a>
+                        <a href="http://www.linkedin.com/in/upamanyudas" target="_blank">j</a>
+                        <a href="https://www.goodreads.com/user/show/17319468-upamanyu-das" target="_blank">5</a>
+                        <a href="https://ello.co/upamanyu" target="_blank">'</a>
+                    </div>
+                {% endif %}
+	        </header>
+
+			{% if page.path == 'index.html' %}
+	        <nav id="main-nav" role="navigation">
+                <a href="http://studio.upamanyu.in/home/" target="_blank" class="">Cloudstudio wallpapers</a>
+                <a href="http://kalam.upamanyu.in/" target="_blank" class="">Kalam Movie reviews</a>
+            </nav>
+            {% endif %}
+	        <nav id="main-nav" role="navigation">
+				<a href="/about/" class="{% if page.url == '/about/index.html' %}selected{% endif %}">About</a>
+                <a href="/blog/" class="{% if page.url == '/blog/index.html' %}selected{% endif %}">Blog</a>
+                <a href="/works/" class="{% if page.url == '/works/index.html' %}selected{% endif %}">Works</a>
+                <a href="/projects/" class="{% if page.url == '/projects/index.html' %}selected{% endif %}">Projects</a>
+				<a href="/setup/" class="{% if page.url == '/setup/index.html' %}selected{% endif %}">Setup</a>
+				<a href="/contact/" class="{% if page.url == '/contact/index.html' %}selected{% endif %}">Contact</a>
+			</nav>
+
+		</div>
+
+    </div>
+
+</section>

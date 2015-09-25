@@ -1,0 +1,16 @@
+---
+layout: work
+title: "Disney's Giraffe"
+date: 2014-10-13 20:58
+comments: true
+categories: works
+published: true
+image: llama.jpg
+---
+<img src="/images/works/llama.jpg" align="middle"/>
+
+[#Disney](https://www.facebook.com/hashtag/disney) films has affected me deeper than I imagined.
+
+Tried drawing a giraffe, Emperor Kuzco's llama came in automatically.
+
+[#Illustration](https://www.facebook.com/hashtag/illustration) [#emperors_new_groove](https://www.facebook.com/hashtag/emperors_new_groove)

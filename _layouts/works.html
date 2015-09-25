@@ -1,0 +1,30 @@
+---
+layout: default
+title: Works
+---
+
+<section class="main-content">
+
+    <div class="wrapper">
+
+        <header class="section-header">
+            <h4 class="section-title">Works</h4>
+            <span class="section-subtitle">Some of my commercial as well as non-comercial works.</span>
+        </header>
+
+        <ul id="posts-list">
+
+            {% for post in site.categories.works %}
+
+            <li class="clearfix">
+                <time datetime="{{ post.date }}" pubdate>{{ post.date | date_to_string }}</time>
+                <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+            </li>
+            
+            {% endfor %}
+
+        </ul>
+
+    </div>
+
+</section>

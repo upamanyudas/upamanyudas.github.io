@@ -1,0 +1,12 @@
+---
+layout: work
+title: "AIDS Day"
+date: 2014-12-01 20:58
+comments: true
+categories: works
+published: true
+image: aids_day.jpg
+---
+<img src="/images/works/aids_day.jpg" align="middle"/>
+
+World [#AIDS](https://www.facebook.com/hashtag/aids) Day.

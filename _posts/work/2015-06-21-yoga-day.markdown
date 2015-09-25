@@ -1,0 +1,14 @@
+---
+layout: work
+title: "International Yoga Day"
+date: 2015-06-21 20:58
+comments: true
+categories: works
+published: true
+image: yoga_day.jpg
+---
+<img src="/images/works/yoga_day.jpg" align="middle"/>
+
+Yoga in Daily Life
+
+An illustration on the [#InternationalDayofYoga](https://www.facebook.com/hashtag/internationaldayofyoga) [#WorldYogaDay](https://www.facebook.com/hashtag/worldyogaday)

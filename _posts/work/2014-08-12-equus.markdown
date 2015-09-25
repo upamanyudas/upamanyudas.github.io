@@ -1,0 +1,12 @@
+---
+layout: work
+title: "Equus"
+date: 2014-08-12 20:58
+comments: true
+categories: works
+published: true
+image: equus.jpg
+---
+<img src="/images/works/equus.jpg" align="middle"/>
+
+Horse. Equus. [Adobe Photoshop](https://www.facebook.com/Photoshop). [#Wacom](https://www.facebook.com/hashtag/wacom).

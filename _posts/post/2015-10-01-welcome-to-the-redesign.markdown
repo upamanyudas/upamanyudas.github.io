@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to the Redesign
-date: 2015-08-01 9:00
+date: 2015-10-01 9:00
 comments: true
 categories: blog
 published: true

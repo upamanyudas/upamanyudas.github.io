@@ -7,8 +7,8 @@ categories: blog
 published: true
 image: 001-welcome-to-redesign/old_website.png
 tags:
-- marketing
-- themeforest
+- new
+- redesign
 ---
 <figure>
 	<img src="/images/posts/001-welcome-to-redesign/old_website.png" alt="A snapshot of the old design of upamanyu.in">

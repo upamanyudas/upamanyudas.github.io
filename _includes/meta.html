@@ -27,9 +27,9 @@
 {% else %}
   <meta content="{{ site.url }}/images/homelogo.png" property="og:image">
 {% endif %}
-{% if page.image and page.categories contains "posts" %}
+{% if page.image and page.categories contains "blog" %}
   <meta content="{{ site.url }}/images/posts/{{ page.image }}" property="og:image">
-{% else %}
+{% if !page.image %}
   <meta content="{{ site.url }}/images/homelogo.png" property="og:image">
 {% endif %}
 {% if page.categories %}

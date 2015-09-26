@@ -24,7 +24,7 @@
 {% endif %}
 {% if page.image and page.categories contains "works" %}
   <meta content="{{ site.url }}/images/works/{{ page.image }}" property="og:image">
-{% elseif page.image and page.categories contains "blog" %}
+{% elsif page.image and page.categories contains "blog" %}
   <meta content="{{ site.url }}/images/posts/{{ page.image }}" property="og:image">
 {% else %}
   <meta content="{{ site.url }}/images/homelogo.png" property="og:image">

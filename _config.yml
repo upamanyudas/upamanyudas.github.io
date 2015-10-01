@@ -2,6 +2,7 @@ permalink: '/blog/:year/:title/'
 base: http://upamanyu.in
 
 name: Upamanyu Das
+prefix: Upamanyu &bull;
 title: Upamanyu &bull; Portfolio of the graphic designer
 url: http://upamanyu.in
 host: 0.0.0.0

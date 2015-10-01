@@ -8,14 +8,16 @@
 	        	{% if page.path != 'index.html' %}<a href="/">{% endif %}
 		            <h1 id="main-title">Upamanyu Das</h1>
 		            <h2 id="main-subtitle">Graphic Designer / Illustrator / Reader / Reviewer</h2>
-                    <br>
-                    <div id="main-contact">
-                        <a href="mailto:upamanyu@upamanyu.in">upamanyu@upamanyu.in</a>
+                    {% if page.path == 'index.html' %}
                         <br>
-                        <a href="mailto:upamanyu.das@gmail.com">upamanyu.das@gmail.com</a>
-                        <br>
-                        <a href="tel:+918334052485">+91 83 340 52485</a>
-                    </div>
+                        <div id="main-contact">
+                            <a href="mailto:upamanyu@upamanyu.in">upamanyu@upamanyu.in</a>
+                            <br>
+                            <a href="mailto:upamanyu.das@gmail.com">upamanyu.das@gmail.com</a>
+                            <br>
+                            <a href="tel:+918334052485">+91 83 340 52485</a>
+                        </div>
+                    {% endif %}
 	        	{% if page.path != 'index.html' %}</a>{% endif %}
 
 	        	{% if page.path == 'index.html' %}

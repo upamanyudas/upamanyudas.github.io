@@ -27,7 +27,7 @@
 {% elsif page.image and page.categories contains "blog" %}
   <meta content="{{ site.url }}/images/posts/{{ page.image }}" property="og:image">
 {% else %}
-  <meta content="{{ site.url }}/images/bg.jpg" property="og:image">
+  <meta content="../images/bg.jpg" property="og:image">
 {% endif %}
 {% if page.categories %}
   {% for category in page.categories limit:1 %}

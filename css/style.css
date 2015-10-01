@@ -87,6 +87,12 @@ h1, h2, h3, h4, h5, h6, .section-subtitle, #main-nav a, .button, figcaption, #po
 	font-family: 'Playfair Display', Georgia, serif;
 }
 
+#main-contact a{
+	font-family: 'Playfair Display', Georgia, serif;
+	font-size: 1em;
+	color: #FBE3C4;
+}
+
 #main-social {
 	font-family: 'socicon';
 	text-transform: none;

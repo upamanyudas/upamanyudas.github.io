@@ -6,6 +6,9 @@ comments: true
 categories: works
 published: true
 image: gandhi_jayanti.jpg
+tags:
+- illustration
+- gandhi
 ---
 <img src="/images/works/gandhi_jayanti.jpg" align="middle"/>
 

@@ -6,6 +6,9 @@ comments: true
 categories: works
 published: true
 image: yoga_day.jpg
+tags:
+- drawing
+- yoga day
 ---
 <img src="/images/works/yoga_day.jpg" align="middle"/>
 

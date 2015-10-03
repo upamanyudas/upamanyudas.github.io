@@ -6,6 +6,10 @@ comments: true
 categories: works
 published: true
 image: packofhorse.jpg
+tags:
+- drawing
+- semi abstract
+- anatomy
 ---
 <img src="/images/works/packofhorse.jpg" align="middle"/>
 

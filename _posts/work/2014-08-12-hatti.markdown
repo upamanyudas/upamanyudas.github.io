@@ -6,6 +6,9 @@ comments: true
 categories: works
 published: true
 image: hatti.jpg
+tags:
+- drawing
+- cartoon
 ---
 <img src="/images/works/hatti.jpg" align="middle"/>
 

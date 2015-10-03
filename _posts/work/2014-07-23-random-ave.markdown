@@ -6,6 +6,9 @@ comments: true
 categories: works
 published: true
 image: ave.jpg
+tags:
+- drawing
+- nature study
 ---
 <img src="/images/works/ave.jpg" align="middle"/>
 

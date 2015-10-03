@@ -6,6 +6,8 @@ comments: true
 categories: works
 published: true
 image: hudhud.jpg
+tags:
+- illustration
 ---
 <img src="/images/works/hudhud.jpg" align="middle"/>
 

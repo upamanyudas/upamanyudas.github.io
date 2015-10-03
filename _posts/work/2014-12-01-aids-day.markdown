@@ -6,6 +6,10 @@ comments: true
 categories: works
 published: true
 image: aids_day.jpg
+tags:
+- illustration
+- drawing
+- aids day
 ---
 <img src="/images/works/aids_day.jpg" align="middle"/>
 

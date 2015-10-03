@@ -6,6 +6,8 @@ comments: true
 categories: works
 published: true
 image: interstellar.jpg
+tags:
+- illustration
 ---
 <img src="/images/works/interstellar.jpg" align="middle"/>
 

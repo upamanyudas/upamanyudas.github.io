@@ -6,6 +6,10 @@ comments: true
 categories: works
 published: true
 image: kalkipuran.jpg
+tags:
+- illustration
+- poster
+- theatre
 ---
 <img src="/images/works/kalkipuran.jpg" align="middle"/>
 

@@ -6,6 +6,9 @@ comments: true
 categories: works
 published: true
 image: sacred_plants.jpg
+tags:
+- illustration
+- typography
 ---
 <img src="/images/works/sacred_plants.jpg" align="middle"/>
 

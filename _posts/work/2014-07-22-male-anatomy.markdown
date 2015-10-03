@@ -6,6 +6,10 @@ comments: true
 categories: works
 published: true
 image: male_anatomy.jpg
+tags:
+- drawing
+- nature study
+- anatomy
 ---
 <img src="/images/works/male_anatomy.jpg" align="middle"/>
 

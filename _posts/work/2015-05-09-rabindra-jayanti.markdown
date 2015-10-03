@@ -6,6 +6,9 @@ comments: true
 categories: works
 published: true
 image: rabindra_jayanti.jpg
+tags:
+- illustration
+- rabindranath tagore
 ---
 <img src="/images/works/rabindra_jayanti.jpg" align="middle"/>
 

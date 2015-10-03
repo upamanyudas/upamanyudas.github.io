@@ -6,6 +6,10 @@ comments: true
 categories: works
 published: true
 image: noteUI.jpg
+tags:
+- ui
+- ux
+- development
 ---
 <img src="/images/works/noteUI.jpg" align="middle"/>
 

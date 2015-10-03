@@ -6,6 +6,9 @@ comments: true
 categories: works
 published: true
 image: brother_bear.jpg
+tags:
+- drawing
+- nature study
 ---
 <img src="/images/works/brother_bear.jpg" align="middle"/>
 

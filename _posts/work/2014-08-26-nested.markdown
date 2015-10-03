@@ -6,6 +6,10 @@ comments: true
 categories: works
 published: true
 image: nested.jpg
+tags:
+- drawing
+- soft pastel
+- still life
 ---
 <img src="/images/works/nested.jpg" align="middle"/>
 

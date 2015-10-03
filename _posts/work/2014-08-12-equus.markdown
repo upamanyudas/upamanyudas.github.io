@@ -6,6 +6,10 @@ comments: true
 categories: works
 published: true
 image: equus.jpg
+tags:
+- drawing
+- nature study
+- anatomy
 ---
 <img src="/images/works/equus.jpg" align="middle"/>
 

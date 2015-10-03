@@ -6,6 +6,9 @@ comments: true
 categories: works
 published: true
 image: top10books.jpg
+tags:
+- illustration
+- books
 ---
 <img src="/images/works/top10books.jpg" />
 

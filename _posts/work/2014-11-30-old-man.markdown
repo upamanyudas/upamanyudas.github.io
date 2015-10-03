@@ -6,6 +6,9 @@ comments: true
 categories: works
 published: true
 image: old_man.jpg
+tags:
+- drawing
+- expression study
 ---
 <img src="/images/works/old_man.jpg" align="middle"/>
 

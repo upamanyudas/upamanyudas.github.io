@@ -6,6 +6,9 @@ comments: true
 categories: works
 published: true
 image: rains.jpg
+tags:
+- drawing
+- wacom
 ---
 <img src="/images/works/rains.jpg" align="middle"/>
 

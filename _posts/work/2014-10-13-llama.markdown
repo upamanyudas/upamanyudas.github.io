@@ -6,6 +6,10 @@ comments: true
 categories: works
 published: true
 image: llama.jpg
+tags:
+- drawing
+- nature study
+- disney
 ---
 <img src="/images/works/llama.jpg" align="middle"/>
 

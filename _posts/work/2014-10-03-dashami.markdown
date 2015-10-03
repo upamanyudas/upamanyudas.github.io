@@ -6,6 +6,10 @@ comments: true
 categories: works
 published: true
 image: dashami.jpg
+tags:
+- illustration
+- drawing
+- dusshera
 ---
 <img src="/images/works/dashami.jpg" align="middle"/>
 

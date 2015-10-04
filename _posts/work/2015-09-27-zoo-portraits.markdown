@@ -81,9 +81,12 @@ tags:
   </div>
 </div>
 <br>
+A short trip with a friend to Mominpore, on 21st September, led to the quick trip to the Alipore Zoological Gardens, Kolkata. It was a rainy day. The people we met, to ask for directions, on the road we took from Mominpore laughed at the idea of visiting the zoo in the rains. But I must tell you, that it was a experience worth having. Most of the animals were out from their enclosures, except the rhino. And the cherry on the top were the kings. Both the lion and the tiger, came near the open-enclosure's boundary, to pose for my camera.
 
-A short trip with a friend to Mominpore, on 21st Sep, led to the quick trip to the [Alipore Zoological Gardens](http://www.kolkatazoo.in/), Kolkata. It was a rainy day. The people we met, to ask for directions, on the road we took from Mominpore laughed at the idea of visiting the zoo in the rains. But I must tell you, that it was a experience worth having. Most of the animals were out from their enclosures, exept the rhino. And the cerry on the top were the kings. Both the lion and the tiger, came near the pools, to pose for my camera.
+I am, generally, a person, who studies a lot before trying out something new, somehow, handling a camera is not one of them. But, this time photographing animals, I experienced a new joy. If I would have been a photographer, it would be wildlife.
 
-Here are some photos I took on the trip. Please give me feedback.
+Here are the selected 9 photographs (out of 245) I took in the Zoo. This is the Asiatic Lion.
+
+Do give feedback.
 
 P.S. For curious souls, the gallery is built using my [Galarie.css](http://upamanyu.in/galarie-css/).

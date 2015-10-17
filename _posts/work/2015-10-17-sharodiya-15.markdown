@@ -1,0 +1,31 @@
+---
+layout: work
+title: "Sharodiya '15"
+date: 2015-10-17 13:00
+comments: true
+categories: works
+published: true
+image: sharodiya_15/00_cover.jpg
+tags:
+- durga puja
+- photography
+- kolkata
+---
+
+<div class="galarie items-9">
+  <div id="item-1" class="control-operator"></div>
+
+  <figure class="item" style="background-color: black;color: white;">
+    <img src="/images/works/sharodiya_15/01_patuli.jpg" alt="Patuli Uponagari Sporting Club">
+    <p>Patuli Uponagari Sporting Club</p>
+  </figure>
+
+  <div class="controls" style="text-decoration: none">
+    <a href="#item-1" class="control-button" style="color:gray">•</a>
+  </div>
+</div>
+<br>
+
+A series photographing Durga idols of Kolkata and suburbs. Durga Pujo is Bengali's single most eminent festival. This is the time we Bangalis wait for the whole year.
+
+P.S. For curious souls, the gallery is built using my [Galarie.css](http://upamanyu.in/galarie-css/).

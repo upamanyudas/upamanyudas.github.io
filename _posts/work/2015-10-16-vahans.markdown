@@ -1,0 +1,21 @@
+---
+layout: work
+title: "Vahans - The Holy Mounts"
+date: 2015-10-16 09:00
+comments: true
+categories: works
+published: true
+image: vahans.jpg
+tags:
+- durga puja
+- illustration
+- drawing
+---
+
+<img src="/images/works/vahans.jpg" align="middle"/>
+
+Ma Durga has arrived.
+
+The Vahans (holy mounts) of Ma Durga and family. Hand drawn, then scanned and vectorised.
+
+[#DurgaPuja](https://www.facebook.com/hashtag/durgapuja) [#Kolkata](https://www.facebook.com/hashtag/kolkata) [#Bengal](https://www.facebook.com/hashtag/bengal)

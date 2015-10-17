@@ -12,7 +12,7 @@ tags:
 - portraits
 ---
 
-<div class="galarie items-9">
+<div class="galarie autoplay items-9">
   <div id="item-1" class="control-operator"></div>
   <div id="item-2" class="control-operator"></div>
   <div id="item-3" class="control-operator"></div>

@@ -14,14 +14,21 @@ tags:
 
 <div class="galarie items-9">
   <div id="item-1" class="control-operator"></div>
+  <div id="item-2" class="control-operator"></div>
 
   <figure class="item" style="background-color: black;color: white;">
     <img src="/images/works/sharodiya_15/01_patuli.jpg" alt="Patuli Uponagari Sporting Club">
     <p>Patuli Uponagari Sporting Club</p>
   </figure>
 
+  <figure class="item" style="background-color: black;color: white;">
+    <img src="/images/works/sharodiya_15/02_nabadurga.jpg" alt="Garia Nabadurga">
+    <p>Garia Nabadurga</p>
+  </figure>
+
   <div class="controls" style="text-decoration: none">
     <a href="#item-1" class="control-button" style="color:gray">•</a>
+    <a href="#item-2" class="control-button" style="color:gray">•</a>
   </div>
 </div>
 <br>

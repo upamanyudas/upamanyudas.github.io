@@ -12,7 +12,8 @@ tags:
 - kolkata
 ---
 
-<div class="galarie autoplay items-12">
+<div class="galarie autoplay items-22">
+
   <div id="item-1" class="control-operator"></div>
   <div id="item-2" class="control-operator"></div>
   <div id="item-3" class="control-operator"></div>
@@ -25,69 +26,129 @@ tags:
   <div id="item-10" class="control-operator"></div>
   <div id="item-11" class="control-operator"></div>
   <div id="item-12" class="control-operator"></div>
+  <div id="item-13" class="control-operator"></div>
+  <div id="item-14" class="control-operator"></div>
+  <div id="item-15" class="control-operator"></div>
+  <div id="item-16" class="control-operator"></div>
+  <div id="item-17" class="control-operator"></div>
+  <div id="item-18" class="control-operator"></div>
+  <div id="item-19" class="control-operator"></div>
+  <div id="item-20" class="control-operator"></div>
+  <div id="item-21" class="control-operator"></div>
+  <div id="item-22" class="control-operator"></div>
 
-  <figure class="item" style="background-color: black;color: white;">
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/22_patuli_central_club.jpg" alt="Patuli Central Club">
+    <p>Patuli Central Club</p>
+  </figure>
+  
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/21_kenduya_shanti_sangha.jpg" alt="Shanti Sangha, Kenduya">
+    <p>Shanti Sangha, Kenduya</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/20_jatra_shuru_sangha.jpg" alt="Jatra Shuru Sangha">
+    <p>Jatra Shuru Sangha</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/19_naktala_udayan_sangha.jpg" alt="Naktal Udayan Sangha">
+    <p>Naktal Udayan Sangha</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/18_gangulibagan_milani_sangha.jpg" alt="Gangulibagan Milani Sangha">
+    <p>Gangulibagan Milani Sangha</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/17_santoshpur_trikon_park.jpg" alt="Santoshpur Trikon Park">
+    <p>Santoshpur Trikon Park</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/16_south_pallymangal_samity.jpg" alt="South Pallymangal Samity">
+    <p>South Pallymangal Samity</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/15_south_pallymangal_samity.jpg" alt="South Pallymangal Samity, Interiors">
+    <p>South Pallymangal Samity, Interiors (2.5 Crore Safety Pins)</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/14_santoshpur_lakepally.jpg" alt="Santoshpur Lakepally">
+    <p>Santoshpur Lakepally</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/13_santoshpur_lakepally.jpg" alt="Santoshpur Lakepally, Pandal">
+    <p>Santoshpur Lakepally, Pandal</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
     <img src="/images/works/sharodiya_15/12_selimpur_palli.jpg" alt="Selimpur Pally">
     <p>Selimpur Pally</p>
   </figure>
 
-  <figure class="item" style="background-color: black;color: white;">
+  <figure class="item" style="background-color: black;color: grey;">
     <img src="/images/works/sharodiya_15/11_selimpur_palli.jpg" alt="Selimpur Pally, Interiors">
     <p>Selimpur Pally, Interiors</p>
   </figure>
 
-  <figure class="item" style="background-color: black;color: white;">
+  <figure class="item" style="background-color: black;color: grey;">
     <img src="/images/works/sharodiya_15/10_babubagan.jpg" alt="Babubagan">
     <p>Babubagan</p>
   </figure>
 
-  <figure class="item" style="background-color: black;color: white;">
+  <figure class="item" style="background-color: black;color: grey;">
     <img src="/images/works/sharodiya_15/09_babubagan.jpg" alt="Babubagan, Pandal">
     <p>Babubagan, Pandal</p>
   </figure>
 
-  <figure class="item" style="background-color: black;color: white;">
+  <figure class="item" style="background-color: black;color: grey;">
     <img src="/images/works/sharodiya_15/08_95_palli.jpg" alt="95 Pally">
     <p>95 Pally</p>
   </figure>
 
-  <figure class="item" style="background-color: black;color: white;">
+  <figure class="item" style="background-color: black;color: grey;">
     <img src="/images/works/sharodiya_15/07_jodhpur_park.jpg" alt="Jodhpur Park">
     <p>Jodhpur Park</p>
   </figure>
 
-  <figure class="item" style="background-color: black;color: white;">
+  <figure class="item" style="background-color: black;color: grey;">
     <img src="/images/works/sharodiya_15/06_pallimangal.jpg" alt="Pallimangal Samity">
     <p>Pallimangal Samity</p>
   </figure>
 
-  <figure class="item" style="background-color: black;color: white;">
+  <figure class="item" style="background-color: black;color: grey;">
     <img src="/images/works/sharodiya_15/05_pallimangal.jpg" alt="Pallimangal, Interiors">
     <p>Pallimangal, Interiors</p>
   </figure>
 
-  <figure class="item" style="background-color: black;color: white;">
+  <figure class="item" style="background-color: black;color: grey;">
     <img src="/images/works/sharodiya_15/04_unknown.jpg" alt="Another Parar Pujo">
     <p>Another Parar Pujo, Harimati Sarani</p>
   </figure>
 
-  <figure class="item" style="background-color: black;color: white;">
+  <figure class="item" style="background-color: black;color: grey;">
     <img src="/images/works/sharodiya_15/03_decoration.jpg" alt="Pandal Bamboo Decoration">
     <p>Bamboo Chandelier in Pandal</p>
   </figure>
 
-  <figure class="item" style="background-color: black;color: white;">
+  <figure class="item" style="background-color: black;color: grey;">
     <img src="/images/works/sharodiya_15/02_nabadurga.jpg" alt="Garia Nabadurga">
     <p>Garia Nabadurga</p>
   </figure>
 
-  <figure class="item" style="background-color: black;color: white;">
+  <figure class="item" style="background-color: black;color: grey;">
     <img src="/images/works/sharodiya_15/01_patuli.jpg" alt="Patuli Uponagari Sporting Club">
     <p>Patuli Uponagari Sporting Club</p>
   </figure>
 
 
-  <div class="controls" style="text-decoration: none">
+  <div class="controls" style="position: relative;">
     <a href="#item-1" class="control-button" style="color:white">•</a>
     <a href="#item-2" class="control-button" style="color:white">•</a>
     <a href="#item-3" class="control-button" style="color:white">•</a>
@@ -100,6 +161,16 @@ tags:
     <a href="#item-10" class="control-button" style="color:white">•</a>
     <a href="#item-11" class="control-button" style="color:white">•</a>
     <a href="#item-12" class="control-button" style="color:white">•</a>
+    <a href="#item-13" class="control-button" style="color:white">•</a>
+    <a href="#item-14" class="control-button" style="color:white">•</a>
+    <a href="#item-15" class="control-button" style="color:white">•</a>
+    <a href="#item-16" class="control-button" style="color:white">•</a>
+    <a href="#item-17" class="control-button" style="color:white">•</a>
+    <a href="#item-18" class="control-button" style="color:white">•</a>
+    <a href="#item-19" class="control-button" style="color:white">•</a>
+    <a href="#item-20" class="control-button" style="color:white">•</a>
+    <a href="#item-21" class="control-button" style="color:white">•</a>
+    <a href="#item-22" class="control-button" style="color:white">•</a>
   </div>
 </div>
 <br>

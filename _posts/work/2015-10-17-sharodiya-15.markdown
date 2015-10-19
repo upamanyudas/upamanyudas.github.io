@@ -12,11 +12,59 @@ tags:
 - kolkata
 ---
 
-<div class="galarie autoplay items-4">
+<div class="galarie autoplay items-12">
   <div id="item-1" class="control-operator"></div>
   <div id="item-2" class="control-operator"></div>
   <div id="item-3" class="control-operator"></div>
   <div id="item-4" class="control-operator"></div>
+  <div id="item-5" class="control-operator"></div>
+  <div id="item-6" class="control-operator"></div>
+  <div id="item-7" class="control-operator"></div>
+  <div id="item-8" class="control-operator"></div>
+  <div id="item-9" class="control-operator"></div>
+  <div id="item-10" class="control-operator"></div>
+  <div id="item-11" class="control-operator"></div>
+  <div id="item-12" class="control-operator"></div>
+
+  <figure class="item" style="background-color: black;color: white;">
+    <img src="/images/works/sharodiya_15/12_selimpur_palli.jpg" alt="Selimpur Pally">
+    <p>Selimpur Pally</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: white;">
+    <img src="/images/works/sharodiya_15/11_selimpur_palli.jpg" alt="Selimpur Pally, Interiors">
+    <p>Selimpur Pally, Interiors</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: white;">
+    <img src="/images/works/sharodiya_15/10_babubagan.jpg" alt="Babubagan">
+    <p>Babubagan</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: white;">
+    <img src="/images/works/sharodiya_15/09_babubagan.jpg" alt="Babubagan, Pandal">
+    <p>Babubagan, Pandal</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: white;">
+    <img src="/images/works/sharodiya_15/08_95_palli.jpg" alt="95 Pally">
+    <p>95 Pally</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: white;">
+    <img src="/images/works/sharodiya_15/07_jodhpur_park.jpg" alt="Jodhpur Park">
+    <p>Jodhpur Park</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: white;">
+    <img src="/images/works/sharodiya_15/06_pallimangal.jpg" alt="Pallimangal Samity">
+    <p>Pallimangal Samity</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: white;">
+    <img src="/images/works/sharodiya_15/05_pallimangal.jpg" alt="Pallimangal, Interiors">
+    <p>Pallimangal, Interiors</p>
+  </figure>
 
   <figure class="item" style="background-color: black;color: white;">
     <img src="/images/works/sharodiya_15/04_unknown.jpg" alt="Another Parar Pujo">
@@ -40,10 +88,18 @@ tags:
 
 
   <div class="controls" style="text-decoration: none">
-    <a href="#item-1" class="control-button" style="color:gray">•</a>
-    <a href="#item-2" class="control-button" style="color:gray">•</a>
-    <a href="#item-3" class="control-button" style="color:gray">•</a>
-    <a href="#item-4" class="control-button" style="color:gray">•</a>
+    <a href="#item-1" class="control-button" style="color:white">•</a>
+    <a href="#item-2" class="control-button" style="color:white">•</a>
+    <a href="#item-3" class="control-button" style="color:white">•</a>
+    <a href="#item-4" class="control-button" style="color:white">•</a>
+    <a href="#item-5" class="control-button" style="color:white">•</a>
+    <a href="#item-6" class="control-button" style="color:white">•</a>
+    <a href="#item-7" class="control-button" style="color:white">•</a>
+    <a href="#item-8" class="control-button" style="color:white">•</a>
+    <a href="#item-9" class="control-button" style="color:white">•</a>
+    <a href="#item-10" class="control-button" style="color:white">•</a>
+    <a href="#item-11" class="control-button" style="color:white">•</a>
+    <a href="#item-12" class="control-button" style="color:white">•</a>
   </div>
 </div>
 <br>

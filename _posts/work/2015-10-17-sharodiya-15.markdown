@@ -12,7 +12,7 @@ tags:
 - kolkata
 ---
 
-<div class="galarie autoplay items-22">
+<div class="galarie autoplay items-40">
 
   <div id="item-1" class="control-operator"></div>
   <div id="item-2" class="control-operator"></div>
@@ -36,6 +36,114 @@ tags:
   <div id="item-20" class="control-operator"></div>
   <div id="item-21" class="control-operator"></div>
   <div id="item-22" class="control-operator"></div>
+  <div id="item-23" class="control-operator"></div>
+  <div id="item-24" class="control-operator"></div>
+  <div id="item-25" class="control-operator"></div>
+  <div id="item-26" class="control-operator"></div>
+  <div id="item-27" class="control-operator"></div>
+  <div id="item-28" class="control-operator"></div>
+  <div id="item-29" class="control-operator"></div>
+  <div id="item-30" class="control-operator"></div>
+  <div id="item-31" class="control-operator"></div>
+  <div id="item-32" class="control-operator"></div>
+  <div id="item-33" class="control-operator"></div>
+  <div id="item-34" class="control-operator"></div>
+  <div id="item-35" class="control-operator"></div>
+  <div id="item-36" class="control-operator"></div>
+  <div id="item-37" class="control-operator"></div>
+  <div id="item-38" class="control-operator"></div>
+  <div id="item-39" class="control-operator"></div>
+  <div id="item-40" class="control-operator"></div>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/40_golpark_sarbojonin.jpg" alt="Golpark Sarbojonin">
+    <p>Golpark Sarbojonin</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/39_falguni_sangha.jpg" alt="Falguni Sangha">
+    <p>Falguni Sangha</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/38_ekdalia_evergreen.jpg" alt="Ekdalia Evergreen">
+    <p>Ekdalia Evergreen</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/37_ekdalia_evergreen.jpg" alt="Ekdalia Evergreen, Chandelier">
+    <p>Ekdalia Evergreen, Chandelier</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/36_singhi_park.jpg" alt="Singhi Park">
+    <p>Singhi Park</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/35_hindusthan_park.jpg" alt="Hindusthan Park">
+    <p>Hindusthan Park</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/34_hindusthan_park.jpg" alt="Hindusthan Park, Interiors">
+    <p>Hindusthan Park, Interiors</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/33_tridhara.jpg" alt="Tridhara Sammelani">
+    <p>Tridhara Sammelani</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/32_tridhara.jpg" alt="Tridhara Sammelani, Pandal">
+    <p>Tridhara Sammelani, Pandal</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/31_samajsebi.jpg" alt="Samajsebi Club">
+    <p>Samajsebi Club</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/30_balllygunge_cultural.jpg" alt="Ballygunge Cultural">
+    <p>Ballygunge Cultural</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/29_chetla_agrani.jpg" alt="Chetla Agrani Club">
+    <p>Chetla Agrani Club</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/28_chetla_agrani.jpg" alt="Chetla Agrani Club, Exteriors">
+    <p>Chetla Agrani Club, Exteriors</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/27_bbta.jpg" alt="BBTA">
+    <p>BBTA</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/26_nepal_bhatcharjee_street.jpg" alt="Nepal Bhatcharjee Street">
+    <p>Nepal Bhatcharjee Street</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/25_66_pally.jpg" alt="66 Pally">
+    <p>66 Pally</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/24_badamtala_ashar_sangha.jpg" alt="Badamtala Ashar Sangha">
+    <p>Badamtala Ashar Sangha</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/23_patuli_sarbojonin.jpg" alt="Patuli Sarbojonin">
+    <p>Patuli Sarbojonin</p>
+  </figure>
 
   <figure class="item" style="background-color: black;color: grey;">
     <img src="/images/works/sharodiya_15/22_patuli_central_club.jpg" alt="Patuli Central Club">
@@ -148,7 +256,7 @@ tags:
   </figure>
 
 
-  <div class="controls" style="position: relative;">
+  <div class="controls" style="position: relative; text-decoration:none;">
     <a href="#item-1" class="control-button" style="color:white">•</a>
     <a href="#item-2" class="control-button" style="color:white">•</a>
     <a href="#item-3" class="control-button" style="color:white">•</a>
@@ -171,6 +279,24 @@ tags:
     <a href="#item-20" class="control-button" style="color:white">•</a>
     <a href="#item-21" class="control-button" style="color:white">•</a>
     <a href="#item-22" class="control-button" style="color:white">•</a>
+    <a href="#item-23" class="control-button" style="color:white">•</a>
+    <a href="#item-24" class="control-button" style="color:white">•</a>
+    <a href="#item-25" class="control-button" style="color:white">•</a>
+    <a href="#item-26" class="control-button" style="color:white">•</a>
+    <a href="#item-27" class="control-button" style="color:white">•</a>
+    <a href="#item-28" class="control-button" style="color:white">•</a>
+    <a href="#item-29" class="control-button" style="color:white">•</a>
+    <a href="#item-30" class="control-button" style="color:white">•</a>
+    <a href="#item-31" class="control-button" style="color:white">•</a>
+    <a href="#item-32" class="control-button" style="color:white">•</a>
+    <a href="#item-33" class="control-button" style="color:white">•</a>
+    <a href="#item-34" class="control-button" style="color:white">•</a>
+    <a href="#item-35" class="control-button" style="color:white">•</a>
+    <a href="#item-36" class="control-button" style="color:white">•</a>
+    <a href="#item-37" class="control-button" style="color:white">•</a>
+    <a href="#item-38" class="control-button" style="color:white">•</a>
+    <a href="#item-39" class="control-button" style="color:white">•</a>
+    <a href="#item-40" class="control-button" style="color:white">•</a>
   </div>
 </div>
 <br>

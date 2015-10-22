@@ -5,6 +5,7 @@ date: 2014-07-16 20:58
 comments: true
 categories: works
 published: true
+thumb: rains.jpg
 image: rains.jpg
 tags:
 - drawing

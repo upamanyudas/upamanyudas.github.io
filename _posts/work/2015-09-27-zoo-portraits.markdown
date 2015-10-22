@@ -5,6 +5,7 @@ date: 2015-09-27 10:01
 comments: true
 categories: works
 published: true
+thumb: zoo_portraits.jpg
 image: zoo_portraits/00_cover.jpg
 tags:
 - photography

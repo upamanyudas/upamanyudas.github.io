@@ -5,6 +5,7 @@ date: 2014-11-30 20:58
 comments: true
 categories: works
 published: true
+thumb: old_man.jpg
 image: old_man.jpg
 tags:
 - drawing

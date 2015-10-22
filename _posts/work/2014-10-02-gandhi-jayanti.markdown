@@ -5,6 +5,7 @@ date: 2014-10-02 20:58
 comments: true
 categories: works
 published: true
+thumb: gandhi_jayanti.jpg
 image: gandhi_jayanti.jpg
 tags:
 - illustration

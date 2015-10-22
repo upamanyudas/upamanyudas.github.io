@@ -5,6 +5,7 @@ date: 2014-07-24 20:58
 comments: true
 categories: works
 published: true
+thumb: brother_bear.jpg
 image: brother_bear.jpg
 tags:
 - drawing

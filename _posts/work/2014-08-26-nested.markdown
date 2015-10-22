@@ -5,6 +5,7 @@ date: 2014-08-26 20:58
 comments: true
 categories: works
 published: true
+thumb: nested.jpg
 image: nested.jpg
 tags:
 - drawing

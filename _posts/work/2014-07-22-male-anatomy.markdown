@@ -5,6 +5,7 @@ date: 2014-07-22 20:58
 comments: true
 categories: works
 published: true
+thumb: male_anatomy.jpg
 image: male_anatomy.jpg
 tags:
 - drawing

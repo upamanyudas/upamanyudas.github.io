@@ -5,6 +5,7 @@ date: 2015-07-08 20:58
 comments: true
 categories: works
 published: true
+thumb: photoshop_ninja_turtles.jpg
 image: photoshop_ninja_turtles.jpg
 tags:
 - illustration

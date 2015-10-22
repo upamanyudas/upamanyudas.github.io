@@ -5,6 +5,7 @@ date: 2014-11-16 20:58
 comments: true
 categories: works
 published: true
+thumb: kalkipuran.jpg
 image: kalkipuran.jpg
 tags:
 - illustration

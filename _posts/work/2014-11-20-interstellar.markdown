@@ -5,6 +5,7 @@ date: 2014-11-20 20:58
 comments: true
 categories: works
 published: true
+thumb: interstellar.jpg
 image: interstellar.jpg
 tags:
 - illustration

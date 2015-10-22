@@ -5,6 +5,7 @@ date: 2014-10-08 20:58
 comments: true
 categories: works
 published: true
+thumb: hudhud.jpg
 image: hudhud.jpg
 tags:
 - illustration

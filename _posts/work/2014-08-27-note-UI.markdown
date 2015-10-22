@@ -5,6 +5,7 @@ date: 2014-08-27 20:58
 comments: true
 categories: works
 published: true
+thumb: noteUI.jpg
 image: noteUI.jpg
 tags:
 - ui

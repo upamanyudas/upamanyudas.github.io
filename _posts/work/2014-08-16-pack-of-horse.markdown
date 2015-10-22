@@ -5,6 +5,7 @@ date: 2014-08-16 20:58
 comments: true
 categories: works
 published: true
+thumb: packofhorse.jpg
 image: packofhorse.jpg
 tags:
 - drawing

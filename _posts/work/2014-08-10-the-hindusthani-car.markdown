@@ -1,0 +1,32 @@
+---
+layout: work
+title: "The Hindusthani Car"
+date: 2014-08-10 09:00
+comments: true
+categories: works
+published: true
+thumb: the_hindusthani_car.jpg
+image: the_hindusthani_car/00_cover.jpg
+tags:
+- illustration
+- car
+---
+
+<p>The Ambassador offered by Hindustan Motors, has been on the road since 1959 and since then it has served numerous people.
+Recently the Kolkata unit stopped production. Its evitable that few decades later the Ambassador will be completely out of the roads.
+This is a simple tribute to the classic car and the numerous kilometers of its run.
+At the end of the page find a video, showing the potential of the Ambassador.</p>
+
+<p><img src="/images/works/the_hindusthani_car/01_inspiration.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"/></p>
+
+<p><img src="/images/works/the_hindusthani_car/02_fonts_&_colours.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"/></p>
+
+<p><img src="/images/works/the_hindusthani_car/03_kolkata.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"/></p>
+
+<p><img src="/images/works/the_hindusthani_car/03_kolkata.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"/></p>
+
+<p><img src="/images/works/the_hindusthani_car/05_delhi.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"/></p>
+
+<p><img src="/images/works/the_hindusthani_car/06_chennai.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"/></p>
+
+<p style="display: block;margin-left: auto;margin-right: auto;width: 50%;"><iframe src="https://player.vimeo.com/video/88763903?color=f0ec00&title=0&byline=0&portrait=0" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>

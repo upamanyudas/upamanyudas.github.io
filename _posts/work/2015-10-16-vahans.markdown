@@ -5,6 +5,7 @@ date: 2015-10-16 09:00
 comments: true
 categories: works
 published: true
+thumb: vahans.jpg
 image: vahans.jpg
 tags:
 - durga puja

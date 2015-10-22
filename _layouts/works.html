@@ -3,7 +3,36 @@ layout: default
 title: Works
 ---
 
-<section class="main-content">
+<section class="page-content clearfix">
+
+    <header class="section-header">
+        <h4 class="section-title">Works</h4>
+        <span class="section-subtitle">Some of my commercial as well as non-comercial works.</span>
+    </header>
+
+    <ul class="projects-list clearfix">
+
+        {% for post in site.categories.works %}
+
+        <li style="width: 20%;">
+            <a href="{{ post.url }}">
+                <img src="/images/works/-thumbs/{{ post.thumb }}" alt="{{ post.url }}" />
+                <div class="caption">
+                    <div>
+                        <h4>{{ post.title }}</h4>
+                        <span><time datetime="{{ post.date }}" pubdate>{{ post.date | date_to_string }}</time></span>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+        {% endfor %}
+
+    </ul>
+
+</section>
+
+<!-- <section class="main-content">
 
     <div class="wrapper">
 
@@ -27,4 +56,4 @@ title: Works
 
     </div>
 
-</section>
+</section> -->

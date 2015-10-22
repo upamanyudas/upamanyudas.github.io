@@ -5,6 +5,7 @@ date: 2014-08-12 20:58
 comments: true
 categories: works
 published: true
+thumb: equus.jpg
 image: equus.jpg
 tags:
 - drawing

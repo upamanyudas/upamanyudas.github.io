@@ -5,6 +5,7 @@ date: 2014-10-22 20:58
 comments: true
 categories: works
 published: true
+thumb: diwali2014.jpg
 image: diwali2014.jpg
 tags:
 - drawing

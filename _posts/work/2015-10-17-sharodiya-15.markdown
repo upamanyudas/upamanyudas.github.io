@@ -5,6 +5,7 @@ date: 2015-10-17 13:00
 comments: true
 categories: works
 published: true
+thumb: sharodiya_15.jpg
 image: sharodiya_15/00_cover.jpg
 tags:
 - durga puja
@@ -12,7 +13,7 @@ tags:
 - kolkata
 ---
 
-<div class="galarie autoplay items-40">
+<div class="galarie autoplay items-46">
 
   <div id="item-1" class="control-operator"></div>
   <div id="item-2" class="control-operator"></div>
@@ -54,6 +55,42 @@ tags:
   <div id="item-38" class="control-operator"></div>
   <div id="item-39" class="control-operator"></div>
   <div id="item-40" class="control-operator"></div>
+  <div id="item-41" class="control-operator"></div>
+  <div id="item-42" class="control-operator"></div>
+  <div id="item-43" class="control-operator"></div>
+  <div id="item-44" class="control-operator"></div>
+  <div id="item-45" class="control-operator"></div>
+  <div id="item-46" class="control-operator"></div>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/46_bagbazaar.jpg" alt="The Most Pristine - Bagbazar">
+    <p>The Most Pristine - Bagbazar</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/45_ahiritola.jpg" alt="Ahiritola">
+    <p>Ahiritola</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/44_shovabazaar_sarbojonin.jpg" alt="Sovabazar Sarbojonin">
+    <p>Sovabazar Sarbojonin</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/43_kumartuli_sarbojonin.jpg" alt="Kumartuli Sarbojonin">
+    <p>Kumartuli Sarbojonin</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/42_kumartuli_sarbojonin.jpg" alt="Kumartuli Sarbojonin, Interiors">
+    <p>Kumartuli Sarbojonin, Interiors</p>
+  </figure>
+
+  <figure class="item" style="background-color: black;color: grey;">
+    <img src="/images/works/sharodiya_15/41_shyam_square.jpg" alt="Shyam Square">
+    <p>Shyam Square</p>
+  </figure>
 
   <figure class="item" style="background-color: black;color: grey;">
     <img src="/images/works/sharodiya_15/40_golpark_sarbojonin.jpg" alt="Golpark Sarbojonin">
@@ -297,12 +334,18 @@ tags:
     <a href="#item-38" class="control-button" style="color:white">•</a>
     <a href="#item-39" class="control-button" style="color:white">•</a>
     <a href="#item-40" class="control-button" style="color:white">•</a>
+    <a href="#item-41" class="control-button" style="color:white">•</a>
+    <a href="#item-42" class="control-button" style="color:white">•</a>
+    <a href="#item-43" class="control-button" style="color:white">•</a>
+    <a href="#item-44" class="control-button" style="color:white">•</a>
+    <a href="#item-45" class="control-button" style="color:white">•</a>
+    <a href="#item-46" class="control-button" style="color:white">•</a>
   </div>
 </div>
 <br>
 
 A series photographing Durga idols of Kolkata and suburbs. Durga Pujo is Bengali's single most eminent festival. This is the time we Bangalis wait for the whole year.
 
-A cleaner gallery is at <a href="https://www.facebook.com/photo.php?fbid=998974530162719&set=a.998974490162723.1073741841.100001505433242&type=3&theater" target="_blank">Facebook</a> 
+A similar gallery is also available at <a href="https://www.facebook.com/photo.php?fbid=998974530162719&set=a.998974490162723.1073741841.100001505433242&type=3&theater" target="_blank">Facebook</a> 
 
 P.S. For curious souls, the gallery is built using my [Galarie.css](http://upamanyu.in/galarie-css/).

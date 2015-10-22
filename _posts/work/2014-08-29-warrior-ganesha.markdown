@@ -5,6 +5,7 @@ date: 2014-08-29 20:58
 comments: true
 categories: works
 published: true
+thumb: ganesha.jpg
 image: ganesha.jpg
 tags:
 - drawing

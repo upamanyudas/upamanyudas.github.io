@@ -5,6 +5,7 @@ date: 2014-10-03 20:58
 comments: true
 categories: works
 published: true
+thumb: dashami.jpg
 image: dashami.jpg
 tags:
 - illustration

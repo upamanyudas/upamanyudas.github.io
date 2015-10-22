@@ -5,6 +5,7 @@ date: 2015-09-12 09:01
 comments: true
 categories: works
 published: true
+thumb: thankyou_birthday.jpg
 image: thankyou_birthday.jpg
 tags:
 - illustration

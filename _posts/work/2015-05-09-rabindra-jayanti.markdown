@@ -5,6 +5,7 @@ date: 2015-05-9 20:58
 comments: true
 categories: works
 published: true
+thumb: rabindra_jayanti.jpg
 image: rabindra_jayanti.jpg
 tags:
 - illustration

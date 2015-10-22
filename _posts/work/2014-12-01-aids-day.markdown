@@ -5,6 +5,7 @@ date: 2014-12-01 20:58
 comments: true
 categories: works
 published: true
+thumb: aids_day.jpg
 image: aids_day.jpg
 tags:
 - illustration

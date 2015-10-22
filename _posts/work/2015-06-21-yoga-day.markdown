@@ -5,6 +5,7 @@ date: 2015-06-21 20:58
 comments: true
 categories: works
 published: true
+thumb: yoga_day.jpg
 image: yoga_day.jpg
 tags:
 - drawing

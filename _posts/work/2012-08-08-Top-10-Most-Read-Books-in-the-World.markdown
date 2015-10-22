@@ -5,6 +5,7 @@ date: 2012-08-08 20:58
 comments: true
 categories: works
 published: true
+thumb: top10books.jpg
 image: top10books.jpg
 tags:
 - illustration

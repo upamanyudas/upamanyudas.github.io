@@ -5,6 +5,7 @@ date: 2014-10-28 20:58
 comments: true
 categories: works
 published: true
+thumb: sacred_plants.jpg
 image: sacred_plants.jpg
 tags:
 - illustration

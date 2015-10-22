@@ -346,6 +346,6 @@ tags:
 
 A series photographing Durga idols of Kolkata and suburbs. Durga Pujo is Bengali's single most eminent festival. This is the time we Bangalis wait for the whole year.
 
-A similar gallery is also available at <a href="https://www.facebook.com/photo.php?fbid=998974530162719&set=a.998974490162723.1073741841.100001505433242&type=3&theater" target="_blank">Facebook</a> 
+A similar gallery is also available at <a href="https://www.facebook.com/media/set/?set=a.998974490162723.1073741841.100001505433242&type=1&l=d7bb79c78e" target="_blank">Facebook</a> 
 
 P.S. For curious souls, the gallery is built using my [Galarie.css](http://upamanyu.in/galarie-css/).

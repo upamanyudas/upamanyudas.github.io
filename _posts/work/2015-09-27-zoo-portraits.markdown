@@ -70,23 +70,24 @@ tags:
   </figure>
 
   <div class="controls" style="text-decoration: none">
-    <a href="#item-1" class="control-button" style="color:gray">•</a>
-    <a href="#item-2" class="control-button" style="color:gray">•</a>
-    <a href="#item-3" class="control-button" style="color:gray" >•</a>
-    <a href="#item-4" class="control-button" style="color:gray">•</a>
-    <a href="#item-5" class="control-button" style="color:gray">•</a>
-    <a href="#item-6" class="control-button" style="color:gray">•</a>
-    <a href="#item-7" class="control-button" style="color:gray">•</a>
-    <a href="#item-8" class="control-button" style="color:gray">•</a>
-    <a href="#item-9" class="control-button" style="color:gray">•</a>
+    <a href="#item-1" class="control-button" style="color:grey;border-bottom:none;">•</a>
+    <a href="#item-2" class="control-button" style="color:grey;border-bottom:none;">•</a>
+    <a href="#item-3" class="control-button" style="color:grey;border-bottom:none;" >•</a>
+    <a href="#item-4" class="control-button" style="color:grey;border-bottom:none;">•</a>
+    <a href="#item-5" class="control-button" style="color:grey;border-bottom:none;">•</a>
+    <a href="#item-6" class="control-button" style="color:grey;border-bottom:none;">•</a>
+    <a href="#item-7" class="control-button" style="color:grey;border-bottom:none;">•</a>
+    <a href="#item-8" class="control-button" style="color:grey;border-bottom:none;">•</a>
+    <a href="#item-9" class="control-button" style="color:grey;border-bottom:none;">•</a>
   </div>
 </div>
 <br>
+
 A short trip with a friend to Mominpore, on 21st September, led to the quick trip to the Alipore Zoological Gardens, Kolkata. It was a rainy day. The people we met, to ask for directions, on the road we took from Mominpore laughed at the idea of visiting the zoo in the rains. But I must tell you, that it was a experience worth having. Most of the animals were out from their enclosures, except the rhino. And the cherry on the top were the kings. Both the lion and the tiger, came near the open-enclosure's boundary, to pose for my camera.
 
 I am, generally, a person, who studies a lot before trying out something new, somehow, handling a camera is not one of them. But, this time photographing animals, I experienced a new joy. If I would have been a photographer, it would be wildlife.
 
-Here are the selected 9 photographs (out of 245) I took in the Zoo. This is the Asiatic Lion.
+Here are the selected 9 photographs (out of 245) I took in the Zoo.
 
 Do give feedback.
 

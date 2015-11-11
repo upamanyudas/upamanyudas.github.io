@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: male_anatomy.jpg
 image: male_anatomy.jpg
+medium: digital
+class: illustration
 tags:
 - drawing
 - nature study

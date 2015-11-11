@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: brother_bear.jpg
 image: brother_bear.jpg
+medium: digital
+class: illustration
 tags:
 - drawing
 - nature study

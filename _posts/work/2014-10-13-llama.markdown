@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: llama.jpg
 image: llama.jpg
+medium: digital
+class: illustration
 tags:
 - drawing
 - nature study

@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: interstellar.jpg
 image: interstellar.jpg
+medium: digital
+class: design
 tags:
 - illustration
 ---

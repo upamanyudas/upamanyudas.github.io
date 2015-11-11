@@ -747,3 +747,40 @@ form {
 
 
 /*Extras - gallery*/
+/* Gallery */
+#grid-container { min-height:280px !important; }
+.gallery_ul { display:block; width:100%; height:auto; overflow:hidden; }
+.gallery_ul li { margin:1.9% 1.9% 0 0; width: 326px !important;
+height: 226px !important; }
+.gallery_ul li:nth-child(3n+3) { margin-right:0px; }
+.gallery_ul li a { height:225px; width:325px; overflow:hidden; position:relative; display:block; }
+.gallery_ul li a:hover .gallery-hover { left:0px; }
+.gallery-hover-inner { background:rgba(0,0,0,.5); height:100%; overflow:hidden; }
+.gallery-hover { position:absolute; display:block; width:100%; height:100%; webkit-transition: all .2s cubic-bezier(1, 0, 0, 1); -webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);filter: grayscale(100%);-moz-transition: all .5s cubic-bezier(1, 0, 0, 1);-o-transition: all .5s cubic-bezier(1, 0, 0, 1);transition: all .5s cubic-bezier(1, 0, 0, 1); left:-325px; z-index:99; }
+.gallery-hover h2 { text-transform:uppercase; margin-top:95px; }
+.gallery-hover hr { width: 87px; height: 2px; border: none; background: white; display: inline-block; margin-top: 8px; margin-bottom: 12px; }
+.gallery-hover p { color:white; }
+.gallery-hover p span { font-style:italic; }
+.gallery-menu { display:inline-block; position:relative; z-index:999; }
+.gallery-menu li { display:inline-block; margin:0 24px; }
+.gallery-menu li a { font-size:0.8667rem; color:#686565; cursor:pointer; border:1px solid transparent; transition: border 1s; font-family: "iskra",sans-serif; font-style: normal; font-weight: 300; padding-bottom:4px; }
+.gallery-menu li a:hover { border-bottom:1px solid #d9d9d9; }
+
+/* filtering */
+#filter {
+	margin: 20px auto 0; overflow: hidden; width: 672px;
+  	margin-left: auto ;
+  	margin-right: auto ;
+}
+ul#filter { float: left; font-size: 16px; list-style: none; margin-left: 0; width: 100%; }
+ul#filter li { 
+	border-right: 1px solid #dedede;
+	float: left;
+	line-height: 16px;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+ul#filter li:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+ul#filter a { color: #999; text-decoration: none; }
+ul#filter li.current a, ul#filter a:hover { text-decoration: underline; }
+ul#filter li.current a { color: #333; font-weight: bold; }

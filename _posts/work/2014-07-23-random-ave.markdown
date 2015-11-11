@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: ave.jpg
 image: ave.jpg
+medium: digital
+class: illustration
 tags:
 - drawing
 - nature study

@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: vahans.jpg
 image: vahans.jpg
+medium: traditional & digital
+class: illustration
 tags:
 - durga puja
 - illustration

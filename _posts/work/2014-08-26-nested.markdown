@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: nested.jpg
 image: nested.jpg
+medium: traditional
+class: illustration
 tags:
 - drawing
 - soft pastel

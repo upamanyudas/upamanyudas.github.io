@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: rabindra_jayanti.jpg
 image: rabindra_jayanti.jpg
+medium: digital
+class: design
 tags:
 - illustration
 - rabindranath tagore

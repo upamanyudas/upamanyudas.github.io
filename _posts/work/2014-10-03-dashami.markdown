@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: dashami.jpg
 image: dashami.jpg
+medium: digital
+class: illustration
 tags:
 - illustration
 - drawing

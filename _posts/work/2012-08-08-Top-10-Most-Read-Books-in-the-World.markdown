@@ -1,12 +1,14 @@
 ---
 layout: work
 title: "Top 10 Most Read Books in the World"
-date: 2012-08-08 20:58
+date: 2012-08-08 09:00
 comments: true
 categories: works
 published: true
 thumb: top10books.jpg
 image: top10books.jpg
+medium: digital
+class: illustration
 tags:
 - illustration
 - books

@@ -1,13 +1,13 @@
 ---
 layout: work
-title: "Diwali 2014"
-date: 2014-10-22 20:58
+title: "Diwali 2015"
+date: 2015-11-11 09:00
 comments: true
 categories: works
 published: true
-thumb: diwali2014.jpg
-image: diwali2014.jpg
-medium: digital
+thumb: diwali2015.jpg
+image: diwali2015.jpg
+medium: traditional
 class: illustration
 tags:
 - drawing
@@ -15,7 +15,7 @@ tags:
 - illustration
 - typography
 ---
-<img src="/images/works/diwali2014.jpg" align="middle"/>
+<img src="/images/works/diwali2015.jpg" align="middle"/>
 
 Happy Diwali.
 

@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: yoga_day.jpg
 image: yoga_day.jpg
+medium: digital
+class: illustration
 tags:
 - drawing
 - yoga day

@@ -7,8 +7,10 @@ categories: works
 published: true
 thumb: hindu_gods.jpg
 image: hindu_gods/00_cover.jpg
+medium: digital
+class: design
 tags:
-- illustration
+- design
 - religion
 ---
 

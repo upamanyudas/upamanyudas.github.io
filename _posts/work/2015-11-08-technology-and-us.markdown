@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: technology_and_us.jpg
 image: technology_and_us/00_cover.jpg
+medium: digital
+class: photography
 tags:
 - technology
 - photography

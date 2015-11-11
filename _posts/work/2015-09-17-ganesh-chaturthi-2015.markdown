@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: ganesh_chaturthi_2015.jpg
 image: ganesh_chaturthi_2015.jpg
+medium: traditional
+class: illustration
 tags:
 - illustration
 - typography

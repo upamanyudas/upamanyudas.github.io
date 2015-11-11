@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: zoo_portraits.jpg
 image: zoo_portraits/00_cover.jpg
+medium: digital
+class: photography
 tags:
 - photography
 - zoo

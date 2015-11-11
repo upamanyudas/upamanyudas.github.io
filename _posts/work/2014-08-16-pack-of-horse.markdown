@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: packofhorse.jpg
 image: packofhorse.jpg
+medium: digital
+class: illustration
 tags:
 - drawing
 - semi abstract

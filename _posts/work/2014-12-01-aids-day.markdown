@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: aids_day.jpg
 image: aids_day.jpg
+medium: digital
+class: illustration
 tags:
 - illustration
 - drawing

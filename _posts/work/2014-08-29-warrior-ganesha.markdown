@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: ganesha.jpg
 image: ganesha.jpg
+medium: digital
+class: illustration
 tags:
 - drawing
 - lord ganesha

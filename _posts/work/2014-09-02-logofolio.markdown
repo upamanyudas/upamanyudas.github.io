@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: logofolio.jpg
 image: logofolio/00_cover.jpg
+medium: digital
+class: design
 tags:
 - branding
 - graphic design

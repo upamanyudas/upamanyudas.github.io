@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: thankyou_birthday.jpg
 image: thankyou_birthday.jpg
+medium: digital
+class: design typography
 tags:
 - illustration
 - typography

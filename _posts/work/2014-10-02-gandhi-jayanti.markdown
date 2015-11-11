@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: gandhi_jayanti.jpg
 image: gandhi_jayanti.jpg
+medium: digital
+class: design
 tags:
 - illustration
 - gandhi

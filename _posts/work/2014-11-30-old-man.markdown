@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: old_man.jpg
 image: old_man.jpg
+medium: digital
+class: illustration
 tags:
 - drawing
 - expression study

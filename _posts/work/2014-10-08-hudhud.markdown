@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: hudhud.jpg
 image: hudhud.jpg
+medium: digital
+class: design
 tags:
 - illustration
 ---

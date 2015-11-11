@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: noteUI.jpg
 image: noteUI.jpg
+medium: digital
+class: design
 tags:
 - ui
 - ux

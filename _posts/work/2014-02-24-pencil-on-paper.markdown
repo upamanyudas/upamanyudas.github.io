@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: pencil_on_paper.jpg
 image: pencil_on_paper/5.jpg
+medium: traditional
+class: illustration
 tags:
 - drawing
 - pencil

@@ -7,6 +7,8 @@ categories: works
 published: true
 thumb: photoshop_ninja_turtles.jpg
 image: photoshop_ninja_turtles.jpg
+medium: digital
+class: design
 tags:
 - illustration
 - digital

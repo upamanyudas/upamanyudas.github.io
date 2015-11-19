@@ -1,0 +1,19 @@
+---
+layout: work
+title: "Crow"
+date: 2015-11-19 09:00
+comments: true
+categories: works
+published: true
+thumb: crow.jpg
+image: crow.jpg
+medium: traditional
+class: illustration
+tags:
+- illustration
+- patterns
+---
+
+<img src="/images/works/crow.jpg" align="middle" style="width: 60%"/>
+
+Looks more like a woodpecker, but still its a crow.

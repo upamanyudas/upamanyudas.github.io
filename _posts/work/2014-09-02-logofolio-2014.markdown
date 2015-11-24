@@ -1,6 +1,6 @@
 ---
 layout: work
-title: "Logofolio 1"
+title: "Logofolio 2014"
 date: 2014-09-02 09:00
 comments: true
 categories: works

@@ -8,7 +8,7 @@ published: true
 thumb: sacred_plants.jpg
 image: sacred_plants.jpg
 medium: digital
-class: typography
+class: typography design
 tags:
 - illustration
 - typography

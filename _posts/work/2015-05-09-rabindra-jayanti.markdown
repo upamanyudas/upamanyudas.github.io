@@ -1,7 +1,7 @@
 ---
 layout: work
 title: "Rabindra Jayanti"
-date: 2015-05-9 20:58
+date: 2015-05-09 09:00
 comments: true
 categories: works
 published: true

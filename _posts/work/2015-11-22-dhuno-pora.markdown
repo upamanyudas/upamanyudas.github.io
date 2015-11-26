@@ -18,55 +18,18 @@ tags:
 
 <p style="display: none;">Dhuno Pora, is a tradition that is followed during the Jagadhatri Puja in Krishnanagar. Percisely at two Baroyari Pujas - Malopara & Chashapara.</p>
 
-<div class="galarie autoplay items-6">
-
-  <div id="item-1" class="control-operator"></div>
-  <div id="item-2" class="control-operator"></div>
-  <div id="item-3" class="control-operator"></div>
-  <div id="item-4" class="control-operator"></div>
-  <div id="item-5" class="control-operator"></div>
-  <div id="item-6" class="control-operator"></div>
-
-  <figure class="item" style="background-color: black;color: grey;">
-    <img src="/images/works/dhuno_pora/01_dhuno_pora_1.jpg" alt="Dhuno Pora 1">
-    <p>Dhuno Pora 1</p>
-  </figure>
-
-  <figure class="item" style="background-color: black;color: grey;">
-    <img src="/images/works/dhuno_pora/02_dhuno_pora_2.jpg" alt="Dhuno Pora 2">
-    <p>Dhuno Pora 2</p>
-  </figure>
-
-  <figure class="item" style="background-color: black;color: grey;">
-    <img src="/images/works/dhuno_pora/03_dhuno_pora_3.jpg" alt="Dhuno Pora 3">
-    <p>Dhuno Pora 3</p>
-  </figure>
-
-  <figure class="item" style="background-color: black;color: grey;">
-    <img src="/images/works/dhuno_pora/04_dhuno_pora_4.jpg" alt="Dhuno Pora 4">
-    <p>Dhuno Pora 4</p>
-  </figure>
-
-  <figure class="item" style="background-color: black;color: grey;">
-    <img src="/images/works/dhuno_pora/05_dhuno_pora_5.jpg" alt="Dhuno Pora 5">
-    <p>Dhuno Pora 5</p>
-  </figure>
-
-  <figure class="item" style="background-color: black;color: grey;">
-    <img src="/images/works/dhuno_pora/06_dhuno_pora_6.jpg" alt="Dhuno Pora 6">
-    <p>Dhuno Pora 6</p>
-  </figure>
-
-  <div class="controls" style="position: relative; border-bottom:none;">
-    <a href="#item-1" class="control-button" style="color:grey;border-bottom:none;">•</a>
-    <a href="#item-2" class="control-button" style="color:grey;border-bottom:none;">•</a>
-    <a href="#item-3" class="control-button" style="color:grey;border-bottom:none;">•</a>
-    <a href="#item-4" class="control-button" style="color:grey;border-bottom:none;">•</a>
-    <a href="#item-5" class="control-button" style="color:grey;border-bottom:none;">•</a>
-    <a href="#item-6" class="control-button" style="color:grey;border-bottom:none;">•</a>
+<p>
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+  
+    <img src="/images/works/dhuno_pora/01_dhuno_pora_1.jpg" alt="Dhuno Pora 1" data-caption="Preparing the Fire">
+    <img src="/images/works/dhuno_pora/02_dhuno_pora_2.jpg" alt="Dhuno Pora 2" data-caption="Preparing the Lady">
+    <img src="/images/works/dhuno_pora/04_dhuno_pora_4.jpg" alt="Dhuno Pora 4" data-caption="Rising Flames 1">
+    <img src="/images/works/dhuno_pora/05_dhuno_pora_5.jpg" alt="Dhuno Pora 5" data-caption="Rising Flames 2">
+    <img src="/images/works/dhuno_pora/06_dhuno_pora_6.jpg" alt="Dhuno Pora 6" data-caption="Rising Flames 3">
+    <img src="/images/works/dhuno_pora/03_dhuno_pora_3.jpg" alt="Dhuno Pora 3" data-caption="Extinguising the Fire">
+  
   </div>
-</div>
-<br>
+</p>
 
 Dhuno Pora, is a tradition that is followed during the Jagadhatri Puja in Krishnanagar. Percisely at two _Baroyari_ Pujas - _Malopara_ & _Chashapara_. Though it is even followed at some _Bonedi Bari_ s in Kolkata, it is hard to beat the intensity with which the flames roll up in _Malopara_.
 

@@ -15,133 +15,30 @@ tags:
 - kolkata
 ---
 
-<div class="galarie autoplay items-20">
-
-  <div id="item-1" class="control-operator"></div>
-  <div id="item-2" class="control-operator"></div>
-  <div id="item-3" class="control-operator"></div>
-  <div id="item-4" class="control-operator"></div>
-  <div id="item-5" class="control-operator"></div>
-  <div id="item-6" class="control-operator"></div>
-  <div id="item-7" class="control-operator"></div>
-  <div id="item-8" class="control-operator"></div>
-  <div id="item-9" class="control-operator"></div>
-  <div id="item-10" class="control-operator"></div>
-  <div id="item-11" class="control-operator"></div>
-  <div id="item-12" class="control-operator"></div>
-  <div id="item-13" class="control-operator"></div>
-  <div id="item-14" class="control-operator"></div>
-  <div id="item-15" class="control-operator"></div>
-  <div id="item-16" class="control-operator"></div>
-  <div id="item-17" class="control-operator"></div>
-  <div id="item-18" class="control-operator"></div>
-  <div id="item-19" class="control-operator"></div>
-  <div id="item-20" class="control-operator"></div>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/020.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/019.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/018.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/017.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/016.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/015.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/014.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/013.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/012.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/011.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/010.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/009.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/008.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/007.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/006.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/005.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/004.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/003.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/002.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <figure class="item" style="background-color: white;color: black;">
-    <img src="/images/works/sharodiya_13/001.jpg" alt="Sharodiya '13">
-  </figure>
-
-  <div class="controls" style="position: relative; border-bottom:none;">
-    <a href="#item-1" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-2" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-3" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-4" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-5" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-6" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-7" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-8" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-9" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-10" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-11" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-12" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-13" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-14" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-15" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-16" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-17" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-18" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-19" class="control-button" style="color:black;border-bottom:none;">•</a>
-    <a href="#item-20" class="control-button" style="color:black;border-bottom:none;">•</a>
+<p>
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+      <img src="/images/works/sharodiya_13/020.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/019.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/018.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/017.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/016.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/015.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/014.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/013.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/012.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/011.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/010.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/009.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/008.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/007.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/006.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/005.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/004.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/003.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/002.jpg" alt="Sharodiya '13">
+      <img src="/images/works/sharodiya_13/001.jpg" alt="Sharodiya '13">
   </div>
-</div>
-<br>
+</p>
 
 Durga Puja is a time of feast for the Eastern part of India. This year I will try and explore this auspicious occasion through my lens, sharing along.
 

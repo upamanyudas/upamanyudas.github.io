@@ -15,75 +15,17 @@ tags:
 - portraits
 ---
 
-<div class="galarie autoplay items-9">
-  <div id="item-1" class="control-operator"></div>
-  <div id="item-2" class="control-operator"></div>
-  <div id="item-3" class="control-operator"></div>
-  <div id="item-4" class="control-operator"></div>
-  <div id="item-5" class="control-operator"></div>
-  <div id="item-6" class="control-operator"></div>
-  <div id="item-7" class="control-operator"></div>
-  <div id="item-8" class="control-operator"></div>
-  <div id="item-9" class="control-operator"></div>
-
-  <figure class="item" style="background-color: black;color: white;">
-    <img src="/images/works/zoo_portraits/01_lion.jpg" alt="zoo, lion, asiatic lion">
-    <p>The Majestic Asiatic Lion</p>
-  </figure>
-
-  <figure class="item" style="background-color: black;color: white;">
-    <img src="/images/works/zoo_portraits/02_elephant.jpg" alt="zoo, elephant">
-    <p style="padding-top: 30px;">Baby Elephant</p>
-  </figure>
-
-  <figure class="item" style="background-color: black;color: white;">
-    <img src="/images/works/zoo_portraits/03_hawk.jpg" alt="zoo, hawk, sharp, eyes">
-    <p style="padding-top: 30px;">Black Kite</p>
-  </figure>
-
-  <figure class="item" style="background-color: black;color: white;">
-    <img src="/images/works/zoo_portraits/04_ghariyal.jpg" alt="zoo, ghariyal, sweetwarer, fisheater">
-    <p style="padding-top: 30px;">Ghariyal</p>
-  </figure>
-
-  <figure class="item" style="background-color: black;color: white;">
-    <img src="/images/works/zoo_portraits/05_giraffe.jpg" alt="zoo, giraffe, neck">
-    <p style="padding-top: 30px;">A Full-Grown Giraffe's Neck</p>
-  </figure>
-
-  <figure class="item" style="background-color: black;color: white;">
-    <img src="/images/works/zoo_portraits/06_royal_bengal_tiger.jpg" alt="zoo, royal bengal tiger, tiger">
-    <p style="padding-top: 30px;">A Ferocious Royal Bengal Tiger</p>
-  </figure>
-
-  <figure class="item" style="background-color: black;color: white;">
-    <img src="/images/works/zoo_portraits/07_python.jpg" alt="zoo, python, fat, snake, eyes">
-    <p style="padding-top: 30px;">Python</p>
-  </figure>
-
-  <figure class="item" style="background-color: black;color: white;">
-    <img src="/images/works/zoo_portraits/08_kath_golap.jpg" alt="zoo, plumeria, flower">
-    <p style="padding-top: 30px;">White Firangipani or Plumeria Flower</p>
-  </figure>
-
-  <figure class="item" style="background-color: black;color: white;">
-    <img src="/images/works/zoo_portraits/09_craftsman.jpg" alt="khiderpore, shoe craftsmen, heel">
-    <p style="padding-top: 30px;">A Craftsman working in a Heel Manufacturing Company in Mominpore</p>
-  </figure>
-
-  <div class="controls" style="text-decoration: none">
-    <a href="#item-1" class="control-button" style="color:grey;border-bottom:none;">•</a>
-    <a href="#item-2" class="control-button" style="color:grey;border-bottom:none;">•</a>
-    <a href="#item-3" class="control-button" style="color:grey;border-bottom:none;" >•</a>
-    <a href="#item-4" class="control-button" style="color:grey;border-bottom:none;">•</a>
-    <a href="#item-5" class="control-button" style="color:grey;border-bottom:none;">•</a>
-    <a href="#item-6" class="control-button" style="color:grey;border-bottom:none;">•</a>
-    <a href="#item-7" class="control-button" style="color:grey;border-bottom:none;">•</a>
-    <a href="#item-8" class="control-button" style="color:grey;border-bottom:none;">•</a>
-    <a href="#item-9" class="control-button" style="color:grey;border-bottom:none;">•</a>
-  </div>
+<div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+    <img src="/images/works/zoo_portraits/01_lion.jpg" alt="zoo, lion, asiatic lion" data-caption="The Majestic Asiatic Lion">
+    <img src="/images/works/zoo_portraits/02_elephant.jpg" alt="zoo, elephant" data-caption="Baby Elephant">
+    <img src="/images/works/zoo_portraits/03_hawk.jpg" alt="zoo, hawk, sharp, eyes" data-caption="Black Kite">
+    <img src="/images/works/zoo_portraits/04_ghariyal.jpg" alt="zoo, ghariyal, sweetwarer, fisheater" data-caption="Ghariyal">
+    <img src="/images/works/zoo_portraits/05_giraffe.jpg" alt="zoo, giraffe, neck" data-caption="A Full-Grown Giraffe's Neck">
+    <img src="/images/works/zoo_portraits/06_royal_bengal_tiger.jpg" alt="zoo, royal bengal tiger, tiger" data-caption="A Ferocious Royal Bengal Tiger">
+    <img src="/images/works/zoo_portraits/07_python.jpg" alt="zoo, python, fat, snake, eyes" data-caption="Python">
+    <img src="/images/works/zoo_portraits/08_kath_golap.jpg" alt="zoo, plumeria, flower" data-caption="White Firangipani or Plumeria Flower">
+    <img src="/images/works/zoo_portraits/09_craftsman.jpg" alt="khiderpore, shoe craftsmen, heel" data-caption="A Craftsman working in a Heel Manufacturing Company in Mominpore">
 </div>
-<br>
 
 A short trip with a friend to Mominpore, on 21st September, led to the quick trip to the Alipore Zoological Gardens, Kolkata. It was a rainy day. The people we met, to ask for directions, on the road we took from Mominpore laughed at the idea of visiting the zoo in the rains. But I must tell you, that it was a experience worth having. Most of the animals were out from their enclosures, except the rhino. And the cherry on the top were the kings. Both the lion and the tiger, came near the open-enclosure's boundary, to pose for my camera.
 

@@ -784,3 +784,8 @@ ul#filter li:last-child { border-right: none; margin-right: 0; padding-right: 0;
 ul#filter a { color: #999; text-decoration: none; }
 ul#filter li.current a, ul#filter a:hover { text-decoration: underline; }
 ul#filter li.current a { color: #333; font-weight: bold; }
+
+/*Fotorama.io*/
+.fotorama__caption {
+    text-align: center;
+}

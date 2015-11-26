@@ -13,11 +13,12 @@ tags:
 - technology
 - photography
 ---
-
-<img src="/images/works/technology_and_us/01_srijit.jpg" align="middle"/>
-<br><br>
-<img src="/images/works/technology_and_us/02_srija.jpg" align="middle"/>
-<br>
+<p>
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+		<img src="/images/works/technology_and_us/01_srijit.jpg" alt="technology, data, brother" data-caption="Technology and Us - Brother with Tablet"/>
+		<img src="/images/works/technology_and_us/02_srija.jpg" alt="technology, data, sister" data-caption="Technology and Us - Sister with the Macbook"/>
+  </div>
+</p>
 
 We have been debating too long about technology being a boon or a curse. Well according to me (and this is my strictly personal opinion) it is a bigger curse than it is a boon.
 

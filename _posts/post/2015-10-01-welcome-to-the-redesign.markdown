@@ -6,6 +6,7 @@ comments: true
 categories: blog
 published: true
 image: 001-welcome-to-redesign/old_website.png
+comments: true
 tags:
 - new
 - redesign

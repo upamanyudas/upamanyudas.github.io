@@ -10,6 +10,7 @@ image: old_man.jpg
 medium: digital
 class: illustration
 permalink: /works/:year/:title
+comments: true
 tags:
 - drawing
 - expression study

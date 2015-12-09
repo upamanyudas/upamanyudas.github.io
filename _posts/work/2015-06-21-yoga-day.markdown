@@ -10,6 +10,7 @@ image: yoga_day.jpg
 medium: digital
 class: illustration
 permalink: /works/:year/:title
+comments: true
 tags:
 - drawing
 - yoga day

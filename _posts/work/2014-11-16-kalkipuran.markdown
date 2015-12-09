@@ -10,6 +10,7 @@ image: kalkipuran.jpg
 medium: digital
 class: design
 permalink: /works/:year/:title
+comments: true
 tags:
 - illustration
 - poster

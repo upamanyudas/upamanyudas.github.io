@@ -10,6 +10,7 @@ image: packofhorse.jpg
 medium: digital
 class: illustration
 permalink: /works/:year/:title
+comments: true
 tags:
 - drawing
 - semi abstract

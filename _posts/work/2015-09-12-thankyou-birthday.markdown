@@ -10,6 +10,7 @@ image: thankyou_birthday.jpg
 medium: digital
 class: design typography
 permalink: /works/:year/:title
+comments: true
 tags:
 - illustration
 - typography

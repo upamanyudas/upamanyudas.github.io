@@ -10,6 +10,7 @@ image: patuli/00_cover.jpg
 medium: digital
 class: photography
 permalink: /works/:year/:title
+comments: true
 tags:
 - photography
 - explore

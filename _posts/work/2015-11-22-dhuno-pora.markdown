@@ -10,6 +10,7 @@ image: dhuno_pora/00_cover_dhuno_pora.jpg
 medium: digital
 class: photography
 permalink: /works/:year/:title
+comments: true
 tags:
 - jagadhatri puja
 - dhuno pora

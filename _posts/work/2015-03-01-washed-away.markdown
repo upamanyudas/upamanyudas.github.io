@@ -10,6 +10,7 @@ image: washed_away/00_cover.jpg
 medium: digital
 class: photography
 permalink: /works/:year/:title
+comments: true
 tags:
 ---
 <p style="display: none;">Come March, rains have arrived in Mumbai. Hope it washes away all our pain.</p>

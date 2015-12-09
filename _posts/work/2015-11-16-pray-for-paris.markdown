@@ -10,6 +10,7 @@ image: pray_for_paris.jpg
 medium: digital
 class: illustration typography
 permalink: /works/:year/:title
+comments: true
 tags:
 - illustration
 - paris

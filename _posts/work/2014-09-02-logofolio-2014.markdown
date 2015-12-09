@@ -10,6 +10,7 @@ image: logofolio/00_cover.jpg
 medium: digital
 class: design
 permalink: /works/:year/:title
+comments: true
 tags:
 - branding
 - graphic design

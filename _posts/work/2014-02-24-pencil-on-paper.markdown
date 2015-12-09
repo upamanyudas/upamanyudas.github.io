@@ -10,7 +10,7 @@ image: pencil_on_paper/5.jpg
 medium: traditional
 class: illustration
 permalink: /works/:year/:title
-permalink: /works/:year/:title
+comments: true
 tags:
 - drawing
 - pencil

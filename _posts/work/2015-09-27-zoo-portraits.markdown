@@ -9,6 +9,7 @@ thumb: zoo_portraits.jpg
 image: zoo_portraits/00_cover.jpg
 medium: digital
 class: photography
+permalink: /works/:year/:title
 tags:
 - photography
 - zoo

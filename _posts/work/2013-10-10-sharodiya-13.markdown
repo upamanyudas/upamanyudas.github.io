@@ -9,6 +9,8 @@ thumb: sharodiya_13.jpg
 image: sharodiya_13/000.jpg
 medium: digital
 class: photography
+permalink: /works/:year/:title
+permalink: /works/:year/:title
 tags:
 - durga puja
 - photography

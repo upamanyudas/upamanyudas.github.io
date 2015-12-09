@@ -9,6 +9,7 @@ thumb: interstellar.jpg
 image: interstellar.jpg
 medium: digital
 class: design
+permalink: /works/:year/:title
 tags:
 - illustration
 ---

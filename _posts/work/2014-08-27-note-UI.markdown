@@ -9,6 +9,7 @@ thumb: noteUI.jpg
 image: noteUI.jpg
 medium: digital
 class: design
+permalink: /works/:year/:title
 tags:
 - ui
 - ux

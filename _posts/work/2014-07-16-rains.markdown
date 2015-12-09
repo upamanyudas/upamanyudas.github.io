@@ -9,6 +9,7 @@ thumb: rains.jpg
 image: rains.jpg
 medium: digital
 class: illustration
+permalink: /works/:year/:title
 tags:
 - drawing
 - wacom

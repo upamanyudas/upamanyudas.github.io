@@ -9,6 +9,7 @@ thumb: thankyou_birthday.jpg
 image: thankyou_birthday.jpg
 medium: digital
 class: design typography
+permalink: /works/:year/:title
 tags:
 - illustration
 - typography

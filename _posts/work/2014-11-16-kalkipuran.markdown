@@ -9,6 +9,7 @@ thumb: kalkipuran.jpg
 image: kalkipuran.jpg
 medium: digital
 class: design
+permalink: /works/:year/:title
 tags:
 - illustration
 - poster

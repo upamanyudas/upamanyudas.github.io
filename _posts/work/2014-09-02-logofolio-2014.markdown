@@ -9,6 +9,7 @@ thumb: logofolio.jpg
 image: logofolio/00_cover.jpg
 medium: digital
 class: design
+permalink: /works/:year/:title
 tags:
 - branding
 - graphic design

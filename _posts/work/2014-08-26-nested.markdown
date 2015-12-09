@@ -9,6 +9,7 @@ thumb: nested.jpg
 image: nested.jpg
 medium: traditional
 class: illustration
+permalink: /works/:year/:title
 tags:
 - drawing
 - soft pastel

@@ -9,6 +9,7 @@ thumb: old_man.jpg
 image: old_man.jpg
 medium: digital
 class: illustration
+permalink: /works/:year/:title
 tags:
 - drawing
 - expression study

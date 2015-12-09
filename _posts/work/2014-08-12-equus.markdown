@@ -9,6 +9,7 @@ thumb: equus.jpg
 image: equus.jpg
 medium: digital
 class: illustration
+permalink: /works/:year/:title
 tags:
 - drawing
 - nature study

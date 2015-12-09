@@ -9,6 +9,7 @@ thumb: technology_and_us.jpg
 image: technology_and_us/00_cover.jpg
 medium: digital
 class: photography
+permalink: /works/:year/:title
 tags:
 - technology
 - photography

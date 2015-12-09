@@ -9,6 +9,7 @@ thumb: the_hindusthani_car.jpg
 image: the_hindusthani_car/00_cover.jpg
 medium: digital
 class: design
+permalink: /works/:year/:title
 tags:
 - illustration
 - car

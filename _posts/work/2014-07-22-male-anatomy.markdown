@@ -9,6 +9,7 @@ thumb: male_anatomy.jpg
 image: male_anatomy.jpg
 medium: digital
 class: illustration
+permalink: /works/:year/:title
 tags:
 - drawing
 - nature study

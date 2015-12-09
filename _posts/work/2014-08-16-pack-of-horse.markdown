@@ -9,6 +9,7 @@ thumb: packofhorse.jpg
 image: packofhorse.jpg
 medium: digital
 class: illustration
+permalink: /works/:year/:title
 tags:
 - drawing
 - semi abstract

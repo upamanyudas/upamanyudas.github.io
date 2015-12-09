@@ -9,6 +9,7 @@ thumb: dashami.jpg
 image: dashami.jpg
 medium: digital
 class: illustration
+permalink: /works/:year/:title
 tags:
 - illustration
 - drawing

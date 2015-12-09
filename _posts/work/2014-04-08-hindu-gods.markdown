@@ -9,6 +9,7 @@ thumb: hindu_gods.jpg
 image: hindu_gods/00_cover.jpg
 medium: digital
 class: design
+permalink: /works/:year/:title
 tags:
 - design
 - religion

@@ -9,6 +9,7 @@ thumb: gandhi_jayanti.jpg
 image: gandhi_jayanti.jpg
 medium: digital
 class: design
+permalink: /works/:year/:title
 tags:
 - illustration
 - gandhi

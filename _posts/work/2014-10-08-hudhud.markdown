@@ -9,6 +9,7 @@ thumb: hudhud.jpg
 image: hudhud.jpg
 medium: digital
 class: design
+permalink: /works/:year/:title
 tags:
 - illustration
 ---

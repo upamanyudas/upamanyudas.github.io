@@ -9,6 +9,8 @@ thumb: pokemon_kanto_badges.jpg
 image: pokemon_kanto_badges/00_cover.jpg
 medium: digital
 class: design
+permalink: /works/:year/:title
+permalink: /works/:year/:title
 tags:
 - icons
 - pokemon

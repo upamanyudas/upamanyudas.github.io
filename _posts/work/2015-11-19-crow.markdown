@@ -9,6 +9,7 @@ thumb: crow.jpg
 image: crow.jpg
 medium: traditional
 class: illustration
+permalink: /works/:year/:title
 tags:
 - illustration
 - patterns

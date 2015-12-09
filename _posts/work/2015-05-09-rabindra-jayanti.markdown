@@ -9,6 +9,7 @@ thumb: rabindra_jayanti.jpg
 image: rabindra_jayanti.jpg
 medium: digital
 class: design
+permalink: /works/:year/:title
 tags:
 - illustration
 - rabindranath tagore

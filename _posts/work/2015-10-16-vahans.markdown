@@ -9,6 +9,7 @@ thumb: vahans.jpg
 image: vahans.jpg
 medium: traditional & digital
 class: illustration
+permalink: /works/:year/:title
 tags:
 - durga puja
 - illustration

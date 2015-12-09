@@ -9,6 +9,7 @@ thumb: hatti.jpg
 image: hatti.jpg
 medium: digital
 class: illustration
+permalink: /works/:year/:title
 tags:
 - drawing
 - cartoon

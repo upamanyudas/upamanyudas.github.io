@@ -9,6 +9,7 @@ thumb: brother_bear.jpg
 image: brother_bear.jpg
 medium: digital
 class: illustration
+permalink: /works/:year/:title
 tags:
 - drawing
 - nature study

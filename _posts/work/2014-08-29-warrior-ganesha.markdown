@@ -9,6 +9,7 @@ thumb: ganesha.jpg
 image: ganesha.jpg
 medium: digital
 class: illustration
+permalink: /works/:year/:title
 tags:
 - drawing
 - lord ganesha

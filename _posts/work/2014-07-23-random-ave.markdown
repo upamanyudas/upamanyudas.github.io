@@ -9,6 +9,7 @@ thumb: ave.jpg
 image: ave.jpg
 medium: digital
 class: illustration
+permalink: /works/:year/:title
 tags:
 - drawing
 - nature study

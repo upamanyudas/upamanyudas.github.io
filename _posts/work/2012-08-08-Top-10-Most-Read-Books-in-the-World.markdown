@@ -9,6 +9,8 @@ thumb: top10books.jpg
 image: top10books.jpg
 medium: digital
 class: illustration
+permalink: /works/:year/:title
+permalink: /works/:year/:title
 tags:
 - illustration
 - books

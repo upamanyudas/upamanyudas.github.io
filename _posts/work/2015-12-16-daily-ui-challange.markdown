@@ -17,7 +17,7 @@ tags:
 ---
 <p>
   <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="false" data-loop="true">
-      <img src="/images/works/daily_ui_challenge/001_sign_up.jpg" alt="Daily UI Challenge" data-caption="Day 001">
+      <img src="/images/works/daily_ui_challenge/001_sign_up.jpg" alt="Daily UI Challenge, Day 001 - Sign Up" data-caption="Day 001 - Sign Up">
       <img src="/images/works/daily_ui_challenge/000_cover.jpg" alt="Daily UI Challenge" data-caption="The Beginnings">
   </div>
 </p>

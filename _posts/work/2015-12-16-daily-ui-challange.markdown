@@ -17,6 +17,8 @@ tags:
 ---
 <p>
   <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="false" data-loop="true">
+      <img src="/images/works/daily_ui_challenge/003_landing_page.jpg" alt="Daily UI Challenge, Day 003 - Landing Page" data-caption="Day 003 - Landing Page (above the fold)">
+      <img src="/images/works/daily_ui_challenge/002_credit_card_checkout.jpg" alt="Daily UI Challenge, Day 002 - Credit Card Checkout" data-caption="Day 002 - Credit Card Checkout">
       <img src="/images/works/daily_ui_challenge/001_sign_up.jpg" alt="Daily UI Challenge, Day 001 - Sign Up" data-caption="Day 001 - Sign Up">
       <img src="/images/works/daily_ui_challenge/000_cover.jpg" alt="Daily UI Challenge" data-caption="The Beginnings">
   </div>

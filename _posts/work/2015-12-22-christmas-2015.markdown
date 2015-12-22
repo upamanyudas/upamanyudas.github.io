@@ -1,0 +1,26 @@
+---
+layout: work
+title: "Christmas Giveaway 2015"
+date: 2015-12-22 09:00
+comments: true
+categories: works
+published: true
+thumb: christmas_2015.jpg
+image: christmas_2015.jpg
+medium: digital
+class: illustrations
+permalink: /works/:year/:title
+comments: true
+tags:
+- christmas
+- illustration
+---
+<p>
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="false" data-loop="true">
+      <img src="/images/works/christmas_2015.jpg" alt="Christmas 2015">
+  </div>
+</p>
+
+Christmas is coming. This year I will be giving away 50 5x7" prints of this Christmas Card.
+
+Comment below & message me the shipping address on <a href="https://www.facebook.com/profile.php?id=100001505433242" target="_blank">Facebook</a> to get one.

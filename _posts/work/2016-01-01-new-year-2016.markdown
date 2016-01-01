@@ -8,11 +8,11 @@ published: true
 thumb: new_year_2016.jpg
 image: new_year_2016.jpg
 medium: digital
-class: illustrations
+class: illustration
 permalink: /works/:year/:title
 comments: true
 tags:
-- christmas
+- new year
 - illustration
 ---
 <p>

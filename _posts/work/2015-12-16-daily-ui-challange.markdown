@@ -17,7 +17,8 @@ tags:
 ---
 <p>
   <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
-      <img src="/images/works/daily_ui_challenge/011_flash_message.gif" alt="Daily UI Challenge, Day 011 - Flash Message" data-caption="Day 011 - Flash Message" data-fit="cover">
+      <img src="/images/works/daily_ui_challenge/012_e_commerce.jpg" alt="Daily UI Challenge, Day 012 - E-Commerce Shop" data-caption="Day 012 - E-Commerce Shop (Single Item)">
+      <img src="/images/works/daily_ui_challenge/011_flash_message.gif" alt="Daily UI Challenge, Day 011 - Flash Message" data-caption="Day 011 - Flash Message">
       <img src="/images/works/daily_ui_challenge/010_social_share.jpg" alt="Daily UI Challenge, Day 010 - Social Share" data-caption="Day 010 - Social Share">
       <img src="/images/works/daily_ui_challenge/009_music_player.jpg" alt="Daily UI Challenge, Day 009 - Music Player" data-caption="Day 009 - Music Player">
       <img src="/images/works/daily_ui_challenge/008_404.jpg" alt="Daily UI Challenge, Day 008 - 404 Page" data-caption="Day 008 - 404 Page">

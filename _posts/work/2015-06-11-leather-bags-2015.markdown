@@ -1,0 +1,69 @@
+---
+layout: work
+title: "Leather Bags 2015"
+date: 2015-06-12 09:00
+comments: true
+categories: works
+published: true
+thumb: leather_bags_2015.jpg
+image: leather_bags_2015/0.jpg
+medium: digital
+class: design photography
+permalink: /works/:year/:title
+comments: true
+tags:
+- leather bags
+---
+
+<p>
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+      <img src="/images/works/leather_bags_2015/1a.jpg" alt="The Traditional Bag" data-caption="The Traditional Bag">
+      <img src="/images/works/leather_bags_2015/1b.jpg" alt="The Traditional Bag" data-caption="The Traditional Bag">
+      <img src="/images/works/leather_bags_2015/1c.jpg" alt="The Traditional Bag" data-caption="The Traditional Bag">
+      <img src="/images/works/leather_bags_2015/1d.jpg" alt="The Traditional Bag" data-caption="The Traditional Bag">
+      <img src="/images/works/leather_bags_2015/1e.jpg" alt="The Traditional Bag" data-caption="The Traditional Bag">
+      <img src="/images/works/leather_bags_2015/2a.jpg" alt="The Field Bag" data-caption="The Field Bag">
+      <img src="/images/works/leather_bags_2015/2b.jpg" alt="The Field Bag" data-caption="The Field Bag">
+      <img src="/images/works/leather_bags_2015/2c.jpg" alt="The Field Bag" data-caption="The Field Bag">
+      <img src="/images/works/leather_bags_2015/2d.jpg" alt="The Field Bag" data-caption="The Field Bag">
+      <img src="/images/works/leather_bags_2015/2e.jpg" alt="The Field Bag" data-caption="The Field Bag">
+      <img src="/images/works/leather_bags_2015/2f.jpg" alt="The Field Bag" data-caption="The Field Bag">
+      <img src="/images/works/leather_bags_2015/2g.jpg" alt="The Field Bag" data-caption="The Field Bag">
+      <img src="/images/works/leather_bags_2015/2h.jpg" alt="The Field Bag" data-caption="The Field Bag">
+      <img src="/images/works/leather_bags_2015/2i.jpg" alt="The Field Bag" data-caption="The Field Bag">
+      <img src="/images/works/leather_bags_2015/2j.jpg" alt="The Field Bag" data-caption="The Field Bag">
+      <img src="/images/works/leather_bags_2015/3a.jpg" alt="The Etui Bag" data-caption="The Etui Bag">
+      <img src="/images/works/leather_bags_2015/3b.jpg" alt="The Etui Bag" data-caption="The Etui Bag">
+      <img src="/images/works/leather_bags_2015/3c.jpg" alt="The Etui Bag" data-caption="The Etui Bag">
+      <img src="/images/works/leather_bags_2015/3d.jpg" alt="The Etui Bag" data-caption="The Etui Bag">
+      <img src="/images/works/leather_bags_2015/3f.jpg" alt="The Etui Bag" data-caption="The Etui Bag">
+      <img src="/images/works/leather_bags_2015/4a.jpg" alt="DoppKit Travel Bag" data-caption="DoppKit Travel Bag">
+      <img src="/images/works/leather_bags_2015/4b.jpg" alt="DoppKit Travel Bag" data-caption="DoppKit Travel Bag">
+      <img src="/images/works/leather_bags_2015/4c.jpg" alt="DoppKit Travel Bag" data-caption="DoppKit Travel Bag">
+      <img src="/images/works/leather_bags_2015/5a.jpg" alt="The Camera Bag" data-caption="The Camera Bag">
+      <img src="/images/works/leather_bags_2015/5b.jpg" alt="The Camera Bag" data-caption="The Camera Bag">
+      <img src="/images/works/leather_bags_2015/5c.jpg" alt="The Camera Bag" data-caption="The Camera Bag">
+      <img src="/images/works/leather_bags_2015/5d.jpg" alt="The Camera Bag" data-caption="The Camera Bag">
+  </div>
+</p>
+
+Some Leather Bags. Handcrafted in India.
+
+Specifications:
+---------------
+1. The Traditional Bag
+- Chrome tanned CG leather - blue and yellow.
+- Screen printeddesi canvas.
+
+1. The Field Bag
+
+1. The Etui Bag
+- Chrome tanned Black leather.
+- Metallic zipper & 0.5" gold fittings.
+
+1. DoppKit Travel Bag
+- Measures 25cm x 19cm x 9cm / 9.8" x 7.5" x 3.5" good size to make sure it will fit everything you need for your grooming ritual superior double metal zip opening black wipe clean lining rugged design.
+- Leather top, canvas body, semi-vegetable tanned italian washed leather.
+
+1. The Camera Bag
+

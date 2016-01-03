@@ -35,6 +35,6 @@ I am, generally, a person, who studies a lot before trying out something new, so
 
 Here are the selected 9 photographs (out of 245) I took in the Zoo.
 
-Do give feedback.
+Do give feedback. Licenses for these photographs can be found at <a href="https://500px.com/UpamanyuDas/galleries/zoo-portraits" target="_blank">500px</a>.
 
 P.S. For curious souls, the gallery is built using my [Galarie.css](http://upamanyu.in/galarie-css/).

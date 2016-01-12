@@ -17,6 +17,7 @@ tags:
 ---
 <p>
   <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+      <img src="/images/works/daily_ui_challenge/018_analytics_chart.jpg" alt="Daily UI Challenge, Day 018 - Analytics Chart" data-caption="Day 018 - Analytics Chart">
       <img src="/images/works/daily_ui_challenge/017_email_receipt.jpg" alt="Daily UI Challenge, Day 017 - Email Receipt" data-caption="Day 017 - Email Receipt">
       <img src="/images/works/daily_ui_challenge/016_pop_up.jpg" alt="Daily UI Challenge, Day 016 - Pop-Up / Overlay" data-caption="Day 016 - Pop-Up / Overlay">
       <img src="/images/works/daily_ui_challenge/014_countdown_timer.jpg" alt="Daily UI Challenge, Day 014 - Countdown Timer" data-caption="Day 014 - Countdown Timer">

@@ -16,7 +16,7 @@ tags:
 ---
 <p>
   <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="false" data-loop="true">
-      <img src="/images/works/poila_boisakh_2016.jpg" alt="Workspace">
+      <img src="/images/works/poila_boisakh_2016.jpg" alt="Poila Boisakh">
   </div>
 </p>
 

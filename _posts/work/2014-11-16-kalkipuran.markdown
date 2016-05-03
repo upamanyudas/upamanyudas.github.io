@@ -16,10 +16,9 @@ tags:
 - poster
 - theatre
 ---
-<img src="/images/works/kalkipuran.jpg" align="middle"/>
 
-Our theatre group DRAMMAR's play, Kolkipuran is hosting a show on the 18th of November 2014 at Tapan Theatre (Rashbehari) from 6:30pm.
+<div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="false" data-loop="true" data-width="100%" data-ratio="800/600" data-minwidth="400" data-maxwidth="1000" data-minheight="300" data-maxheight="100%" data-fit="scaledown">
+	<img src="/images/works/kalkipuran.jpg" alt="Kalkipuran" />
+</div>
 
-For tickets contact:
-[Sukumar Chakraborty](https://www.facebook.com/sukumar.chakraborty.127) - +919830633151
-Me - +918334052485
+Our theatre group DRAMMAR's play, Kalkipuran, has its first show in the Month of December. This is the poster for the same. The characters in the poster are hand-drawn, then scanned and vectorised in Illustrator.

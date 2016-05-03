@@ -16,8 +16,10 @@ tags:
 - lord ganesha
 - anatomy
 ---
-<img src="/images/works/ganesha.jpg" align="middle"/>
+<div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="false" data-loop="true" data-width="100%" data-ratio="800/600" data-minwidth="400" data-maxwidth="1000" data-minheight="300" data-maxheight="100%" data-fit="scaledown">
+	<img src="/images/works/ganesha.jpg" alt="Warrior Ganesha"/>
+</div>
 
 Today on Ganesh Chaturthi, the lord in a warrior stance.
 
-Jai Ganesh. _/\_
+Jai Ganesh.

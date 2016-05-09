@@ -8,7 +8,7 @@ published: true
 thumb: mothers_day_2016.jpg
 image: mothers_day_2016.jpg
 medium: digital
-class: illustration
+class: illustration typography
 permalink: /works/:year/:title
 comments: true
 tags:

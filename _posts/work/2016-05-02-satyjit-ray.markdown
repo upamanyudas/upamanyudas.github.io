@@ -8,7 +8,7 @@ published: true
 thumb: satyajit_ray_2016.jpg
 image: satyajit_ray_2016/satyajit.ray.2016.jpg
 medium: digital
-class: illustration
+class: design
 permalink: /works/:year/:title
 comments: true
 tags:

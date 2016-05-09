@@ -8,7 +8,7 @@ published: true
 thumb: poila_boisakh_2016.jpg
 image: poila_boisakh_2016.jpg
 medium: digital
-class: illustration
+class: design illustration
 permalink: /works/:year/:title
 comments: true
 tags:

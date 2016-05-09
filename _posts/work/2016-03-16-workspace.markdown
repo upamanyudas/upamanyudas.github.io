@@ -8,7 +8,7 @@ published: true
 thumb: workspace.jpg
 image: workspace.jpg
 medium: digital
-class: illustration
+class: illustration design
 permalink: /works/:year/:title
 comments: true
 tags:

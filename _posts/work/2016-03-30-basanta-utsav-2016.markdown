@@ -1,0 +1,37 @@
+---
+layout: work
+title: "Basanta Utsav 2016"
+date: 2016-03-30 08:00
+comments: true
+categories: works
+published: true
+thumb: basanta_utsav_2016.jpg
+image: basanta_utsav_2016/000.jpg
+medium: digital
+class: photography
+permalink: /works/:year/:title
+comments: true
+tags:
+- holi
+- basanta utsav
+- rabindranath tagore
+---
+
+<div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+    <img src="/images/works/basanta_utsav_2016/01.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="Asram Complex">
+    <img src="/images/works/basanta_utsav_2016/02.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="Chitrangada Rehearsals">
+    <img src="/images/works/basanta_utsav_2016/03.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="Esraj Choir">
+    <img src="/images/works/basanta_utsav_2016/04.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="Esraj Symphony">
+    <img src="/images/works/basanta_utsav_2016/05.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="Krishna - Basanta Raas">
+    <img src="/images/works/basanta_utsav_2016/06.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="Basanta Utsav Parikrama">
+    <img src="/images/works/basanta_utsav_2016/07.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="My Sister and Me">
+    <img src="/images/works/basanta_utsav_2016/08.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati, chitrangada" data-caption="Chitrangada">
+</div>
+
+This year, during _Basanta Utsav_ I visited my cousins in Shantiniketan. It was a fun time. I got to experience and photograph one of the most lively celebrations of the festival _Holi_.
+
+The first day of the trip started with attending the rehearsals of the programme, _Chitrangada_.
+
+The second day was that of _Basanta Bandana_, the salutation of spring. On this day, _Viswa Bharati_ presented, an Esraj choir and _Basanta Raas_. Both were magnificent to watch
+
+And the third and the final day was of _Basanta Utsav_. In the morning was a programme, which I wasn't allowed to shoot, and in the evening was _Chitrangada_.

@@ -28,7 +28,7 @@ There are certain points I would like to mention:
 1. Pertaining to many requests, the site now has a [setup](/setup) section, where all the hardware, software and other objects used by me day-to-day for my works is listed.
 1. The [projects](/projects) section has all the small projeccts that I work on, in my free time.
 
-Alongg with all these new features, I have tried to remain all the way minimalistic as possible. Hope the design soothes the eyes. The current version of the site does not has a contact page. Inform me if that is needed.
+Along with all these new features, I have tried to remain all the way minimalistic as possible. Hope the design soothes the eyes. The current version of the site does not has a contact page. Inform me if that is needed.
 
 This section which you're in is the blog section. This section will be the most less updated section of the website. Check on necertheless at times.
 

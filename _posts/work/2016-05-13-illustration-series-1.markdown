@@ -20,6 +20,7 @@ tags:
 <p>
   <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
       <img src="/images/works/illustration_series_1_cuddles/the.black.panther.jpg" alt="The Black Panther" data-caption="The Black Panther">
+      <img src="/images/works/illustration_series_1_cuddles/knives.jpg" alt="Knives" data-caption="Knives">
       <img src="/images/works/illustration_series_1_cuddles/ufo.jpg" alt="UFO" data-caption="UFO">
   </div>
 </p>

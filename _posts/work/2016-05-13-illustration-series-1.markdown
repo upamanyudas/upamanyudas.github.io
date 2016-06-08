@@ -18,7 +18,8 @@ tags:
 ---
 
 <p>
-  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="false" data-loop="true" data-width="100%" data-ratio="800/600" data-minwidth="400" data-maxwidth="1000" data-minheight="300" data-maxheight="100%" data-fit="scaledown">
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+      <img src="/images/works/illustration_series_1_cuddles/the.black.panther.jpg" alt="The Black Panther" data-caption="The Black Panther">
       <img src="/images/works/illustration_series_1_cuddles/ufo.jpg" alt="UFO" data-caption="UFO">
   </div>
 </p>

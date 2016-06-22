@@ -1,0 +1,28 @@
+---
+layout: work
+title: "Rain Type"
+date: 2016-06-22 15:00
+comments: true
+categories: works
+published: true
+thumb: rain_type.jpg
+image: rain_type.jpg
+medium: traditional
+class: typography illustration
+permalink: /works/:year/:title
+comments: true
+tags:
+- typography
+- rains
+- abstract
+---
+
+<p>
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+      <img src="/images/works/rain_type.jpg" alt="Rain Type" data-caption="">
+  </div>
+</p>
+
+So, rains have begun in Mumbai. I could not hold myself back to create this type. One might doubt for monsoons being my elemental season.
+
+Enjoy the rainy typography. Is it raining outside? :) 

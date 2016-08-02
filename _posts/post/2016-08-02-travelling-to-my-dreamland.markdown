@@ -32,3 +32,7 @@ In my dreams, Iâ€™ve been the whales in the mid ocean, being killed for oil. Iâ€
 Within my dreams, I travel to the farthest destinations, within a blink of my eyes and in a moment of my thought.
 
 These are the precise reasons why I hang a dream catcher near to where I sleep. Who knows, one day I might get the chance to travel to the land of my dreams...
+
+Disclaimer: I am blogging about my dreams and passions for the Club Mahindra #DreamTrails activity at BlogAdda. You can get a Club Mahindra Membership to own your holidays! 
+
+Note: All the images used in this blogpost are from [Unsplash](https://unsplash.com/).

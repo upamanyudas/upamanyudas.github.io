@@ -18,7 +18,7 @@ tags:
 ---
 
 <p>
-  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
       <img src="/images/works/sharodiya_13/020.jpg" alt="Sharodiya '13">
       <img src="/images/works/sharodiya_13/019.jpg" alt="Sharodiya '13">
       <img src="/images/works/sharodiya_13/018.jpg" alt="Sharodiya '13">

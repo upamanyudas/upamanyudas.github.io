@@ -1,0 +1,32 @@
+---
+layout: work
+title: "Sharodiya '16"
+date: 2016-09-30 9:00
+comments: true
+categories: works
+published: true
+thumb: sharodiya_16.jpg
+image: sharodiya_16/00_cover.jpg
+medium: digital
+class: photography
+permalink: /works/:year/:title
+comments: true
+tags:
+- durga puja
+- photography
+- kolkata
+---
+
+<p>
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
+      <img src="/images/works/sharodiya_16/00_cover.jpg" alt="Identity 2016" data-caption="Identity 2016">
+  </div>
+</p>
+
+After two Durga Puja photograph series in [2013](http://upamanyu.in/works/2013/sharodiya-13/) & [2015](http://upamanyu.in/works/2015/sharodiya-15/) this is the time of year when the wait begins for _Maa's_ arrival. Reworked the identity for 2016. Unveiling it on _Mahalaya_.
+
+A series photographing Durga idols of Kolkata and suburbs. Durga Pujo is Bengali's single most eminent festival. This is the time we Bangalis wait for the whole year.
+
+A similar gallery is also available at <a href="" target="_blank">Facebook</a> 
+
+P.S. For curious souls, the gallery is built using my [Galarie.css](http://upamanyu.in/galarie-css/).

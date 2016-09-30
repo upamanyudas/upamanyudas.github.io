@@ -17,7 +17,7 @@ tags:
 - rabindranath tagore
 ---
 
-<div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+<div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
     <img src="/images/works/basanta_utsav_2016/01.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="Asram Complex">
     <img src="/images/works/basanta_utsav_2016/02.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="Chitrangada Rehearsals">
     <img src="/images/works/basanta_utsav_2016/03.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="Esraj Choir">

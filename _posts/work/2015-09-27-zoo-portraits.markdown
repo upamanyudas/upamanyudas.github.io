@@ -17,7 +17,7 @@ tags:
 - portraits
 ---
 
-<div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+<div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
     <img src="/images/works/zoo_portraits/01_lion.jpg" alt="zoo, lion, asiatic lion" data-caption="The Majestic Asiatic Lion">
     <img src="/images/works/zoo_portraits/02_elephant.jpg" alt="zoo, elephant" data-caption="Baby Elephant">
     <img src="/images/works/zoo_portraits/03_hawk.jpg" alt="zoo, hawk, sharp, eyes" data-caption="Black Kite">

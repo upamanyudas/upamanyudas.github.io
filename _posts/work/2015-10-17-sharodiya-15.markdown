@@ -18,7 +18,7 @@ tags:
 ---
 
 <p>
-  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
       <img src="/images/works/sharodiya_15/46_bagbazaar.jpg" alt="The Most Pristine - Bagbazar" data-caption="The Most Pristine - Bagbazar">
       <img src="/images/works/sharodiya_15/45_ahiritola.jpg" alt="Ahiritola" data-caption="Ahiritola">
       <img src="/images/works/sharodiya_15/44_shovabazaar_sarbojonin.jpg" alt="Sovabazar Sarbojonin" data-caption="Sovabazar Sarbojonin">

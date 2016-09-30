@@ -18,7 +18,7 @@ tags:
 ---
 
 <p>
-  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
       <img src="/images/works/patuli/02_dog_under_car_1.jpg" alt="Dog under Car 1" data-caption="Dog under Car 1">
       <img src="/images/works/patuli/03_dog_under_car_2.jpg" alt="Dog under Car 2" data-caption="Dog under Car 2">
       <img src="/images/works/patuli/01_photografer.jpg" alt="Upamanyu Das" data-caption="Preparing to Leave">

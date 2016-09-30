@@ -16,7 +16,7 @@ tags:
 <p style="display: none;">Come March, rains have arrived in Mumbai. Hope it washes away all our pain.</p>
 
 <p>
-  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
       <img src="/images/works/washed_away/01_night_rain.jpg" alt="Night Rain" data-caption="Night Rain">
       <img src="/images/works/washed_away/02_flower.jpg" alt="Flowers budding Again" data-caption="Flowers budding Again">
       <img src="/images/works/washed_away/03_leaves.jpg" alt="Fallen Leaves" data-caption="Fallen Leaves">

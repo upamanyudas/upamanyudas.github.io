@@ -16,7 +16,7 @@ tags:
 ---
 
 <p>
-  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
       <img src="/images/works/leather_bags_2015/1a.jpg" alt="The Traditional Bag" data-caption="The Traditional Bag">
       <img src="/images/works/leather_bags_2015/1b.jpg" alt="The Traditional Bag" data-caption="The Traditional Bag">
       <img src="/images/works/leather_bags_2015/1c.jpg" alt="The Traditional Bag" data-caption="The Traditional Bag">

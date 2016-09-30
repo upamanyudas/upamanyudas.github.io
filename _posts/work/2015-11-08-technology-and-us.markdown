@@ -16,7 +16,7 @@ tags:
 - photography
 ---
 <p>
-  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
 		<img src="/images/works/technology_and_us/01_srijit.jpg" alt="technology, data, brother" data-caption="Technology and Us - Brother with Tablet"/>
 		<img src="/images/works/technology_and_us/02_srija.jpg" alt="technology, data, sister" data-caption="Technology and Us - Sister with the Macbook"/>
   </div>

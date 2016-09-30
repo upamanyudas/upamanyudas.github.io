@@ -21,7 +21,7 @@ tags:
 <p style="display: none;">Dhuno Pora, is a tradition that is followed during the Jagadhatri Puja in Krishnanagar. Percisely at two Baroyari Pujas - Malopara & Chashapara.</p>
 
 <p>
-  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="true">
   
     <img src="/images/works/dhuno_pora/01_dhuno_pora_1.jpg" alt="Dhuno Pora 1" data-caption="Preparing the Fire">
     <img src="/images/works/dhuno_pora/02_dhuno_pora_2.jpg" alt="Dhuno Pora 2" data-caption="Preparing the Lady">

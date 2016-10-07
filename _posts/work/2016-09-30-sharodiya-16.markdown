@@ -19,17 +19,18 @@ tags:
 
 <p>
   <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
-      <img src="/images/works/sharodiya_16/00_cover.jpg" alt="Identity 2016" data-caption="Identity 2016">
-      <img src="/images/works/sharodiya_16/01_patuli.jpg" alt="Patuli Upanagari Sporting Club, Interiors" data-caption="Patuli Upanagari Sporting Club, Interiors">
-      <img src="/images/works/sharodiya_16/02_patuli.jpg" alt="Patuli Upanagari Sporting Club" data-caption="Patuli Upanagari Sporting Club">
-      <img src="/images/works/sharodiya_16/03_pallimangal.jpg" alt="Pallimangal Samity" data-caption="Pallimangal Samity">
-      <img src="/images/works/sharodiya_16/04_jodhpur_park.jpg" alt="Jodhpur Park, Interiors" data-caption="Jodhpur Park, Interiors">
-      <img src="/images/works/sharodiya_16/05_jodhpur_park.jpg" alt="Jodhpur Park" data-caption="Jodhpur Park">
-      <img src="/images/works/sharodiya_16/06_95_pally.jpg" alt="95 Pally, Interiors" data-caption="95 Pally, Interiors">
-      <img src="/images/works/sharodiya_16/07_95_pally.jpg" alt="95 Pally" data-caption="95 Pally">
-      <img src="/images/works/sharodiya_16/08_bandhab_sammelani.jpg" alt="Bandhab Sammelani" data-caption="Bandhab Sammelani">
-      <img src="/images/works/sharodiya_16/09_babubagan.jpg" alt="Babubagan" data-caption="Babubagan">
+      <img src="/images/works/sharodiya_16/11_patuli_sarbojonin.jpg" alt="Patuli Sarbojonin" data-caption="Patuli Sarbojonin">
       <img src="/images/works/sharodiya_16/10_selimpur_pally.jpg" alt="Selimpur Pally" data-caption="Selimpur Pally">
+      <img src="/images/works/sharodiya_16/09_babubagan.jpg" alt="Babubagan" data-caption="Babubagan">
+      <img src="/images/works/sharodiya_16/08_bandhab_sammelani.jpg" alt="Bandhab Sammelani" data-caption="Bandhab Sammelani">
+      <img src="/images/works/sharodiya_16/07_95_pally.jpg" alt="95 Pally" data-caption="95 Pally">
+      <img src="/images/works/sharodiya_16/06_95_pally.jpg" alt="95 Pally, Interiors" data-caption="95 Pally, Interiors">
+      <img src="/images/works/sharodiya_16/05_jodhpur_park.jpg" alt="Jodhpur Park" data-caption="Jodhpur Park">
+      <img src="/images/works/sharodiya_16/04_jodhpur_park.jpg" alt="Jodhpur Park, Interiors" data-caption="Jodhpur Park, Interiors">
+      <img src="/images/works/sharodiya_16/03_pallimangal.jpg" alt="Pallimangal Samity" data-caption="Pallimangal Samity">
+      <img src="/images/works/sharodiya_16/02_patuli.jpg" alt="Patuli Upanagari Sporting Club" data-caption="Patuli Upanagari Sporting Club">
+      <img src="/images/works/sharodiya_16/01_patuli.jpg" alt="Patuli Upanagari Sporting Club, Interiors" data-caption="Patuli Upanagari Sporting Club, Interiors">
+      <img src="/images/works/sharodiya_16/00_cover.jpg" alt="Identity 2016" data-caption="Identity 2016">
   </div>
 </p>
 

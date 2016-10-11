@@ -19,6 +19,38 @@ tags:
 
 <p>
   <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
+      <img src="/images/works/sharodiya_16/43_labony.jpg" alt="Labony Estate" data-caption="Labony Estate">
+      <img src="/images/works/sharodiya_16/42_ec_block.jpg" alt="EC Block" data-caption="EC Block">
+      <img src="/images/works/sharodiya_16/41_ec_block.jpg" alt="EC Block" data-caption="EC Block, Pandal">
+      <img src="/images/works/sharodiya_16/40_db_block.jpg" alt="DB Block" data-caption="DB Block">
+      <img src="/images/works/sharodiya_16/39_db_block.jpg" alt="DB Block" data-caption="DB Block, Interiors">
+      <img src="/images/works/sharodiya_16/38_be_block_east.jpg" alt="BE Block (East)" data-caption="BE Block (East)">
+      <img src="/images/works/sharodiya_16/37_ae_block_part_2.jpg" alt="AE Block (Part 2)" data-caption="AE Block (Part 2)">
+      <img src="/images/works/sharodiya_16/36_aj_block.jpg" alt="AJ Block" data-caption="AJ Block">
+      <img src="/images/works/sharodiya_16/35_ak_block.jpg" alt="AK Block" data-caption="AK Block">
+      <img src="/images/works/sharodiya_16/34_ak_block.jpg" alt="AK Block" data-caption="AK Block, Interiors">
+      <img src="/images/works/sharodiya_16/33_bj_block.jpg" alt="BJ Block" data-caption="BJ Block">
+      <img src="/images/works/sharodiya_16/32_rajdanga_nabodoy_sangha.jpg" alt="Rajdanga Nabodoy Sangha" data-caption="Rajdanga Nabodoy Sangha">
+      <img src="/images/works/sharodiya_16/31_badamtala_asharh_sangha.jpg" alt="Badamtala Asharh Sangha" data-caption="Badamtala Asharh Sangha, Interiors">
+      <img src="/images/works/sharodiya_16/30_badamtala_asharh_sangha.jpg" alt="Badamtala Asharh Sangha" data-caption="Badamtala Asharh Sangha">
+      <img src="/images/works/sharodiya_16/29_66_pally.jpg" alt="66 Pally" data-caption="66 Pally">
+      <img src="/images/works/sharodiya_16/28_66_pally.jpg" alt="66 Pally" data-caption="66 Pally, Pandal">
+      <img src="/images/works/sharodiya_16/27_nepal_bhatcharjee_street.jpg" alt="Nepal Bhatcharjee Street" data-caption="Nepal Bhatcharjee Street">
+      <img src="/images/works/sharodiya_16/26_chetla_agrani.jpg" alt="Chetla Agrani" data-caption="Chetla Agrani">
+      <img src="/images/works/sharodiya_16/25_barisha_club.jpg" alt="Barisha Club" data-caption="Barisha Club">
+      <img src="/images/works/sharodiya_16/24_behala_nutan_dal.jpg" alt="Behala Nutan Dal" data-caption="Behala Nutan Dal">
+      <img src="/images/works/sharodiya_16/23_behala_friends.jpg" alt="Behala Friends" data-caption="Behala Friends">
+      <img src="/images/works/sharodiya_16/22_mitra_sangha_behala.jpg" alt="Mitra Sangha" data-caption="Mitra Sangha">
+      <img src="/images/works/sharodiya_16/21_adarsha_pally.jpg" alt="Adarsha Pally" data-caption="Adarsha Pally">
+      <img src="/images/works/sharodiya_16/20_buro_shibtala.jpg" alt="Buro Shibtala" data-caption="Buro Shibtala">
+      <img src="/images/works/sharodiya_16/19_suruchi_sangha.jpg" alt="Suruchi Sangha" data-caption="Suruchi Sangha">
+      <img src="/images/works/sharodiya_16/18_suruchi_sangha.jpg" alt="Suruchi Sangha" data-caption="Suruchi Sangha, Interiors">
+      <img src="/images/works/sharodiya_16/17_ajeya_sanghati.jpg" alt="Ajeya Sanghati" data-caption="Ajeya Sanghati">
+      <img src="/images/works/sharodiya_16/16_vivekananda_park_athletic_club.jpg" alt="Vivekananda Park Athletic Club" data-caption="Vivekananda Park Athletic Club">
+      <img src="/images/works/sharodiya_16/15_41_pally.jpg" alt="41 Pally" data-caption="41 Pally">
+      <img src="/images/works/sharodiya_16/14_41_pally.jpg" alt="41 Pally" data-caption="41 Pally, Pandal">
+      <img src="/images/works/sharodiya_16/13_naktala_udayan.jpg" alt="Naktala Udayan Sangha" data-caption="Naktala Udayan Sangha">
+      <img src="/images/works/sharodiya_16/12_yatra_shuru_shangha.jpg" alt="Yatra Shuru Sangha" data-caption="Yatra Shuru Sangha">
       <img src="/images/works/sharodiya_16/11_patuli_sarbojonin.jpg" alt="Patuli Sarbojonin" data-caption="Patuli Sarbojonin">
       <img src="/images/works/sharodiya_16/10_selimpur_pally.jpg" alt="Selimpur Pally" data-caption="Selimpur Pally">
       <img src="/images/works/sharodiya_16/09_babubagan.jpg" alt="Babubagan" data-caption="Babubagan">
@@ -38,6 +70,6 @@ After two Durga Puja photograph series in [2013](http://upamanyu.in/works/2013/s
 
 A series photographing Durga idols of Kolkata and suburbs. Durga Pujo is Bengali's single most eminent festival. This is the time we Bangalis wait for the whole year.
 
-A similar gallery is also available at <a href="" target="_blank">Facebook</a> 
+A similar gallery is also available at <a href="https://www.facebook.com/media/set/?set=a.1226987937361376.1073741846.100001505433242&type=1&l=aa9dad0bc1" target="_blank">Facebook</a> 
 
 P.S. For curious souls, the gallery is built using my [Galarie.css](http://upamanyu.in/galarie-css/).

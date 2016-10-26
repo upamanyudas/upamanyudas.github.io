@@ -19,6 +19,21 @@ tags:
 
 <p>
   <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
+      <img src="/images/works/sharodiya_16/58_falguni_sangha.jpg" alt="Falguni Sangha" data-caption="Falguni Sangha">
+      <img src="/images/works/sharodiya_16/57_ekdalia_evergreen.jpg" alt="Ekdalia Evergreen" data-caption="Ekdalia Evergreen">
+      <img src="/images/works/sharodiya_16/56_ekdalia_evergreen.jpg" alt="Ekdalia Evergreen" data-caption="Ekdalia Evergreen, Chandelier">
+      <img src="/images/works/sharodiya_16/55_singhi_park.jpg" alt="Singhi Park" data-caption="Singhi Park">
+      <img src="/images/works/sharodiya_16/54_hindusthan_park.jpg" alt="Hindusthan Park" data-caption="Hindusthan Park">
+      <img src="/images/works/sharodiya_16/53_samajsebi.jpg" alt="Samajsebi" data-caption="Samajsebi">
+      <img src="/images/works/sharodiya_16/52_ballygunge_cultural.jpg" alt="Ballygunge Cultural" data-caption="Ballygunge Cultural">
+      <img src="/images/works/sharodiya_16/51_bharatchandra_road_youngster_club.jpg" alt="Bharatchandra Road Youngster Club" data-caption="Bharatchandra Road Youngster Club">
+      <img src="/images/works/sharodiya_16/50_tridhara.jpg" alt="Tridhara" data-caption="Tridhara">
+      <img src="/images/works/sharodiya_16/49_deshapriya_park.jpg" alt="Deshapriya Park" data-caption="Deshapriya Park">
+      <img src="/images/works/sharodiya_16/48_adi_lake_pally.jpg" alt="Adi Lake Pally" data-caption="Adi Lake Pally">
+      <img src="/images/works/sharodiya_16/47_shibmandir.jpg" alt="Shibmandir" data-caption="Shibmandir">
+      <img src="/images/works/sharodiya_16/46_shibmandir.jpg" alt="Shibmandir" data-caption="Shibmandir, Interiors">
+      <img src="/images/works/sharodiya_16/45_lake_youth_corner.jpg" alt="Lake Youth Corner" data-caption="Lake Youth Corner">
+      <img src="/images/works/sharodiya_16/44_mudiali.jpg" alt="Mudiali Club" data-caption="Mudiali Club">
       <img src="/images/works/sharodiya_16/43_labony.jpg" alt="Labony Estate" data-caption="Labony Estate">
       <img src="/images/works/sharodiya_16/42_ec_block.jpg" alt="EC Block" data-caption="EC Block">
       <img src="/images/works/sharodiya_16/41_ec_block.jpg" alt="EC Block" data-caption="EC Block, Pandal">

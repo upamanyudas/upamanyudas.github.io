@@ -31,7 +31,7 @@ tags:
   </div>
 </p>
 
-This post was longtime due.
+This post was longtime due. 2015 and 2016 has been two extremely disastrous years. 2015 with the death of my father & 2016 with my mother's death. But among the deaths, I am still amused to see so much life around. Life amazes me. Here's one of my experiences with a different kind of life & nature. 
 
 I have always liked Bombay. One of the reason might be because I grew up there. But, only recently, I realised, how much more there is to Maharashta, than I could have ever seen if I would have stayed in Bombay. Hence, when I shaifted temporarily to Kolkata, I was one of the very few, who had some property back in Bombay. And I must tell you what a peace it was. One would get a primary idea about my love for Bombay and its rains by reading [Post No. 1](http://kalam.upamanyu.in/writings/rains/) and [Post No. 2](http://kalam.upamanyu.in/writings/washed-away-2/).
 

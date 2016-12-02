@@ -1,0 +1,29 @@
+---
+layout: work
+title: "Dashami 2016"
+date: 2016-10-11 20:58
+comments: true
+categories: works
+published: true
+thumb: dashami_2016.jpg
+image: dashami_2016.jpg
+medium: digital
+class: illustration
+permalink: /works/:year/:title
+comments: true
+tags:
+- illustration
+- drawing
+- dusshera
+---
+
+<p>
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+      <img src="/images/works/dashami_2016.jpg" alt="Dashami 2016" data-caption="Dashami 2016">
+  </div>
+</p>
+
+Shubho Bijoya.
+Every year, during the Pujo, which is in fact Eastern India's biggest festival, we Bengali's find happiness in everything. And often forcibly.
+During these days, we forget everything to enjoy, enjoy and enjoy.
+We let go Maa Durga with one singular hope, #AascheBochorAabarHobe.

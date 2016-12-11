@@ -1,6 +1,6 @@
 ---
 layout: work
-title: "Dhuno Pora"
+title: "Dhuno Pora in West Bengal"
 date: 2015-11-22 09:00
 comments: true
 categories: works

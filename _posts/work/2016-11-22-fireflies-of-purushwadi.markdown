@@ -37,6 +37,8 @@ I have always liked Bombay. One of the reason might be because I grew up there. 
 
 So in the monsoons this year, in the month of May I decided to head over to Purushwadi, a mere 200KM drive from Mumbai. I had heard from the locals about the spectacular view one gets to experience if one heads to the village of Purushwadi. I was quick to ask for support from Carl Zeiss, and they wer quick to reply. This was definitely going to be a trip where I would want to photograph, hence this measure.
 
+The guys at Carl Zeiss were kind enough to sponser few lenses for testing, and with the people from [Grassroutes Journeys](http://www.grassroutes.co.in/), I began the trip.
+
 If you have a look at the photographs, you would understand that I was not very successfull at capturing the fireflies in general, but the landscapes I traversed through, was really worth the experience.
 
 The western ghats is a really beautiful place. And the semi-tribal village stay, with village food, not cellular networks and living in tents, was a experience worth remembering.

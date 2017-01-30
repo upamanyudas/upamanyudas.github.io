@@ -18,7 +18,7 @@ tags:
 ---
 
 <p>
-  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
       <img src="/images/works/sunderban_16/25_lesser_whistling_couple.jpg" alt="Lesser Whistling Duck Couple" data-caption="Lesser Whistling Duck Couple">
       <img src="/images/works/sunderban_16/23_pied_kingfisher.jpg" alt="Pied Kingfisher" data-caption="Pied Kingfisher">
       <img src="/images/works/sunderban_16/22_cormorant.jpg" alt="Cormorant" data-caption="Cormorant">

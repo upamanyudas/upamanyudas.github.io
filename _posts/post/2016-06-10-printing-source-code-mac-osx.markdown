@@ -24,7 +24,7 @@ But, to my rescue, I recently discovered this nice program called [enscript](htt
 In Mac OS X it can be installed using brew:
 
 <pre>
-<code>brew install enscript</code>
+<code class="language-powershell">brew install enscript</code>
 </pre>
 
 So, here is a good example using encsript :

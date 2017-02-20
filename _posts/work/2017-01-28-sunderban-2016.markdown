@@ -19,31 +19,31 @@ tags:
 
 <p>
   <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
-      <img src="/images/works/sunderban_16/25_lesser_whistling_couple.jpg" alt="Lesser Whistling Duck Couple" data-caption="Lesser Whistling Duck Couple">
-      <img src="/images/works/sunderban_16/23_pied_kingfisher.jpg" alt="Pied Kingfisher" data-caption="Pied Kingfisher">
-      <img src="/images/works/sunderban_16/22_cormorant.jpg" alt="Cormorant" data-caption="Cormorant">
-      <img src="/images/works/sunderban_16/021_brown_winged_kingfisher_flight.jpg" alt="Brown Winged Kingfisher - In flight" data-caption="Brown Winged Kingfisher - In flight">
-      <img src="/images/works/sunderban_16/020_lesser_whistling_ducks.jpg" alt="Lesser Whistling Duck" data-caption="Lesser Whistling Duck">
-      <img src="/images/works/sunderban_16/019_larger_crocodile.jpg" alt="Larger Crocodile" data-caption="Larger Crocodile">
-      <img src="/images/works/sunderban_16/018_black_capped_kingfisher_take_off.jpg" alt="Black Capped Kingfisher - Takeoff" data-caption="Black Capped Kingfisher - Takeoff">
-      <img src="/images/works/sunderban_16/017_little_egret.jpg" alt="Little Egret" data-caption="Little Egret">
-      <img src="/images/works/sunderban_16/016_brown_winged_kingfisher.jpg" alt="Brown Winged Kingfisher" data-caption="Brown Winged Kingfisher">
-      <img src="/images/works/sunderban_16/015_tiger_pugmarks.jpg" alt="Tiger Pugmarks" data-caption="Tiger Pugmarks">
-      <img src="/images/works/sunderban_16/014_spotted_deer_fawn.jpg" alt="Spotted Deer (Fawn)" data-caption="Spotted Deer (Fawn)">
-      <img src="/images/works/sunderban_16/014_red_junglefowl.jpg" alt="Red Junglefowl" data-caption="Red Junglefowl">
-      <img src="/images/works/sunderban_16/013_brahmini_kite.jpg" alt="Brahminy Kite" data-caption="Brahminy Kite">
-      <img src="/images/works/sunderban_16/012_spotted_deer.jpg" alt="Spotted Deer" data-caption="Spotted Deer">
-      <img src="/images/works/sunderban_16/011_crested_serpent_eagle.jpg" alt="Crested Serpent Eagle" data-caption="Crested Serpent Eagle">
-      <img src="/images/works/sunderban_16/010_grey_headed_lapwing.jpg" alt="Grey Headed Lapwing" data-caption="Grey Headed Lapwing">
-      <img src="/images/works/sunderban_16/009_common_kingfisher.jpg" alt="Common Kingfisher" data-caption="Common Kingfisher">
-      <img src="/images/works/sunderban_16/008_great_egret.jpg" alt="Great Egret" data-caption="Great Egret">
-      <img src="/images/works/sunderban_16/007_common_lapwing.jpg" alt="Common Redshank" data-caption="Common Redshank">
-      <img src="/images/works/sunderban_16/006_jungle_cat.jpg" alt="Jungle Cat" data-caption="Jungle Cat">
-      <img src="/images/works/sunderban_16/005_collared_kingfisher.jpg" alt="Collared Kingfisher" data-caption="Collared Kingfisher">
-      <img src="/images/works/sunderban_16/004_black_capped_kingfisher.jpg" alt="Black Capped Kingfisher" data-caption="Black Capped Kingfisher">
-      <img src="/images/works/sunderban_16/003_spotted_deer.jpg" alt="Spotted Deer" data-caption="Spotted Deer">
-      <img src="/images/works/sunderban_16/002_crocodile.jpg" alt="Crocodile" data-caption="Crocodile">
       <img src="/images/works/sunderban_16/001_green_bee_eater.jpg" alt="Green Bee Eater" data-caption="Green Bee Eater">
+      <img src="/images/works/sunderban_16/002_crocodile.jpg" alt="Crocodile" data-caption="Crocodile">
+      <img src="/images/works/sunderban_16/003_spotted_deer.jpg" alt="Spotted Deer" data-caption="Spotted Deer">
+      <img src="/images/works/sunderban_16/004_black_capped_kingfisher.jpg" alt="Black Capped Kingfisher" data-caption="Black Capped Kingfisher">
+      <img src="/images/works/sunderban_16/005_collared_kingfisher.jpg" alt="Collared Kingfisher" data-caption="Collared Kingfisher">
+      <img src="/images/works/sunderban_16/006_jungle_cat.jpg" alt="Jungle Cat" data-caption="Jungle Cat">
+      <img src="/images/works/sunderban_16/007_common_lapwing.jpg" alt="Common Redshank" data-caption="Common Redshank">
+      <img src="/images/works/sunderban_16/008_great_egret.jpg" alt="Great Egret" data-caption="Great Egret">
+      <img src="/images/works/sunderban_16/009_common_kingfisher.jpg" alt="Common Kingfisher" data-caption="Common Kingfisher">
+      <img src="/images/works/sunderban_16/010_grey_headed_lapwing.jpg" alt="Grey Headed Lapwing" data-caption="Grey Headed Lapwing">
+      <img src="/images/works/sunderban_16/011_crested_serpent_eagle.jpg" alt="Crested Serpent Eagle" data-caption="Crested Serpent Eagle">
+      <img src="/images/works/sunderban_16/012_spotted_deer.jpg" alt="Spotted Deer" data-caption="Spotted Deer">
+      <img src="/images/works/sunderban_16/013_brahmini_kite.jpg" alt="Brahminy Kite" data-caption="Brahminy Kite">
+      <img src="/images/works/sunderban_16/014_red_junglefowl.jpg" alt="Red Junglefowl" data-caption="Red Junglefowl">
+      <img src="/images/works/sunderban_16/014_spotted_deer_fawn.jpg" alt="Spotted Deer (Fawn)" data-caption="Spotted Deer (Fawn)">
+      <img src="/images/works/sunderban_16/015_tiger_pugmarks.jpg" alt="Tiger Pugmarks" data-caption="Tiger Pugmarks">
+      <img src="/images/works/sunderban_16/016_brown_winged_kingfisher.jpg" alt="Brown Winged Kingfisher" data-caption="Brown Winged Kingfisher">
+      <img src="/images/works/sunderban_16/017_little_egret.jpg" alt="Little Egret" data-caption="Little Egret">
+      <img src="/images/works/sunderban_16/018_black_capped_kingfisher_take_off.jpg" alt="Black Capped Kingfisher - Takeoff" data-caption="Black Capped Kingfisher - Takeoff">
+      <img src="/images/works/sunderban_16/019_larger_crocodile.jpg" alt="Larger Crocodile" data-caption="Larger Crocodile">
+      <img src="/images/works/sunderban_16/020_lesser_whistling_ducks.jpg" alt="Lesser Whistling Duck" data-caption="Lesser Whistling Duck">
+      <img src="/images/works/sunderban_16/021_brown_winged_kingfisher_flight.jpg" alt="Brown Winged Kingfisher - In flight" data-caption="Brown Winged Kingfisher - In flight">
+      <img src="/images/works/sunderban_16/022_cormorant.jpg" alt="Cormorant" data-caption="Cormorant">
+      <img src="/images/works/sunderban_16/023_pied_kingfisher.jpg" alt="Pied Kingfisher" data-caption="Pied Kingfisher">
+      <img src="/images/works/sunderban_16/025_lesser_whistling_couple.jpg" alt="Lesser Whistling Duck Couple" data-caption="Lesser Whistling Duck Couple">
   </div>
 </p>
 
@@ -58,15 +58,22 @@ The following day, we left early at 6AM, and this was the day we spotted many mo
 Our team contained 3 experienced and 2 non experienced photographers, along with our very experienced guides. Following are some photographs of our team.
 
 <figure>
-  <img src="/images/works/sunderban_16/26_photography_team.jpg" alt="Photographers">
+  <img src="/images/works/sunderban_16/026_photography_team.jpg" alt="Photographers">
   <figcaption>Photographers</figcaption>
+</figure>
+
+Along with some good jungle photographs, we also tried our hand at creating a star trail. Though the result was not quite acceptable, but still putting on the image.
+
+<figure>
+  <img src="/images/works/sunderban_16/028_star_trail.jpg" alt="Star Trail at Sunderban">
+  <figcaption>Star Trail at Sunderban</figcaption>
 </figure>
 
 We ended our trip wih a final team groupfie. Though it was a small trip, the experience was powerful enough to ingite a love for wildlife in me. I've already booked a trip to Bandhavgarh with [GoingWild](http://goingwild.in/) in May 2017. Hope I sight some tigers there.
 
 <figure>
-  <img src="/images/works/sunderban_16/27_team.jpg" alt="Team">
+  <img src="/images/works/sunderban_16/027_team.jpg" alt="Team">
   <figcaption>final Groupfie</figcaption>
 </figure>
 
-Cheers!27_team
+Cheers!

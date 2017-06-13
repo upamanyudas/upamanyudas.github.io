@@ -1,0 +1,24 @@
+---
+layout: work
+title: "World Book Day 2017"
+date: 2017-04-23 08:30
+comments: true
+categories: works
+published: true
+thumb: world_book_day_2017.jpg
+image: world_book_day_2017.jpg
+medium: digital
+class: design illustration
+permalink: /works/:year/:title
+comments: true
+tags:
+- illustration
+---
+<p>
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="false" data-loop="true">
+      <img src="/images/works/world_book_day_2017.jpg" alt="World Book Day">
+  </div>
+</p>
+
+Hey, all the bookworms out there! Happy World Book Day.
+Dovour!

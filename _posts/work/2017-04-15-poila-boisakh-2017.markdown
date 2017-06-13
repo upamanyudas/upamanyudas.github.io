@@ -1,0 +1,23 @@
+---
+layout: work
+title: "Poila Boisakh 2017"
+date: 2017-04-15 08:30
+comments: true
+categories: works
+published: true
+thumb: poila_boisakh_2017.jpg
+image: poila_boisakh_2017.jpg
+medium: digital
+class: design illustration
+permalink: /works/:year/:title
+comments: true
+tags:
+- illustration
+---
+<p>
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="false" data-loop="true">
+      <img src="/images/works/poila_boisakh_2017.jpg" alt="Poila Boisakh">
+  </div>
+</p>
+
+Today marks the start of the Bengali New Year. Have a great year ahead, folks!

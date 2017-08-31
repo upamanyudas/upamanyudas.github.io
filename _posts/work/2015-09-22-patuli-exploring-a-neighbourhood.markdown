@@ -3,12 +3,12 @@ layout: work
 title: "Exploring a Neighbourhood : Patuli"
 date: 2015-09-22 09:00
 comments: true
-categories: works
+categories: photography
 published: true
 thumb: patuli.jpg
 image: patuli/00_cover.jpg
-medium: digital
-class: photography
+place: Kolkata, WB
+class: travel
 permalink: /works/:year/:title
 comments: true
 tags:

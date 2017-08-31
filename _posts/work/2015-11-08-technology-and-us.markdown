@@ -3,12 +3,12 @@ layout: work
 title: "Technology and Us"
 date: 2015-10-17 13:00
 comments: true
-categories: works
+categories: photography
 published: true
 thumb: technology_and_us.jpg
 image: technology_and_us/00_cover.jpg
-medium: digital
-class: photography
+place: Kolkata, WB
+class: other
 permalink: /works/:year/:title
 comments: true
 tags:

@@ -16,27 +16,26 @@ title: Works
         <li><a href="#">design</a></li>
         <li><a href="#">ui/ux</a></li>
         <li><a href="#">typography</a></li>
-        <li><a href="#">photography</a></li>
     </ul>
 
     <ul class="projects-list clearfix" id="portfolio">
 
         {% for post in site.categories.works %}
-
-        <li class="{{ post.class }}">
-            <a href="{{ post.url }}">
-                <img src="/images/works/-thumbs/{{ post.thumb }}" alt="{{ post.url }}" />
-                <div class="caption">
-                    <div>
-                        <h4>{{ post.title }}</h4>
-                        <span>Medium: {{ post.medium }}</span>
-                        &bull;
-                        <span><time datetime="{{ post.date }}" pubdate>{{ post.date | date_to_string }}</time></span>
-                    </div>
-                </div>
-            </a>
-        </li>
-
+            
+                <li class="{{ post.class }}">
+                    <a href="{{ post.url }}">
+                        <img src="/images/works/-thumbs/{{ post.thumb }}" alt="{{ post.url }}" />
+                        <div class="caption">
+                            <div>
+                                <h4>{{ post.title }}</h4>
+                                <span>Medium: {{ post.medium }}</span>
+                                &bull;
+                                <span><time datetime="{{ post.date }}" pubdate>{{ post.date | date_to_string }}</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
         {% endfor %}
 
     </ul>

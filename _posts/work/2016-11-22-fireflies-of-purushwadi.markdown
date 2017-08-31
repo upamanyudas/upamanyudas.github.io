@@ -3,12 +3,12 @@ layout: work
 title: "The Fireflies of Purushwadi"
 date: 2016-11-22 9:00
 comments: true
-categories: works
+categories: photography
 published: true
 thumb: purushwadi_fireflies.jpg
 image: purushwadi_fireflies/00_cover.jpg
-medium: digital
-class: photography
+place: Purushwadi, MH
+class: travel wildlife
 permalink: /works/:year/:title
 comments: true
 tags:

@@ -3,12 +3,12 @@ layout: work
 title: "Washed Away"
 date: 2015-03-01 09:00
 comments: true
-categories: works
+categories: photography
 published: true
 thumb: washed_away.jpg
 image: washed_away/00_cover.jpg
-medium: digital
-class: photography
+place: Ambarnath, MH
+class: other
 permalink: /works/:year/:title
 comments: true
 tags:

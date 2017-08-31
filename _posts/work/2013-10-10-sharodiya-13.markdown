@@ -3,12 +3,12 @@ layout: work
 title: "Sharodiya '13"
 date: 2013-10-10 09:00
 comments: true
-categories: works
+categories: photography
 published: true
 thumb: sharodiya_13.jpg
 image: sharodiya_13/000.jpg
-medium: digital
-class: photography
+place: Kolkata, WB
+class: travel
 permalink: /works/:year/:title
 comments: true
 tags:

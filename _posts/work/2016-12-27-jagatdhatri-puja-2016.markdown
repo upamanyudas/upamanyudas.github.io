@@ -3,12 +3,12 @@ layout: work
 title: Jagadhatri Puja in Bengal
 date: 2016-12-27 9:00
 comments: true
-categories: works
+categories: photography
 published: true
 thumb: jagatdhatri_puja_16.jpg
 image: jagatdhatri_puja_16/00_cover.jpg
-medium: digital
-class: photography
+place: Krishnanagar, WB
+class: travel
 permalink: /works/:year/:title
 comments: true
 tags:

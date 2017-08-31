@@ -1,0 +1,26 @@
+---
+layout: work
+title: "Foodr App Concept"
+date: 2017-06-21 09:00
+comments: true
+categories: works
+published: true
+thumb: foodr.jpg
+image: foodr/001 intro.jpg
+medium: digital
+class: ui/ux
+permalink: /works/:year/:title
+comments: true
+tags:
+- Mobile
+- UI
+---
+
+<img src="/images/works/foodr/001_intro.jpg" alt="mockup">
+<img src="/images/works/foodr/003_ideation.jpg" alt="mockup">
+<img src="/images/works/foodr/004_implementation.jpg" alt="mockup">
+<img src="/images/works/foodr/005_main_screen.gif" alt="mockup">
+<img src="/images/works/foodr/006_select_ingredients.gif" alt="mockup">
+<img src="/images/works/foodr/007_smart_search.gif" alt="mockup">
+<img src="/images/works/foodr/009_many_screens.jpg" alt="mockup">
+<img src="/images/works/foodr/010_thank_you.jpg" alt="mockup">

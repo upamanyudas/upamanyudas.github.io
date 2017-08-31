@@ -3,12 +3,12 @@ layout: work
 title: "Zoo Protraits"
 date: 2015-09-27 10:01
 comments: true
-categories: works
+categories: photography
 published: true
 thumb: zoo_portraits.jpg
 image: zoo_portraits/00_cover.jpg
-medium: digital
-class: photography
+place: Alipore Zoo, WB
+class: wildlife
 permalink: /works/:year/:title
 comments: true
 tags:

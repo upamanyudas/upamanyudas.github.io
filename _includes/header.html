@@ -53,12 +53,13 @@
             </nav>
             {% endif %}
 	        <nav id="main-nav" role="navigation">
-				<a href="/about/" class="{% if page.url == '/about/index.html' %}selected{% endif %}">About</a>
-                <a href="/blog/" class="{% if page.url == '/blog/index.html' or page.categories contains 'blog' %}selected{% endif %}">Blog</a>
-                <a href="/works/" class="{% if page.url == '/works/index.html' or page.categories contains 'works' %}selected{% endif %}">Works</a>
-                <a href="/projects/" class="{% if page.url == '/projects/index.html' %}selected{% endif %}">Projects</a>
-				<a href="/setup/" class="{% if page.url == '/setup/index.html' %}selected{% endif %}">Setup</a>
-				<a href="/contact/" class="{% if page.url == '/contact/index.html' %}selected{% endif %}">Contact</a>
+                <a href="/blog/" class="{% if page.url == '/blog/' or page.categories contains 'blog' %}selected{% endif %}">Blog</a>
+                <a href="/works/" class="{% if page.url == '/works/' or page.categories contains 'works' %}selected{% endif %}">Works</a>
+                <a href="/works/photography/" class="{% if page.url == '/works/photography/' or page.categories contains 'photography' %}selected{% endif %}">Photography</a>
+                <a href="/projects/" class="{% if page.url == '/projects/' %}selected{% endif %}">Projects</a>
+				<a href="/setup/" class="{% if page.url == '/setup/' %}selected{% endif %}">Setup</a>
+                <a href="/about/" class="{% if page.url == '/about/' %}selected{% endif %}">About</a>
+				<a href="/contact/" class="{% if page.url == '/contact/' %}selected{% endif %}">Contact</a>
 			</nav>
 
 		</div>

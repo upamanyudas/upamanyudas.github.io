@@ -3,12 +3,12 @@ layout: work
 title: Sunderban Trip 2016
 date: 2017-01-30 09:00
 comments: true
-categories: works
+categories: photography
 published: true
 thumb: sunderban_16.jpg
 image: sunderban_16/00_cover.jpg
-medium: digital
-class: photography
+place: Sunderbans, WB
+class: wildlife
 permalink: /works/:year/:title
 comments: true
 tags:

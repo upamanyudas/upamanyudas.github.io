@@ -3,12 +3,12 @@ layout: work
 title: "Dhuno Pora in West Bengal"
 date: 2015-11-22 09:00
 comments: true
-categories: works
+categories: photography
 published: true
 thumb: dhuno_pora.jpg
 image: dhuno_pora/00_cover_dhuno_pora.jpg
-medium: digital
-class: photography
+place: Krishnanagar, WB
+class: travel
 permalink: /works/:year/:title
 comments: true
 tags:

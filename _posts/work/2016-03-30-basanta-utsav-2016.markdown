@@ -3,12 +3,12 @@ layout: work
 title: "Basanta Utsav 2016"
 date: 2016-03-30 08:00
 comments: true
-categories: works
+categories: photography
 published: true
 thumb: basanta_utsav_2016.jpg
 image: basanta_utsav_2016/000.jpg
 medium: digital
-class: photography
+place: Shantiniketan, WB
 permalink: /works/:year/:title
 comments: true
 tags:

@@ -17,7 +17,7 @@ googleplus_hidden: false
 
 google_analytics_tracking_id: UA-39534503-2
 
-highlighter: pygments
+highlighter: rouge
 
 paginate: 5
 # Gems

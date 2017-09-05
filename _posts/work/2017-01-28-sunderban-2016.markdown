@@ -18,7 +18,7 @@ tags:
 ---
 
 <p>
-  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native" data-nav="thumbs">
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native" data-nav="thumbs" data-fit="cover">
       <img src="/images/works/sunderban_16/001_green_bee_eater.jpg" alt="Green Bee Eater" data-caption="Green Bee Eater">
       <img src="/images/works/sunderban_16/002_crocodile.jpg" alt="Crocodile" data-caption="Crocodile">
       <img src="/images/works/sunderban_16/003_spotted_deer.jpg" alt="Spotted Deer" data-caption="Spotted Deer">

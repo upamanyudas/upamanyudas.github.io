@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 5 Reasons Why I Left Photoshop for Sketch
-date: 2018-06-24 09:00
+date: 2019-06-24 09:00
 comments: true
 categories: blog
 published: true

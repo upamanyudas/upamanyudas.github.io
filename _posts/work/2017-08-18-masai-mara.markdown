@@ -16,6 +16,14 @@ tags:
 - africa
 - wildlife
 image:
+- /images/works/masai_mara/026_serval_cat_portrait.jpg
+- /images/works/masai_mara/025_serval_cat_profile.jpg
+- /images/works/masai_mara/024_serval_cat_back.jpg
+- /images/works/masai_mara/023_green_bee_eater_pair.jpg
+- /images/works/masai_mara/022_gree_bee_eater.jpg
+- /images/works/masai_mara/021_lion_walking_into_grass.jpg
+- /images/works/masai_mara/020_lion_on_tree_2.jpg
+- /images/works/masai_mara/019_lion_on_tree.jpg
 - /images/works/masai_mara/018_olive_baboon.jpg
 - /images/works/masai_mara/017_african_elephant.jpg
 - /images/works/masai_mara/016_nile_crocodile.jpg
@@ -35,6 +43,14 @@ image:
 - /images/works/masai_mara/002_impala.jpg
 - /images/works/masai_mara/001_grazing_zebras.jpg
 image-alt:
+- Serval Cat
+- Serval Cat (Side Profile)
+- Serval Cat (Back)
+- Green Bee Eater (Pair)
+- Green Bee Eater
+- Lioness walking away into the Savannah
+- Lioness on a Small Tree (Closeup)
+- Lioness on a Small Tree
 - Olive Baboon
 - African Elefant
 - Nile Crocodile
@@ -54,6 +70,14 @@ image-alt:
 - Impala
 - Grazing Zebas
 image-caption:
+- Serval Cat
+- Serval Cat (Side Profile)
+- Serval Cat (Back)
+- Green Bee Eater (Pair)
+- Green Bee Eater
+- Lioness walking away into the Savannah
+- Lioness on a Small Tree (Closeup)
+- Lioness on a Small Tree
 - Olive Baboon
 - African Elefant
 - Nile Crocodile

@@ -1,0 +1,92 @@
+---
+layout: photograph
+title: "Sharodiya '17"
+date: 2017-09-26 21:00
+comments: true
+categories: photography
+published: true
+thumb: sharodiya_17.jpg
+image: sharodiya_17/000.jpg
+place: Kolkata, WB
+class: travel
+permalink: /works/:year/:title
+comments: true
+tags:
+- durga puja
+- photography
+- kolkata
+image:
+- /images/works/sharodiya_17/019_bagbazaar.jpg
+- /images/works/sharodiya_17/018_kumartuli_park.jpg
+- /images/works/sharodiya_17/017_ahiritola_jubak_brinda.jpg
+- /images/works/sharodiya_17/016_ahiritola.jpg
+- /images/works/sharodiya_17/015_ahiritola_pandal.jpg
+- /images/works/sharodiya_17/014_jagat_mukherjee_park.jpg
+- /images/works/sharodiya_17/013_santosh_mitra_square.jpg
+- /images/works/sharodiya_17/012_chaltabagan.jpg
+- /images/works/sharodiya_17/011_kashi_bose_lane.jpg
+- /images/works/sharodiya_17/010_kashi_bose_lane_pandal.jpg
+- /images/works/sharodiya_17/009_hatibagan_sarbojanin.jpg
+- /images/works/sharodiya_17/008_hatibagan_nabin_pally.jpg
+- /images/works/sharodiya_17/007_nalin_sarkar_street.jpg
+- /images/works/sharodiya_17/006_nalin_sarkar_street_pandal.jpg
+- /images/works/sharodiya_17/006_halsibagan.jpg
+- /images/works/sharodiya_17/005_lalabagan_nabankur.jpg
+- /images/works/sharodiya_17/004_lalabagan_sarbojanin.jpg
+- /images/works/sharodiya_17/003_kankurgachi_jubakbrinda.jpg
+- /images/works/sharodiya_17/002_mitali_sangha.jpg
+- /images/works/sharodiya_17/001_swapnar_bagan_jubakbrinda.jpg
+- /images/works/sharodiya_17/000_cover.jpg
+image-alt:
+- Bagbazaar
+- Kumartuli Park
+- Ahiritola Jubak Brinda
+- Ahiritola
+- Ahiritola, Interiors
+- Jagat Mukherjee Park
+- Santosh Mitra Square
+- Chaltabagan
+- Kashi Bose Lane
+- Kashi Bose Lane, Interiors
+- Hatibagan Sarbajanin
+- Hatibagan Nabin Pally
+- Nalin Sarkar Street
+- Nalin Sarkar Street, Interiors
+- Halsibagan
+- Lalabagan Nabankur
+- Lalabagan Sorbojonin
+- Kankurgachi Jubakbrinda
+- Mitali Sangha
+- Swapnar Bagan Jubakbrinda
+- Identity 2017
+image-caption:
+- Bagbazaar
+- Kumartuli Park
+- Ahiritola Jubak Brinda
+- Ahiritola
+- Ahiritola, Interiors
+- Jagat Mukherjee Park
+- Santosh Mitra Square
+- Chaltabagan
+- Kashi Bose Lane
+- Kashi Bose Lane, Interiors
+- Hatibagan Sarbajanin
+- Hatibagan Nabin Pally
+- Nalin Sarkar Street
+- Nalin Sarkar Street, Interiors
+- Halsibagan
+- Lalabagan Nabankur
+- Lalabagan Sorbojonin
+- Kankurgachi Jubakbrinda
+- Mitali Sangha
+- Swapnar Bagan Jubakbrinda
+- Identity 2017
+---
+
+After three Durga Puja photograph series : [2013](http://upamanyu.in/works/2013/sharodiya-13/), [2015](http://upamanyu.in/works/2015/sharodiya-15/)  & [2016](http://upamanyu.in/works/2016/sharodiya-16) this is the fourth. A series photographing Durga idols of Kolkata and suburbs.
+
+Durga Puja, also called Durgotsava and Navaratri, is an annual Hindu festival in the Indian subcontinent that reveres the goddess Durga.
+
+The cover photograph is by [Rajesh Gupta](https://www.flickr.com/photos/lensocrat/)
+
+A similar gallery is also available at <a href="" target="_blank">Facebook</a>

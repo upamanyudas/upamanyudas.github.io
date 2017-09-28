@@ -16,6 +16,12 @@ tags:
 - photography
 - kolkata
 image:
+- /images/works/sharodiya_17/026_kendua_shanti_sangha.jpg
+- /images/works/sharodiya_17/025_yatra_shuru_sangha.jpg
+- /images/works/sharodiya_17/024_milan_sangha.jpg
+- /images/works/sharodiya_17/023_naktala_arabindo_sangha.jpg
+- /images/works/sharodiya_17/021_naktala_udayan_sangha.jpg
+- /images/works/sharodiya_17/020_patuli_sporting_club.jpg
 - /images/works/sharodiya_17/019_bagbazaar.jpg
 - /images/works/sharodiya_17/018_kumartuli_park.jpg
 - /images/works/sharodiya_17/017_ahiritola_jubak_brinda.jpg
@@ -38,6 +44,12 @@ image:
 - /images/works/sharodiya_17/001_swapnar_bagan_jubakbrinda.jpg
 - /images/works/sharodiya_17/000_cover.jpg
 image-alt:
+- Kendua Shanti Sangha
+- Jatra Suru Sangha
+- Mitali Sangha
+- Naktala Arabindo Sangha
+- Naktala Udayan Sangha
+- Patuli Central Club
 - Bagbazaar
 - Kumartuli Park
 - Ahiritola Jubak Brinda
@@ -60,6 +72,12 @@ image-alt:
 - Swapnar Bagan Jubakbrinda
 - Identity 2017
 image-caption:
+- Kendua Shanti Sangha
+- Jatra Suru Sangha
+- Mitali Sangha
+- Naktala Arabindo Sangha
+- Naktala Udayan Sangha
+- Patuli Central Club
 - Bagbazaar
 - Kumartuli Park
 - Ahiritola Jubak Brinda

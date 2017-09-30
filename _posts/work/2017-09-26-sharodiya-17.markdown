@@ -16,6 +16,16 @@ tags:
 - photography
 - kolkata
 image:
+- /images/works/sharodiya_17/036_chatubabu_latubabu.jpg
+- /images/works/sharodiya_17/035_dorjipara_mitra_bari.jpg
+- /images/works/sharodiya_17/034_shobhabazaar_rajbati_2.jpg
+- /images/works/sharodiya_17/033_shobhabazaar_rajbati.jpg
+- /images/works/sharodiya_17/032_thanthania_dutta_bari.jpg
+- /images/works/sharodiya_17/031_laha_family_bhog.jpg
+- /images/works/sharodiya_17/030_laha_family.jpg
+- /images/works/sharodiya_17/029_chandra_family.jpg
+- /images/works/sharodiya_17/028_rani_rashmoni_2.jpg
+- /images/works/sharodiya_17/027_rani_rashmoni.jpg
 - /images/works/sharodiya_17/026_kendua_shanti_sangha.jpg
 - /images/works/sharodiya_17/025_yatra_shuru_sangha.jpg
 - /images/works/sharodiya_17/024_milan_sangha.jpg
@@ -44,6 +54,16 @@ image:
 - /images/works/sharodiya_17/001_swapnar_bagan_jubakbrinda.jpg
 - /images/works/sharodiya_17/000_cover.jpg
 image-alt:
+- Chatubabu Latubabu's Family Puja
+- Mitra Family's Puja
+- Shobhabajar Rajbati, Interiors
+- Shobhabajar Rajbati
+- Thanthania Dutta Bari
+- Laha Family's Puja, The Food for Offering
+- Laha Family's Puja
+- Chandra Family's Puja
+- Rani Rashmoni's Daughter's Family Puja
+- Rani Rashmoni's Family Puja
 - Kendua Shanti Sangha
 - Jatra Suru Sangha
 - Mitali Sangha
@@ -72,6 +92,16 @@ image-alt:
 - Swapnar Bagan Jubakbrinda
 - Identity 2017
 image-caption:
+- Chatubabu Latubabu's Family Puja
+- Mitra Family's Puja
+- Shobhabajar Rajbati, Interiors
+- Shobhabajar Rajbati
+- Thanthania Dutta Bari
+- Laha Family's Puja, The Food for Offering
+- Laha Family's Puja
+- Chandra Family's Puja
+- Rani Rashmoni's Daughter's Family Puja
+- Rani Rashmoni's Family Puja
 - Kendua Shanti Sangha
 - Jatra Suru Sangha
 - Mitali Sangha
@@ -107,4 +137,4 @@ Durga Puja, also called Durgotsava and Navaratri, is an annual Hindu festival in
 
 The cover photograph is by [Rajesh Gupta](https://www.flickr.com/photos/lensocrat/)
 
-A similar gallery is also available at <a href="" target="_blank">Facebook</a>
+A similar gallery is also available at <a href="https://www.facebook.com/media/set/?set=a.1611867438873422.1073741859.100001505433242&type=1&l=86880cf486" target="_blank">Facebook</a>

@@ -16,6 +16,36 @@ tags:
 - photography
 - kolkata
 image:
+- /images/works/sharodiya_17/066_singhi_park.jpg
+- /images/works/sharodiya_17/065_hindusthan_park.jpg
+- /images/works/sharodiya_17/064_samajsebi.jpg
+- /images/works/sharodiya_17/063_samajsebi_exteriors.jpg
+- /images/works/sharodiya_17/062_ballygunge_cultural.jpg
+- /images/works/sharodiya_17/061_tridhara_akalbodhan.jpg
+- /images/works/sharodiya_17/060_tridhara_akalbodhan_interiors.jpg
+- /images/works/sharodiya_17/059_badamtala_asharh_sangha.jpg
+- /images/works/sharodiya_17/058_66_pally.jpg
+- /images/works/sharodiya_17/057_66_pally_interiors.jpg
+- /images/works/sharodiya_17/056_nepal_bhattacharjee_street.jpg
+- /images/works/sharodiya_17/055_chetla_agrani.jpg
+- /images/works/sharodiya_17/054_chetla_agrani_nataraj.jpg
+- /images/works/sharodiya_17/053_chetla_agrani_interiors.jpg
+- /images/works/sharodiya_17/052_mudiali.jpg
+- /images/works/sharodiya_17/051_mudiali_interiors.jpg
+- /images/works/sharodiya_17/050_lake_youth_corner.jpg
+- /images/works/sharodiya_17/049_shibmandir.jpg
+- /images/works/sharodiya_17/048_shibmandir_interiors.jpg
+- /images/works/sharodiya_17/047_selimpur_pally.jpg
+- /images/works/sharodiya_17/046_selimpur_pally_interiors.jpg
+- /images/works/sharodiya_17/045_babubagan.jpg
+- /images/works/sharodiya_17/044_babubagan_interiors.jpg
+- /images/works/sharodiya_17/043_bandhab_sammelani.jpg
+- /images/works/sharodiya_17/042_95_pally_2.jpg
+- /images/works/sharodiya_17/041_95_pally.jpg
+- /images/works/sharodiya_17/040_95_pally_interiors.jpg
+- /images/works/sharodiya_17/039_jodhpur_park.jpg
+- /images/works/sharodiya_17/038_jodhpur_park_interiors.jpg
+- /images/works/sharodiya_17/037_pallimangal.jpg
 - /images/works/sharodiya_17/036_chatubabu_latubabu.jpg
 - /images/works/sharodiya_17/035_dorjipara_mitra_bari.jpg
 - /images/works/sharodiya_17/034_shobhabazaar_rajbati_2.jpg
@@ -54,6 +84,36 @@ image:
 - /images/works/sharodiya_17/001_swapnar_bagan_jubakbrinda.jpg
 - /images/works/sharodiya_17/000_cover.jpg
 image-alt:
+- Singhi Park
+- Hindustan Park
+- Samaj Sebi
+- Samaj Sebi Exteriors
+- Ballygunge Cultural
+- Tridhara Akalbodhan
+- Tridhara Akalbodhan Interiors
+- Badamtala Asharh Sangha
+- 66 Pally
+- 66 Pally Intetiors
+- Nepal Bhattacharjee Street
+- Chetla Agrani
+- Chetla Agrani, Nataraj
+- Chetla Agrani Interiors
+- Mudiali
+- Mudiali Interiors
+- Lake Youth Corner
+- Shibmandir
+- Shibmandir Interiors
+- Selimpur Pally
+- Selimpur Pally Interiors
+- Babubagan
+- Babubagan Interiors
+- Bandhab Sammelani
+- 95 Pally Idol, Bottom View
+- 95 Pally
+- 95 Pally Interiors
+- Jodhpur Park
+- Jodhpur Park Interiors
+- Pallimangal
 - Chatubabu Latubabu's Family Puja
 - Mitra Family's Puja
 - Shobhabajar Rajbati, Interiors
@@ -92,6 +152,36 @@ image-alt:
 - Swapnar Bagan Jubakbrinda
 - Identity 2017
 image-caption:
+- Singhi Park
+- Hindustan Park
+- Samaj Sebi
+- Samaj Sebi Exteriors
+- Ballygunge Cultural
+- Tridhara Akalbodhan
+- Tridhara Akalbodhan Interiors
+- Badamtala Asharh Sangha
+- 66 Pally
+- 66 Pally Intetiors
+- Nepal Bhattacharjee Street
+- Chetla Agrani
+- Chetla Agrani, Nataraj
+- Chetla Agrani Interiors
+- Mudiali
+- Mudiali Interiors
+- Lake Youth Corner
+- Shibmandir
+- Shibmandir Interiors
+- Selimpur Pally
+- Selimpur Pally Interiors
+- Babubagan
+- Babubagan Interiors
+- Bandhab Sammelani
+- 95 Pally Idol, Bottom View
+- 95 Pally
+- 95 Pally Interiors
+- Jodhpur Park
+- Jodhpur Park Interiors
+- Pallimangal
 - Chatubabu Latubabu's Family Puja
 - Mitra Family's Puja
 - Shobhabajar Rajbati, Interiors
@@ -131,9 +221,14 @@ image-caption:
 - Identity 2017
 ---
 
-After three Durga Puja photograph series : [2013](http://upamanyu.in/works/2013/sharodiya-13/), [2015](http://upamanyu.in/works/2015/sharodiya-15/)  & [2016](http://upamanyu.in/works/2016/sharodiya-16) this is the fourth. A series photographing Durga idols of Kolkata and suburbs.
+After three Durga Puja photograph series : [2013](http://upamanyu.in/works/2013/sharodiya-13/), [2015](http://upamanyu.in/works/2015/sharodiya-15/)  & [2016](http://upamanyu.in/works/2016/sharodiya-16) this is the fourth. A series photographing Durga idols of Kolkata and suburbs. Durga Puja, also called Durgotsava and Navaratri, is an annual Hindu festival in the Indian subcontinent that reveres the goddess Durga.
 
-Durga Puja, also called Durgotsava and Navaratri, is an annual Hindu festival in the Indian subcontinent that reveres the goddess Durga.
+Since videos could not be included in the gallery, following is a video of Naktal Udayan Sangha's Idol. They brought in a somewhat new concept of dynamic dressing of the idol.
+
+<video width="1050" controls>
+  <source src="/images/works/sharodiya_17/022_naktala_udayan_sangha_video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
 
 The cover photograph is by [Rajesh Gupta](https://www.flickr.com/photos/lensocrat/)
 

@@ -16,6 +16,7 @@ tags:
 - africa
 - wildlife
 image:
+- /images/works/masai_mara/027_secretary_bird.jpg
 - /images/works/masai_mara/026_serval_cat_portrait.jpg
 - /images/works/masai_mara/025_serval_cat_profile.jpg
 - /images/works/masai_mara/024_serval_cat_back.jpg
@@ -43,6 +44,7 @@ image:
 - /images/works/masai_mara/002_impala.jpg
 - /images/works/masai_mara/001_grazing_zebras.jpg
 image-alt:
+- Secretary Bird
 - Serval Cat
 - Serval Cat (Side Profile)
 - Serval Cat (Back)
@@ -70,6 +72,7 @@ image-alt:
 - Impala
 - Grazing Zebas
 image-caption:
+- Secretary Bird
 - Serval Cat
 - Serval Cat (Side Profile)
 - Serval Cat (Back)

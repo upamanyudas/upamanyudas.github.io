@@ -16,6 +16,12 @@ tags:
 - africa
 - wildlife
 image:
+- /images/works/masai_mara/033_superb_starling_2.jpg
+- /images/works/masai_mara/032_superb_starling.jpg
+- /images/works/masai_mara/031_southern_ground_hornbill.jpg
+- /images/works/masai_mara/030_cheetah_3.jpg
+- /images/works/masai_mara/029_cheetah_2.jpg
+- /images/works/masai_mara/028_cheetah.jpg
 - /images/works/masai_mara/027_secretary_bird.jpg
 - /images/works/masai_mara/026_serval_cat_portrait.jpg
 - /images/works/masai_mara/025_serval_cat_profile.jpg
@@ -44,6 +50,12 @@ image:
 - /images/works/masai_mara/002_impala.jpg
 - /images/works/masai_mara/001_grazing_zebras.jpg
 image-alt:
+- Superb Starling
+- Superb Starling
+- Southern Ground Hornbill
+- Cheetah (Cuddle)
+- Cheetah (Yawning)
+- Cheetah
 - Secretary Bird
 - Serval Cat
 - Serval Cat (Side Profile)

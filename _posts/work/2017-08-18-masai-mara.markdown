@@ -84,6 +84,12 @@ image-alt:
 - Impala
 - Grazing Zebas
 image-caption:
+- Superb Starling
+- Superb Starling
+- Southern Ground Hornbill
+- Cheetah (Cuddle)
+- Cheetah (Yawning)
+- Cheetah
 - Secretary Bird
 - Serval Cat
 - Serval Cat (Side Profile)

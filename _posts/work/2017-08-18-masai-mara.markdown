@@ -16,6 +16,10 @@ tags:
 - africa
 - wildlife
 image:
+- /images/works/masai_mara/037_lilac_breasted_roller.jpg
+- /images/works/masai_mara/036_common_fiscal_shrike.jpg
+- /images/works/masai_mara/035_hildebrandts_starling.jpg
+- /images/works/masai_mara/034_banded_mongoose.jpg
 - /images/works/masai_mara/033_superb_starling_2.jpg
 - /images/works/masai_mara/032_superb_starling.jpg
 - /images/works/masai_mara/031_southern_ground_hornbill.jpg
@@ -50,6 +54,10 @@ image:
 - /images/works/masai_mara/002_impala.jpg
 - /images/works/masai_mara/001_grazing_zebras.jpg
 image-alt:
+- Lilac-breasted Roller
+- Common Fiscal-Shrike
+- Hildebrandts Starling
+- Banded Mongoose
 - Superb Starling
 - Superb Starling
 - Southern Ground Hornbill
@@ -84,6 +92,10 @@ image-alt:
 - Impala
 - Grazing Zebas
 image-caption:
+- Lilac-breasted Roller
+- Common Fiscal-Shrike
+- Hildebrandts Starling
+- Banded Mongoose
 - Superb Starling
 - Superb Starling
 - Southern Ground Hornbill

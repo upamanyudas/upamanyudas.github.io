@@ -6,7 +6,7 @@ comments: true
 categories: photography
 published: true
 thumb: sunderban_16.jpg
-image: sunderban_16/00_cover.jpg
+cover: sunderban_16/00_cover.jpg
 place: Sunderbans, WB
 class: wildlife
 permalink: /works/:year/:title

@@ -6,7 +6,7 @@ comments: true
 categories: photography
 published: true
 thumb: technology_and_us.jpg
-image: technology_and_us/00_cover.jpg
+cover: technology_and_us/00_cover.jpg
 place: Kolkata, WB
 class: other
 permalink: /works/:year/:title

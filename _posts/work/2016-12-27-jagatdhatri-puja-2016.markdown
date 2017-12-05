@@ -6,7 +6,7 @@ comments: true
 categories: photography
 published: true
 thumb: jagatdhatri_puja_16.jpg
-image: jagatdhatri_puja_16/00_cover.jpg
+cover: jagatdhatri_puja_16/00_cover.jpg
 place: Krishnanagar, WB
 class: travel
 permalink: /works/:year/:title

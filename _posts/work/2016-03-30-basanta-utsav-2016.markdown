@@ -6,7 +6,7 @@ comments: true
 categories: photography
 published: true
 thumb: basanta_utsav_2016.jpg
-image: basanta_utsav_2016/000.jpg
+cover: basanta_utsav_2016/000.jpg
 medium: digital
 place: Shantiniketan, WB
 permalink: /works/:year/:title

@@ -6,7 +6,7 @@ comments: true
 categories: photography
 published: true
 thumb: kanchenjunga_mahananda.jpg
-image: kanchenjunga_mahananda/000_cover.jpg
+cover: kanchenjunga_mahananda/000_cover.jpg
 place: Kanchenjunga NP / Mahananda WLS
 class: wildlife
 permalink: /works/photography/:year/:title

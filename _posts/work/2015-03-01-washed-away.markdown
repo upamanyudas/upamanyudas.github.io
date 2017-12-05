@@ -6,7 +6,7 @@ comments: true
 categories: photography
 published: true
 thumb: washed_away.jpg
-image: washed_away/00_cover.jpg
+cover: washed_away/00_cover.jpg
 place: Ambarnath, MH
 class: other
 permalink: /works/:year/:title

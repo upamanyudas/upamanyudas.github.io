@@ -6,7 +6,7 @@ comments: true
 categories: photography
 published: true
 thumb: patuli.jpg
-image: patuli/00_cover.jpg
+cover: patuli/00_cover.jpg
 place: Kolkata, WB
 class: travel
 permalink: /works/:year/:title

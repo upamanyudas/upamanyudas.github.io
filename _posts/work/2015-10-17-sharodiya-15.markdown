@@ -6,7 +6,7 @@ comments: true
 categories: photography
 published: true
 thumb: sharodiya_15.jpg
-image: sharodiya_15/00_cover.jpg
+cover: sharodiya_15/00_cover.jpg
 place: Kolkata, WB
 class: travel
 permalink: /works/:year/:title

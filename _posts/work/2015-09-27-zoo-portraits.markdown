@@ -6,7 +6,7 @@ comments: true
 categories: photography
 published: true
 thumb: zoo_portraits.jpg
-image: zoo_portraits/00_cover.jpg
+cover: zoo_portraits/00_cover.jpg
 place: Alipore Zoo, WB
 class: wildlife
 permalink: /works/:year/:title

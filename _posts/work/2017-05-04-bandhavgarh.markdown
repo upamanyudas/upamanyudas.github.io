@@ -6,7 +6,7 @@ comments: true
 categories: photography
 published: true
 thumb: bandhavgarh.jpg
-image: bandhavgarh/000_cover.jpg
+cover: bandhavgarh/000_cover.jpg
 place: Beohari, MP
 class: wildlife
 permalink: /works/photography/:year/:title

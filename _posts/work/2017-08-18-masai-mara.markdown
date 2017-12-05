@@ -6,7 +6,7 @@ comments: true
 categories: photography
 published: true
 thumb: masai_mara.jpg
-image: masai_mara/000_cover.jpg
+cover: masai_mara/000_cover.jpg
 place: Masai Mara National Reserve
 class: wildlife
 permalink: /works/photography/:year/:title

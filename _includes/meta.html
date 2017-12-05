@@ -27,10 +27,10 @@
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
   <meta content="{{ site.url }}/about/" property="article:author">
 {% endif %}
-{% if page.image and page.categories contains "photography" or page.categories contains "works" %}
-  <meta content="{{ site.url }}/images/works/{{ page.image }}" property="og:image">
-{% elsif page.image and page.categories contains "blog" %}
-  <meta content="{{ site.url }}/images/posts/{{ page.image }}" property="og:image">
+{% if page.cover and page.categories contains "photography" or page.categories contains "works" %}
+  <meta content="{{ site.url }}/images/works/{{ page.cover }}" property="og:image">
+{% elsif page.cover and page.categories contains "blog" %}
+  <meta content="{{ site.url }}/images/posts/{{ page.cover }}" property="og:image">
 {% else %}
   <meta content="../images/bg.jpg" property="og:image">
 {% endif %}
@@ -64,13 +64,13 @@
 {% else %}
   <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
-{% if page.image and page.categories contains "works" %}
-  <meta name="twitter:image:src" content="{{ site.url }}/images/works/{{ page.image }}">
+{% if page.cover and page.categories contains "works" %}
+  <meta name="twitter:image:src" content="{{ site.url }}/images/works/{{ page.cover }}">
 {% else %}
   <meta name="twitter:image:src" content="{{ site.url }}/images/logo.png">
 {% endif %}
-{% if page.image and page.categories contains "posts" %}
-  <meta name="twitter:image:src" content="{{ site.url }}/images/posts/{{ page.image }}">
+{% if page.cover and page.categories contains "posts" %}
+  <meta name="twitter:image:src" content="{{ site.url }}/images/posts/{{ page.cover }}">
 {% else %}
   <meta name="twitter:image:src" content="{{ site.url }}/images/logo.png">
 {% endif %}

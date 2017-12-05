@@ -6,7 +6,7 @@ comments: true
 categories: photography
 published: true
 thumb: tadoba.jpg
-image: tadoba/000_cover.jpg
+cover: tadoba/000_cover.jpg
 place: Central India
 class: wildlife
 permalink: /works/photography/:year/:title

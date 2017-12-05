@@ -5,6 +5,7 @@ name: Upamanyu Das
 prefix: Upamanyu &bull;
 title: Upamanyu &bull; Portfolio of the graphic designer
 url: http://upamanyu.in
+markdown: kramdown
 host: 0.0.0.0
 oneliner: Founder, Designer at Cloudstudio
 description: Graphic & UI/UX Designer frequenting between Mumbai & Kolkata 

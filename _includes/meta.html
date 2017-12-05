@@ -27,7 +27,7 @@
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
   <meta content="{{ site.url }}/about/" property="article:author">
 {% endif %}
-{% if page.image and page.categories contains "works" %}
+{% if page.image and page.categories contains "photography" or page.categories contains "works" %}
   <meta content="{{ site.url }}/images/works/{{ page.image }}" property="og:image">
 {% elsif page.image and page.categories contains "blog" %}
   <meta content="{{ site.url }}/images/posts/{{ page.image }}" property="og:image">

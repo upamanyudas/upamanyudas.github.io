@@ -16,6 +16,12 @@ tags:
 - africa
 - wildlife
 image:
+- /images/works/masai_mara/042_cape_buffallo.jpg
+- /images/works/masai_mara/041_waterbuck.jpg
+- /images/works/masai_mara/040_leopard.jpg
+- /images/works/masai_mara/039_masai_lion_2.jpg
+- /images/works/masai_mara/039_masai_lion.jpg
+- /images/works/masai_mara/038_cokes_hartebeest.jpg
 - /images/works/masai_mara/037_lilac_breasted_roller.jpg
 - /images/works/masai_mara/036_common_fiscal_shrike.jpg
 - /images/works/masai_mara/035_hildebrandts_starling.jpg
@@ -54,6 +60,12 @@ image:
 - /images/works/masai_mara/002_impala.jpg
 - /images/works/masai_mara/001_grazing_zebras.jpg
 image-alt:
+- Cape Buffalo
+- Waterbuck (Female)
+- Leopard
+- Masai Lion (low-key)
+- Masai Lion
+- Coke's Hartebeest
 - Lilac-breasted Roller
 - Common Fiscal-Shrike
 - Hildebrandts Starling
@@ -92,6 +104,12 @@ image-alt:
 - Impala
 - Grazing Zebas
 image-caption:
+- Cape Buffalo
+- Waterbuck (Female)
+- Leopard
+- Masai Lion (low-key)
+- Masai Lion
+- Coke's Hartebeest
 - Lilac-breasted Roller
 - Common Fiscal-Shrike
 - Hildebrandts Starling

@@ -16,6 +16,9 @@ tags:
 - india
 - wildlife
 image:
+- /images/works/tadoba/010_tiger_leap.jpg
+- /images/works/tadoba/009_sub_adult_tiger.jpg
+- /images/works/tadoba/008_tigress.jpg
 - /images/works/tadoba/007_mongoose.jpg
 - /images/works/tadoba/006_sub_adult_male.jpg
 - /images/works/tadoba/005_dhol.jpg
@@ -24,6 +27,9 @@ image:
 - /images/works/tadoba/002_spotted_deer_stag.jpg
 - /images/works/tadoba/001_gaur_indian_bison.jpg
 image-alt:
+- Leap of Faith
+- Sub-adult Tiger
+- Tigress
 - Ruddy Mongoose
 - Sub-adult Male Tiger
 - Dhol (Indian Wild Dog)
@@ -32,6 +38,9 @@ image-alt:
 - Spotted Deer (Stag)
 - Gaur (Indian Bison)
 image-caption:
+- Leap of Faith
+- Sub-adult Tiger
+- Tigress
 - Ruddy Mongoose
 - Sub-adult Male Tiger
 - Dhol (Indian Wild Dog)

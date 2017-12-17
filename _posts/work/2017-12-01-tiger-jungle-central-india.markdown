@@ -15,8 +15,6 @@ tags:
 - india
 - wildlife
 image:
-- "/uploads/2017/12/17/012_sambar_deer.jpg"
-- "/uploads/2017/12/17/011_maya_tigress.jpg"
 - "/images/works/tadoba/010_tiger_leap.jpg"
 - "/images/works/tadoba/009_sub_adult_tiger.jpg"
 - "/images/works/tadoba/008_tigress.jpg"

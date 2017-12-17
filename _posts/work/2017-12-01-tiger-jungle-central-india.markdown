@@ -15,6 +15,7 @@ tags:
 - india
 - wildlife
 image:
+- "/images/works/tadoba/013_grey_headed_fish_eagle.jpg"
 - "/images/works/tadoba/012_sambar_deer.jpg"
 - "/images/works/tadoba/011_maya_tigress.jpg"
 - "/images/works/tadoba/010_tiger_leap.jpg"
@@ -28,6 +29,7 @@ image:
 - "/images/works/tadoba/002_spotted_deer_stag.jpg"
 - "/images/works/tadoba/001_gaur_indian_bison.jpg"
 image-alt:
+- Grey-headed Fish Eagle
 - Sambar Deer
 - Maya - A Rising Star
 - Leap of Faith
@@ -41,6 +43,7 @@ image-alt:
 - Spotted Deer (Stag)
 - Gaur (Indian Bison)
 image-caption:
+- Grey-headed Fish Eagle
 - Sambar Deer
 - Maya - A Rising Star
 - Leap of Faith

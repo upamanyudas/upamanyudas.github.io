@@ -15,8 +15,8 @@ tags:
 - india
 - wildlife
 image:
-- "/images/works/tadoba/012_sambar_deer.jpg"
-- "/images/works/tadoba/011_maya_tigress.jpg"
+- "/uploads/2017/12/17/012_sambar_deer.jpg"
+- "/uploads/2017/12/17/011_maya_tigress.jpg"
 - "/images/works/tadoba/010_tiger_leap.jpg"
 - "/images/works/tadoba/009_sub_adult_tiger.jpg"
 - "/images/works/tadoba/008_tigress.jpg"
@@ -54,12 +54,18 @@ image-caption:
 - Spotted Deer (Stag)
 - Gaur (Indian Bison)
 ---
-This is my second tour into a Tiger Jungle of Central India. Situated at 283kms from Nagpur, Tadoba Andhari National Park is a blissfull place. Reaching there is preferable by road and takes about 3 hours.
+This is my second tour into a Tiger Jungle of Central India. Situated at 283kms from Nagpur, Tadoba Andhari National Park is a blissful place. Reaching there is preferable by road and takes about 3 hours.
 
-Multiple stay options are available. We stayed at [Jungle Meadows](https://goo.gl/maps/7CE1BNBnbe32){:target="_blank"}. A great place to stay. More so due to its proximity to the Kolara Gate, enabled us to be the first Gypsy to enter the jungle each safari.
+The forest is filled with immense presence of mother nature. The tiger sightings are pretty well as well. In the trip, we were able to spot 13 Tigers in total. 1 adult male 3 adult female 4 sub-adults 5 cubs.
+
+Apart from tigers, the jungle is filled with other mammals and birds. We were lucky to spot the wild dogs _Dhol_. Though they are pretty well distributed throughout the jungles of India, sightings are pretty thin in this jungle.
+
+Another important part is boarding and logistics. Among the multiple stay options that are available at various price points, we stayed at [Jungle Meadows](https://goo.gl/maps/7CE1BNBnbe32){:target="_blank"}. A great place to stay. More so due to its proximity to the Kolara Gate, enabled us to be the first Gypsy to enter the jungle each safari.
+
+The tour was guided by local naturalist Mithun who is a seasoned jungle lover and provided good opportunities for our photography.
 
 #### Contact Details:
 
-Forest Guide - Mithun: [+91 91306 11093](tel:+919130611093) & [+91 90493 84372](tel:+919049384372)
+Naturalist / Forest Guide - Mithun: [+91 91306 11093](tel:+919130611093) & [+91 90493 84372](tel:+919049384372)
 
 Stay - Jungle Meadows - Kunal: [+91 98211 52295](tel:+919821152295)

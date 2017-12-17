@@ -69,6 +69,4 @@ The tour was guided by local naturalist Mithun who is a seasoned jungle lover an
 
 #### Contact Details:
 
-Naturalist / Forest Guide - Mithun: [+91 91306 11093](tel:+919130611093) & [+91 90493 84372](tel:+919049384372)
-
-Stay - Jungle Meadows - Kunal: [+91 98211 52295](tel:+919821152295)
+Naturalist / Forest Guide - Mithun: [+91 91306 11093](tel:+919130611093) & [+91 90493 84372](tel:+919049384372)<br>Stay - Jungle Meadows - Kunal: [+91 98211 52295](tel:+919821152295)

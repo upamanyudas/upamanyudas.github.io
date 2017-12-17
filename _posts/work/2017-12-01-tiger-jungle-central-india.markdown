@@ -15,6 +15,8 @@ tags:
 - india
 - wildlife
 image:
+- "/uploads/2017/12/17/012_sambar_deer.jpg"
+- "/uploads/2017/12/17/011_maya_tigress.jpg"
 - "/images/works/tadoba/010_tiger_leap.jpg"
 - "/images/works/tadoba/009_sub_adult_tiger.jpg"
 - "/images/works/tadoba/008_tigress.jpg"
@@ -26,6 +28,8 @@ image:
 - "/images/works/tadoba/002_spotted_deer_stag.jpg"
 - "/images/works/tadoba/001_gaur_indian_bison.jpg"
 image-alt:
+- Sambar Deer
+- Maya - A Rising Star
 - Leap of Faith
 - Sub-adult Tiger
 - Tigress
@@ -37,6 +41,8 @@ image-alt:
 - Spotted Deer (Stag)
 - Gaur (Indian Bison)
 image-caption:
+- Sambar Deer
+- Maya - A Rising Star
 - Leap of Faith
 - Sub-adult Tiger
 - Tigress

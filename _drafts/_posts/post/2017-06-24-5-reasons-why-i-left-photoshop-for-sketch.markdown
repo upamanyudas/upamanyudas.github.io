@@ -1,12 +1,11 @@
 ---
 layout: post
 title: 5 Reasons Why I Left Photoshop for Sketch
-date: 2019-06-24 09:00
+date: 2019-06-24 00:00:00 +0000
 comments: true
 categories: blog
 published: true
 image: 004-getting-started-with-your-digispark/cover.jpg
-comments: true
 tags:
 - sketch
 - graphics

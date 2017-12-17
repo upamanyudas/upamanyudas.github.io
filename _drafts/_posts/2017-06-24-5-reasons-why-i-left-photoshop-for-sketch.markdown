@@ -15,3 +15,5 @@ I've been working in Adobe Photoshop  for almost the past 8 years as a designer.
 That’s changed.
 
 The last four UI designs I've worked on (3 apps and a website), I've primarily used Sketch. The times I found my cursor looking for Ps, it was only for what Photoshop was built for — modifying photos.
+
+Do not get me wrong, I still love Photoshop, but Sketch has become my main poison. If you’re like me and think you could never make the switch, maybe my top 5 reasons will convince you.

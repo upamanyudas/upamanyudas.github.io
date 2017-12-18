@@ -1,4 +1,6 @@
 ---
+pages:
+- _posts/birds-2.md
 hide_body: false
 fields:
 - name: layout

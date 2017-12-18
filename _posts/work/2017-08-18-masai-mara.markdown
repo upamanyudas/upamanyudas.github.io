@@ -162,7 +162,18 @@ image-caption:
 - Impala
 - Grazing Zebas
 ---
+A tour in the African savanna has left me spellbound. Such is the beauty of the place. With the vast plains and countless species of mammals and birds, the place is a paradise for a wildlife photographer. In this post are my amateur attempts at capturing some of the mammals and bird species of Masai Mara.
 
-A tour in the African savannah has left me spellbound. Such is the beauty of the place. With the vast plains and countless species of mammals and birds, the place is a paradise for a wildlife photographer.
+I've recently started to photograph mother nature, and Africa is almost a mecca to the fellow photographers.
+
+A few months into this newfound hobby, as my love for mother nature was slowly growing, I was presented with the opportunity to visit Masai Mara to take some photographs. I was more than delighted and snuggled into the team happily.
+
+The stay in Masai was at a 3 star property called Sentrim. Both the lodging and boarding aspects of the property were up to the mark. Though we did not require fans or Air Conditions, but I cannot help but wonder the situation in the Summers. The rooms did not have any method of artificial cooling :)
+
+We stayed a total of four days at Masai, and had full day safaris on all the four days. We covered the reserve pretty well. Though not in totality.
+
+#### Contact Details:
+
+Travel Partner: Miles Tourism - Chandramouli Thakur: [+919830009964](tel:+919830009964)
 
 P.S. This is a ongoing series, new pictures will be uploaded regularly.

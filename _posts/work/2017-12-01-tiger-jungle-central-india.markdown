@@ -59,7 +59,7 @@ image-caption:
 ---
 This is my second tour into a Tiger Jungle of Central India. Situated at 283kms from Nagpur, Tadoba Andhari National Park is a blissful place. Reaching there is preferable by road and takes about 3 hours.
 
-The forest is filled with immense presence of mother nature. The tiger sightings are pretty well as well. In the trip, we were able to spot 13 Tigers in total. 1 adult male 3 adult female 4 sub-adults 5 cubs.
+The forest is filled with immense presence of mother nature. The tiger sightings are pretty well as well. In the trip, we were able to spot 13 Tigers in total. 1 adult male 3 adult female 4 sub-adults 5 cubs. It is really a happy moment to witness such exponential growth in Tiger numbers. Through the conservation efforts of the government, since the beginning of Project Tiger, there has been a good response.
 
 Apart from tigers, the jungle is filled with other mammals and birds. We were lucky to spot the wild dogs _Dhol_. Though they are pretty well distributed throughout the jungles of India, sightings are pretty thin in this jungle.
 

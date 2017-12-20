@@ -77,4 +77,48 @@ The offering of turmeric powder to paint the city golden yellow has its many rea
 
 Some also believe it to be the offering respect for his being from the Surya - the symbol of power and brightness. Many paintings depict him riding a horse with a bowl full of turmeric powder in the hand may serve the reason of the amber golden celebration.
 
+<figure>
+<img src="/images/works/bhandara_festival_16/IMG_6044.jpg" alt="The Temple">
+<figcaption>The Temple</figcaption>
+</figure>
+
+On the very auspicious day, a Palkhi(palanquin) is taken out from the main temple situated at the hilltop carrying the idols of Lord Khandoba and his wife Malsha for a holy bath in the river Karha. The procession climbs down the 200 steep stairs those connect the temple to the ground level along with the protective stone walls.
+
+<figure>
+<img src="/images/works/bhandara_festival_16/IMG_6045.jpg" alt="Nandi">
+<figcaption>Nandi</figcaption>
+</figure>
+
+A veil of golden yellow turmeric powder engulfs the entire town in combination with the holy chants “Yelkot Yelkot Jai Malhar” “Sadanandache Yelkot” offered by his dedicated followers. The complete area starts reverberate with faith and devotion. The entire atmosphere gets soaked into the mood of a divine celebration with the purity of golden turmeric.
+
+<figure>
+<img src="/images/works/bhandara_festival_16/IMG_6046.jpg" alt="City">
+<figcaption>City</figcaption>
+</figure>
+
+A golden yellow cloud prevails everywhere the procession goes through. With the holy dip, the ritual of the Khandoba marriage is recreated. At the end of the day, the idols are taken back to the shrine. A series of thousands of lamps get lightened on the spectacularly constructed Deepmalas (stone structure to place burning oil lamp on) to welcome the gods to their abode and brings up a divine atmosphere around the temple. Thus, Jejuri influences the heart of millions with its Golden touch.
+
+<figure>
+<img src="/images/works/bhandara_festival_16/IMG_6050.jpg" alt="Turmeric">
+<figcaption>Turmeric</figcaption>
+</figure>
+
+<figure>
+<img src="/images/works/bhandara_festival_16/IMG_6054.jpg" alt="Some more Turmeric">
+<figcaption>Some more Turmeric</figcaption>
+</figure>
+
+<figure>
+<img src="/images/works/bhandara_festival_16/IMG_6056.jpg" alt="Shivaji">
+<figcaption>Shivaji Maharaj</figcaption>
+</figure>
+
+Before I knew, it was time for me to leave. Having experienced an unique tradition, my heart was content. Though a pang of sadness was in my heart, I was fortunate to have been part of this divine tradition.
+
+This project would not have been successful without the help of Zeiss, who provided me with the lens and bore the costs for the tour.
+
+Some of you might be wondering why I'm posting this travelougue amlost an year-and-half later the actual travel. After the passing away of my father in 2015 and my mother in 2016 just a few days after I made this trip, I was not in a state to sit with these photographs. With time these just got stacked in a corned of my digital drive. It is only now that I got the time to process the photographs and write this article.
+
+The factual text in this writeup is courtesy of Arun Saha, whose article can be found [here](https://www.dodho.com/bhandara-the-golden-festival-of-jejuri-by-arun-saha/){:target="_blank"}. 
+
 P.S If anyone as any more information regarding any of the rituals mentioned here, please comment or get in touch with me at <a href="mailto:upamanyu@upamanyu.in" target="_blank">upamanyu@upamanyu.in</a>.

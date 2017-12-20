@@ -54,13 +54,27 @@ _Sonyachi Jejuri_ - as the holy town Jejuri is called aptly by the native Mahara
 <figcaption>Entering the Temple</figcaption>
 </figure>
 
-Lord Khandoba, is probably one of the most versatile and widely acknowledged god being worshipped across many regions, religions, casts and communities. He is the most popular Kul Devata (family god) among one of the oldest shepherd tribe “Dhangar” and the patron deity of Deshastha Brahmin. People from other communities like warriors, farming and herding castes too keep their high regards towards him. The cult of Khandoba has prominent linkages with Vaishnava and Jain traditions despite him being worshipped as _Martanda Bhairava_, a form of Lord Shiva. In the temple of Jejuri, surprisingly both the deities of him and his wife Malsha is in the form of _Lingas_ (one of Lord Shiva’s most known statue form) which are covered with decorated silver masks. A part of the Muslims too consider him as their god Mallu Khan and been seen offering goat flesh in the temple areas. This way people consider him as one of the rare non-vegetarian Indian god. Surya and Kartikeya Skanda are his other depictions too.
+Lord Khandoba, is probably one of the most versatile and widely acknowledged god being worshipped across many regions, religions, casts and communities. He is the most popular Kul Devata (family god) among one of the oldest shepherd tribe “Dhangar” and the patron deity of Deshastha Brahmin. People from other communities like warriors, farming and herding castes too keep their high regards towards him. The cult of Khandoba has prominent linkages with Vaishnava and Jain traditions despite him being worshipped as _Martanda Bhairava_, a form of Lord Shiva.
 
 <figure>
 <img src="/images/works/bhandara_festival_16/IMG_5986.jpg" alt="The Temple Premisis">
 <figcaption></figcaption>
 </figure>
 
+In the temple of Jejuri, surprisingly both the deities of him and his wife Malsha is in the form of _Lingas_ (one of Lord Shiva’s most known statue form) which are covered with decorated silver masks. A part of the Muslims too consider him as their god Mallu Khan and been seen offering goat flesh in the temple areas. This way people consider him as one of the rare non-vegetarian Indian god. Surya and Kartikeya Skanda are his other depictions too.
 
+<figure>
+<img src="/images/works/bhandara_festival_16/IMG_5989.jpg" alt="The Temple Premisis">
+<figcaption></figcaption>
+</figure>
+
+The offering of turmeric powder to paint the city golden yellow has its many reasons, logics and traditions. Popular belief is that the tradition came from the yore old great Indian tradition of applying turmeric to the bride and groom as an antiseptic agent to protect their immunities. And as the festival is to celebrate the wedding ritual of Lord Khandoba and his wife Malsha, that same ritual has manifested here.
+
+<figure>
+<img src="/images/works/bhandara_festival_16/IMG_6000.jpg" alt="Turning it Yellow">
+<figcaption>The Turmeric Festival</figcaption>
+</figure>
+
+Some also believe it to be the offering respect for his being from the Surya - the symbol of power and brightness. Many paintings depict him riding a horse with a bowl full of turmeric powder in the hand may serve the reason of the amber golden celebration.
 
 P.S If anyone as any more information regarding any of the rituals mentioned here, please comment or get in touch with me at <a href="mailto:upamanyu@upamanyu.in" target="_blank">upamanyu@upamanyu.in</a>.

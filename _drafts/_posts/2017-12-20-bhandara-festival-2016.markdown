@@ -1,20 +1,19 @@
 ---
 layout: work
-title: Jagadhatri Puja in Bengal
-date: 2016-12-27 9:00
+title: Sonyachi Jejuri
+date: 2017-12-21 09:00:00 +0530
 comments: true
 categories: photography
 published: true
 thumb: jagatdhatri_puja_16.jpg
-cover: jagatdhatri_puja_16/00_cover.jpg
-place: Krishnanagar, WB
+cover: "/images/works/-thumbs/bhandara_festival_16.jpg"
+place: Jejuri, MH
 class: travel
-permalink: /works/:year/:title
-comments: true
+permalink: "/works/:year/:title"
 tags:
 - photography
-- bengal
-- jagadhatri
+- maharashtra
+- bhandara
 ---
 
 The term _Shakti_ has a variety of meanings in India. According to the _Samsad Bengali-English Dictionary_, it means power, strength, might, force, capability, energy & potency. _Shakti_ also means the female principle taking part in creation, or the female deity. People of Bengal have always been community followers of Shaktism (the _Shakti_ cult). There are a number of festivals dedicated to the worship of the Goddess.

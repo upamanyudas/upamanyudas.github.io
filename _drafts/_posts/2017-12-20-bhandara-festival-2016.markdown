@@ -5,8 +5,8 @@ date: 2017-12-21 09:00:00 +0530
 comments: true
 categories: photography
 published: true
-thumb: jagatdhatri_puja_16.jpg
-cover: "/images/works/-thumbs/bhandara_festival_16.jpg"
+thumb: bhandara_festival_16.jpg
+cover: bhandara_festival_16.jpg
 place: Jejuri, MH
 class: travel
 permalink: "/works/:year/:title"

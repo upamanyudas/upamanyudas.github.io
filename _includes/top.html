@@ -4,7 +4,7 @@
 
     <meta charset="UTF-8">
 
-    <title>{{ page.title }} &bull; Upamanyu Das</title>
+    <title>{% if page.path == 'index.html' %} Upamanyu Das &bull; {{ page.title }} {% else %} {{ page.title }} &bull; Upamanyu Das {% endif %}</title>
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="generator" content="Jekyll v{{ jekyll.version }}">

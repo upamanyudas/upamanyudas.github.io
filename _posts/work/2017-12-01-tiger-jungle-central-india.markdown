@@ -7,7 +7,7 @@ categories: photography
 published: true
 thumb: tadoba.jpg
 cover: tadoba/000_cover.jpg
-place: Central India
+place: Tadoba Tiger Reserve, MH
 class: wildlife
 permalink: "/works/photography/:year/:title"
 tags:

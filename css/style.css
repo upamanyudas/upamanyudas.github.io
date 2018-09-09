@@ -77,12 +77,12 @@ a:hover, #posts-list a:hover {
 
 @font-face {
   font-family: 'Socicon';
-  src:  url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.eot?abx0oe');
-  src:  url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.eot?abx0oe#iefix') format('embedded-opentype'),
-    url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.woff2?abx0oe') format('woff2'),
-    url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.ttf?abx0oe') format('truetype'),
-    url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.woff?abx0oe') format('woff'),
-    url('https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/Socicon.svg?abx0oe#Socicon') format('svg');
+  src:  url('socicon/Socicon.eot?abx0oe');
+  src:  url('socicon/Socicon.eot?abx0oe#iefix') format('embedded-opentype'),
+    url('socicon/Socicon.woff2?abx0oe') format('woff2'),
+    url('socicon/Socicon.ttf?abx0oe') format('truetype'),
+    url('socicon/Socicon.woff?abx0oe') format('woff'),
+    url('socicon/Socicon.svg?abx0oe#Socicon') format('svg');
   font-weight: normal;
   font-style: normal;
 }

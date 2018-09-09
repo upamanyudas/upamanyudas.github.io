@@ -59,6 +59,16 @@ a:hover, #posts-list a:hover {
 	border-color: #D4A16B;
 }
 
+/*Text with a background colour*/
+
+.textBG {
+  background-color: lightgrey;
+  border-radius: 10px;
+  padding: 1px 50px;
+  box-sizing: border-box;
+  margin: 20px 0 40px 0;
+}
+
 /* --------------------------------------
 -----   TYPOGRAPHY   -----
 ------------------------------------------*/

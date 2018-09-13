@@ -25,31 +25,33 @@
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
-    <script>
-        $(document).ready(function(){
-        var header = $('body');
+    {% if page.path == 'index.html' %}
+        <script>
+            $(document).ready(function(){
+            var header = $('body');
 
-        var backgrounds = new Array(
-            'url(../images/bg.jpg)',
-            'url(../images/bg2.jpg)',
-            'url(../images/bg3.jpg)',
-            'url(../images/bg4.jpg)',
-            'url(../images/bg5.jpg)'
-        );
+            var backgrounds = new Array(
+                'url(../images/bg.jpg)',
+                'url(../images/bg2.jpg)',
+                'url(../images/bg3.jpg)',
+                'url(../images/bg4.jpg)',
+                'url(../images/bg5.jpg)'
+            );
 
-        var current = 0;
+            var current = 0;
 
-        function nextBackground() {
-            current++;
-            current = current % backgrounds.length;
-            $(".main-header").css('background-image', backgrounds[current]);
-        }
+            function nextBackground() {
+                current++;
+                current = current % backgrounds.length;
+                $(".main-header").css('background-image', backgrounds[current]);
+            }
 
-        setInterval(nextBackground, 4500);
+            setInterval(nextBackground, 4500);
 
-        $(".main-header").css('background-image', backgrounds[0]);
-        });
-    </script>
+            $(".main-header").css('background-image', backgrounds[0]);
+            });
+        </script>
+    {% endif %}
 
     <!-- fotorama.css & fotorama.js. -->
     <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->

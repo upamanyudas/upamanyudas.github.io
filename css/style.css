@@ -1020,7 +1020,7 @@ h4 + p {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	background-image: url(../images/bg.jpg); /* main bg image */
+	background-image: url(../images/bg5.jpg); /* main bg image */
   -webkit-transition: background-image 0.4s ease;
   -moz-transition: background-image 0.4s ease;
   -o-transition: background-image 0.4s ease;

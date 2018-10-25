@@ -19,11 +19,7 @@
       
         <section class="post-content">
             <p>
-                <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native" data-nav="thumbs">
-                    {% for image in page.image %}
-                        <img src="{{ page.image[forloop.index0] }}" alt="{{ page.image-alt[forloop.index0] }}" data-caption="{{ page.image-caption[forloop.index0] }}">
-                    {% endfor %}
-                </div>
+                {% include fotorama-gallery.html %}
             </p>
 
             {{ page.content | markdownify }}
@@ -56,8 +52,6 @@
             {% endif %}
 
             <div class="post-nav">
-
-                
 
                 <!-- <span class="section-subtitle">Share on <a href="https://twitter.com/home?status={{ page.title }}+{{ site.base }}{{ page.url }}" target="_blank">Twitter</a>, <a href="https://www.facebook.com/share.php?u={{ site.base }}{{ page.url }}&amp;title={{ page.title }}" target="_blank">Facebook</a>, <a href="https://plus.google.com/share?url={{ site.base }}{{ page.url }}" target="_blank">Google+</a></span><br>
                 

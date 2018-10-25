@@ -1,0 +1,5 @@
+<div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native" data-nav="thumbs" data-hash="true">
+    {% for image in page.image %}
+        <img src="{{ page.image[forloop.index0] }}" alt="{{ page.image-alt[forloop.index0] }}" data-caption="{{ page.image-caption[forloop.index0] }}" id="photo-{{ forloop.index }}">
+    {% endfor %}
+</div>

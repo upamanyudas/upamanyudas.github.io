@@ -1,10 +1,10 @@
-#Portfolio Redesign
+Portfolio Redesign
 ----------------
 This is something that was in the making for quite some time now.
 
 Presenting the newest version of [upamanyu.in](http://upamanyu.in).
 
-#License
+License
 --------
 Copyright (c) 2015 Upamanyu Das
 

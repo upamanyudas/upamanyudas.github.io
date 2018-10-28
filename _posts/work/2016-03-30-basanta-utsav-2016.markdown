@@ -15,18 +15,39 @@ tags:
 - holi
 - basanta utsav
 - rabindranath tagore
+thumbnail: false
+image:
+- "/images/works/basanta_utsav_2016/01.jpg"
+- "/images/works/basanta_utsav_2016/02.jpg"
+- "/images/works/basanta_utsav_2016/03.jpg"
+- "/images/works/basanta_utsav_2016/04.jpg"
+- "/images/works/basanta_utsav_2016/05.jpg"
+- "/images/works/basanta_utsav_2016/06.jpg"
+- "/images/works/basanta_utsav_2016/07.jpg"
+- "/images/works/basanta_utsav_2016/08.jpg"
+image-alt:
+- holi, basanta utsav, shantiniketan, viswa bharati
+- holi, basanta utsav, shantiniketan, viswa bharati
+- holi, basanta utsav, shantiniketan, viswa bharati
+- holi, basanta utsav, shantiniketan, viswa bharati
+- holi, basanta utsav, shantiniketan, viswa bharati
+- holi, basanta utsav, shantiniketan, viswa bharati
+- holi, basanta utsav, shantiniketan, viswa bharati
+- holi, basanta utsav, shantiniketan, viswa bharati
+image-caption:
+- Asram Complex
+- Chitrangada Rehearsals
+- Esraj Choir
+- Esraj Symphony
+- Krishna - Basanta Raas
+- Basanta Utsav Parikrama
+- My Sister and Me
+- Chitrangada
 ---
 
-<div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
-    <img src="/images/works/basanta_utsav_2016/01.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="Asram Complex">
-    <img src="/images/works/basanta_utsav_2016/02.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="Chitrangada Rehearsals">
-    <img src="/images/works/basanta_utsav_2016/03.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="Esraj Choir">
-    <img src="/images/works/basanta_utsav_2016/04.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="Esraj Symphony">
-    <img src="/images/works/basanta_utsav_2016/05.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="Krishna - Basanta Raas">
-    <img src="/images/works/basanta_utsav_2016/06.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="Basanta Utsav Parikrama">
-    <img src="/images/works/basanta_utsav_2016/07.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati" data-caption="My Sister and Me">
-    <img src="/images/works/basanta_utsav_2016/08.jpg" alt="holi, basanta utsav, shantiniketan, viswa bharati, chitrangada" data-caption="Chitrangada">
-</div>
+<p>
+	{% include fotorama-gallery.html %}
+</p>
 
 This year, during _Basanta Utsav_ I visited my cousins in Shantiniketan. It was a fun time. I got to experience and photograph one of the most lively celebrations of the festival _Holi_.
 

@@ -14,17 +14,17 @@ comments: true
 tags:
 - drawing
 - pencil
+image:
+- "/images/works/pencil_on_paper/6.jpg"
+- "/images/works/pencil_on_paper/1.jpg"
+- "/images/works/pencil_on_paper/2.jpg"
+- "/images/works/pencil_on_paper/3.jpg"
+- "/images/works/pencil_on_paper/4.jpg"
+- "/images/works/pencil_on_paper/5.jpg"
+- "/images/works/pencil_on_paper/7.jpg"
+- "/images/works/pencil_on_paper/8.jpg"
 ---
 
-<div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true">
-	<img src="/images/works/pencil_on_paper/6.jpg"/>
-	<img src="/images/works/pencil_on_paper/1.jpg"/>
-	<img src="/images/works/pencil_on_paper/2.jpg"/>
-	<img src="/images/works/pencil_on_paper/3.jpg"/>
-	<img src="/images/works/pencil_on_paper/4.jpg"/>
-	<img src="/images/works/pencil_on_paper/5.jpg"/>
-	<img src="/images/works/pencil_on_paper/7.jpg"/>
-	<img src="/images/works/pencil_on_paper/8.jpg"/>
-</div>
+{% include fotorama-gallery.html %}
 
 Recently, nature has been intresting me quite a bit. Whenever I get time, I move out and study parts of nature. These are some resting renders. The illustrations are done by pure lead pencils of different strength.

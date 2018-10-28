@@ -15,57 +15,152 @@ tags:
 - durga puja
 - photography
 - kolkata
+thumbnail: false
+image:
+- "/images/works/sharodiya_15/46_bagbazaar.jpg"
+- "/images/works/sharodiya_15/45_ahiritola.jpg"
+- "/images/works/sharodiya_15/44_shovabazaar_sarbojonin.jpg"
+- "/images/works/sharodiya_15/43_kumartuli_sarbojonin.jpg"
+- "/images/works/sharodiya_15/42_kumartuli_sarbojonin.jpg"
+- "/images/works/sharodiya_15/41_shyam_square.jpg"
+- "/images/works/sharodiya_15/40_golpark_sarbojonin.jpg"
+- "/images/works/sharodiya_15/39_falguni_sangha.jpg"
+- "/images/works/sharodiya_15/38_ekdalia_evergreen.jpg"
+- "/images/works/sharodiya_15/37_ekdalia_evergreen.jpg"
+- "/images/works/sharodiya_15/36_singhi_park.jpg"
+- "/images/works/sharodiya_15/35_hindusthan_park.jpg"
+- "/images/works/sharodiya_15/34_hindusthan_park.jpg"
+- "/images/works/sharodiya_15/33_tridhara.jpg"
+- "/images/works/sharodiya_15/32_tridhara.jpg"
+- "/images/works/sharodiya_15/31_samajsebi.jpg"
+- "/images/works/sharodiya_15/30_balllygunge_cultural.jpg"
+- "/images/works/sharodiya_15/29_chetla_agrani.jpg"
+- "/images/works/sharodiya_15/28_chetla_agrani.jpg"
+- "/images/works/sharodiya_15/27_bbta.jpg"
+- "/images/works/sharodiya_15/26_nepal_bhatcharjee_street.jpg"
+- "/images/works/sharodiya_15/25_66_pally.jpg"
+- "/images/works/sharodiya_15/24_badamtala_ashar_sangha.jpg"
+- "/images/works/sharodiya_15/23_patuli_sarbojonin.jpg"
+- "/images/works/sharodiya_15/22_patuli_central_club.jpg"
+- "/images/works/sharodiya_15/21_kenduya_shanti_sangha.jpg"
+- "/images/works/sharodiya_15/20_jatra_shuru_sangha.jpg"
+- "/images/works/sharodiya_15/19_naktala_udayan_sangha.jpg"
+- "/images/works/sharodiya_15/18_gangulibagan_milani_sangha.jpg"
+- "/images/works/sharodiya_15/17_santoshpur_trikon_park.jpg"
+- "/images/works/sharodiya_15/16_south_pallymangal_samity.jpg"
+- "/images/works/sharodiya_15/15_south_pallymangal_samity.jpg"
+- "/images/works/sharodiya_15/14_santoshpur_lakepally.jpg"
+- "/images/works/sharodiya_15/13_santoshpur_lakepally.jpg"
+- "/images/works/sharodiya_15/12_selimpur_palli.jpg"
+- "/images/works/sharodiya_15/11_selimpur_palli.jpg"
+- "/images/works/sharodiya_15/10_babubagan.jpg"
+- "/images/works/sharodiya_15/09_babubagan.jpg"
+- "/images/works/sharodiya_15/08_95_palli.jpg"
+- "/images/works/sharodiya_15/07_jodhpur_park.jpg"
+- "/images/works/sharodiya_15/06_pallimangal.jpg"
+- "/images/works/sharodiya_15/05_pallimangal.jpg"
+- "/images/works/sharodiya_15/04_unknown.jpg"
+- "/images/works/sharodiya_15/03_decoration.jpg"
+- "/images/works/sharodiya_15/02_nabadurga.jpg"
+- "/images/works/sharodiya_15/01_patuli.jpg"
+image-alt:
+- The Most Pristine - Bagbazar
+- Ahiritola
+- Sovabazar Sarbojonin
+- Kumartuli Sarbojonin
+- Kumartuli Sarbojonin, Interiors
+- Shyam Square
+- Golpark Sarbojonin
+- Falguni Sangha
+- Ekdalia Evergreen
+- Ekdalia Evergreen, Chandelier
+- Singhi Park
+- Hindusthan Park
+- Hindusthan Park, Interiors
+- Tridhara Sammelani
+- Tridhara Sammelani, Pandal
+- Samajsebi Club
+- Ballygunge Cultural
+- Chetla Agrani Club
+- Chetla Agrani Club, Exteriors
+- BBTA
+- Nepal Bhatcharjee Street
+- 66 Pally
+- Badamtala Ashar Sangha
+- Patuli Sarbojonin
+- Patuli Central Club
+- Shanti Sangha, Kenduya
+- Jatra Shuru Sangha
+- Naktal Udayan Sangha
+- Gangulibagan Milani Sangha
+- Santoshpur Trikon Park
+- South Pallymangal Samity
+- South Pallymangal Samity, Interiors
+- Santoshpur Lakepally
+- Santoshpur Lakepally, Pandal
+- Selimpur Pally
+- Selimpur Pally, Interiors
+- Babubagan
+- Babubagan, Pandal
+- 95 Pally
+- Jodhpur Park
+- Pallimangal Samity
+- Pallimangal, Interiors
+- Another Parar Pujo, Harimati Sarani
+- Bamboo Chandelier in Pandal
+- Garia Nabadurga
+- Patuli Uponagari Sporting Club
+image-caption:
+- The Most Pristine - Bagbazar
+- Ahiritola
+- Sovabazar Sarbojonin
+- Kumartuli Sarbojonin
+- Kumartuli Sarbojonin, Interiors
+- Shyam Square
+- Golpark Sarbojonin
+- Falguni Sangha
+- Ekdalia Evergreen
+- Ekdalia Evergreen, Chandelier
+- Singhi Park
+- Hindusthan Park
+- Hindusthan Park, Interiors
+- Tridhara Sammelani
+- Tridhara Sammelani, Pandal
+- Samajsebi Club
+- Ballygunge Cultural
+- Chetla Agrani Club
+- Chetla Agrani Club, Exteriors
+- BBTA
+- Nepal Bhatcharjee Street
+- 66 Pally
+- Badamtala Ashar Sangha
+- Patuli Sarbojonin
+- Patuli Central Club
+- Shanti Sangha, Kenduya
+- Jatra Shuru Sangha
+- Naktal Udayan Sangha
+- Gangulibagan Milani Sangha
+- Santoshpur Trikon Park
+- South Pallymangal Samity
+- South Pallymangal Samity, Interiors (2.5 Crore safety pins)
+- Santoshpur Lakepally
+- Santoshpur Lakepally, Pandal
+- Selimpur Pally
+- Selimpur Pally, Interiors
+- Babubagan
+- Babubagan, Pandal
+- 95 Pally
+- Jodhpur Park
+- Pallimangal Samity
+- Pallimangal, Interiors
+- Another Parar Pujo, Harimati Sarani
+- Bamboo Chandelier in Pandal
+- Garia Nabadurga
+- Patuli Uponagari Sporting Club
 ---
 
 <p>
-  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
-      <img src="/images/works/sharodiya_15/46_bagbazaar.jpg" alt="The Most Pristine - Bagbazar" data-caption="The Most Pristine - Bagbazar">
-      <img src="/images/works/sharodiya_15/45_ahiritola.jpg" alt="Ahiritola" data-caption="Ahiritola">
-      <img src="/images/works/sharodiya_15/44_shovabazaar_sarbojonin.jpg" alt="Sovabazar Sarbojonin" data-caption="Sovabazar Sarbojonin">
-      <img src="/images/works/sharodiya_15/43_kumartuli_sarbojonin.jpg" alt="Kumartuli Sarbojonin" data-caption="Kumartuli Sarbojonin">
-      <img src="/images/works/sharodiya_15/42_kumartuli_sarbojonin.jpg" alt="Kumartuli Sarbojonin, Interiors" data-caption="Kumartuli Sarbojonin, Interiors">
-      <img src="/images/works/sharodiya_15/41_shyam_square.jpg" alt="Shyam Square" data-caption="Shyam Square">
-      <img src="/images/works/sharodiya_15/40_golpark_sarbojonin.jpg" alt="Golpark Sarbojonin" data-caption="Golpark Sarbojonin">
-      <img src="/images/works/sharodiya_15/39_falguni_sangha.jpg" alt="Falguni Sangha" data-caption="Falguni Sangha">
-      <img src="/images/works/sharodiya_15/38_ekdalia_evergreen.jpg" alt="Ekdalia Evergreen" data-caption="Ekdalia Evergreen">
-      <img src="/images/works/sharodiya_15/37_ekdalia_evergreen.jpg" alt="Ekdalia Evergreen, Chandelier" data-caption="Ekdalia Evergreen, Chandelier">
-      <img src="/images/works/sharodiya_15/36_singhi_park.jpg" alt="Singhi Park" data-caption="Singhi Park">
-      <img src="/images/works/sharodiya_15/35_hindusthan_park.jpg" alt="Hindusthan Park" data-caption="Hindusthan Park">
-      <img src="/images/works/sharodiya_15/34_hindusthan_park.jpg" alt="Hindusthan Park, Interiors" data-caption="Hindusthan Park, Interiors">
-      <img src="/images/works/sharodiya_15/33_tridhara.jpg" alt="Tridhara Sammelani" data-caption="Tridhara Sammelani">
-      <img src="/images/works/sharodiya_15/32_tridhara.jpg" alt="Tridhara Sammelani, Pandal" data-caption="Tridhara Sammelani, Pandal">
-      <img src="/images/works/sharodiya_15/31_samajsebi.jpg" alt="Samajsebi Club" data-caption="Samajsebi Club">
-      <img src="/images/works/sharodiya_15/30_balllygunge_cultural.jpg" alt="Ballygunge Cultural" data-caption="Ballygunge Cultural">
-      <img src="/images/works/sharodiya_15/29_chetla_agrani.jpg" alt="Chetla Agrani Club" data-caption="Chetla Agrani Club">
-      <img src="/images/works/sharodiya_15/28_chetla_agrani.jpg" alt="Chetla Agrani Club, Exteriors" data-caption="Chetla Agrani Club, Exteriors">
-      <img src="/images/works/sharodiya_15/27_bbta.jpg" alt="BBTA" data-caption="BBTA">
-      <img src="/images/works/sharodiya_15/26_nepal_bhatcharjee_street.jpg" alt="Nepal Bhatcharjee Street" data-caption="Nepal Bhatcharjee Street">
-      <img src="/images/works/sharodiya_15/25_66_pally.jpg" alt="66 Pally" data-caption="66 Pally">
-      <img src="/images/works/sharodiya_15/24_badamtala_ashar_sangha.jpg" alt="Badamtala Ashar Sangha" data-caption="Badamtala Ashar Sangha">
-      <img src="/images/works/sharodiya_15/23_patuli_sarbojonin.jpg" alt="Patuli Sarbojonin" data-caption="Patuli Sarbojonin">
-      <img src="/images/works/sharodiya_15/22_patuli_central_club.jpg" alt="Patuli Central Club" data-caption="Patuli Central Club">
-      <img src="/images/works/sharodiya_15/21_kenduya_shanti_sangha.jpg" alt="Shanti Sangha, Kenduya" data-caption="Shanti Sangha, Kenduya">
-      <img src="/images/works/sharodiya_15/20_jatra_shuru_sangha.jpg" alt="Jatra Shuru Sangha" data-caption="Jatra Shuru Sangha">
-      <img src="/images/works/sharodiya_15/19_naktala_udayan_sangha.jpg" alt="Naktal Udayan Sangha" data-caption="Naktal Udayan Sangha">
-      <img src="/images/works/sharodiya_15/18_gangulibagan_milani_sangha.jpg" alt="Gangulibagan Milani Sangha" data-caption="Gangulibagan Milani Sangha">
-      <img src="/images/works/sharodiya_15/17_santoshpur_trikon_park.jpg" alt="Santoshpur Trikon Park" data-caption="Santoshpur Trikon Park">
-      <img src="/images/works/sharodiya_15/16_south_pallymangal_samity.jpg" alt="South Pallymangal Samity" data-caption="South Pallymangal Samity">
-      <img src="/images/works/sharodiya_15/15_south_pallymangal_samity.jpg" alt="South Pallymangal Samity, Interiors" data-caption="South Pallymangal Samity, Interiors (2.5 Crore Safety Pins)">
-      <img src="/images/works/sharodiya_15/14_santoshpur_lakepally.jpg" alt="Santoshpur Lakepally" data-caption="Santoshpur Lakepally">
-      <img src="/images/works/sharodiya_15/13_santoshpur_lakepally.jpg" alt="Santoshpur Lakepally, Pandal" data-caption="Santoshpur Lakepally, Pandal">
-      <img src="/images/works/sharodiya_15/12_selimpur_palli.jpg" alt="Selimpur Pally" data-caption="Selimpur Pally">
-      <img src="/images/works/sharodiya_15/11_selimpur_palli.jpg" alt="Selimpur Pally, Interiors" data-caption="Selimpur Pally, Interiors">
-      <img src="/images/works/sharodiya_15/10_babubagan.jpg" alt="Babubagan" data-caption="Babubagan">
-      <img src="/images/works/sharodiya_15/09_babubagan.jpg" alt="Babubagan, Pandal" data-caption="Babubagan, Pandal">
-      <img src="/images/works/sharodiya_15/08_95_palli.jpg" alt="95 Pally" data-caption="95 Pally">
-      <img src="/images/works/sharodiya_15/07_jodhpur_park.jpg" alt="Jodhpur Park" data-caption="Jodhpur Park">
-      <img src="/images/works/sharodiya_15/06_pallimangal.jpg" alt="Pallimangal Samity" data-caption="Pallimangal Samity">
-      <img src="/images/works/sharodiya_15/05_pallimangal.jpg" alt="Pallimangal, Interiors" data-caption="Pallimangal, Interiors">
-      <img src="/images/works/sharodiya_15/04_unknown.jpg" alt="Another Parar Pujo" data-caption="Another Parar Pujo, Harimati Sarani">
-      <img src="/images/works/sharodiya_15/03_decoration.jpg" alt="Pandal Bamboo Decoration" data-caption="Bamboo Chandelier in Pandal">
-      <img src="/images/works/sharodiya_15/02_nabadurga.jpg" alt="Garia Nabadurga" data-caption="Garia Nabadurga">
-      <img src="/images/works/sharodiya_15/01_patuli.jpg" alt="Patuli Uponagari Sporting Club" data-caption="Patuli Uponagari Sporting Club">
-  </div>
+  {% include fotorama-gallery.html %}
 </p>
 
 A series photographing Durga idols of Kolkata and suburbs. Durga Pujo is Bengali's single most eminent festival. This is the time we Bangalis wait for the whole year.

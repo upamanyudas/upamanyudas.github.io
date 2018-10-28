@@ -14,6 +14,7 @@ tags:
 - photography
 - africa
 - wildlife
+thumbnail: true
 image:
 - "/images/works/masai_mara/047_lion_cub_closeup.jpg"
 - "/images/works/masai_mara/046_fluffy_bird.jpg"
@@ -162,6 +163,7 @@ image-caption:
 - Impala
 - Grazing Zebas
 ---
+
 A tour in the African savanna has left me spellbound. Such is the beauty of the place. With the vast plains and countless species of mammals and birds, the place is a paradise for a wildlife photographer. In this post are my amateur attempts at capturing some of the mammals and bird species of Masai Mara.
 
 I've recently started to photograph mother nature, and Africa is almost a mecca to the fellow photographers.

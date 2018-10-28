@@ -14,6 +14,7 @@ tags:
 - photography
 - india
 - wildlife
+thumbnail: true
 image:
 - "/images/works/tadoba/013_grey_headed_fish_eagle.jpg"
 - "/images/works/tadoba/012_sambar_deer.jpg"

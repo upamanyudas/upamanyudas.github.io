@@ -15,19 +15,42 @@ tags:
 - photography
 - zoo
 - portraits
+thumbnail: true
+image:
+- "/images/works/zoo_portraits/01_lion.jpg"
+- "/images/works/zoo_portraits/02_elephant.jpg"
+- "/images/works/zoo_portraits/03_hawk.jpg"
+- "/images/works/zoo_portraits/04_ghariyal.jpg"
+- "/images/works/zoo_portraits/05_giraffe.jpg"
+- "/images/works/zoo_portraits/06_royal_bengal_tiger.jpg"
+- "/images/works/zoo_portraits/07_python.jpg"
+- "/images/works/zoo_portraits/08_kath_golap.jpg"
+- "/images/works/zoo_portraits/09_craftsman.jpg"
+image-alt:
+- zoo, lion, asiatic lion
+- zoo, elephant
+- zoo, hawk, sharp, eyes
+- zoo, ghariyal, sweetwarer, fisheater
+- zoo, giraffe, neck
+- zoo, royal bengal tiger, tiger
+- zoo, python, fat, snake, eyes
+- zoo, plumeria, flower
+- khiderpore, shoe craftsmen, heel
+image-caption:
+- The Majestic Asiatic Lion
+- Baby Elephant
+- Black Kite
+- Ghariyal
+- Giraffe
+- Royal Bengal Tiger
+- Python
+- White Firangipani or Plumeria Flower
+- A Craftsman working in a Heel Manufacturing Company in Mominpore
 ---
 
-<div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native" data-nav="thumbs" data-fit="cover">
-    <img src="/images/works/zoo_portraits/01_lion.jpg" alt="zoo, lion, asiatic lion" data-caption="The Majestic Asiatic Lion">
-    <img src="/images/works/zoo_portraits/02_elephant.jpg" alt="zoo, elephant" data-caption="Baby Elephant">
-    <img src="/images/works/zoo_portraits/03_hawk.jpg" alt="zoo, hawk, sharp, eyes" data-caption="Black Kite">
-    <img src="/images/works/zoo_portraits/04_ghariyal.jpg" alt="zoo, ghariyal, sweetwarer, fisheater" data-caption="Ghariyal">
-    <img src="/images/works/zoo_portraits/05_giraffe.jpg" alt="zoo, giraffe, neck" data-caption="A Full-Grown Giraffe's Neck">
-    <img src="/images/works/zoo_portraits/06_royal_bengal_tiger.jpg" alt="zoo, royal bengal tiger, tiger" data-caption="A Ferocious Royal Bengal Tiger">
-    <img src="/images/works/zoo_portraits/07_python.jpg" alt="zoo, python, fat, snake, eyes" data-caption="Python">
-    <img src="/images/works/zoo_portraits/08_kath_golap.jpg" alt="zoo, plumeria, flower" data-caption="White Firangipani or Plumeria Flower">
-    <img src="/images/works/zoo_portraits/09_craftsman.jpg" alt="khiderpore, shoe craftsmen, heel" data-caption="A Craftsman working in a Heel Manufacturing Company in Mominpore">
-</div>
+<p>
+  {% include fotorama-gallery.html %}
+</p>
 
 A short trip with a friend to Mominpore, on 21st September, led to the quick trip to the Alipore Zoological Gardens, Kolkata. It was a rainy day. The people we met, to ask for directions, on the road we took from Mominpore laughed at the idea of visiting the zoo in the rains. But I must tell you, that it was a experience worth having. Most of the animals were out from their enclosures, except the rhino. And the cherry on the top were the kings. Both the lion and the tiger, came near the open-enclosure's boundary, to pose for my camera.
 

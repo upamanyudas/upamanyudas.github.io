@@ -15,36 +15,89 @@ tags:
 - photography
 - wildlife
 - sunderban
+thumbnail: true
+image:
+- "/images/works/sunderban_16/001_green_bee_eater.jpg"
+- "/images/works/sunderban_16/002_crocodile.jpg"
+- "/images/works/sunderban_16/003_spotted_deer.jpg"
+- "/images/works/sunderban_16/004_black_capped_kingfisher.jpg"
+- "/images/works/sunderban_16/005_collared_kingfisher.jpg"
+- "/images/works/sunderban_16/006_jungle_cat.jpg"
+- "/images/works/sunderban_16/007_common_lapwing.jpg"
+- "/images/works/sunderban_16/008_great_egret.jpg"
+- "/images/works/sunderban_16/009_common_kingfisher.jpg"
+- "/images/works/sunderban_16/010_grey_headed_lapwing.jpg"
+- "/images/works/sunderban_16/011_crested_serpent_eagle.jpg"
+- "/images/works/sunderban_16/012_spotted_deer.jpg"
+- "/images/works/sunderban_16/013_brahmini_kite.jpg"
+- "/images/works/sunderban_16/014_red_junglefowl.jpg"
+- "/images/works/sunderban_16/014_spotted_deer_fawn.jpg"
+- "/images/works/sunderban_16/015_tiger_pugmarks.jpg"
+- "/images/works/sunderban_16/016_brown_winged_kingfisher.jpg"
+- "/images/works/sunderban_16/017_little_egret.jpg"
+- "/images/works/sunderban_16/018_black_capped_kingfisher_take_off.jpg"
+- "/images/works/sunderban_16/019_larger_crocodile.jpg"
+- "/images/works/sunderban_16/020_lesser_whistling_ducks.jpg"
+- "/images/works/sunderban_16/021_brown_winged_kingfisher_flight.jpg"
+- "/images/works/sunderban_16/022_cormorant.jpg"
+- "/images/works/sunderban_16/023_pied_kingfisher.jpg"
+- "/images/works/sunderban_16/025_lesser_whistling_couple.jpg"
+image-alt:
+- Green Bee Eater
+- Crocodile
+- Spotted Deer
+- Black Capped Kingfisher
+- Collared Kingfisher
+- Jungle Cat
+- Common Redshank
+- Great Egret
+- Common Kingfisher
+- Grey Headed Lapwing
+- Crested Serpent Eagle
+- Spotted Deer
+- Brahminy Kite
+- Red Junglefowl
+- Spotted Deer (Fawn)
+- Tiger Pugmarks
+- Brown Winged Kingfisher
+- Little Egret
+- Black Capped Kingfisher - Takeoff
+- Larger Crocodile
+- Lesser Whistling Duck
+- Brown Winged Kingfisher - In flight
+- Cormorant
+- Pied Kingfisher
+- Lesser Whistling Duck Couple
+image-caption:
+- Green Bee Eater
+- Crocodile
+- Spotted Deer
+- Black Capped Kingfisher
+- Collared Kingfisher
+- Jungle Cat
+- Common Redshank
+- Great Egret
+- Common Kingfisher
+- Grey Headed Lapwing
+- Crested Serpent Eagle
+- Spotted Deer
+- Brahminy Kite
+- Red Junglefowl
+- Spotted Deer (Fawn)
+- Tiger Pugmarks
+- Brown Winged Kingfisher
+- Little Egret
+- Black Capped Kingfisher - Takeoff
+- Larger Crocodile
+- Lesser Whistling Duck
+- Brown Winged Kingfisher - In flight
+- Cormorant
+- Pied Kingfisher
+- Lesser Whistling Duck Couple
 ---
 
 <p>
-  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native" data-nav="thumbs" data-fit="cover">
-      <img src="/images/works/sunderban_16/001_green_bee_eater.jpg" alt="Green Bee Eater" data-caption="Green Bee Eater">
-      <img src="/images/works/sunderban_16/002_crocodile.jpg" alt="Crocodile" data-caption="Crocodile">
-      <img src="/images/works/sunderban_16/003_spotted_deer.jpg" alt="Spotted Deer" data-caption="Spotted Deer">
-      <img src="/images/works/sunderban_16/004_black_capped_kingfisher.jpg" alt="Black Capped Kingfisher" data-caption="Black Capped Kingfisher">
-      <img src="/images/works/sunderban_16/005_collared_kingfisher.jpg" alt="Collared Kingfisher" data-caption="Collared Kingfisher">
-      <img src="/images/works/sunderban_16/006_jungle_cat.jpg" alt="Jungle Cat" data-caption="Jungle Cat">
-      <img src="/images/works/sunderban_16/007_common_lapwing.jpg" alt="Common Redshank" data-caption="Common Redshank">
-      <img src="/images/works/sunderban_16/008_great_egret.jpg" alt="Great Egret" data-caption="Great Egret">
-      <img src="/images/works/sunderban_16/009_common_kingfisher.jpg" alt="Common Kingfisher" data-caption="Common Kingfisher">
-      <img src="/images/works/sunderban_16/010_grey_headed_lapwing.jpg" alt="Grey Headed Lapwing" data-caption="Grey Headed Lapwing">
-      <img src="/images/works/sunderban_16/011_crested_serpent_eagle.jpg" alt="Crested Serpent Eagle" data-caption="Crested Serpent Eagle">
-      <img src="/images/works/sunderban_16/012_spotted_deer.jpg" alt="Spotted Deer" data-caption="Spotted Deer">
-      <img src="/images/works/sunderban_16/013_brahmini_kite.jpg" alt="Brahminy Kite" data-caption="Brahminy Kite">
-      <img src="/images/works/sunderban_16/014_red_junglefowl.jpg" alt="Red Junglefowl" data-caption="Red Junglefowl">
-      <img src="/images/works/sunderban_16/014_spotted_deer_fawn.jpg" alt="Spotted Deer (Fawn)" data-caption="Spotted Deer (Fawn)">
-      <img src="/images/works/sunderban_16/015_tiger_pugmarks.jpg" alt="Tiger Pugmarks" data-caption="Tiger Pugmarks">
-      <img src="/images/works/sunderban_16/016_brown_winged_kingfisher.jpg" alt="Brown Winged Kingfisher" data-caption="Brown Winged Kingfisher">
-      <img src="/images/works/sunderban_16/017_little_egret.jpg" alt="Little Egret" data-caption="Little Egret">
-      <img src="/images/works/sunderban_16/018_black_capped_kingfisher_take_off.jpg" alt="Black Capped Kingfisher - Takeoff" data-caption="Black Capped Kingfisher - Takeoff">
-      <img src="/images/works/sunderban_16/019_larger_crocodile.jpg" alt="Larger Crocodile" data-caption="Larger Crocodile">
-      <img src="/images/works/sunderban_16/020_lesser_whistling_ducks.jpg" alt="Lesser Whistling Duck" data-caption="Lesser Whistling Duck">
-      <img src="/images/works/sunderban_16/021_brown_winged_kingfisher_flight.jpg" alt="Brown Winged Kingfisher - In flight" data-caption="Brown Winged Kingfisher - In flight">
-      <img src="/images/works/sunderban_16/022_cormorant.jpg" alt="Cormorant" data-caption="Cormorant">
-      <img src="/images/works/sunderban_16/023_pied_kingfisher.jpg" alt="Pied Kingfisher" data-caption="Pied Kingfisher">
-      <img src="/images/works/sunderban_16/025_lesser_whistling_couple.jpg" alt="Lesser Whistling Duck Couple" data-caption="Lesser Whistling Duck Couple">
-  </div>
+  {% include fotorama-gallery.html %}
 </p>
 
 In the month of December, last year, I had the unique opportunity to visit the Mangroves of Sunderban Tiger Reserve. I was accompanied by my brother on the trip, and he is the one who took most of the photographs. The trip was conceived by the [Kolkata Bloggers](http://www.kolkatabloggers.com) & was handled by [GoingWild](http://goingwild.in/). Under the skilled guidance of Soumyajit Nandy & Tamanud Mitra, we were able to spot a number of Kingfisher species, species of Eagle & Kite and many number of other animals, though we weren't lucky enough to spot a Bengal Tiger.

@@ -13,38 +13,95 @@ permalink: /works/:year/:title
 comments: true
 tags:
 - leather bags
+thumbnail: false
+image:
+- "/images/works/leather_bags_2015/1a.jpg"
+- "/images/works/leather_bags_2015/1b.jpg"
+- "/images/works/leather_bags_2015/1c.jpg"
+- "/images/works/leather_bags_2015/1d.jpg"
+- "/images/works/leather_bags_2015/1e.jpg"
+- "/images/works/leather_bags_2015/2a.jpg"
+- "/images/works/leather_bags_2015/2b.jpg"
+- "/images/works/leather_bags_2015/2c.jpg"
+- "/images/works/leather_bags_2015/2d.jpg"
+- "/images/works/leather_bags_2015/2e.jpg"
+- "/images/works/leather_bags_2015/2f.jpg"
+- "/images/works/leather_bags_2015/2g.jpg"
+- "/images/works/leather_bags_2015/2h.jpg"
+- "/images/works/leather_bags_2015/2i.jpg"
+- "/images/works/leather_bags_2015/2j.jpg"
+- "/images/works/leather_bags_2015/3a.jpg"
+- "/images/works/leather_bags_2015/3b.jpg"
+- "/images/works/leather_bags_2015/3c.jpg"
+- "/images/works/leather_bags_2015/3d.jpg"
+- "/images/works/leather_bags_2015/3f.jpg"
+- "/images/works/leather_bags_2015/4a.jpg"
+- "/images/works/leather_bags_2015/4b.jpg"
+- "/images/works/leather_bags_2015/4c.jpg"
+- "/images/works/leather_bags_2015/5a.jpg"
+- "/images/works/leather_bags_2015/5b.jpg"
+- "/images/works/leather_bags_2015/5c.jpg"
+- "/images/works/leather_bags_2015/5d.jpg"
+image-alt:
+- The Traditional Bag
+- The Traditional Bag
+- The Traditional Bag
+- The Traditional Bag
+- The Traditional Bag
+- The Field Bag
+- The Field Bag
+- The Field Bag
+- The Field Bag
+- The Field Bag
+- The Field Bag
+- The Field Bag
+- The Field Bag
+- The Field Bag
+- The Field Bag
+- The ETUI Bag 
+- The ETUI Bag 
+- The ETUI Bag 
+- The ETUI Bag 
+- The ETUI Bag 
+- DoppKit Travel Bag
+- DoppKit Travel Bag
+- DoppKit Travel Bag
+- The Camera Bag
+- The Camera Bag
+- The Camera Bag
+- The Camera Bag
+image-caption:
+- The Traditional Bag
+- The Traditional Bag
+- The Traditional Bag
+- The Traditional Bag
+- The Traditional Bag
+- The Field Bag
+- The Field Bag
+- The Field Bag
+- The Field Bag
+- The Field Bag
+- The Field Bag
+- The Field Bag
+- The Field Bag
+- The Field Bag
+- The Field Bag
+- The ETUI Bag 
+- The ETUI Bag 
+- The ETUI Bag 
+- The ETUI Bag 
+- The ETUI Bag 
+- DoppKit Travel Bag
+- DoppKit Travel Bag
+- DoppKit Travel Bag
+- The Camera Bag
+- The Camera Bag
+- The Camera Bag
+- The Camera Bag
 ---
 
 <p>
-  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
-      <img src="/images/works/leather_bags_2015/1a.jpg" alt="The Traditional Bag" data-caption="The Traditional Bag">
-      <img src="/images/works/leather_bags_2015/1b.jpg" alt="The Traditional Bag" data-caption="The Traditional Bag">
-      <img src="/images/works/leather_bags_2015/1c.jpg" alt="The Traditional Bag" data-caption="The Traditional Bag">
-      <img src="/images/works/leather_bags_2015/1d.jpg" alt="The Traditional Bag" data-caption="The Traditional Bag">
-      <img src="/images/works/leather_bags_2015/1e.jpg" alt="The Traditional Bag" data-caption="The Traditional Bag">
-      <img src="/images/works/leather_bags_2015/2a.jpg" alt="The Field Bag" data-caption="The Field Bag">
-      <img src="/images/works/leather_bags_2015/2b.jpg" alt="The Field Bag" data-caption="The Field Bag">
-      <img src="/images/works/leather_bags_2015/2c.jpg" alt="The Field Bag" data-caption="The Field Bag">
-      <img src="/images/works/leather_bags_2015/2d.jpg" alt="The Field Bag" data-caption="The Field Bag">
-      <img src="/images/works/leather_bags_2015/2e.jpg" alt="The Field Bag" data-caption="The Field Bag">
-      <img src="/images/works/leather_bags_2015/2f.jpg" alt="The Field Bag" data-caption="The Field Bag">
-      <img src="/images/works/leather_bags_2015/2g.jpg" alt="The Field Bag" data-caption="The Field Bag">
-      <img src="/images/works/leather_bags_2015/2h.jpg" alt="The Field Bag" data-caption="The Field Bag">
-      <img src="/images/works/leather_bags_2015/2i.jpg" alt="The Field Bag" data-caption="The Field Bag">
-      <img src="/images/works/leather_bags_2015/2j.jpg" alt="The Field Bag" data-caption="The Field Bag">
-      <img src="/images/works/leather_bags_2015/3a.jpg" alt="The Etui Bag" data-caption="The Etui Bag">
-      <img src="/images/works/leather_bags_2015/3b.jpg" alt="The Etui Bag" data-caption="The Etui Bag">
-      <img src="/images/works/leather_bags_2015/3c.jpg" alt="The Etui Bag" data-caption="The Etui Bag">
-      <img src="/images/works/leather_bags_2015/3d.jpg" alt="The Etui Bag" data-caption="The Etui Bag">
-      <img src="/images/works/leather_bags_2015/3f.jpg" alt="The Etui Bag" data-caption="The Etui Bag">
-      <img src="/images/works/leather_bags_2015/4a.jpg" alt="DoppKit Travel Bag" data-caption="DoppKit Travel Bag">
-      <img src="/images/works/leather_bags_2015/4b.jpg" alt="DoppKit Travel Bag" data-caption="DoppKit Travel Bag">
-      <img src="/images/works/leather_bags_2015/4c.jpg" alt="DoppKit Travel Bag" data-caption="DoppKit Travel Bag">
-      <img src="/images/works/leather_bags_2015/5a.jpg" alt="The Camera Bag" data-caption="The Camera Bag">
-      <img src="/images/works/leather_bags_2015/5b.jpg" alt="The Camera Bag" data-caption="The Camera Bag">
-      <img src="/images/works/leather_bags_2015/5c.jpg" alt="The Camera Bag" data-caption="The Camera Bag">
-      <img src="/images/works/leather_bags_2015/5d.jpg" alt="The Camera Bag" data-caption="The Camera Bag">
-  </div>
+  {% include fotorama-gallery.html %}
 </p>
 
 Some Leather Bags. Handcrafted in India.
@@ -57,7 +114,7 @@ Specifications:
 
 1. The Field Bag
 
-1. The Etui Bag
+1. The ETUI Bag
 - Chrome tanned Black leather.
 - Metallic zipper & 0.5" gold fittings.
 

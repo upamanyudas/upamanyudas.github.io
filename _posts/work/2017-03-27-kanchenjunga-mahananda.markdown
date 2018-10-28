@@ -15,6 +15,7 @@ tags:
 - photography
 - birds
 - wildlife
+thumbnail: true
 image:
 - /images/works/kanchenjunga_mahananda/023_IMG_5737_black_throated_thrush.jpg
 - /images/works/kanchenjunga_mahananda/022_IMG_5506_asian_barred_owlet.jpg

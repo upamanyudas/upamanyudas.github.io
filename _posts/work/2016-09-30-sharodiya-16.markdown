@@ -15,70 +15,181 @@ tags:
 - durga puja
 - photography
 - kolkata
+thumbnail: false
+image:
+- "/images/works/sharodiya_16/58_falguni_sangha.jpg"
+- "/images/works/sharodiya_16/57_ekdalia_evergreen.jpg"
+- "/images/works/sharodiya_16/56_ekdalia_evergreen.jpg"
+- "/images/works/sharodiya_16/55_singhi_park.jpg"
+- "/images/works/sharodiya_16/54_hindusthan_park.jpg"
+- "/images/works/sharodiya_16/53_samajsebi.jpg"
+- "/images/works/sharodiya_16/52_ballygunge_cultural.jpg"
+- "/images/works/sharodiya_16/51_bharatchandra_road_youngster_club.jpg"
+- "/images/works/sharodiya_16/50_tridhara.jpg"
+- "/images/works/sharodiya_16/48_adi_lake_pally.jpg"
+- "/images/works/sharodiya_16/47_shibmandir.jpg"
+- "/images/works/sharodiya_16/45_lake_youth_corner.jpg"
+- "/images/works/sharodiya_16/44_mudiali.jpg"
+- "/images/works/sharodiya_16/43_labony.jpg"
+- "/images/works/sharodiya_16/42_ec_block.jpg"
+- "/images/works/sharodiya_16/41_ec_block.jpg"
+- "/images/works/sharodiya_16/40_db_block.jpg"
+- "/images/works/sharodiya_16/39_db_block.jpg"
+- "/images/works/sharodiya_16/38_be_block_east.jpg"
+- "/images/works/sharodiya_16/37_ae_block_part_2.jpg"
+- "/images/works/sharodiya_16/36_aj_block.jpg"
+- "/images/works/sharodiya_16/35_ak_block.jpg"
+- "/images/works/sharodiya_16/34_ak_block.jpg"
+- "/images/works/sharodiya_16/33_bj_block.jpg"
+- "/images/works/sharodiya_16/32_rajdanga_nabodoy_sangha.jpg"
+- "/images/works/sharodiya_16/31_badamtala_asharh_sangha.jpg"
+- "/images/works/sharodiya_16/30_badamtala_asharh_sangha.jpg"
+- "/images/works/sharodiya_16/29_66_pally.jpg"
+- "/images/works/sharodiya_16/28_66_pally.jpg"
+- "/images/works/sharodiya_16/27_nepal_bhatcharjee_street.jpg"
+- "/images/works/sharodiya_16/26_chetla_agrani.jpg"
+- "/images/works/sharodiya_16/25_barisha_club.jpg"
+- "/images/works/sharodiya_16/24_behala_nutan_dal.jpg"
+- "/images/works/sharodiya_16/23_behala_friends.jpg"
+- "/images/works/sharodiya_16/22_mitra_sangha_behala.jpg"
+- "/images/works/sharodiya_16/21_adarsha_pally.jpg"
+- "/images/works/sharodiya_16/20_buro_shibtala.jpg"
+- "/images/works/sharodiya_16/19_suruchi_sangha.jpg"
+- "/images/works/sharodiya_16/17_ajeya_sanghati.jpg"
+- "/images/works/sharodiya_16/16_vivekananda_park_athletic_club.jpg"
+- "/images/works/sharodiya_16/15_41_pally.jpg"
+- "/images/works/sharodiya_16/14_41_pally.jpg"
+- "/images/works/sharodiya_16/13_naktala_udayan.jpg"
+- "/images/works/sharodiya_16/12_yatra_shuru_shangha.jpg"
+- "/images/works/sharodiya_16/11_patuli_sarbojonin.jpg"
+- "/images/works/sharodiya_16/10_selimpur_pally.jpg"
+- "/images/works/sharodiya_16/09_babubagan.jpg"
+- "/images/works/sharodiya_16/07_95_pally.jpg"
+- "/images/works/sharodiya_16/06_95_pally.jpg"
+- "/images/works/sharodiya_16/05_jodhpur_park.jpg"
+- "/images/works/sharodiya_16/04_jodhpur_park.jpg"
+- "/images/works/sharodiya_16/03_pallimangal.jpg"
+- "/images/works/sharodiya_16/02_patuli.jpg"
+- "/images/works/sharodiya_16/01_patuli.jpg"
+- "/images/works/sharodiya_16/00_cover.jpg"
+image-alt:
+- Falguni Sangha
+- Ekdalia Evergreen
+- Ekdalia Evergreen Chandelier
+- Singhi Park
+- Hindusthan Park
+- Samajsebi
+- Ballygunge Cultural
+- Bharatchandra Road Youngster Club
+- Tridhara
+- Deshapriya Park
+- Adi Lake Pally
+- ShibmandirShibmandir
+- Lake Youth Corner
+- Mudiali Club
+- Labony Estate
+- EC Block
+- EC Block Pandal
+- DB Block
+- DB Block Interiors
+- BE Block (East)
+- AE Block (Part 2)
+- AJ Block
+- AK Block
+- AK Block Interiors
+- BJ Block
+- Rajdanga Nabodoy Sangha
+- Badamtala Asharh Sangha, Interiors
+- Badamtala Asharh Sangha
+- 66 Pally
+- 66 Pally Pandal
+- Nepal Bhatcharjee Street
+- Chetla Agrani
+- Barisha Club
+- Behala Nutan Dal
+- Behala Friends
+- Mitra Sangha
+- Adarsha Pally
+- Buro Shibtala
+- Suruchi Sangha
+- Ajeya Sanghati
+- Vivekananda Park Athletic Club
+- 41 Pally
+- 41 Pally Pandal
+- Naktala Udayan Sangha
+- Yatra Shuru Sangha
+- Patuli Sarbojonin
+- Selimpur Pally
+- Babubagan
+- Bandhab Sammelani
+- 95 Pally
+- 95 Pally, Interiors
+- Jodhpur Park
+- Jodhpur Park, Interiors
+- Pallimangal Samity
+- Patuli Upanagari Sporting Club
+- Patuli Upanagari Sporting Club, Interiors
+- Identity 2016
+image-caption:
+- Falguni Sangha
+- Ekdalia Evergreen
+- Ekdalia Evergreen Chandelier
+- Singhi Park
+- Hindusthan Park
+- Samajsebi
+- Ballygunge Cultural
+- Bharatchandra Road Youngster Club
+- TridharaDeshapriya Park
+- Adi Lake Pally
+- ShibmandirShibmandir
+- Lake Youth Corner
+- Mudiali Club
+- Labony Estate
+- EC Block
+- EC Block Pandal
+- DB Block
+- DB Block Interiors
+- BE Block (East)
+- AE Block (Part 2)
+- AJ Block
+- AK Block
+- AK Block Interiors
+- BJ Block
+- Rajdanga Nabodoy Sangha
+- Badamtala Asharh Sangha, Interiors
+- Badamtala Asharh Sangha
+- 66 Pally
+- 66 Pally Pandal
+- Nepal Bhatcharjee Street
+- Chetla Agrani
+- Barisha Club
+- Behala Nutan Dal
+- Behala Friends
+- Mitra Sangha
+- Adarsha Pally
+- Buro Shibtala
+- Suruchi Sangha
+- Ajeya Sanghati
+- Vivekananda Park Athletic Club
+- 41 Pally
+- 41 Pally Pandal
+- Naktala Udayan Sangha
+- Yatra Shuru Sangha
+- Patuli Sarbojonin
+- Selimpur Pally
+- BabubaganBandhab Sammelani
+- 95 Pally
+- 95 Pally, Interiors
+- Jodhpur Park
+- Jodhpur Park, Interiors
+- Pallimangal Samity
+- Patuli Upanagari Sporting Club
+- Patuli Upanagari Sporting Club, Interiors
+- Identity 2016
 ---
 
 <p>
-  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
-      <img src="/images/works/sharodiya_16/58_falguni_sangha.jpg" alt="Falguni Sangha" data-caption="Falguni Sangha">
-      <img src="/images/works/sharodiya_16/57_ekdalia_evergreen.jpg" alt="Ekdalia Evergreen" data-caption="Ekdalia Evergreen">
-      <img src="/images/works/sharodiya_16/56_ekdalia_evergreen.jpg" alt="Ekdalia Evergreen" data-caption="Ekdalia Evergreen, Chandelier">
-      <img src="/images/works/sharodiya_16/55_singhi_park.jpg" alt="Singhi Park" data-caption="Singhi Park">
-      <img src="/images/works/sharodiya_16/54_hindusthan_park.jpg" alt="Hindusthan Park" data-caption="Hindusthan Park">
-      <img src="/images/works/sharodiya_16/53_samajsebi.jpg" alt="Samajsebi" data-caption="Samajsebi">
-      <img src="/images/works/sharodiya_16/52_ballygunge_cultural.jpg" alt="Ballygunge Cultural" data-caption="Ballygunge Cultural">
-      <img src="/images/works/sharodiya_16/51_bharatchandra_road_youngster_club.jpg" alt="Bharatchandra Road Youngster Club" data-caption="Bharatchandra Road Youngster Club">
-      <img src="/images/works/sharodiya_16/50_tridhara.jpg" alt="Tridhara" data-caption="Tridhara">
-      <img src="/images/works/sharodiya_16/49_deshapriya_park.jpg" alt="Deshapriya Park" data-caption="Deshapriya Park">
-      <img src="/images/works/sharodiya_16/48_adi_lake_pally.jpg" alt="Adi Lake Pally" data-caption="Adi Lake Pally">
-      <img src="/images/works/sharodiya_16/47_shibmandir.jpg" alt="Shibmandir" data-caption="Shibmandir">
-      <img src="/images/works/sharodiya_16/46_shibmandir.jpg" alt="Shibmandir" data-caption="Shibmandir, Interiors">
-      <img src="/images/works/sharodiya_16/45_lake_youth_corner.jpg" alt="Lake Youth Corner" data-caption="Lake Youth Corner">
-      <img src="/images/works/sharodiya_16/44_mudiali.jpg" alt="Mudiali Club" data-caption="Mudiali Club">
-      <img src="/images/works/sharodiya_16/43_labony.jpg" alt="Labony Estate" data-caption="Labony Estate">
-      <img src="/images/works/sharodiya_16/42_ec_block.jpg" alt="EC Block" data-caption="EC Block">
-      <img src="/images/works/sharodiya_16/41_ec_block.jpg" alt="EC Block" data-caption="EC Block, Pandal">
-      <img src="/images/works/sharodiya_16/40_db_block.jpg" alt="DB Block" data-caption="DB Block">
-      <img src="/images/works/sharodiya_16/39_db_block.jpg" alt="DB Block" data-caption="DB Block, Interiors">
-      <img src="/images/works/sharodiya_16/38_be_block_east.jpg" alt="BE Block (East)" data-caption="BE Block (East)">
-      <img src="/images/works/sharodiya_16/37_ae_block_part_2.jpg" alt="AE Block (Part 2)" data-caption="AE Block (Part 2)">
-      <img src="/images/works/sharodiya_16/36_aj_block.jpg" alt="AJ Block" data-caption="AJ Block">
-      <img src="/images/works/sharodiya_16/35_ak_block.jpg" alt="AK Block" data-caption="AK Block">
-      <img src="/images/works/sharodiya_16/34_ak_block.jpg" alt="AK Block" data-caption="AK Block, Interiors">
-      <img src="/images/works/sharodiya_16/33_bj_block.jpg" alt="BJ Block" data-caption="BJ Block">
-      <img src="/images/works/sharodiya_16/32_rajdanga_nabodoy_sangha.jpg" alt="Rajdanga Nabodoy Sangha" data-caption="Rajdanga Nabodoy Sangha">
-      <img src="/images/works/sharodiya_16/31_badamtala_asharh_sangha.jpg" alt="Badamtala Asharh Sangha" data-caption="Badamtala Asharh Sangha, Interiors">
-      <img src="/images/works/sharodiya_16/30_badamtala_asharh_sangha.jpg" alt="Badamtala Asharh Sangha" data-caption="Badamtala Asharh Sangha">
-      <img src="/images/works/sharodiya_16/29_66_pally.jpg" alt="66 Pally" data-caption="66 Pally">
-      <img src="/images/works/sharodiya_16/28_66_pally.jpg" alt="66 Pally" data-caption="66 Pally, Pandal">
-      <img src="/images/works/sharodiya_16/27_nepal_bhatcharjee_street.jpg" alt="Nepal Bhatcharjee Street" data-caption="Nepal Bhatcharjee Street">
-      <img src="/images/works/sharodiya_16/26_chetla_agrani.jpg" alt="Chetla Agrani" data-caption="Chetla Agrani">
-      <img src="/images/works/sharodiya_16/25_barisha_club.jpg" alt="Barisha Club" data-caption="Barisha Club">
-      <img src="/images/works/sharodiya_16/24_behala_nutan_dal.jpg" alt="Behala Nutan Dal" data-caption="Behala Nutan Dal">
-      <img src="/images/works/sharodiya_16/23_behala_friends.jpg" alt="Behala Friends" data-caption="Behala Friends">
-      <img src="/images/works/sharodiya_16/22_mitra_sangha_behala.jpg" alt="Mitra Sangha" data-caption="Mitra Sangha">
-      <img src="/images/works/sharodiya_16/21_adarsha_pally.jpg" alt="Adarsha Pally" data-caption="Adarsha Pally">
-      <img src="/images/works/sharodiya_16/20_buro_shibtala.jpg" alt="Buro Shibtala" data-caption="Buro Shibtala">
-      <img src="/images/works/sharodiya_16/19_suruchi_sangha.jpg" alt="Suruchi Sangha" data-caption="Suruchi Sangha">
-      <img src="/images/works/sharodiya_16/18_suruchi_sangha.jpg" alt="Suruchi Sangha" data-caption="Suruchi Sangha, Interiors">
-      <img src="/images/works/sharodiya_16/17_ajeya_sanghati.jpg" alt="Ajeya Sanghati" data-caption="Ajeya Sanghati">
-      <img src="/images/works/sharodiya_16/16_vivekananda_park_athletic_club.jpg" alt="Vivekananda Park Athletic Club" data-caption="Vivekananda Park Athletic Club">
-      <img src="/images/works/sharodiya_16/15_41_pally.jpg" alt="41 Pally" data-caption="41 Pally">
-      <img src="/images/works/sharodiya_16/14_41_pally.jpg" alt="41 Pally" data-caption="41 Pally, Pandal">
-      <img src="/images/works/sharodiya_16/13_naktala_udayan.jpg" alt="Naktala Udayan Sangha" data-caption="Naktala Udayan Sangha">
-      <img src="/images/works/sharodiya_16/12_yatra_shuru_shangha.jpg" alt="Yatra Shuru Sangha" data-caption="Yatra Shuru Sangha">
-      <img src="/images/works/sharodiya_16/11_patuli_sarbojonin.jpg" alt="Patuli Sarbojonin" data-caption="Patuli Sarbojonin">
-      <img src="/images/works/sharodiya_16/10_selimpur_pally.jpg" alt="Selimpur Pally" data-caption="Selimpur Pally">
-      <img src="/images/works/sharodiya_16/09_babubagan.jpg" alt="Babubagan" data-caption="Babubagan">
-      <img src="/images/works/sharodiya_16/08_bandhab_sammelani.jpg" alt="Bandhab Sammelani" data-caption="Bandhab Sammelani">
-      <img src="/images/works/sharodiya_16/07_95_pally.jpg" alt="95 Pally" data-caption="95 Pally">
-      <img src="/images/works/sharodiya_16/06_95_pally.jpg" alt="95 Pally, Interiors" data-caption="95 Pally, Interiors">
-      <img src="/images/works/sharodiya_16/05_jodhpur_park.jpg" alt="Jodhpur Park" data-caption="Jodhpur Park">
-      <img src="/images/works/sharodiya_16/04_jodhpur_park.jpg" alt="Jodhpur Park, Interiors" data-caption="Jodhpur Park, Interiors">
-      <img src="/images/works/sharodiya_16/03_pallimangal.jpg" alt="Pallimangal Samity" data-caption="Pallimangal Samity">
-      <img src="/images/works/sharodiya_16/02_patuli.jpg" alt="Patuli Upanagari Sporting Club" data-caption="Patuli Upanagari Sporting Club">
-      <img src="/images/works/sharodiya_16/01_patuli.jpg" alt="Patuli Upanagari Sporting Club, Interiors" data-caption="Patuli Upanagari Sporting Club, Interiors">
-      <img src="/images/works/sharodiya_16/00_cover.jpg" alt="Identity 2016" data-caption="Identity 2016">
-  </div>
+  {% include fotorama-gallery.html %}
 </p>
 
 After two Durga Puja photograph series in [2013](http://upamanyu.in/works/2013/sharodiya-13/) & [2015](http://upamanyu.in/works/2015/sharodiya-15/) this is the time of year when the wait begins for _Maa's_ arrival. Reworked the identity for 2016. Unveiling it on _Mahalaya_.

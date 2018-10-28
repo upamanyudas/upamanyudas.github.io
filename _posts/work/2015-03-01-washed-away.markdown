@@ -12,20 +12,40 @@ class: other
 permalink: /works/:year/:title
 comments: true
 tags:
+- memoir
+thumbnail: false
+image:
+- "/images/works/washed_away/01_night_rain.jpg"
+- "/images/works/washed_away/02_flower.jpg"
+- "/images/works/washed_away/03_leaves.jpg"
+- "/images/works/washed_away/04_dog.jpg"
+- "/images/works/washed_away/05_home.jpg"
+- "/images/works/washed_away/06_me.jpg"
+- "/images/works/washed_away/07_squirrel.jpg"
+- "/images/works/washed_away/08_flower_2.jpg"
+image-alt:
+- Night Rain
+- Flowers budding Again
+- Fallen Leaves
+- Sunbathing Dog
+- Home is where the heart is
+- Me
+- Squirrel
+- Flower in the Garden
+image-caption:
+- Night Rain
+- Flowers budding Again
+- Fallen Leaves
+- Sunbathing Dog
+- Home is where the heart is
+- Me
+- Squirrel
+- Flower in the Garden
 ---
 <p style="display: none;">Come March, rains have arrived in Mumbai. Hope it washes away all our pain.</p>
 
 <p>
-  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
-      <img src="/images/works/washed_away/01_night_rain.jpg" alt="Night Rain" data-caption="Night Rain">
-      <img src="/images/works/washed_away/02_flower.jpg" alt="Flowers budding Again" data-caption="Flowers budding Again">
-      <img src="/images/works/washed_away/03_leaves.jpg" alt="Fallen Leaves" data-caption="Fallen Leaves">
-      <img src="/images/works/washed_away/04_dog.jpg" alt="Sunbathing Dog" data-caption="Sunbathing Dog">
-      <img src="/images/works/washed_away/05_home.jpg" alt="Home is where the heart Is" data-caption="Home is where the heart Is">
-      <img src="/images/works/washed_away/06_me.jpg" alt="Upamanyu Das" data-caption="Me">
-      <img src="/images/works/washed_away/07_squirrel.jpg" alt="Squirrel" data-caption="Squirrel">
-      <img src="/images/works/washed_away/08_flower_2.jpg" alt="Flower in the Graden" data-caption="Flower in the Garden">
-  </div>
+  {% include fotorama-gallery.html %}
 </p>
 
 Last month on the 12th of February we lost our father, merely aged 48. The loss has put a great impact on my family. 

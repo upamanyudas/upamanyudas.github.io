@@ -14,21 +14,44 @@ comments: true
 tags:
 - photography
 - maharashtra
+thumbnails: false
+image:
+- "/images/works/purushwadi_fireflies/p.000.jpg"
+- "/images/works/purushwadi_fireflies/p.001.jpg" 
+- "/images/works/purushwadi_fireflies/p.007.jpg"
+- "/images/works/purushwadi_fireflies/p.009.jpg"
+- "/images/works/purushwadi_fireflies/p.010.jpg"
+- "/images/works/purushwadi_fireflies/p.014.jpg"
+- "/images/works/purushwadi_fireflies/p.011.jpg"
+- "/images/works/purushwadi_fireflies/p.013.jpg"
+- "/images/works/purushwadi_fireflies/p.006.jpg"
+- "/images/works/purushwadi_fireflies/p.000.a.jpg"
+image-alt:
+- Western Ghats
+- Tents
+- Landscapes
+- Village Routes
+- Village Scapes
+- The Night Lights Up
+- Ghat Surroundings
+- Foggy
+- My Brother, Kinshuk
+- Me (Finally)
+image-caption:
+- Western Ghats
+- Tents
+- Landscapes
+- Village Routes
+- Village Scapes
+- The Night Lights Up
+- Ghat Surroundings
+- Foggy
+- My Brother, Kinshuk
+- Me (Finally)
 ---
 
 <p>
-  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
-      <img src="/images/works/purushwadi_fireflies/p.000.jpg" alt="Western Ghats" data-caption="Western Ghats">
-      <img src="/images/works/purushwadi_fireflies/p.001.jpg" alt="Tents" data-caption="Tents">
-      <img src="/images/works/purushwadi_fireflies/p.007.jpg" alt="Landscapes" data-caption="Landscapes">
-      <img src="/images/works/purushwadi_fireflies/p.009.jpg" alt="Village Routes" data-caption="Village Routes">
-      <img src="/images/works/purushwadi_fireflies/p.010.jpg" alt="Village Scapes" data-caption="Village Scapes">
-      <img src="/images/works/purushwadi_fireflies/p.014.jpg" alt="The Night Lights Up" data-caption="The Night Lights Up">
-      <img src="/images/works/purushwadi_fireflies/p.011.jpg" alt="Ghat Surroundings" data-caption="Ghat Surroundings">
-      <img src="/images/works/purushwadi_fireflies/p.013.jpg" alt="Foggy" data-caption="Foggy">
-      <img src="/images/works/purushwadi_fireflies/p.006.jpg" alt="My Brother, Kinshuk" data-caption="My Brother, Kinshuk">
-      <img src="/images/works/purushwadi_fireflies/p.000.a.jpg" alt="Me (Finally)" data-caption="Me (Finally)">
-  </div>
+  {% include fotorama-gallery.html %}
 </p>
 
 This post was longtime due. 2015 and 2016 has been two extremely disastrous years. 2015 with the death of my father & 2016 with my mother's death. But among the deaths, I am still amused to see so much life around. Life amazes me. Here's one of my experiences with a different kind of life & nature. 

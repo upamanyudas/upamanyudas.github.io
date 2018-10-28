@@ -15,6 +15,7 @@ tags:
 - durga puja
 - photography
 - kolkata
+thumbnail: false
 image:
 - /images/works/sharodiya_17/066_singhi_park.jpg
 - /images/works/sharodiya_17/065_hindusthan_park.jpg

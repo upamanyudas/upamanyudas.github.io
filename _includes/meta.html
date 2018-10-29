@@ -2,11 +2,11 @@
         <meta http-equiv="refresh" content="5; url=/">
 {% endif %}
 <!-- facebook metadata -->
-<meta content="Upamanyu &bull; {{ site.title }}" property="og:site_name">
+<meta content="{{ site.title }} &bull; Upamanyu" property="og:site_name">
 {% if page.title %}
-  <meta content="Upamanyu &bull; {{ page.title }}" property="og:title">
+  <meta content="{{ site.title }} &bull; Upamanyu" property="og:title">
 {% else %}
-  <meta content="Upamanyu &bull; {{ site.title }}" property="og:title">
+  <meta content="{{ site.title }} &bull; Upamanyu" property="og:title">
 {% endif %}
 {% if page.title %}
   <meta content="article" property="og:type">
@@ -50,9 +50,9 @@
 <meta name="twitter:site" content="@cloudstudio">
 <meta name="twitter:creator" content="@cloudstudio">
 {% if page.title %}
-  <meta name="twitter:title" content="Upamanyu &bull; {{ page.title }}">
+  <meta name="twitter:title" content="{{ site.title }} &bull; Upamanyu">
 {% else %}
-  <meta name="twitter:title" content="Upamanyu &bull; {{ site.title }}">
+  <meta name="twitter:title" content="{{ site.title }} &bull; Upamanyu">
 {% endif %}
 {% if page.url %}
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">

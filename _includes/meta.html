@@ -2,11 +2,11 @@
         <meta http-equiv="refresh" content="5; url=/">
 {% endif %}
 <!-- facebook metadata -->
-<meta content="{{ site.title }} &bull; Upamanyu" property="og:site_name">
+<meta content="{% if page.path == 'index.html' %} Upamanyu Das &bull; {{ page.title }} {% else %} {{ page.title }} &bull; Upamanyu Das {% endif %}" property="og:site_name">
 {% if page.title %}
-  <meta content="{{ site.title }} &bull; Upamanyu" property="og:title">
+  <meta content="{% if page.path == 'index.html' %} Upamanyu Das &bull; {{ page.title }} {% else %} {{ page.title }} &bull; Upamanyu Das {% endif %}" property="og:title">
 {% else %}
-  <meta content="{{ site.title }} &bull; Upamanyu" property="og:title">
+  <meta content="{% if page.path == 'index.html' %} Upamanyu Das &bull; {{ page.title }} {% else %} {{ page.title }} &bull; Upamanyu Das {% endif %}" property="og:title">
 {% endif %}
 {% if page.title %}
   <meta content="article" property="og:type">
@@ -50,9 +50,9 @@
 <meta name="twitter:site" content="@cloudstudio">
 <meta name="twitter:creator" content="@cloudstudio">
 {% if page.title %}
-  <meta name="twitter:title" content="{{ site.title }} &bull; Upamanyu">
+  <meta name="twitter:title" content="{% if page.path == 'index.html' %} Upamanyu Das &bull; {{ page.title }} {% else %} {{ page.title }} &bull; Upamanyu Das {% endif %}">
 {% else %}
-  <meta name="twitter:title" content="{{ site.title }} &bull; Upamanyu">
+  <meta name="twitter:title" content="{% if page.path == 'index.html' %} Upamanyu Das &bull; {{ page.title }} {% else %} {{ page.title }} &bull; Upamanyu Das {% endif %}">
 {% endif %}
 {% if page.url %}
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">

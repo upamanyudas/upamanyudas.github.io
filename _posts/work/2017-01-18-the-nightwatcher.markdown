@@ -9,7 +9,7 @@ thumb: the_nightwatcher.jpg
 image: the_nightwatcher.jpg
 medium: traditional
 class: illustration
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - illustration

@@ -9,7 +9,7 @@ thumb: garh_panchkot_16.jpg
 image: garh_panchkot_16/00_cover.jpg
 medium: traditional
 class: illustration
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - illustration

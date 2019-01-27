@@ -9,7 +9,7 @@ thumb: ganesh_chaturthi_2015.jpg
 image: ganesh_chaturthi_2015.jpg
 medium: traditional
 class: illustration
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - illustration

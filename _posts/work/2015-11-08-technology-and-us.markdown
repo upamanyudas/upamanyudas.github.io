@@ -9,7 +9,7 @@ thumb: technology_and_us.jpg
 cover: technology_and_us/00_cover.jpg
 place: Kolkata, WB
 class: other
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - technology

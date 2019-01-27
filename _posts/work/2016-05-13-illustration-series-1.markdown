@@ -9,7 +9,7 @@ thumb: cuddles.jpg
 image: illustration_series_1_cuddles/cover.jpg
 medium: digital
 class: design illustration
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - poster

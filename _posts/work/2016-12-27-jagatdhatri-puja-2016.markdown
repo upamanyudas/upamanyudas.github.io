@@ -9,7 +9,7 @@ thumb: jagatdhatri_puja_16.jpg
 cover: jagatdhatri_puja_16/00_cover.jpg
 place: Krishnanagar, WB
 class: travel
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - photography

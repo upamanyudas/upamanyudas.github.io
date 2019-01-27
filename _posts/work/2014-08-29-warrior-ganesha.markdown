@@ -9,7 +9,7 @@ thumb: ganesha.jpg
 image: ganesha.jpg
 medium: digital
 class: illustration
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - drawing

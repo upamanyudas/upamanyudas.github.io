@@ -9,7 +9,7 @@ thumb: christmas_2016.jpg
 image: christmas_2016.jpg
 medium: digital
 class: illustration
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - illustration

@@ -9,7 +9,7 @@ thumb: world_book_day_2017.jpg
 image: world_book_day_2017.jpg
 medium: digital
 class: design illustration
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - illustration

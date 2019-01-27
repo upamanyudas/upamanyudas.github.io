@@ -9,7 +9,7 @@ thumb: patuli.jpg
 cover: patuli/00_cover.jpg
 place: Kolkata, WB
 class: travel
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - photography

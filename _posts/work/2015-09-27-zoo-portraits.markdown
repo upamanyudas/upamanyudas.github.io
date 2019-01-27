@@ -9,7 +9,7 @@ thumb: zoo_portraits.jpg
 cover: zoo_portraits/00_cover.jpg
 place: Alipore Zoo, WB
 class: wildlife
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - photography

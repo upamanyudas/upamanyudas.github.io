@@ -9,7 +9,7 @@ thumb: republic_day_2017.jpg
 image: republic_day_2017.jpg
 medium: digital
 class: illustration
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - illustration

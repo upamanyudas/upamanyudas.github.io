@@ -9,7 +9,7 @@ thumb: basanta_utsav_2016.jpg
 cover: basanta_utsav_2016/000.jpg
 medium: digital
 place: Shantiniketan, WB
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - holi

@@ -9,7 +9,7 @@ thumb: rabindranath_tagore_2016.jpg
 image: rabindranath_tagore_2016/rabindranath.tagore.2016.jpg
 medium: digital
 class: design
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - poster

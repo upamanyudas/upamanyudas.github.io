@@ -3,7 +3,7 @@ layout: work
 title: "World Book Day 2017"
 date: 2017-04-23 08:30
 comments: true
-categories: works
+categories: photography
 published: true
 thumb: world_book_day_2017.jpg
 image: world_book_day_2017.jpg

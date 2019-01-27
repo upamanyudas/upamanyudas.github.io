@@ -9,7 +9,7 @@ thumb: purushwadi_fireflies.jpg
 cover: purushwadi_fireflies/00_cover.jpg
 place: Purushwadi, MH
 class: travel wildlife
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - photography

@@ -9,7 +9,7 @@ thumb: new_year_2016.jpg
 image: new_year_2016.jpg
 medium: digital
 class: illustration design
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - new year

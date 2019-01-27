@@ -9,7 +9,7 @@ thumb: dhuno_pora.jpg
 cover: dhuno_pora/00_cover_dhuno_pora.jpg
 place: Krishnanagar, WB
 class: travel
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - jagadhatri puja

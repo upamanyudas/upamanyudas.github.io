@@ -9,7 +9,7 @@ thumb: crow.jpg
 image: crow.jpg
 medium: traditional
 class: illustration
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - illustration

@@ -9,7 +9,7 @@ thumb: rabindra_jayanti.jpg
 image: rabindra_jayanti.jpg
 medium: digital
 class: design
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - illustration

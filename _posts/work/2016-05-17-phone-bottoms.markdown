@@ -9,7 +9,7 @@ thumb: phone_bottoms.jpg
 image: phone_bottoms.jpg
 medium: digital
 class: design illustration
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - illustration

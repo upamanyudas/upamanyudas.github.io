@@ -9,7 +9,7 @@ thumb: diwali2014.jpg
 image: diwali2014.jpg
 medium: digital
 class: illustration
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - drawing

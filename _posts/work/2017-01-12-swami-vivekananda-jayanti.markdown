@@ -9,7 +9,7 @@ thumb: swami_vivekananda_154th_birth_anneversary.jpg
 image: swami_vivekananda_154th_birth_anneversary.jpg
 medium: digital
 class: illustration
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - illustration

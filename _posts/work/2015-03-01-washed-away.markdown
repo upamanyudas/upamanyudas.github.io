@@ -9,7 +9,7 @@ thumb: washed_away.jpg
 cover: washed_away/00_cover.jpg
 place: Ambarnath, MH
 class: other
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - memoir

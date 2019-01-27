@@ -9,7 +9,7 @@ thumb: sharodiya_15.jpg
 cover: sharodiya_15/00_cover.jpg
 place: Kolkata, WB
 class: travel
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - durga puja

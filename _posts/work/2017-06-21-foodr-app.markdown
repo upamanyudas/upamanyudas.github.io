@@ -9,7 +9,7 @@ thumb: foodr.jpg
 image: foodr/001_intro.jpg
 medium: digital
 class: ui/ux
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - Mobile

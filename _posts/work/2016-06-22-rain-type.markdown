@@ -9,7 +9,7 @@ thumb: rain_type.jpg
 image: rain_type.jpg
 medium: traditional
 class: typography illustration
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - typography

@@ -9,7 +9,7 @@ thumb: daily_ui_challenge.jpg
 image: daily_ui_challenge/000_cover.jpg
 medium: digital
 class: ui/ux
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - ui

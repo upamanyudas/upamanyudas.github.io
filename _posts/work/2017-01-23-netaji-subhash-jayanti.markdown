@@ -9,7 +9,7 @@ thumb: netaji_subhash_chandra_bose.jpg
 image: netaji_subhash_chandra_bose.jpg
 medium: digital
 class: illustration
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - illustration

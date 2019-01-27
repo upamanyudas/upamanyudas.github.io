@@ -9,7 +9,7 @@ thumb: 70th_indeppendence_day.jpg
 image: 70th_indeppendence_day.jpg
 medium: digital
 class:  illustration
-permalink: /works/:year/:title
+permalink: "/works/:year/:title"
 comments: true
 tags:
 - india

@@ -8,19 +8,19 @@
 
         <header class="section-header">
             <div class="section-subtitle">
-                <a href="/works/photography/"><img src="/images/arrow-left-black.svg" alt="Right Arrow" style="width:15px;"> Photography</a> 
+            {% if page.url == "/works/photography/" or page.categories contains 'photography' %}
+                <a href="/works/photography/"><img src="/images/arrow-left-black.svg" alt="Right Arrow" style="width:15px;"> Photography</a>
+            {% else %}
+                <a href="/works/"><img src="/images/arrow-left-black.svg" alt="Right Arrow" style="width:15px;"> Works</a>   
+            {% endif %}
             </div>
             <br>
             
             <h1 class="section-title">{{ page.title }}</h1>
             <span class="section-subtitle"><time datetime="{{ page.date }}" pubdate>{{ page.date | date_to_string }}</time>{% for tag in page.tags %}, <a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a>{% endfor %}</span>
-            {% if page.place %}<span class="section-subtitle">Location: {{ page.place }}</span>{% endif %}
         </header>
       
         <section class="post-content">
-            <p>
-                {% include fotorama-gallery.html %}
-            </p>
 
             {{ page.content | markdownify }}
 
@@ -53,6 +53,8 @@
 
             <div class="post-nav">
 
+                
+
                 <!-- <span class="section-subtitle">Share on <a href="https://twitter.com/home?status={{ page.title }}+{{ site.base }}{{ page.url }}" target="_blank">Twitter</a>, <a href="https://www.facebook.com/share.php?u={{ site.base }}{{ page.url }}&amp;title={{ page.title }}" target="_blank">Facebook</a>, <a href="https://plus.google.com/share?url={{ site.base }}{{ page.url }}" target="_blank">Google+</a></span><br>
                 
                 {% if page.title contains "Vahans - The Holy Mounts" and page.categories contains "works" %} 
@@ -66,7 +68,7 @@
                 {% endif %} 
                 {% if page.title contains "Zoo Protraits" and page.categories contains "works" %} 
                     <a href="/blog/2015/vahans/" class="button">Next</a>
-                {% endif %} --> 
+                {% endif %} -->
 
             </div>
 

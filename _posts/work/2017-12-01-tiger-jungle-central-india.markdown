@@ -4,7 +4,7 @@ title: 'Tiger Jungle #1'
 date: 2017-12-01 00:00:00 +0000
 comments: true
 categories: photography
-published: true
+published: false
 thumb: tadoba.jpg
 cover: tadoba/000_cover.jpg
 place: Tadoba Tiger Reserve, MH

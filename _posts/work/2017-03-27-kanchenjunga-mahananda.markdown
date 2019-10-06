@@ -4,7 +4,7 @@ title: "Birds #1"
 date: 2017-03-27 09:00
 comments: true
 categories: photography
-published: true
+published: false
 thumb: kanchenjunga_mahananda.jpg
 cover: kanchenjunga_mahananda/000_cover.jpg
 place: Kanchenjunga NP / Mahananda WLS

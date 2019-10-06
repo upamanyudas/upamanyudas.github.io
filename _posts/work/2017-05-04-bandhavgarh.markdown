@@ -4,7 +4,7 @@ title: "Bandhavgarh National Park"
 date: 2017-05-04 09:00
 comments: true
 categories: photography
-published: true
+published: false
 thumb: bandhavgarh.jpg
 cover: bandhavgarh/000_cover.jpg
 place: Beohari, MP

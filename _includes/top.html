@@ -30,7 +30,10 @@
     <link rel="icon" type="image/x-icon" href="/favicon.png">
 
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> -->
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
 
     {% if page.path == 'index.html' %}
         <script>
@@ -58,12 +61,11 @@
             $(".main-header").css('background-image', backgrounds[0]);
             });
         </script>
-    {% endif %}
+    {% endif %}  
 
-    <!-- fotorama.css & fotorama.js. -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 
     {% if page.path == 'india-wildlife-cameraman-filmmaker/index.html' %}
         <!-- responsiveSlides.css & responsiveSlides.js -->

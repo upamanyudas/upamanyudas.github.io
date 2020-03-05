@@ -32,8 +32,8 @@ image-caption:
   {% include fotorama-gallery.html %}
 </p>
 
-Two years back, a visit to Alipore Zoo on a rainy afternoon, yielded some [portraits of the residents](https://upamanyu.in/works/2015/zoo-portraits){:target="_blank"}. This was before I became connected with the caueses of wildlife conservation and deciced on a career path that took me there.
+Five years back, a visit to Alipore Zoo on a rainy afternoon, yielded some [portraits of the residents](https://upamanyu.in/works/2015/zoo-portraits){:target="_blank"}. The camera was a new tool for me then, and I was learning to use it to the fullest. That visit sparked the humble beginnings of a new life for me, I became connected with the caueses of wildlife conservation and deciced on a career path that took me towards filmaking.
 
-This time, while returning to New Zealand, I took a detour of through Melbourne to meed a friend. And sure enoungh, I had to visit the Zoo there! The animals gave me fantastic photo ops. And I had a delight, trying out my new Panasonic LUMIX S1H.
+This time, while returning to New Zealand, I had to take a detour through Melbourne to meet a friend. And sure enoungh, I had to visit the Zoo there! The animals gave me fantastic photo ops. And I had a delight, trying out my new Panasonic LUMIX S1H.
 
 So this is Zoo Portraits II. Hope you like them.

@@ -1,0 +1,155 @@
+I"‹<section class="page-content clearfix">
+
+    <header class="section-header">
+        <h3 class="section-title">Projects</h3>
+        <span class="section-subtitle">Things that i am proud with</span>
+    </header>
+
+    <span class="section-subtitle">Some side projects, mostly open-sourced</span>
+
+    <ul class="projects-list clearfix">
+
+        <li>
+            <a href="http://www.upamanyu.in/galarie-css" target="_blank">
+                <img src="/images/projects/galarie.css.png" alt="Galarie CSS" />
+                <div class="caption">
+                    <div>
+                        <h4>Galarie CSS</h4>
+                        <span>Scriptless CSS carousal library.</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+        <li>
+            <a href="http://www.upamanyu.in/weather" target="_blank">
+                <img src="/images/projects/weatherapp.png" alt="Weather App" />
+                <div class="caption">
+                    <div>
+                        <h4>Weather App</h4>
+                        <span>A web app using simpleweather.js</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+        <li>
+            <a href="http://www.upamanyu.in/dynamio.css" target="_blank">
+                <img src="/images/projects/dynamio.css.png" alt="Dynamio CSS" />
+                <div class="caption">
+                    <div>
+                        <h4>Dynamio.css</h4>
+                        <span>Fun filled ready-to-cook CSS Animations.</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+        <li>
+            <a href="http://papclld.appspot.com/" target="_blank">
+                <img src="/images/projects/papercloud.png" alt="Papercloud" />
+                <div class="caption">
+                    <div>
+                        <h4>Papercloud</h4>
+                        <span>A minimal, no distraction, note taking app.</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+        <li>
+            <a href="http://studio.upamanyu.in/" target="_blank">
+                <img src="/images/projects/cloudstudio.png" alt="Cloudstudio" />
+                <div class="caption">
+                    <div>
+                        <h4>Cloudstudio</h4>
+                        <span>Wallpapers for desktop and mobile devices.</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+        <li>
+            <a href="http://www.upamanyu.in/reflect" target="_blank">
+                <img src="/images/projects/reflect.png" alt="Reflect" />
+                <div class="caption">
+                    <div>
+                        <h4>Reflect</h4>
+                        <span>JavaScript application reflecting text.</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+        <li>
+            <a href="http://www.upamanyu.in/lipi/" target="_blank">
+                <img src="/images/projects/lipi.png" alt="Lipi" />
+                <div class="caption">
+                    <div>
+                        <h4>Lipi</h4>
+                        <span>A Legible &amp; Responsive Theme for Tumblr</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+        <li>
+            <a href="http://www.upamanyu.in/butwi" target="_blank">
+                <img src="/images/projects/butwi.png" alt="Butwi" />
+                <div class="caption">
+                    <div>
+                        <h4>Butwi</h4>
+                        <span>Browser extension beautifying boring Twitter.com</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+        <li>
+            <a href="http://www.upamanyu.in/dtd" target="_blank">
+                <img src="/images/projects/doortodoor.png" alt="Door to Door" />
+                <div class="caption">
+                    <div>
+                        <h4>Door to Door</h4>
+                        <span>Exploring beautiful doors around the globe.</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+        <li>
+            <a href="http://upass.in/2" target="_blank">
+                <img src="/images/projects/upass.png" alt="uPass" />
+                <div class="caption">
+                    <div>
+                        <h4>uPass</h4>
+                        <span>Smart password manager</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+    </ul>
+
+    <header class="section-header">
+        <h3 class="section-title">Freewares</h3>
+        <span class="section-subtitle">small and simple products to spice up otherwise boring routines&lt;/a&gt;</span>
+    </header>
+
+    <ul class="projects-list clearfix">
+
+        <li>
+            <a href="https://cl.ly/3101061B1C0b" target="_blank">
+                <img src="/images/freewares/pickr.png" alt="Pickr" />
+                <div class="caption">
+                    <div>
+                        <h4>Pickr</h4>
+                        <span>A simple colour picker for Windows</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+    </ul>
+</section>
+:ET

@@ -1,0 +1,35 @@
+I"ˆ<article class="main-content">
+
+    <div class="wrapper clearfix">
+
+        <section class="page-content clearfix">
+
+            <header class="section-header">
+                <h3 class="section-title">Assignments</h3>
+                <span class="section-subtitle">Selected photographs from the field</span>
+            </header>
+
+            <p>
+                <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native" data-hash="true">
+    
+        <img src="/images/assignments/UpamanyuDas_Assignment_A03I7250.jpg" alt="" data-caption="Photographing passage migratory birds at their lekking site at Banni Grasslands" id="photo-1" />
+    
+        <img src="/images/assignments/UpamanyuDas_Assignment_GOPR1306.jpg" alt="" data-caption="Waiting for a good sighting filming Desert Cats at GRK" id="photo-2" />
+    
+        <img src="/images/assignments/UpamanyuDas_Assignment_IMG_0656.jpg" alt="" data-caption="Blackmagic in the wild" id="photo-3" />
+    
+        <img src="/images/assignments/UpamanyuDas_Assignment_IMG_0669.jpg" alt="" data-caption="Waiting in the open, hoping the cats would not spot me" id="photo-4" />
+    
+        <img src="/images/assignments/UpamanyuDas_Assignment_IMG_0674.jpg" alt="" data-caption="Night filming is a thrilling experience altogether. At Great Rann of Kutch, Gujarat" id="photo-5" />
+    
+        <img src="/images/assignments/UpamanyuDas_Assignment_Phone2018.jpg" alt="" data-caption="Photographing an owl at Tadoba, Maharashtra" id="photo-6" />
+    
+</div>
+            </p>
+
+        </section>
+
+    </div>
+
+</article>
+:ET

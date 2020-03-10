@@ -1,0 +1,101 @@
+I"�<script>
+  $(function() {
+    $(".rslides").responsiveSlides();
+  });
+</script>
+
+<ul class="rslides">
+  <!-- <li><img src="film0.jpg" alt="BBC Big Cats" /></li> -->
+  <li><img src="film1.jpg" alt="Desert Cat Filming" /></li>
+  <li><img src="film2.jpg" alt="Tadoba Filming" /></li>
+  <li><img src="film4.jpg" alt="GRK Filming" /></li>
+  <li><img src="film5.jpg" alt="Tonga" /></li>
+  <li><img src="film6.jpg" alt="Photographing monsoon migrants" /></li>
+  <li><img src="film7.jpg" alt="Night in the Desert" /></li>
+  <li><img src="film8.jpg" alt="Kea on shoulders" /></li>
+</ul>
+
+<div class="textBG">
+	<p>I am a specialist wildlife film editor &amp; cameraman, working in natural history, science, environment &amp; non-fiction documentary films. As an editor &amp; filmmaker, I am passionate about telling stories. My experience in editing and shooting natural history sequences as well as presentor led formats helps me tell impactful stories. You can see my showreel below to see a sample of my work.</p> 
+
+	<p>I’ve assisted in editing feature films for cinema and giant screen release as well as television documentaties. I've worked in both Apple Final Cut Pro X and Premiere Pro for editing 1080p, 4K, 6K &amp; 8K footage. I've also had extensive experience in color correction &amp; grading in DaVince Resolve 16. My experience also includes working with broadcast quality 4K, 6K &amp; 8K cameras, drones, high-speed cameras and gimbals.</p>
+</div>
+
+<header class="section-header">
+    <h3 class="section-title">Showreel</h3>
+</header>
+
+<center>
+  <iframe class="vimeoPlayer" src="https://player.vimeo.com/video/295133235" width="1280" height="720" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</center>
+
+<header class="section-header">
+      <h3 class="section-title">The Birds of Play (2019)</h3>
+      <hr />
+</header>
+
+<p><i>This film was made during my Master’s programme at the University of Otago. In the mountains of South Island of New Zealand, lives a parrot smarter than any other. Surviving in one of the toughest environments of the Southern Alps, the Kea is a hustler. Through millions of years of evolution, they have developed unique skills to survive in this unforgiving environment. This film tries to explore Kea’s intellect through the research of Amalia Bastos &amp; Lydia McLean.</i></p>
+
+<p><br /><br /></p>
+
+<center>
+  <iframe class="vimeoPlayer" src="https://player.vimeo.com/video/387113474" width="1280" height="720" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</center>
+
+<header class="section-header">
+      <h3 class="section-title">Humpbacks (2019)</h3>
+      <hr />
+  </header>
+
+<p><i>This film was made during my Master’s programme at the University of Otago. A short film about the Humpback whales, and how they impact the very fabric of our existence.</i></p>
+
+<center>
+  <iframe class="vimeoPlayer" src="https://player.vimeo.com/video/366003789" width="1280" height="720" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</center>
+
+<header class="section-header">
+    <h3 class="section-title">Bugs Way! (2019)</h3>
+    <hr />
+</header>
+
+<p><i>This film was made during my Master’s programme at the University of Otago. A team of New Zealand zoologists, searching for a common insect, made an incredible discovery. This short film highlights the discovery.</i></p>
+
+<center>
+  <iframe class="vimeoPlayer" src="https://player.vimeo.com/video/363083284" width="1280" height="720" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</center>
+
+<header class="section-header">
+    <h3 class="section-title">Light of the Past (2019)</h3>
+    <hr />
+</header>
+
+<p><i>This film was made during my Master’s programme at the University of Otago. The film highlights the problem as to how bright white LED lights diminishing the viewing experience of Paleolithic Art. The film also ventures to find the solution to this problem.</i></p>
+
+<center>
+  <iframe class="vimeoPlayer" src="https://player.vimeo.com/video/342193508" width="1280" height="720" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</center>
+
+<header class="section-header">
+    <h3 class="section-title">Clouded Leopards - a story of hope (2018)</h3>
+    <hr />
+</header>
+
+<p><i>Made in collaboration with the Tripura Forest Department, this short film was made to raise awareness regarding the very endangered cat Clouded Leopard.</i></p>
+
+<center>
+	<iframe class="vimeoPlayer" src="https://player.vimeo.com/video/287850314" width="1280" height="720" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</center>
+
+<header class="section-header">
+    <h3 class="section-title">Tigers Marking Territories (2017)</h3>
+    <hr />
+</header>
+
+<center>
+	<iframe width="1280" height="720" src="https://www.youtube.com/embed/OknP5-uM1Zg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+</center>
+
+<p>
+	Over the last few years, I have been working on a few nature documentaries. I have played various roles in the productions including director of photography, photographer, researcher and sound recordist.
+</p>
+:ET

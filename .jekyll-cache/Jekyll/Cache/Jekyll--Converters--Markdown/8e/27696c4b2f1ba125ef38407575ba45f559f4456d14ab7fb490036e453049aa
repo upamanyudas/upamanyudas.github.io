@@ -1,0 +1,301 @@
+I"�5<h2 id="setup--equipment">SETUP &amp; EQUIPMENT</h2>
+<p><span class="section-subtitle">Things that I use. Last updated on 7th September, 2017</span></p>
+
+<p>I am frequently asked about my setup, the hardware and software I use for my work, or what kind of equipment one should choose. Since I don’t always have the opportunity to give an answer as precise as I would like, I thought a page describing the setup I am using could be a good idea. Listed here are the Hardware, Cameraware, Software and Paintware that I use.</p>
+
+<p><img src="/images/posts/setup/1.png" alt="Hardware" /></p>
+
+<p><strong>Laptop Setup</strong>:</p>
+
+<ol>
+  <li>MacBook Pro (Late 2014), 256GB SSD, 8GB RAM, Connected to the Mainframe over WiFi.</li>
+  <li><a href="http://gaming.logitech.com/en-au/product/g300-optical-gaming-mouse">Logitech G300</a> mouse.</li>
+</ol>
+
+<p><strong>Tablet</strong>: Wacom Intuos Pro (Small).</p>
+
+<p><strong>Mainframe Setup</strong></p>
+
+<ol>
+  <li>Windows 7 Ultimate</li>
+  <li>Intel i5 Chipset</li>
+  <li>Circle Cabinet (Medium)</li>
+  <li>16GB RAM</li>
+  <li>500GB + 1TB + 4TB + 8TB HDD</li>
+  <li>Gigabyte Motherboard</li>
+  <li>SAMSUNG DVD Writer</li>
+  <li>Logitech Mouse, Keyboard &amp; Webcam</li>
+  <li>Samsung 17” TFT Monitor (2004 model)</li>
+  <li>TP-Link WR841N Router</li>
+  <li><a href="http://www.ipaccess.com/en/public-access">ipAccess NanoBTS</a> (For signal boosting)</li>
+  <li>D-Link DFM-560ES (connecting Landline Telephone to Server)</li>
+  <li>HP DeskJet Ink Advantage 3545 All-in-One Printer</li>
+  <li>Canon CanoScan 9000F Mark II (2016, to scan old negatives)</li>
+  <li>Belkin 4-Port USB2.0 Hub</li>
+  <li>Transcend 4-Port USB3.0 Hub</li>
+  <li>Transcend USB3.0 Card Reader</li>
+  <li>1 TB Western Digital My Passport HDD (2014)</li>
+  <li>APC BackUp UPS Pro 1000</li>
+</ol>
+
+<p><strong>Miscellaneous Hardware</strong></p>
+
+<ol>
+  <li>Yeti Blue Microphone, to record my voice</li>
+  <li>TEAC R-919X Casette Deck, to convert old casettes to MP3</li>
+</ol>
+
+<p><strong>Mobile</strong>:</p>
+
+<ol>
+  <li>iPhone 6s Plus Gold</li>
+  <li>An extremely old Nokia 1100 when I feel nostalgic</li>
+  <li>Xiaomi 5200mAh Power Bank</li>
+  <li>Portronics 13000mAh Power Bank</li>
+  <li>Skullcandy Jib Wireless In-Ear Earphones with Mic (Black)</li>
+</ol>
+
+<p><strong>Audio</strong>:</p>
+
+<ol>
+  <li>Phillips Heaset</li>
+  <li>Two very low Quality Enter speakers</li>
+</ol>
+
+<p><strong>DIY Electronics</strong>:</p>
+
+<ol>
+  <li><a href="http://arduino.cc/en/Main/arduinoBoardUno">Arduino Uno</a> rev3 board.</li>
+  <li><a href="https://getchip.com">C.H.I.P</a></li>
+  <li><a href="http://onion.io/">Onion Omega 2</a></li>
+  <li>Raspberry Pi 3 Model B (2016)</li>
+</ol>
+
+<p><img src="/images/posts/setup/2.png" alt="Cameraware" /></p>
+
+<p><strong>Bodies</strong></p>
+
+<ul>
+  <li>Panasonic Lumix DC-S1H</li>
+  <li>Canon EOS 7D Mark II</li>
+  <li>Canon EOS 700D</li>
+</ul>
+
+<p><strong>Lenses</strong></p>
+
+<ul>
+  <li>Canon 10-18mm f/4.5-5.6 IS</li>
+  <li>Canon 50mm f/1.8</li>
+  <li>Canon 55-250mm f/4-5.6 IS II</li>
+  <li>Tamron SP 150-600mm f/5-6.3 G2</li>
+  <li>Canon 500mm f/4L IS</li>
+</ul>
+
+<p><strong>Accessories</strong></p>
+
+<ul>
+  <li><a href="https://www.peakdesign.com/product/clips/capturepro/">Peak Design Capture Pro</a></li>
+  <li><a href="https://www.peakdesign.com/product/bags/everyday-backpack/">Peak Design Everyday Bagpack 30L</a></li>
+</ul>
+
+<p><strong>Camera Trap</strong></p>
+
+<ul>
+  <li>Canon EOS 700D / Rebel T5i</li>
+  <li>Canon 10-18mm f/4.5-5.6 IS</li>
+  <li>Custom built sensor &amp; trigger</li>
+  <li><a href="https://store.camtraptions.com/collections/camera-traps/products/wireless-pir-motion-sensor?variant=15385707872339" target="_blank">Camtraptions Sensor &amp; Trigger</a></li>
+  <li><a href="https://store.camtraptions.com/collections/housings/products/new-camera-housing?variant=27865044942931" target="_blank">Camtraptions Camera Housing</a></li>
+  <li><a href="http://pelican.com/" target="_blank">Customized PELICAN Case</a></li>
+  <li><a href="http://www.kenrockwell.com/nikon/sb28.htm" target="_blank">Nikon SB-28 Flashes</a></li>
+</ul>
+
+<p><img src="/images/posts/setup/3.png" alt="Software" /></p>
+
+<p><strong>OS</strong>: OSX Yosemite</p>
+
+<p><strong>Development</strong>: I use iTerm2 for command line fu. I spend most of my time on either terminator or browser. Some of the terminal tools that I use daily:</p>
+
+<ul>
+  <li>Vim for some coding</li>
+  <li>Sometimes Git. Though I really don’t know how to use it efficiently</li>
+  <li><a href="http://aria2.sourceforge.net/">aria2c</a> for downloading things</li>
+  <li><a href="https://github.com/joelthelion/autojump">Autojump</a> for quickly moving around my system</li>
+  <li><a href="https://www.pdflabs.com/tools/pdftk-server/">PDFtk</a> for all things pdf. I only deal with pdfs when syncing docs between my devices</li>
+  <li>Some custom scripts</li>
+  <li>EAGLE, for Schematics &amp; PCBs
+<!-- - My dotfiles are on [GitHub](http://github.com/upamanyudas/dotfiles) --></li>
+</ul>
+
+<p>A5 blank notebook and Sakura Pigma Micron 0.5mm Fineliner for sketching when I am working on a user interface</p>
+
+<p><strong>Browser</strong>: Google Chrome with the following must have extensions:</p>
+
+<ul>
+  <li><a href="https://chrome.google.com/webstore/detail/upass-2/lggpmneonbambgafcdpokhmhjjlgkold">uPass</a> as passwords are important and are pretty hard not to forget</li>
+  <li><a href="https://chrome.google.com/webstore/detail/better-history/obciceimmggglbmelaidpjlmodcebijb">Better History</a> because chrome’s history page sucks</li>
+  <li><a href="https://chrome.google.com/webstore/detail/mlomiejdfkolichcflejclcbmpeaniij">Ghostery</a> to block all the social nonsense</li>
+  <li><a href="https://adblockplus.org/">AdBlockPlus</a> for the annoying ads all over the Internet</li>
+  <li><a href="https://chrome.google.com/webstore/detail/speakit/pgeolalilifpodheeocdmbhehgnkkbak?hl=en">SpeakIt!</a> for times when reading through a long passage becomes difficult</li>
+  <li><a href="https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko">Session Buddy</a> to save the tab sessions</li>
+</ul>
+
+<p><strong>Web Apps</strong>: Some web applications I use often</p>
+
+<ul>
+  <li>Most of Google stuff</li>
+  <li>Google Drive for document management. Special mention because it helped me move away from Windows environment. Linux still doesn’t have a half decent document suite</li>
+  <li><a href="https://www.facebook.com/das.upamanyu">Facebook</a> for the same reason every other people do</li>
+  <li><a href="http://twitter.com/cloudstudio">Twitter</a> for bite sized updates</li>
+</ul>
+
+<p><strong>Desktop Apps</strong>: The few desktop apps that I do use include:</p>
+
+<ul>
+  <li>iTunes</li>
+  <li><a href="https://www.office.com/">Microsoft Office</a> for there is nothing better</li>
+  <li><a href="https://justgetflux.com/">Flux</a> for it slowly warms the colors of your screen based on the time of day.</li>
+  <li>[ShareMouse] (http://www.keyboard-and-mouse-sharing.com/) to swiftly travel between Mac &amp; Windows screens</li>
+  <li><a href="https://www.jetbrains.com/phpstorm/">PHPStorm</a> for all things PHP, manage my website</li>
+  <li><a href="http://www.sublimetext.com/">Sublime Text</a> for editing quick bits of code (this site is coded using sublime text)</li>
+  <li><a href="http://www.araelium.com/querious/">Queriois 2</a> for managing the MySQL databases</li>
+  <li><a href="http://www.git-tower.com/">Tower</a> for Git version control</li>
+  <li><a href="http://www.ulyssesapp.com/">Ulysses</a> for writing. It has a brilliant zen interface</li>
+  <li><a href="http://tapbots.com/tweetbot/mac/">Tweetbot for Mac</a> for it is the best Twitter client out there</li>
+  <li><a href="http://www.getblogo.com/">Blogo</a> / <a href="https://www.blogjet.com/">BlogJet</a> for managing WordpPress blogs</li>
+  <li><a href="http://airmailapp.com/">Airmail</a> for Managing emails and because the default Mail.app sucks</li>
+  <li><a href="https://www.videolan.org/vlc/index.html">VLC</a>. What else to use then?</li>
+  <li><a href="http://www.adobe.com/in/products/photoshop.html">Adobe Photoshop</a> for all thins related to image creation</li>
+  <li><a href="http://www.adobe.com/in/products/illustrator.html">Adobe Illustrator</a> and [Sketch] for creating vector illustrations &amp; mockups</li>
+  <li><a href="http://www.magix.com/in/audio-cleaning-lab/">MAGIX Audio Cleaning Lab</a> to record and edit old Casettes &amp; Vinyl</li>
+  <li><a href="http://www.araelium.com/querious/">Sip</a> or <a href="https://cl.ly/3101061B1C0b">pickr</a> for collecting colours from anywhere</li>
+  <li><a href="http://www.sketchup.com/c">SketchUp</a> &amp; <a href="http://www.sketchup.com/">Rhineceros</a> for 3D modelling</li>
+  <li><a href="http://softorino.com/waltr">Waltr</a> for copying stuff to the iPhone</li>
+  <li><a href="https://www.dropbox.com/">Dropbox</a> &amp; <a href="https://www.getcloudapp.com/">Cloudapp</a> for sharing files</li>
+  <li><a href="https://www.getcloudapp.com/">Deego</a> for backup</li>
+  <li><a href="http://getchatty.me/">Chatty</a> Better Facebook messenger app</li>
+  <li><a href="http://fbmacmessenger.rsms.me/">Messenger for Mac</a> to communicate without opening the Facebook page</li>
+  <li><a href="https://github.com/gsantner/whatsie">Whatsie</a> a native Mac/Windows app wrapper for WhatsApp Web</li>
+</ul>
+
+<p><strong>Apple iPhone</strong>: I work on my mobile very rarely. Nevertheless, here are some apps that I use:</p>
+
+<p>Photos:</p>
+
+<ul>
+  <li><a href="http://instagram.com/cloudstudio">Instagram</a> for sharing photos</li>
+  <li>PhotoTransfer - to quickly transfer photos from iPhone to Mac</li>
+  <li>Flickr to share hi-res photos, since Facebook fucks up</li>
+  <li>Lightroom for taking RAW photos</li>
+</ul>
+
+<p>Reading &amp; Learning:</p>
+
+<ul>
+  <li>iBooks for ebooks</li>
+  <li>Swiftly to learn the Swift programming language</li>
+  <li>TOI important &amp; non-impornant news</li>
+  <li>TED</li>
+  <li>Duolingo for learning languages (currently learning French)</li>
+</ul>
+
+<p>Social:</p>
+
+<ul>
+  <li>Twitter for in class entertainment!</li>
+  <li>Facebook messenger and main app</li>
+  <li>Ello, distraction free networking</li>
+  <li>Google+, just for the sake of it</li>
+  <li>Whatsapp for staying in touch</li>
+  <li>Periscope for live streams</li>
+  <li>Skype because I’m too lazy to attend offline meetings</li>
+  <li>Zomato - who doesn’t want to eat good food?</li>
+</ul>
+
+<p>Music:</p>
+
+<ul>
+  <li><a href="https://www.apple.com/music/">Apple Music</a></li>
+  <li><a href="https://soundcloud.com">SoundCloud</a> for indie stuff</li>
+</ul>
+
+<p>Productivity:</p>
+
+<ul>
+  <li><a href="https://itunes.apple.com/app/wunderlist-to-do-list-tasks/id406644151">Wunderlist</a> for note taking</li>
+  <li>Kotak Bank, banking partners</li>
+  <li>StrarTokenNG, BOI, banking partners</li>
+  <li>CoinKeeper to track expenses</li>
+</ul>
+
+<p>Tools:</p>
+
+<ul>
+  <li>Wordpress for managing blogs, though it’s not very usefull</li>
+  <li>Trello for project management</li>
+  <li>tawk.to - website chatting program</li>
+</ul>
+
+<p><img src="/images/posts/setup/4.png" alt="Paintware" /></p>
+
+<p>Medium:</p>
+
+<ul>
+  <li>Canvas (Stretched)</li>
+  <li>Acid Free Watercolor Paper</li>
+  <li>180gsm Paper</li>
+</ul>
+
+<p>Colours:</p>
+
+<ul>
+  <li><a href="http://dl.flipkart.com/dl/daler-rowney-simply-water-color-tube/p/itmdbv67mxg9hfsb?pid=PTSDBURSHTVV7JFG&amp;affid=upamanyud1">Daler-Rowney Simply Water Color Tube (24 Shades)</a></li>
+  <li>Camel Painting Inks (12 Shades)</li>
+  <li><a href="http://www.flipkart.com/pens-stationery/art-supplies/paints/acrylic-colors/pr?p%5B%5D=facets.quantity%255B%255D%3D101%2B-%2B200%2Bml&amp;p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&amp;p%5B%5D=facets.color%255B%255D%3DBlue&amp;p%5B%5D=facets.color%255B%255D%3DWhite&amp;p%5B%5D=facets.color%255B%255D%3DBlack&amp;p%5B%5D=facets.color%255B%255D%3DGreen&amp;p%5B%5D=facets.color%255B%255D%3DRed&amp;p%5B%5D=facets.color%255B%255D%3DGold&amp;sid=dgv%2Cj6t%2Cale%2Cu9s&amp;filterNone=true&amp;q=daler+rowney">Daler-Rowney System 3 Acrylic Colors (150ml)</a>
+    <ul>
+      <li>Yellow</li>
+      <li>Red</li>
+      <li>Blue</li>
+      <li>Green - Bottle &amp; Leaf</li>
+      <li>Mixing White</li>
+      <li>Black</li>
+    </ul>
+  </li>
+  <li><a href="http://dl.flipkart.com/dl/staedtler-luna-abs-color-pencil/p/itmda5yumybdpsjc?pid=CPSDA5VFQTHMSPMS&amp;affid=upamanyud1">Steadler 48 Shade Watercolour Pencil</a></li>
+  <li><a href="http://dl.flipkart.com/dl/mungyo-soft-pastel-crayons/p/itmddrr4dw3xgxca?pid=CRYDDRR3JSZW2UMJ&amp;affid=upamanyud1">Mungyo Soft Pastel Crayons</a></li>
+</ul>
+
+<p>Pens:</p>
+
+<ul>
+  <li><a href="http://dl.flipkart.com/dl/lamy-safari-umbra-fountain-pen/p/itmdjyebdvzgyc95?pid=PEND43Z9ATXW6HR7&amp;affid=upamanyud1">LAMY Safari Umbra Fountain Pen (war nib)</a></li>
+  <li><a href="http://www.snapdeal.com/product/luxor-pilot-hitec-v5-pen/2094879254">Luxor Pilot Hi-Tec V5 Pen (Black)</a></li>
+  <li>Sablo 88 Line Pen</li>
+  <li><a href="http://dl.flipkart.com/dl/pilot-sw-vsp-liquid-ink-v-sign-pen-pack-12/p/itmdtrg5fjhwhhqn?pid=PENDTRFZMXEXZJY9&amp;affid=upamanyud1">Pilot SW V Sign Pen</a></li>
+</ul>
+
+<p>Brushes:</p>
+
+<ul>
+  <li>1-12 number Round Brushes</li>
+  <li>1/2”, 1”, 2” 4” Flat Brushes</li>
+  <li>1, 3, 4, 9 Fan Brushes</li>
+</ul>
+
+<p>Palette Knives:</p>
+
+<ul>
+  <li>1/2” Diamond Knife</li>
+  <li>1” Flat Knife</li>
+  <li>1” Rounded Knife</li>
+</ul>
+
+<h3 id="update-log">Update Log</h3>
+
+<ul>
+  <li>25th February 2015 - Created</li>
+  <li>13th January 2017 - First Update</li>
+  <li>7th September 2017 - Added Cameraware section</li>
+  <li>5th February 2020 - Added some new items</li>
+</ul>
+:ET

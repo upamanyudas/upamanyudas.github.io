@@ -22,86 +22,72 @@ overview: true
 </ul>
 
 <div class="textBG">
-	<p>I am a specialist wildlife cameraman and film editor, working in natural history, science and environment films. Through the years I spent at the Department of Science Communication, NZ, I have gained experience in natural history sequence building as well as presentor led formats. You can see my showreel below to see a sample of my work.</p> 
+	<p>I am a specialist wildlife film editor & cameraman, working in natural history, science, environment & non-fiction documentary films. As an editor & filmmaker, I am passionate about telling stories. My experience in editing and shooting natural history sequences as well as presentor led formats helps me tell impactful stories. You can see my showreel below to see a sample of my work.</p> 
 
-	<p>My experience also includes working with broadcast quality 4K, 6K & 8K cameras, drones, high-speed cameras and Gimbals. I've worked in both Apple Final Cut Pro X and Premiere Pro for editing 1080p, 4K, 6K & 8K footage. I've also had extensive experience in color correction & grading in DaVince Resolve 16.</p>
-</div>
-
-<div class="textBG">
-  <br><br>
-  <header class="section-header">
-      <h3 class="section-title">Showreel</h3>
-  </header>
-
-  <center>
-    <iframe class="vimeoPlayer" src="https://player.vimeo.com/video/295133235" width="1280" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  </center>
+	<p>I’ve assisted in editing feature films for cinema and giant screen release as well as television documentaties. I've worked in both Apple Final Cut Pro X and Premiere Pro for editing 1080p, 4K, 6K & 8K footage. I've also had extensive experience in color correction & grading in DaVince Resolve 16. My experience also includes working with broadcast quality 4K, 6K & 8K cameras, drones, high-speed cameras and gimbals. I have played various roles in the productions including director of photography, photographer, researcher and sound recordist.</p>
 </div>
 
 <header class="section-header">
-      <h3 class="section-title">The Birds of Play (2019)</h3>
-      <hr>
-  </header>
-
-<i>This film was made during my Master's programme at the University of Otago. In the mountains of South Island of New Zealand, lives a parrot smarter than any other. Surviving in one of the toughest environments of the Southern Alps, the Kea is a hustler. Through millions of years of evolution, they have developed unique skills to survive in this unforgiving environment. This film tries to explore Kea's intellect through the research of Amalia Bastos & Lydia McLean.</i>
-
-<center>
-  <iframe class="vimeoPlayer" src="https://player.vimeo.com/video/387113474" width="1280" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</center>
-
-  <header class="section-header">
-      <h3 class="section-title">Humpbacks (2019)</h3>
-      <hr>
-  </header>
-
-<i>This film was made during my Master's programme at the University of Otago. A short film about the Humpback whales, and how they impact the very fabric of our existence.</i>
-
-<center>
-  <iframe class="vimeoPlayer" src="https://player.vimeo.com/video/366003789" width="1280" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</center>
-
-<header class="section-header">
-    <h3 class="section-title">Bugs Way! (2019)</h3>
-    <hr>
-</header>
-
-<i>This film was made during my Master's programme at the University of Otago. A team of New Zealand zoologists, searching for a common insect, made an incredible discovery. This short film highlights the discovery.</i>
-
-<center>
-  <iframe class="vimeoPlayer" src="https://player.vimeo.com/video/363083284" width="1280" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</center>
-
-<header class="section-header">
-    <h3 class="section-title">Light of the Past (2019)</h3>
-    <hr>
-</header>
-
-<i>This film was made during my Master's programme at the University of Otago. The film highlights the problem as to how bright white LED lights diminishing the viewing experience of Paleolithic Art. The film also ventures to find the solution to this problem.</i>
-
-<center>
-  <iframe class="vimeoPlayer" src="https://player.vimeo.com/video/342193508" width="1280" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</center>
-
-<header class="section-header">
-    <h3 class="section-title">Clouded Leopards - a story of hope (2018)</h3>
-    <hr>
-</header>
-
-<i>Made in collaboration with the Tripura Forest Department, this short film was made to raise awareness regarding the very endangered cat Clouded Leopard.</i>
-
-<center>
-	<iframe class="vimeoPlayer" src="https://player.vimeo.com/video/287850314" width="1280" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</center>
-
-<header class="section-header">
-    <h3 class="section-title">Tigers Marking Territories (2017)</h3>
-    <hr>
+    <h3 class="section-title">Showreel</h3>
 </header>
 
 <center>
-	<iframe width="1280" height="720" src="https://www.youtube.com/embed/OknP5-uM1Zg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe class="vimeoPlayer" src="https://player.vimeo.com/video/295133235" width="1280" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </center>
 
-<p>
-	Over the last few years, I have been working on a few nature documentaries. I have played various roles in the productions including director of photography, photographer, researcher and sound recordist.
-</p>
+<header class="section-header">
+    <h4 class="section-title">Films</h4>
+    <hr>
+</header>
+
+<section class="page-content clearfix">
+    <ul class="projects-list clearfix" id="portfolio">
+
+        {% for post in site.categories.film %}
+            
+                <li class="{{ post.class }}">
+                    <a href="{{ post.url }}">
+                        <img src="../images/films/-thumbs/{{ post.thumb }}" alt="{{ post.url }}" />
+                        <div class="caption">
+                            <div>
+                                <h4>{{ post.title }}</h4>
+                                <span>{{ post.year }}</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        {% endfor %}
+
+    </ul>
+</section>
+
+<!-- <hr>
+<center>This <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/StillImage" rel="dc:type">work</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/in/">Creative Commons Attribution-Noncommercial-Share Alike License</a></center> -->
+
+<script>
+$(document).ready(function() {
+    $('ul#filter a').click(function() {
+        $(this).css('outline','none');
+        $('ul#filter .current').removeClass('current');
+        $(this).parent().addClass('current');
+        
+        var filterVal = $(this).text().toLowerCase().replace(' ','-');
+                
+        if(filterVal == 'all') {
+            $('ul#portfolio li.hidden').fadeIn('slow').removeClass('hidden');
+        } else {
+            
+            $('ul#portfolio li').each(function() {
+                if(!$(this).hasClass(filterVal)) {
+                    $(this).fadeOut('normal').addClass('hidden');
+                } else {
+                    $(this).fadeIn('slow').removeClass('hidden');
+                }
+            });
+        }
+        
+        return false;
+    });
+});
+</script>

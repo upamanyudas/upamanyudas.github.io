@@ -1,0 +1,40 @@
+I"Â<article class="main-content">
+
+    <div class="wrapper">
+
+        <header class="section-header">
+            <h1 class="section-title">Contact</h1>
+            <span class="section-subtitle"></span>
+        </header>
+      
+        <section class="post-content">
+
+        	<form action="https://formspree.io/upamanyu@upamanyu.in" method="POST">
+  
+			  <fieldset class="contact-info-group">
+
+			    <label><span>Name</span>
+			    <input type="text" name="name" /></label>
+			    
+			    <label><span>Email Address</span>
+			    <input type="email" name="_replyto" /></label>
+
+			  </fieldset>
+
+			  <label><span>Message</span>
+			  <textarea name="message" style="overflow: hidden; word-wrap: break-word; height: 160px;"></textarea></label>
+
+			  <input type="text" name="_gotcha" style="display:none" />
+
+			  <fieldset class="submit-wrap">
+			    <input type="submit" value="Send" />
+			  </fieldset>
+
+			</form>
+
+        </section>
+
+    </div>
+
+</article>
+:ET

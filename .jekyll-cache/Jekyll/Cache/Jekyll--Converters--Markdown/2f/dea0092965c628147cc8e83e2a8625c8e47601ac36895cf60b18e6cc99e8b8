@@ -1,0 +1,47 @@
+I"¼<section class="main-content">
+
+    <div class="wrapper">
+
+        <header class="section-header">
+            <h4 class="section-title">Journal</h4>
+            <span class="section-subtitle">Random thoughts about life, photography &amp; design</span>
+        </header>
+
+        <ul id="posts-list">
+
+            
+
+            <li class="clearfix">
+                <time datetime="2017-02-07 09:00:00 +1300" pubdate="">07 Feb 2017</time>
+                <a href="/blog/2017/getting-started-with-your-digispark-2/"><h3>Getting Started with your Digispark</h3></a>
+            </li>
+            
+            
+
+            <li class="clearfix">
+                <time datetime="2016-08-02 19:00:00 +1200" pubdate="">02 Aug 2016</time>
+                <a href="/blog/2016/travelling-to-my-dreamland/"><h3>Travelling to my Dreamland</h3></a>
+            </li>
+            
+            
+
+            <li class="clearfix">
+                <time datetime="2016-05-10 11:30:00 +1200" pubdate="">10 May 2016</time>
+                <a href="/blog/2016/printing-source-code-mac-osx/"><h3>Printing source code in Mac OS X</h3></a>
+            </li>
+            
+            
+
+            <li class="clearfix">
+                <time datetime="2015-10-01 13:00:00 +1300" pubdate="">01 Oct 2015</time>
+                <a href="/blog/2015/welcome-to-the-redesign/"><h3>Welcome to the Redesign</h3></a>
+            </li>
+            
+            
+
+        </ul>
+
+    </div>
+
+</section>
+:ET

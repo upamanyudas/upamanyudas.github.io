@@ -1,0 +1,9 @@
+I"Ò<p>
+  <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native">
+      <img src="/images/works/garh_panchkot_16/01_garden_flower.jpg" alt="Flower Garden" data-caption="Flower Garden" />
+      <img src="/images/works/garh_panchkot_16/02_baranti_hills.jpg" alt="Baranti Hills" data-caption="Baranti Hills" />
+      <img src="/images/works/garh_panchkot_16/03_garh_panchkot.jpg" alt="Garh Panchkot, Remains" data-caption="Garh Panchkot, Remains" />
+      <img src="/images/works/garh_panchkot_16/04_forest_bunglow.jpg" alt="Forest Bunglow, Garh Panchkot" data-caption="Forest Bunglow, Garh Panchkot" />
+  </div>
+</p>
+:ET

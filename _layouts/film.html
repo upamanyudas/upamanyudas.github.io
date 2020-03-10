@@ -1,0 +1,82 @@
+{% include top.html %}
+
+{% include header.html %}
+
+<article class="main-content">
+
+    <div class="wrapper">
+
+        <header class="section-header">
+            <div class="section-subtitle">
+                <a href="/india-wildlife-cameraman-filmmaker/"><img src="/images/arrow-left-black.svg" alt="Right Arrow" style="width:15px;"> Films</a> 
+            </div>
+            <br>
+            
+            <h1 class="section-title">{{ page.title }} ({{ page.year }})</h1>
+            <span class="section-subtitle">{{ page.subtitle }}</span>
+        </header>
+      
+        <section class="post-content">
+
+            <p>
+                {% include vimeo-embed.html %}
+            </p>
+
+            <p>
+                Director:  {{ page.director }}
+                <br>
+                Producer: {{ page.producer }}
+                <br>
+                Narrator: {{ page.narrator }}
+                <br>
+                Music: {{ page.music }}
+                <br>
+                Camera: {{ page.camera }}
+                <br>
+                Edit: {{ page.editor }}
+                <br><br>
+                <span>{% for logo in page.logos %}<img style="padding-right: 5px; padding-bottom: 5px;" src="/images/films/-logos/{{logo}}.jpg" width="130px">{% endfor %}</span>
+            </p>
+
+            <hr>
+
+            {{ page.content | markdownify }}
+
+            <hr>
+
+            {% include like.html %}
+
+            {% if page.comments %}
+                <div id="disqus_thread"></div>
+                <script>
+                /**
+                * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                */
+                /*
+                var disqus_config = function () {
+                this.page.url = {{ site.base }}{{ page.url }}; // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = {{page.title}}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+
+                s.src = '//upamanyus.disqus.com/embed.js';
+
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            {% endif %}
+
+        </section>
+
+    </div>
+
+</article>
+
+{% include footer.html %}
+
+{% include bottom.html %}

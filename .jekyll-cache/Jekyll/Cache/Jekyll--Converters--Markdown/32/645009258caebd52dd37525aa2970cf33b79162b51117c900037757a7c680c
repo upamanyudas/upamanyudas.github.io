@@ -1,0 +1,1011 @@
+I"û¨<section class="page-content clearfix">
+
+    <header class="section-header">
+        <h4 class="section-title">Works</h4>
+        <span class="section-subtitle">Some of my commercial as well as non-comercial works.</span>
+    </header>
+
+    <ul id="filter">
+        <li class="current"><a href="#">all</a></li>
+        <li><a href="#">illustration</a></li>
+        <li><a href="#">design</a></li>
+        <li><a href="#">ui/ux</a></li>
+        <li><a href="#">typography</a></li>
+    </ul>
+
+    <ul class="projects-list clearfix" id="portfolio">
+
+        
+            
+                <li class="ui/ux">
+                    <a href="/works/2017/foodr-app">
+                        <img src="/images/works/-thumbs/foodr.jpg" alt="/works/2017/foodr-app" />
+                        <div class="caption">
+                            <div>
+                                <h4>Foodr App Concept</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2017-06-21 09:00:00 +1200" pubdate="">21 Jun 2017</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design illustration">
+                    <a href="/works/2017/world-book-day-2017">
+                        <img src="/images/works/-thumbs/world_book_day_2017.jpg" alt="/works/2017/world-book-day-2017" />
+                        <div class="caption">
+                            <div>
+                                <h4>World Book Day 2017</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2017-04-23 08:30:00 +1200" pubdate="">23 Apr 2017</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design illustration">
+                    <a href="/works/2017/poila-boisakh-2017">
+                        <img src="/images/works/-thumbs/poila_boisakh_2017.jpg" alt="/works/2017/poila-boisakh-2017" />
+                        <div class="caption">
+                            <div>
+                                <h4>Poila Boisakh 2017</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2017-04-15 08:30:00 +1200" pubdate="">15 Apr 2017</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2017/garh-panchkot">
+                        <img src="/images/works/-thumbs/garh_panchkot_16.jpg" alt="/works/2017/garh-panchkot" />
+                        <div class="caption">
+                            <div>
+                                <h4>Garh Panchkot Trip 2017</h4>
+                                <span>Medium: traditional</span>
+                                &bull;
+                                <span><time datetime="2017-03-09 09:00:00 +1300" pubdate="">09 Mar 2017</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2017/republic-day">
+                        <img src="/images/works/-thumbs/republic_day_2017.jpg" alt="/works/2017/republic-day" />
+                        <div class="caption">
+                            <div>
+                                <h4>Republic Day</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2017-01-26 09:00:00 +1300" pubdate="">26 Jan 2017</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2017/netaji-subhash-jayanti">
+                        <img src="/images/works/-thumbs/netaji_subhash_chandra_bose.jpg" alt="/works/2017/netaji-subhash-jayanti" />
+                        <div class="caption">
+                            <div>
+                                <h4>Netaji Subhash Jayanti</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2017-01-23 09:00:00 +1300" pubdate="">23 Jan 2017</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2017/the-nightwatcher">
+                        <img src="/images/works/-thumbs/the_nightwatcher.jpg" alt="/works/2017/the-nightwatcher" />
+                        <div class="caption">
+                            <div>
+                                <h4>The Nightwatcher</h4>
+                                <span>Medium: traditional</span>
+                                &bull;
+                                <span><time datetime="2017-01-18 10:00:00 +1300" pubdate="">18 Jan 2017</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2017/swami-vivekananda-jayanti">
+                        <img src="/images/works/-thumbs/swami_vivekananda_154th_birth_anneversary.jpg" alt="/works/2017/swami-vivekananda-jayanti" />
+                        <div class="caption">
+                            <div>
+                                <h4>Swami Vivekananda Jayanti</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2017-01-12 14:00:00 +1300" pubdate="">12 Jan 2017</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2017/the-rat">
+                        <img src="/images/works/-thumbs/the_rat.jpg" alt="/works/2017/the-rat" />
+                        <div class="caption">
+                            <div>
+                                <h4>Mr. Rat</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2017-01-11 10:00:00 +1300" pubdate="">11 Jan 2017</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2016/christmas-2016">
+                        <img src="/images/works/-thumbs/christmas_2016.jpg" alt="/works/2016/christmas-2016" />
+                        <div class="caption">
+                            <div>
+                                <h4>Christmas 2016</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2016-12-30 09:00:00 +1300" pubdate="">30 Dec 2016</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design">
+                    <a href="/works/2016/curvies">
+                        <img src="/images/works/-thumbs/curvies.jpg" alt="/works/2016/curvies" />
+                        <div class="caption">
+                            <div>
+                                <h4>Curvies</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2016-12-28 09:00:00 +1300" pubdate="">28 Dec 2016</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2016/dashami-2016">
+                        <img src="/images/works/-thumbs/dashami_2016.jpg" alt="/works/2016/dashami-2016" />
+                        <div class="caption">
+                            <div>
+                                <h4>Dashami 2016</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2016-10-11 20:58:00 +1300" pubdate="">11 Oct 2016</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design typography">
+                    <a href="/works/2016/thankyou-birthday">
+                        <img src="/images/works/-thumbs/thankyou_birthday_2016.jpg" alt="/works/2016/thankyou-birthday" />
+                        <div class="caption">
+                            <div>
+                                <h4>Birthday Thanks 2016</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2016-09-12 09:00:00 +1200" pubdate="">12 Sep 2016</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2016/independence-day-2016">
+                        <img src="/images/works/-thumbs/70th_indeppendence_day.jpg" alt="/works/2016/independence-day-2016" />
+                        <div class="caption">
+                            <div>
+                                <h4>70th Independence Day</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2016-08-15 09:00:00 +1200" pubdate="">15 Aug 2016</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="typography illustration">
+                    <a href="/works/2016/rain-type">
+                        <img src="/images/works/-thumbs/rain_type.jpg" alt="/works/2016/rain-type" />
+                        <div class="caption">
+                            <div>
+                                <h4>Rain Type</h4>
+                                <span>Medium: traditional</span>
+                                &bull;
+                                <span><time datetime="2016-06-22 15:00:00 +1200" pubdate="">22 Jun 2016</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design illustration">
+                    <a href="/works/2016/phone-bottoms">
+                        <img src="/images/works/-thumbs/phone_bottoms.jpg" alt="/works/2016/phone-bottoms" />
+                        <div class="caption">
+                            <div>
+                                <h4>Phone Bottoms</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2016-05-17 09:00:00 +1200" pubdate="">17 May 2016</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design illustration">
+                    <a href="/works/2016/illustration-series-1">
+                        <img src="/images/works/-thumbs/cuddles.jpg" alt="/works/2016/illustration-series-1" />
+                        <div class="caption">
+                            <div>
+                                <h4>Illustration Series #1 - Cuddles</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2016-05-13 10:00:00 +1200" pubdate="">13 May 2016</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration typography">
+                    <a href="/works/2016/mothers-day">
+                        <img src="/images/works/-thumbs/mothers_day_2016.jpg" alt="/works/2016/mothers-day" />
+                        <div class="caption">
+                            <div>
+                                <h4>Mother's Day</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2016-05-08 10:00:00 +1200" pubdate="">08 May 2016</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design">
+                    <a href="/works/2016/rabindranath-tagore">
+                        <img src="/images/works/-thumbs/rabindranath_tagore_2016.jpg" alt="/works/2016/rabindranath-tagore" />
+                        <div class="caption">
+                            <div>
+                                <h4>Rabindranath Tagore</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2016-05-08 08:00:00 +1200" pubdate="">08 May 2016</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design">
+                    <a href="/works/2016/satyjit-ray">
+                        <img src="/images/works/-thumbs/satyajit_ray_2016.jpg" alt="/works/2016/satyjit-ray" />
+                        <div class="caption">
+                            <div>
+                                <h4>Satyajit Ray</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2016-05-02 11:00:00 +1200" pubdate="">02 May 2016</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design illustration">
+                    <a href="/works/2016/poila-boisakh">
+                        <img src="/images/works/-thumbs/poila_boisakh_2016.jpg" alt="/works/2016/poila-boisakh" />
+                        <div class="caption">
+                            <div>
+                                <h4>Poila Boisakh</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2016-04-14 08:30:00 +1200" pubdate="">14 Apr 2016</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration design">
+                    <a href="/works/2016/workspace">
+                        <img src="/images/works/-thumbs/workspace.jpg" alt="/works/2016/workspace" />
+                        <div class="caption">
+                            <div>
+                                <h4>Workspace</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2016-03-16 07:05:00 +1300" pubdate="">16 Mar 2016</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration design">
+                    <a href="/works/2016/new-year-2016">
+                        <img src="/images/works/-thumbs/new_year_2016.jpg" alt="/works/2016/new-year-2016" />
+                        <div class="caption">
+                            <div>
+                                <h4>Happy New Year 2016</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2016-01-01 00:00:00 +1300" pubdate="">01 Jan 2016</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design illustration">
+                    <a href="/works/2015/christmas-2015">
+                        <img src="/images/works/-thumbs/christmas_2015.jpg" alt="/works/2015/christmas-2015" />
+                        <div class="caption">
+                            <div>
+                                <h4>Christmas Giveaway 2015</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2015-12-22 09:00:00 +1300" pubdate="">22 Dec 2015</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="ui/ux">
+                    <a href="/works/2015/daily-ui-challange">
+                        <img src="/images/works/-thumbs/daily_ui_challenge.jpg" alt="/works/2015/daily-ui-challange" />
+                        <div class="caption">
+                            <div>
+                                <h4>#DailyUI Challenge</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2015-12-16 09:00:00 +1300" pubdate="">16 Dec 2015</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2015/crow">
+                        <img src="/images/works/-thumbs/crow.jpg" alt="/works/2015/crow" />
+                        <div class="caption">
+                            <div>
+                                <h4>Crow</h4>
+                                <span>Medium: traditional</span>
+                                &bull;
+                                <span><time datetime="2015-11-19 09:00:00 +1300" pubdate="">19 Nov 2015</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration typography">
+                    <a href="/works/2015/pray-for-paris">
+                        <img src="/images/works/-thumbs/pray_for_paris.jpg" alt="/works/2015/pray-for-paris" />
+                        <div class="caption">
+                            <div>
+                                <h4>Pray for Paris</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2015-11-16 09:00:00 +1300" pubdate="">16 Nov 2015</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2015/diwali-2015">
+                        <img src="/images/works/-thumbs/diwali2015.jpg" alt="/works/2015/diwali-2015" />
+                        <div class="caption">
+                            <div>
+                                <h4>Diwali 2015</h4>
+                                <span>Medium: traditional</span>
+                                &bull;
+                                <span><time datetime="2015-11-11 09:00:00 +1300" pubdate="">11 Nov 2015</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2015/vahans">
+                        <img src="/images/works/-thumbs/vahans.jpg" alt="/works/2015/vahans" />
+                        <div class="caption">
+                            <div>
+                                <h4>Vahans - The Holy Mounts</h4>
+                                <span>Medium: traditional &amp; digital</span>
+                                &bull;
+                                <span><time datetime="2015-10-16 09:00:00 +1300" pubdate="">16 Oct 2015</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2015/ganesh-chaturthi-2015">
+                        <img src="/images/works/-thumbs/ganesh_chaturthi_2015.jpg" alt="/works/2015/ganesh-chaturthi-2015" />
+                        <div class="caption">
+                            <div>
+                                <h4>Ganehsh Chaturthi 2015</h4>
+                                <span>Medium: traditional</span>
+                                &bull;
+                                <span><time datetime="2015-09-17 09:01:00 +1200" pubdate="">17 Sep 2015</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design typography">
+                    <a href="/works/2015/thankyou-birthday">
+                        <img src="/images/works/-thumbs/thankyou_birthday.jpg" alt="/works/2015/thankyou-birthday" />
+                        <div class="caption">
+                            <div>
+                                <h4>Birthday Thanks</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2015-09-12 09:01:00 +1200" pubdate="">12 Sep 2015</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design">
+                    <a href="/works/2015/ninja-turtles-photoshop">
+                        <img src="/images/works/-thumbs/photoshop_ninja_turtles.jpg" alt="/works/2015/ninja-turtles-photoshop" />
+                        <div class="caption">
+                            <div>
+                                <h4>Ninja Turtles Photoshop Layers</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2015-07-08 20:58:00 +1200" pubdate="">08 Jul 2015</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2015/yoga-day">
+                        <img src="/images/works/-thumbs/yoga_day.jpg" alt="/works/2015/yoga-day" />
+                        <div class="caption">
+                            <div>
+                                <h4>International Yoga Day</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2015-06-21 20:58:00 +1200" pubdate="">21 Jun 2015</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design">
+                    <a href="/works/2015/leather-bags-2015">
+                        <img src="/images/works/-thumbs/leather_bags_2015.jpg" alt="/works/2015/leather-bags-2015" />
+                        <div class="caption">
+                            <div>
+                                <h4>Leather Bags 2015</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2015-06-12 09:00:00 +1200" pubdate="">12 Jun 2015</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design">
+                    <a href="/works/2015/rabindra-jayanti">
+                        <img src="/images/works/-thumbs/rabindra_jayanti.jpg" alt="/works/2015/rabindra-jayanti" />
+                        <div class="caption">
+                            <div>
+                                <h4>Rabindra Jayanti</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2015-05-09 09:00:00 +1200" pubdate="">09 May 2015</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2014/aids-day">
+                        <img src="/images/works/-thumbs/aids_day.jpg" alt="/works/2014/aids-day" />
+                        <div class="caption">
+                            <div>
+                                <h4>AIDS Day</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-12-01 20:58:00 +1300" pubdate="">01 Dec 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2014/old-man">
+                        <img src="/images/works/-thumbs/old_man.jpg" alt="/works/2014/old-man" />
+                        <div class="caption">
+                            <div>
+                                <h4>Old Man</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-11-30 20:58:00 +1300" pubdate="">30 Nov 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design">
+                    <a href="/works/2014/interstellar">
+                        <img src="/images/works/-thumbs/interstellar.jpg" alt="/works/2014/interstellar" />
+                        <div class="caption">
+                            <div>
+                                <h4>Interstellar</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-11-20 20:58:00 +1300" pubdate="">20 Nov 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design">
+                    <a href="/works/2014/kalkipuran">
+                        <img src="/images/works/-thumbs/kalkipuran.jpg" alt="/works/2014/kalkipuran" />
+                        <div class="caption">
+                            <div>
+                                <h4>Kalkipuran</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-11-16 20:58:00 +1300" pubdate="">16 Nov 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="typography design">
+                    <a href="/works/2014/sacred-plants">
+                        <img src="/images/works/-thumbs/sacred_plants.jpg" alt="/works/2014/sacred-plants" />
+                        <div class="caption">
+                            <div>
+                                <h4>Sacred Plants - Typography</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-10-28 20:58:00 +1300" pubdate="">28 Oct 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2014/diwali">
+                        <img src="/images/works/-thumbs/diwali2014.jpg" alt="/works/2014/diwali" />
+                        <div class="caption">
+                            <div>
+                                <h4>Diwali 2014</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-10-22 20:58:00 +1300" pubdate="">22 Oct 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2014/llama">
+                        <img src="/images/works/-thumbs/llama.jpg" alt="/works/2014/llama" />
+                        <div class="caption">
+                            <div>
+                                <h4>Disney's Giraffe</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-10-13 20:58:00 +1300" pubdate="">13 Oct 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design">
+                    <a href="/works/2014/hudhud">
+                        <img src="/images/works/-thumbs/hudhud.jpg" alt="/works/2014/hudhud" />
+                        <div class="caption">
+                            <div>
+                                <h4>Hudhud Cyclone</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-10-08 20:58:00 +1300" pubdate="">08 Oct 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2014/dashami">
+                        <img src="/images/works/-thumbs/dashami.jpg" alt="/works/2014/dashami" />
+                        <div class="caption">
+                            <div>
+                                <h4>Dashami - Dusshera</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-10-03 20:58:00 +1300" pubdate="">03 Oct 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design">
+                    <a href="/works/2014/gandhi-jayanti">
+                        <img src="/images/works/-thumbs/gandhi_jayanti.jpg" alt="/works/2014/gandhi-jayanti" />
+                        <div class="caption">
+                            <div>
+                                <h4>Gandhi Jayanti</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-10-02 20:58:00 +1300" pubdate="">02 Oct 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design">
+                    <a href="/works/2014/logofolio-2014">
+                        <img src="/images/works/-thumbs/logofolio.jpg" alt="/works/2014/logofolio-2014" />
+                        <div class="caption">
+                            <div>
+                                <h4>Logofolio 2014</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-09-02 09:00:00 +1200" pubdate="">02 Sep 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2014/warrior-ganesha">
+                        <img src="/images/works/-thumbs/ganesha.jpg" alt="/works/2014/warrior-ganesha" />
+                        <div class="caption">
+                            <div>
+                                <h4>Ganesh Chaturthi 2014</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-08-29 20:58:00 +1200" pubdate="">29 Aug 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design">
+                    <a href="/works/2014/note-UI">
+                        <img src="/images/works/-thumbs/noteUI.jpg" alt="/works/2014/note-UI" />
+                        <div class="caption">
+                            <div>
+                                <h4>Note UI</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-08-27 20:58:00 +1200" pubdate="">27 Aug 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2014/nested">
+                        <img src="/images/works/-thumbs/nested.jpg" alt="/works/2014/nested" />
+                        <div class="caption">
+                            <div>
+                                <h4>Nested</h4>
+                                <span>Medium: traditional</span>
+                                &bull;
+                                <span><time datetime="2014-08-26 20:58:00 +1200" pubdate="">26 Aug 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2014/pack-of-horse">
+                        <img src="/images/works/-thumbs/packofhorse.jpg" alt="/works/2014/pack-of-horse" />
+                        <div class="caption">
+                            <div>
+                                <h4>Pack of Horse</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-08-16 20:58:00 +1200" pubdate="">16 Aug 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2014/hatti">
+                        <img src="/images/works/-thumbs/hatti.jpg" alt="/works/2014/hatti" />
+                        <div class="caption">
+                            <div>
+                                <h4>Hatti - The Elephant</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-08-12 20:58:00 +1200" pubdate="">12 Aug 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2014/equus">
+                        <img src="/images/works/-thumbs/equus.jpg" alt="/works/2014/equus" />
+                        <div class="caption">
+                            <div>
+                                <h4>Equus</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-08-12 20:58:00 +1200" pubdate="">12 Aug 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design">
+                    <a href="/works/2014/the-hindusthani-car">
+                        <img src="/images/works/-thumbs/the_hindusthani_car.jpg" alt="/works/2014/the-hindusthani-car" />
+                        <div class="caption">
+                            <div>
+                                <h4>The Hindusthani Car</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-08-10 09:00:00 +1200" pubdate="">10 Aug 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2014/brother-bear">
+                        <img src="/images/works/-thumbs/brother_bear.jpg" alt="/works/2014/brother-bear" />
+                        <div class="caption">
+                            <div>
+                                <h4>Brother Bear</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-07-24 20:58:00 +1200" pubdate="">24 Jul 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2014/random-ave">
+                        <img src="/images/works/-thumbs/ave.jpg" alt="/works/2014/random-ave" />
+                        <div class="caption">
+                            <div>
+                                <h4>Random Ave</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-07-23 20:58:00 +1200" pubdate="">23 Jul 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2014/male-anatomy">
+                        <img src="/images/works/-thumbs/male_anatomy.jpg" alt="/works/2014/male-anatomy" />
+                        <div class="caption">
+                            <div>
+                                <h4>Male Anatomy</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-07-22 20:58:00 +1200" pubdate="">22 Jul 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2014/rains">
+                        <img src="/images/works/-thumbs/rains.jpg" alt="/works/2014/rains" />
+                        <div class="caption">
+                            <div>
+                                <h4>Rains</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2014-07-16 20:58:00 +1200" pubdate="">16 Jul 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2014/pencil-on-paper">
+                        <img src="/images/works/-thumbs/pencil_on_paper.jpg" alt="/works/2014/pencil-on-paper" />
+                        <div class="caption">
+                            <div>
+                                <h4>Pencil on Paper</h4>
+                                <span>Medium: traditional</span>
+                                &bull;
+                                <span><time datetime="2014-02-24 09:00:00 +1300" pubdate="">24 Feb 2014</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="design">
+                    <a href="/works/2013/poke-mon-badges">
+                        <img src="/images/works/-thumbs/pokemon_kanto_badges.jpg" alt="/works/2013/poke-mon-badges" />
+                        <div class="caption">
+                            <div>
+                                <h4>Pok√©mon Badges</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2013-10-23 09:00:00 +1300" pubdate="">23 Oct 2013</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+            
+                <li class="illustration">
+                    <a href="/works/2012/top-10-most-read-books-in-the-world">
+                        <img src="/images/works/-thumbs/top10books.jpg" alt="/works/2012/top-10-most-read-books-in-the-world" />
+                        <div class="caption">
+                            <div>
+                                <h4>Top 10 Most Read Books in the World</h4>
+                                <span>Medium: digital</span>
+                                &bull;
+                                <span><time datetime="2012-08-08 09:00:00 +1200" pubdate="">08 Aug 2012</time></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            
+        
+
+    </ul>
+
+</section>
+
+<script>
+$(document).ready(function() {
+    $('ul#filter a').click(function() {
+        $(this).css('outline','none');
+        $('ul#filter .current').removeClass('current');
+        $(this).parent().addClass('current');
+        
+        var filterVal = $(this).text().toLowerCase().replace(' ','-');
+                
+        if(filterVal == 'all') {
+            $('ul#portfolio li.hidden').fadeIn('slow').removeClass('hidden');
+        } else {
+            
+            $('ul#portfolio li').each(function() {
+                if(!$(this).hasClass(filterVal)) {
+                    $(this).fadeOut('normal').addClass('hidden');
+                } else {
+                    $(this).fadeIn('slow').removeClass('hidden');
+                }
+            });
+        }
+        
+        return false;
+    });
+});
+</script>
+
+:ET

@@ -1,0 +1,100 @@
+I"<article class="main-content">
+
+    <div class="wrapper clearfix">
+
+        <section class="page-content clearfix">
+
+            <header class="section-header">
+                <h3 class="section-title">Tiger Tales</h3>
+                <span class="section-subtitle">Selected Tiger Portraits from Around India</span>
+            </header>
+
+            <p>
+                <div class="fotorama" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true" data-autoplay="true" data-loop="true" data-allowfullscreen="native" data-nav="thumbs" data-hash="true">
+    
+        <img src="/images/works/tiger_tales/bandhavgarh_mrx_tiger.jpg" alt="Mr. X (Bandhavgarh)" data-caption="Mr. X (Bandhavgarh)" id="photo-1" />
+    
+        <img src="/images/works/tiger_tales/ranthambore_tiger_2.jpg" alt="Dominant Male (Ranthambore)" data-caption="Dominant Male (Ranthambore)" id="photo-2" />
+    
+        <img src="/images/works/tiger_tales/ranthambore_tiger.jpg" alt="Dominant Male (Ranthambore)" data-caption="Dominant Male (Ranthambore)" id="photo-3" />
+    
+        <img src="/images/works/tiger_tales/tadoba_kankajhari_tigress.jpg" alt="Kankajhari Tigress (Tadoba)" data-caption="Kankajhari Tigress (Tadoba)" id="photo-4" />
+    
+        <img src="/images/works/tiger_tales/tadoba_matkasur_tiger.jpg" alt="Over the Top (Tadoba)" data-caption="Over the Top (Tadoba)" id="photo-5" />
+    
+        <img src="/images/works/tiger_tales/tadoba_maya_cub_2.jpg" alt="Curious Gaze (Tadoba)" data-caption="Curious Gaze (Tadoba)" id="photo-6" />
+    
+        <img src="/images/works/tiger_tales/tadoba_maya_cub.jpg" alt="Tiger Cub (Tadoba)" data-caption="Tiger Cub (Tadoba)" id="photo-7" />
+    
+        <img src="/images/works/tiger_tales/tadoba_maya_cubs_2.jpg" alt="Let us Hide (Tadoba)" data-caption="Let us Hide (Tadoba)" id="photo-8" />
+    
+        <img src="/images/works/tiger_tales/tadoba_maya_cubs.jpg" alt="Playing with Mother (Tadoba)" data-caption="Playing with Mother (Tadoba)" id="photo-9" />
+    
+        <img src="/images/works/tiger_tales/tadoba_maya_tigress_yawn.jpg" alt="Waking Up (Tadoba)" data-caption="Waking Up (Tadoba)" id="photo-10" />
+    
+        <img src="/images/works/tiger_tales/tadoba_maya_tigress.jpg" alt="Cat Walk (Tadoba)" data-caption="Cat Walk (Tadoba)" id="photo-11" />
+    
+        <img src="/images/works/tiger_tales/tadoba_sub_adult_male_tiger.jpg" alt="Striped Stealth (Tadoba)" data-caption="Striped Stealth (Tadoba)" id="photo-12" />
+    
+        <img src="/images/works/tiger_tales/tadoba_sub_adult_tiger_2.jpg" alt="Battle Hero (Tadoba)" data-caption="Battle Hero (Tadoba)" id="photo-13" />
+    
+        <img src="/images/works/tiger_tales/tadoba_sub_adult_tiger.jpg" alt="Into the Greens (Tadoba)" data-caption="Into the Greens (Tadoba)" id="photo-14" />
+    
+        <img src="/images/works/tiger_tales/tadoba_tiger_cub.jpg" alt="Who are they Mom? (Tadoba)" data-caption="Who are they Mom? (Tadoba)" id="photo-15" />
+    
+        <img src="/images/works/tiger_tales/tadoba_tiger_leap.jpg" alt="Leap of Faith (Tadoba)" data-caption="Leap of Faith (Tadoba)" id="photo-16" />
+    
+</div>
+            </p>
+
+            <p>I have been photographing wildlife for over two and a half years now, around the world. But still, Tiger as a species, never seems to amaze me.</p>
+
+        </section>
+
+    </div>
+
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=693202704100467";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your like button code -->
+<div class="fb-like" data-href="http://upamanyu.in/photos/tiger-tales/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false">
+</div>
+
+
+<div class="g-plusone" data-size="standard" data-annotation="bubble"></div>
+
+<br /><br />
+
+    
+        <div id="disqus_thread"></div>
+        <script>
+        /**
+        * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+        */
+        /*
+        var disqus_config = function () {
+        this.page.url = http://upamanyu.in/photos/tiger-tales/; // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = Tiger Tales; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//upamanyus.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    
+
+</article>
+:ET

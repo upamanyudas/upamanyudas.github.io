@@ -16,7 +16,7 @@ editor: Upamanyu Das
 logos:
 - wild-bits
 - premiere-pro
-vimeo: 342193508
+vimeo: 287850314
 thumb: clouded_leopard_a_ray_of_hope.jpg
 cover: clouded_leopard_a_ray_of_hope/poster.jpg
 class: natural history

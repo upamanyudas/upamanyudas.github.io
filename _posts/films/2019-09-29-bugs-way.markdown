@@ -1,0 +1,41 @@
+---
+layout: film
+title: "Bugs Way!"
+subtitle: ""
+date: 2019-09-29 10:00
+comments: true
+categories: film
+published: true
+year: 2019
+director: Upamanyu Das
+producer: "The Wild Bits"
+narrator: Upamanyu Das
+music: "Austin Fray & Adam Schiff"
+camera: "Upamanyu Das"
+editor: Upamanyu Das
+logos:
+- otago
+- scicomm
+- wild-bits
+- go-pro
+- rode
+- manfrotto
+- final-cut
+vimeo: 363083284
+thumb: bugs_way.jpg
+cover: bugs_way/poster.jpg
+class: natural history
+permalink: "/films/:year/:title"
+comments: true
+tags:
+- film
+- insect
+- million year
+thumbnail: true
+---
+
+In 2019, a team of New Zealand zoologists, searching for a common insect, made an incredible discovery.
+
+Professor Jon Waters & PhD student Brodi Foster from the University of Otago ventured into the Maungatua Range near Dunedin in search of a widespread species of stonefly when he stumbled upon a new species. This species of wingless stonefly has been sitting undiscovered in the mountains for 2 million years.
+
+This short film outlines the discovery.

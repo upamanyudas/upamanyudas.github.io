@@ -18,6 +18,7 @@ logos:
 - scicomm
 - wild-bits
 - rode
+- manfrotto
 - final-cut
 vimeo: 342193508
 thumb: light_of_the_past.jpg

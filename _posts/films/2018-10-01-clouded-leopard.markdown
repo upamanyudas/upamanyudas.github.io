@@ -29,6 +29,8 @@ tags:
 thumbnail: true
 ---
 
-A short documentary on the situation of Clouded Leopard in India and the future of the species.
+Out of all the small cat species of India, Clouded Leopard is perhaps one of the most misunderstood and elusive. in the desnse forsests of the northeast, this cat prowls.
 
-Wild Clouded Leopard are being made a target by poachers extensively, after Tigers received immense protection. But still there is hope. Explore with me in this short documentary.
+After Tigers received immense protection from the govornment, wild Clouded Leopard are being made a target by poachers for their hides, teeth & nails. But there is still hope.
+
+In a breeding facility in Tripura, Clouded Leopards are being bred in captivity for a sustainable population to be developed out of the wild. This short documentary outlines the situation of Clouded Leopard in India and the future of the species.

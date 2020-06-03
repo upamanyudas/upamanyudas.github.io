@@ -781,6 +781,7 @@ form {
       padding: 0; }
   form [type="submit"] {
     width: 100%; } }
+
 .form-success {
   background: #e5eaee;
   text-align: center; }

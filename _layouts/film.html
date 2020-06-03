@@ -36,6 +36,10 @@
                 Edit: {{ page.editor }}
                 <br><br>
                 <span>{% for logo in page.logos %}<img style="padding-right: 5px; padding-bottom: 5px;" src="/images/films/-logos/{{logo}}.jpg" width="130px">{% endfor %}</span>
+                <br><br>
+                {% if page.website %}
+                    <a href="{{ page.website }}">Website</a>
+                {% endif %}
             </p>
 
             <hr>

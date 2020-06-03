@@ -27,6 +27,7 @@ vimeo: 387113474
 thumb: the_birds_of_play.jpg
 cover: the_birds_of_play/poster.jpg
 class: natural history
+website: http://thebirdsofplay.droppages.com/
 permalink: "/films/:year/:title"
 comments: true
 tags:

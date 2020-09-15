@@ -1,6 +1,25 @@
 {% if page.url == "/404.html" %}
         <meta http-equiv="refresh" content="5; url=/">
 {% endif %}
+
+<!-- general metadata -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="Jekyll v{{ jekyll.version }}">
+<meta name="title" content="{% if page.path == 'index.html' %} Upamanyu Das &bull; {{ page.title }} {% else %} {{ page.title }} &bull; Upamanyu Das {% endif %}"/>
+{% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords }}">
+{% else %}
+  <meta name="keywords" content="{{ site.keywords }}">
+{% endif %}
+{% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+{% elsif page.categories contains "works" or  page.categories contains "blog" %}
+  <meta name="description" content="{{ page.content | strip_html }}">
+{% else %}
+  <meta name="description" content="{{ site.description }}">
+{% endif %}
+<meta name="robots" content="noodp">
+
 <!-- facebook metadata -->
 <meta content="{% if page.path == 'index.html' %} Upamanyu Das &bull; {{ page.title }} {% else %} {{ page.title }} &bull; Upamanyu Das {% endif %}" property="og:site_name">
 {% if page.title %}

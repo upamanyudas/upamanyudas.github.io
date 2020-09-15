@@ -3,6 +3,7 @@ layout: film
 title: "The Birds of Play"
 subtitle: "The story of the world's smartedt parrot"
 date: 2020-03-10 10:00
+description: A film on the surprising intellect of the mountain dwelling parrot, Kea
 comments: true
 categories: film
 published: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Printing source code in Mac OS X
+title: Printing Source Code in Mac OS X
 date: 2016-05-10 11:30
 comments: true
 categories: blog
@@ -17,11 +17,11 @@ tags:
 	<figcaption>Terminal to Execute the Command</figcaption>
 </figure>
 
-Almost all the time, I need to print out the syntax of a project, during development or as reference, for my screencasts, I always end up printing it from Microsoft Word or Pages, sans the beautiful syntax highlighting. The lightweight text editors like [Sublime Text 2](https://www.sublimetext.com/) doesn’t support printing right now, and [TextMate](https://macromates.com/) or [Coda](https://panic.com/coda/), in my opinion, doesn't produce much beautiful result.
+Almost all the time, I need to print out the syntax of a project, during development or as reference, for my screencasts, I always end up printing it from Microsoft Word or Pages, sans the beautiful syntax highlighting. The lightweight text editors like [Sublime Text 2](https://www.sublimetext.com/){:target="_blank"} doesn’t support printing right now, and [TextMate](https://macromates.com/){:target="_blank"} or [Coda](https://panic.com/coda/){:target="_blank"}, in my opinion, doesn't produce much beautiful result.
 
-But, to my rescue, I recently discovered this nice program called [enscript](http://linux.die.net/man/1/enscript). The program is capable of probably doing a lot of good things, but in my case, I use it now, to produce a PostScript file with printed code. 
+But, to my rescue, I recently discovered this nice program called [enscript](http://linux.die.net/man/1/enscript){:target="_blank"}. The program is capable of probably doing a lot of good things, but in my case, I use it now, to produce a PostScript file with printed code. 
 
-In Mac OS X it can be installed using brew:
+In Mac OS X it can be installed using [Homebrew](https://brew.sh/){:target="_blank"} or on Linux using [Linuxbrew](https://docs.brew.sh/Homebrew-on-Linux){:target="_blank"}:
 
 <pre>
 <code class="language-powershell">brew install enscript</code>
@@ -55,3 +55,7 @@ enscript -1G --line-numbers -p - \
 In conclusion, if you need your <code>code files printed</code> (ruby, perl, html, js, c#), you can easily use this method to print them. Also, some automated scripts could be set up, to make the process simplified.
 
 Simple problem, simple solution.
+
+**Update**
+
+14th November 2020: Few link updates

@@ -48,8 +48,8 @@
 {% endif %}
 {% if page.cover and page.categories contains "photography" or page.categories contains "works" %}
   <meta content="{{ site.url }}/images/works/{{ page.cover }}" property="og:image">
-{% elsif page.cover and page.categories contains "blog" %}
-  <meta content="{{ site.url }}/images/posts/{{ page.cover }}" property="og:image">
+{% elsif page.image and page.categories contains "blog" %}
+  <meta content="{{ site.url }}/images/posts/{{ page.image }}" property="og:image">
 {% else %}
   <meta content="../images/bg.jpg" property="og:image">
 {% endif %}

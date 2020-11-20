@@ -1,3 +1,12 @@
+<!-- Add the Animated PNG Timeline -->
+{% if page.apngscripts %}
+  {% for timeline in page.apngscripts %}
+    <script>
+      set_animation("/images/{{ page.categories }}/{{ page.folder }}/{{ timeline }}_packed.png", {{ timeline }}_timeline, '{{ timeline }}_target', '{{ timeline }}_fallback');
+    </script>
+  {% endfor %}
+{% endif %}
+
 <script src="/js/prism.js"></script>
 
 <script>

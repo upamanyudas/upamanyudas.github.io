@@ -1,5 +1,6 @@
 .forestry
 .jekyll-cache
+.nova
 .sass-cache
 _site
 .DS_Store

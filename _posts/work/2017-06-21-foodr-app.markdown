@@ -5,12 +5,17 @@ date: 2017-06-21 09:00
 comments: true
 categories: works
 published: true
+folder: foodr
 thumb: foodr.jpg
 image: foodr/001_intro.jpg
 medium: digital
 class: ui/ux
 permalink: "/works/:year/:title"
 comments: true
+# apngscripts:
+# - main_screen
+# - select_ingredients
+# - smart_search
 tags:
 - Mobile
 - UI
@@ -20,7 +25,10 @@ tags:
 <img src="/images/works/foodr/003_ideation.jpg" alt="mockup">
 <img src="/images/works/foodr/004_implementation.jpg" alt="mockup">
 <img src="/images/works/foodr/005_main_screen.png" alt="mockup">
+<!-- <div><canvas id="main_screen_target" class="main_screen_target" width="1400" height="788" style="min-width: 100%;width: 100%;"><div id="main_screen_fallback" class="main_screen_target" style="width: 1400px; height: 788px; position: relative;"></div></canvas></div> -->
 <img src="/images/works/foodr/006_select_ingredients.png" alt="mockup">
+<!-- <div><canvas id="select_ingredients_target" class="select_ingredients_target" width="1400" height="788" style="min-width: 100%;width: 100%;"><div id="select_ingredients_fallback" class="select_ingredients_target" style="width: 1400px; height: 788px; position: relative;"></div></canvas></div> -->
 <img src="/images/works/foodr/007_smart_search.png" alt="mockup">
+<!-- <div><canvas id="smart_search_target" class="smart_search_target" width="1400" height="788" style="min-width: 100%;width: 100%;"><div id="smart_search_fallback" class="smart_search_target" style="width: 1400px; height: 788px; position: relative;"></div></canvas></div> -->
 <img src="/images/works/foodr/009_many_screens.jpg" alt="mockup">
 <img src="/images/works/foodr/010_thank_you.jpg" alt="mockup">

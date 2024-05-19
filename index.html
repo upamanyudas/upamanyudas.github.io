@@ -110,14 +110,14 @@
     /* Profile picture grayscale to colour */
     .profilepic {
       /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-      filter: gray; /* IE5+ */
-      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
-      -webkit-transition: all .5s ease-in-out;
+      filter: gray !important; /* IE5+ */
+      -webkit-filter: grayscale(1) !important; /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .5s ease-in-out !important;
     }
 
     .profilepic:hover {
-      filter: none;
-      -webkit-filter: grayscale(0);
+      filter: none !important;
+      -webkit-filter: grayscale(0) !important;
     }
   </style>
 </head>

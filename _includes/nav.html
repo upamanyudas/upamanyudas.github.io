@@ -1,0 +1,20 @@
+{% if page.path == 'index.html' %}
+<nav id="main-nav" role="navigation">
+    <a href="http://studio.upamanyu.in/home/" target="_blank" class="">Cloudstudio</a>
+    <a href="http://kalam.upamanyu.in/" target="_blank" class="">Kalam</a>
+    <!-- <a href="http://verse.upamanyu.in/" target="_blank" class="">Verse - Poetry</a> -->
+    <a href="https://www.youtube.com/channel/UCViBwsOJfQRkVjmKuYLgjqA" target="_blank" class="">The Wild Bits</a>
+</nav>
+{% endif %}
+
+<nav id="main-nav" role="navigation">
+    <a href="/works/photography/" class="{% if page.url == '/works/photography/' or page.categories contains 'photography' %}selected{% endif %}">Photos</a>
+    <a href="/india-wildlife-cameraman-filmmaker/" class="{% if page.url == '/india-wildlife-cameraman-filmmaker/' or page.categories contains 'film' %}selected{% endif %}">Films</a>
+    <a href="/blog/" class="{% if page.url == '/blog/' or page.categories contains 'blog' %}selected{% endif %}">Journal</a>
+    <a href="/works/" class="{% if page.url == '/works/' or page.categories contains 'works' %}selected{% endif %}">Design</a>
+    <a href="/projects/" class="{% if page.url == '/projects/' %}selected{% endif %}">Projects</a>
+    <a href="/setup/" class="{% if page.url == '/setup/' %}selected{% endif %}">Setup</a>
+    <a href="/equipment/" class="{% if page.url == '/equipment/' %}selected{% endif %}">Equipment</a>
+    <a href="/about/" class="{% if page.url == '/about/' %}selected{% endif %}">About</a>
+    <a href="/contact/" class="{% if page.url == '/contact/' %}selected{% endif %}">Contact</a>
+</nav>

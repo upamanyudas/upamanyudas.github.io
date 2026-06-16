@@ -1,7 +1,23 @@
-.sass-cache/*
-.jekyll-cache/*
-.jekyll-cache
-.forestry/*
-.nova/*
-_site/*
+# Jekyll build output & caches
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler / Ruby gems
+.bundle/
+vendor/
+
+# Editors & CMS config
+.nova/
+.forestry/
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS files
 .DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db

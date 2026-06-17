@@ -19,7 +19,7 @@
         <section class="post-content">
 
             <p>
-                {% include vimeo-embed.html %}
+                {% if page.youtube %}{% include youtube-embed.html %}{% else %}{% include vimeo-embed.html %}{% endif %}
             </p>
 
             <p>

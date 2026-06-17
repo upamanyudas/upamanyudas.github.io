@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 150" role="img" aria-label="ORASOME AUDIO">
+  <!-- HAND-AUTHORED FALLBACK wordmark (no genuine vector logo could be retrieved; no network access).
+       The sun/starburst is generic geometry, not a copy of the brand mark. -->
+  <title>Orasome Audio</title>
+  <g fill="#e8662a">
+    <circle cx="62" cy="62" r="20"/>
+    <g stroke="#e8662a" stroke-width="6" stroke-linecap="round">
+      <line x1="62" y1="22" x2="62" y2="8"/>
+      <line x1="62" y1="102" x2="62" y2="116"/>
+      <line x1="22" y1="62" x2="8" y2="62"/>
+      <line x1="102" y1="62" x2="116" y2="62"/>
+      <line x1="33" y1="33" x2="23" y2="23"/>
+      <line x1="91" y1="33" x2="101" y2="23"/>
+      <line x1="33" y1="91" x2="23" y2="101"/>
+      <line x1="91" y1="91" x2="101" y2="101"/>
+    </g>
+  </g>
+  <text x="150" y="70"
+        font-family="'Helvetica Neue', Arial, sans-serif"
+        font-size="46" font-weight="700" letter-spacing="2"
+        fill="#222222">ORASOME</text>
+  <text x="151" y="104"
+        font-family="'Helvetica Neue', Arial, sans-serif"
+        font-size="30" font-weight="400" letter-spacing="10"
+        fill="#555555">AUDIO</text>
+</svg>

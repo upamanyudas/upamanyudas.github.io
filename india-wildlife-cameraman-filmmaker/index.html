@@ -2,6 +2,22 @@
 layout: default
 title: Wildlife cameraman and editor in India
 overview: true
+awards:
+  - image: iwff.png
+    alt: International Wildlife Film Festival
+    height: 150
+  - image: wcff.png
+    alt: Wildlife Conservation Film Festival
+    height: 130
+  - image: niff.png
+    alt: Nature inFocus Film Awards
+    height: 150
+  - image: menigoute.png
+    alt: Festival International du Film Ornithologique
+    height: 150
+  - image: cicff.png
+    alt: Calcutta International Cult Film Festival
+    height: 150
 ---
 
 <script>
@@ -69,6 +85,14 @@ overview: true
 <header class="section-header">
     <h1 class="section-title">Awards</h1>
 </header>
+
+{% if page.awards %}
+<section class="awards" style="text-align: center; margin: 2rem 0;">
+    {% for award in page.awards %}
+        <img src="../images/films/-awards/{{ award.image }}" alt="{{ award.alt }}" style="margin: 10px; height: {{ award.height | default: 150 }}px;">
+    {% endfor %}
+</section>
+{% endif %}
 
 <!-- <hr> <center>This <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/StillImage" rel="dc:type">work</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/in/">Creative Commons Attribution-Noncommercial-Share Alike License</a></center> -->
 

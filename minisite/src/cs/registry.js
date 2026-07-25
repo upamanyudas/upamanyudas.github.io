@@ -12,13 +12,71 @@ import StateMatrixDemo    from './agentic-design-system/StateMatrixDemo.js'
 import FigmaSourcePanel   from './agentic-design-system/FigmaSourcePanel.js'
 import DriftAuditTerminal from './agentic-design-system/DriftAuditTerminal.js'
 
+import AudienceSplit      from './re-envisioning-ticketing/AudienceSplit.js'
+import NavShift           from './re-envisioning-ticketing/NavShift.js'
+import RevenueLoop        from './re-envisioning-ticketing/RevenueLoop.js'
+import TeamShape          from './re-envisioning-ticketing/TeamShape.js'
+import TemplatePipeline   from './re-envisioning-ticketing/TemplatePipeline.js'
+import BuzzFeed           from './re-envisioning-ticketing/BuzzFeed.js'
+import WatchGuide         from './re-envisioning-ticketing/WatchGuide.js'
+import AdRules            from './re-envisioning-ticketing/AdRules.js'
+
+import RatingBias         from './ten-second-reviews/RatingBias.js'
+import RatingTakes        from './ten-second-reviews/RatingTakes.js'
+import ReviewForm         from './ten-second-reviews/ReviewForm.js'
+import TagMine            from './ten-second-reviews/TagMine.js'
+import Benchmark          from './ten-second-reviews/Benchmark.js'
+import TrustWeight        from './ten-second-reviews/TrustWeight.js'
+import NudgeStory         from './ten-second-reviews/NudgeStory.js'
+import ReviewSummary      from './ten-second-reviews/ReviewSummary.js'
+
+import SpreadsheetPain    from './group-optimiser/SpreadsheetPain.js'
+import OptimiserSteps     from './group-optimiser/OptimiserSteps.js'
+import GoPreferences      from './group-optimiser/GoPreferences.js'
+import NetPosition        from './group-optimiser/NetPosition.js'
+import Exclusions         from './group-optimiser/Exclusions.js'
+import PaymentPlans       from './group-optimiser/PaymentPlans.js'
+import DeadlineBoard      from './group-optimiser/DeadlineBoard.js'
+import ReportExport       from './group-optimiser/ReportExport.js'
+
 export const DEMOS = {
-  'token-layers':    TokenLayerDemo,
-  'agent-workflows': WorkflowDemo,
-  'token-arch':      TokenArchDiagram,
-  'theme-window':    ThemeWindow,
-  'component-spec':  ComponentSpecPanel,
-  'state-matrix':    StateMatrixDemo,
-  'figma-source':    FigmaSourcePanel,
-  'drift-audit':     DriftAuditTerminal,
+  // Agentic design system
+  'token-layers':      TokenLayerDemo,
+  'agent-workflows':   WorkflowDemo,
+  'token-arch':        TokenArchDiagram,
+  'theme-window':      ThemeWindow,
+  'component-spec':    ComponentSpecPanel,
+  'state-matrix':      StateMatrixDemo,
+  'figma-source':      FigmaSourcePanel,
+  'drift-audit':       DriftAuditTerminal,
+
+  // Re-envisioning a mass ticketing platform
+  'audience-split':    AudienceSplit,
+  'nav-shift':         NavShift,
+  'revenue-loop':      RevenueLoop,
+  'team-shape':        TeamShape,
+  'template-pipeline': TemplatePipeline,
+  'buzz-feed':         BuzzFeed,
+  'watch-guide':       WatchGuide,
+  'ad-rules':          AdRules,
+
+  // Ratings and reviews in ten seconds
+  'rating-bias':       RatingBias,
+  'rating-takes':      RatingTakes,
+  'review-form':       ReviewForm,
+  'tag-mine':          TagMine,
+  'benchmark':         Benchmark,
+  'trust-weight':      TrustWeight,
+  'nudge-story':       NudgeStory,
+  'review-summary':    ReviewSummary,
+
+  // Group Optimiser
+  'spreadsheet-pain':  SpreadsheetPain,
+  'optimiser-steps':   OptimiserSteps,
+  'go-preferences':    GoPreferences,
+  'net-position':      NetPosition,
+  'exclusions':        Exclusions,
+  'payment-plans':     PaymentPlans,
+  'deadline-board':    DeadlineBoard,
+  'report-export':     ReportExport,
 }

@@ -14,6 +14,9 @@ import FilmCard       from './components/cards/FilmCard.js'
 import StatCard       from './components/cards/StatCard.js'
 import QuoteCard      from './components/cards/QuoteCard.js'
 import AgenticDSCard  from './cs/agentic-design-system/card.js'
+import TicketingCard  from './cs/re-envisioning-ticketing/card.js'
+import ReviewsCard    from './cs/ten-second-reviews/card.js'
+import OptimiserCard  from './cs/group-optimiser/card.js'
 
 const MOBILE_BREAKPOINT = layouts.mobile_breakpoint
 
@@ -27,6 +30,9 @@ const COMPONENTS = {
   bulb:       { comp: BulbCard },
   birds:      { comp: BirdsCard },
   agenticds:  { comp: AgenticDSCard },
+  ticketing:  { comp: TicketingCard },
+  reviews:    { comp: ReviewsCard },
+  optimiser:  { comp: OptimiserCard },
   filmforest: { comp: FilmCard, props: { variant: 'forest' } },
   filmkea:    { comp: FilmCard, props: { variant: 'kea' } },
   statmoney:  { comp: StatCard, props: { statKey: 'statmoney' } },

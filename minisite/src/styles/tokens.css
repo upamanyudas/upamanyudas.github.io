@@ -221,6 +221,7 @@
 
   /* Surface */
   --color-surface-card:            var(--color-primitive-neutral-50);
+  --color-surface-hover:           var(--color-primitive-neutral-75);
   --color-surface-card-white:      var(--color-primitive-neutral-0);
   --color-surface-card-dark:       var(--color-primitive-neutral-1000);
   --color-surface-claude:          var(--color-primitive-orange-claude);  /* Claude brand card bg */
@@ -463,6 +464,7 @@
 
   /* Surface */
   --color-surface-card:            var(--color-primitive-indigo-800);
+  --color-surface-hover:           var(--color-primitive-indigo-750);
   --color-surface-card-white:      var(--color-primitive-indigo-750);
   --color-surface-card-dark:       var(--color-primitive-indigo-850);
   --color-surface-nav:             var(--color-primitive-indigo-750);

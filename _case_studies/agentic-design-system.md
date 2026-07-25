@@ -141,22 +141,22 @@ The part that matters: none of these followed a script. For the drift audit I as
 ## Results
 {: .cs-section-title}
 
-<div class="ads-results">
-  <div class="ads-result-card">
-    <span class="ads-result-number">412</span>
-    <span class="ads-result-label">tokens in three layers, aligned across code and Figma</span>
+<div class="cs-results">
+  <div class="cs-result-card">
+    <span class="cs-result-number">412</span>
+    <span class="cs-result-label">tokens in three layers, aligned across code and Figma</span>
   </div>
-  <div class="ads-result-card">
-    <span class="ads-result-number">26</span>
-    <span class="ads-result-label">components carrying specs an agent can read unaided</span>
+  <div class="cs-result-card">
+    <span class="cs-result-number">26</span>
+    <span class="cs-result-label">components carrying specs an agent can read unaided</span>
   </div>
-  <div class="ads-result-card">
-    <span class="ads-result-number">38</span>
-    <span class="ads-result-label">drifted tokens found in the first audit — all reconciled</span>
+  <div class="cs-result-card">
+    <span class="cs-result-number">38</span>
+    <span class="cs-result-label">drifted tokens found in the first audit — all reconciled</span>
   </div>
-  <div class="ads-result-card">
-    <span class="ads-result-number">4</span>
-    <span class="ads-result-label">autonomous workflows now running on a production system</span>
+  <div class="cs-result-card">
+    <span class="cs-result-number">4</span>
+    <span class="cs-result-label">autonomous workflows now running on a production system</span>
   </div>
 </div>
 

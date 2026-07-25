@@ -8,6 +8,7 @@ import TldrToggle from './TldrToggle.js'
 
 const ANIM_MS = 700
 const EASE = 'cubic-bezier(0.34, 1.1, 0.64, 1)'
+const REDUCED_MOTION = matchMedia('(prefers-reduced-motion: reduce)').matches
 const FLY_TRANSITION = `left ${ANIM_MS}ms ${EASE}, top ${ANIM_MS}ms ${EASE}, width ${ANIM_MS}ms ${EASE}, height ${ANIM_MS}ms ${EASE}, border-radius ${ANIM_MS}ms ${EASE}`
 
 // Card-key → canonical URL slug / tooltip, from the Jekyll case-studies collection.
@@ -86,6 +87,7 @@ export default defineComponent({
     imageClass:    { type: String, default: '' },
     heroWrapClass: { type: String, default: '' },
     heroSize:   { type: Number, default: 448 },
+    videoSrc:   { type: String, default: '' },   // when set, hero media is a looping <video>
   },
 
   setup(props, { slots }) {
@@ -209,6 +211,16 @@ export default defineComponent({
       window.removeEventListener('cs:open', onHashOpen)
       window.removeEventListener('popstate', onPopState)
     })
+
+    // Hero media — a looping muted <video> when videoSrc is set, else the flat image.
+    function media(attrs, onReady) {
+      const isVideo = !!props.videoSrc
+      const source = isVideo
+        ? { src: props.videoSrc, poster: props.imageSrc, loop: true, muted: true, playsinline: true, autoplay: !REDUCED_MOTION }
+        : { src: props.imageSrc, alt: '' }
+      const ready = onReady ? (isVideo ? { onLoadeddata: onReady } : { onLoad: onReady }) : null
+      return h(isVideo ? 'video' : 'img', { ...source, ...ready, ...attrs })
+    }
 
     // ── Ripple on expanded card click (skip interactive widgets) ──
     function onExpandedClick(e) {
@@ -409,11 +421,7 @@ export default defineComponent({
             class: 'cs-video-fly',
             style: { ...flyStyle.value, overflow: 'hidden' },
           }, [
-            h('img', {
-              src: props.imageSrc,
-              alt: '',
-              style: { width: '100%', height: '100%', objectFit: 'cover', display: 'block' },
-            }),
+            media({ style: { width: '100%', height: '100%', objectFit: 'cover', display: 'block' } }),
             slots.flyContent?.(),
           ])
         : null,
@@ -436,11 +444,9 @@ export default defineComponent({
           onClick: e => { e.preventDefault(); open() },
         }, [h('img', { src: ICON_FULL_SCREEN, alt: 'Open case study' })]),
 
-        h('img', {
+        media({
           ref:   videoEl,
-          src:   props.imageSrc,
           class: props.imageClass,
-          alt:   '',
           style: flyActive.value
             ? 'pointer-events: none; opacity: 0;'
             : 'pointer-events: none;',
@@ -495,11 +501,8 @@ export default defineComponent({
                   marginRight: 'auto',
                 },
               }, [
-                h('img', {
-                  class:  'cs-hero-video',
-                  src:    props.imageSrc,
-                  alt:    '',
-                  onLoad: () => { heroReady.value = true },
+                media({
+                  class: 'cs-hero-video',
                   style: {
                     width:      '100%',
                     height:     '100%',
@@ -507,7 +510,7 @@ export default defineComponent({
                     opacity:    flyActive.value && !flyFading.value ? 0 : 1,
                     transition: 'opacity 0.2s ease',
                   },
-                }),
+                }, () => { heroReady.value = true }),
                 slots.heroOverlay?.(),
               ]),
 

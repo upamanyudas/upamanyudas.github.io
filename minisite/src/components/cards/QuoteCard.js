@@ -55,7 +55,7 @@ export default defineComponent({
 
         h('img', { class: 'quote-icon', src: QUOTE_ICON, alt: '' }),
         h('p',    { class: 'quote-text', innerHTML: quoteHTML }),
-        h('span', { class: 'design-principle' }, 'My design principle'),
+        h('span', { class: 'design-principle' }, quote.label),
       ]),
 
       // ── Expanded overlay ────────────────────────────────────
@@ -93,7 +93,7 @@ export default defineComponent({
 
               h('div', { class: `${props.cardClass}-expanded-body quote-expanded-body`, innerHTML: bodyHTML }),
 
-              h('span', { class: 'design-principle' }, 'My design principle'),
+              h('span', { class: 'design-principle' }, quote.label),
             ]),
           ]),
 

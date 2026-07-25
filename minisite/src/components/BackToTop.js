@@ -6,9 +6,10 @@ export default defineComponent({
     const visible = ref(false)
     let scrolling = false   // true while our own animation is running
 
+    // Half a viewport — a full one is unreachable on pages under 2× tall
     function onScroll() {
       if (scrolling) return  // ignore scroll events from our animation
-      visible.value = window.scrollY > window.innerHeight
+      visible.value = window.scrollY > window.innerHeight * 0.5
     }
 
     function scrollToTop() {

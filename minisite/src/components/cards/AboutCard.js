@@ -8,41 +8,21 @@ const AVATAR   = profile.avatar
 const ABOUT_MAX_W = 800   // max width for the expanded about card
 const ANIM_MS = 700   // must match CSS transition duration
 
-/* ── Link peek previews — keyed by .brand-* class ──────────────────────
-   `url` renders a live screenshot of the real site; sites that block
-   screenshot bots (BookMyShow) fall back to the drawn card. */
-const SHOT = 'https://image.thum.io/get/viewportWidth/1280/crop/800/width/640/png/'
+/* ── Link peek previews ────────────────────────────────────────────────
+   Everything is read off the link itself — href, text, brand colour — so
+   editing the bio in profile.yml is the only edit. maxAge is in hours;
+   sites that block screenshot bots fall back to the drawn card. */
+const SHOT = 'https://image.thum.io/get/crop/800/width/640/maxAge/24/png/'
 
-const BRAND_PREVIEWS = {
-  'brand-octopus':   { url: 'https://octopus.com',
-                       label: 'Octopus Deploy', sub: 'octopus.com',      color: '#0d80d2' },
-  'brand-bms':       { label: 'BookMyShow',     sub: 'in.bookmyshow.com', color: '#c4242b' },
-  'brand-cleartrip': { url: 'https://www.cleartrip.com',
-                       label: 'Cleartrip',      sub: 'cleartrip.com',    color: '#ff4f17' },
-  'brand-tmnz':      { url: 'https://www.tmnz.co.nz',
-                       label: 'TMNZ',           sub: 'tmnz.co.nz',       color: '#0e6e8c' },
-  'brand-nid':       { url: 'https://www.nid.edu',
-                       label: 'National Institute of Design', sub: 'nid.edu', color: '#b01e24' },
-  'brand-jj':        { url: 'https://en.wikipedia.org/wiki/Sir_J._J._School_of_Art',
-                       label: 'Sir JJ School of Art', sub: 'est. 1857',  color: '#8a6d3b' },
-  'brand-forest':    { url: 'https://upamanyu.in/films/aforestsdream/',
-                       label: "A Forest's Dream", sub: 'a short film',   color: '#6e7a50' },
-  'brand-kea':       { url: 'https://upamanyu.in/films/thebirdsofplay/',
-                       label: 'The Birds of Play', sub: 'a short film',  color: '#e8632c' },
+function previewOf(link) {
+  const { href, hostname } = link          // href is already absolute here
+  return {
+    src:   SHOT + href,
+    label: link.textContent.trim(),
+    sub:   hostname.replace(/^www\./, ''),
+    color: getComputedStyle(link).color,   // the .brand-* colour it already wears
+  }
 }
-
-function previewDataURI({ label, sub, color }) {
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200">
-    <rect width="320" height="200" rx="16" fill="#faf9f7"/>
-    <rect width="320" height="72" fill="${color}"/>
-    <circle cx="36" cy="36" r="14" fill="rgba(255,255,255,0.9)"/>
-    <text x="24" y="118" font-family="Syne, sans-serif" font-size="19" font-weight="700" fill="#2c2c2c">${label}</text>
-    <text x="24" y="146" font-family="Syne, sans-serif" font-size="13" fill="#888888">${sub}</text>
-  </svg>`
-  return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg)
-}
-
-const previewSrc = b => (b.url ? SHOT + b.url : previewDataURI(b))
 
 // Shared cubic-bezier for all FLIP transitions
 const EASE = 'cubic-bezier(0.34, 1.1, 0.64, 1)'
@@ -70,6 +50,7 @@ export default defineComponent({
 
     // ── Link preview (iOS-style peek) ──
     const preview = ref({ visible: false, x: 0, y: 0, src: '' })
+    const failed  = ref(false)   // screenshot unavailable → compact chip instead
     let previewTimer = null
     const PREVIEW_OFFSET = 24
     const PREVIEW_W = 320
@@ -96,8 +77,8 @@ export default defineComponent({
       previewRafId = requestAnimationFrame(previewAnimLoop)
     }
 
-    function showPreview(e, brand) {
-      const src = previewSrc(brand)
+    function showPreview(e, link) {
+      const shot = previewOf(link)
       clearTimeout(previewTimer)
       const rawX = e.clientX + PREVIEW_OFFSET
       const rawY = e.clientY + PREVIEW_OFFSET
@@ -106,10 +87,11 @@ export default defineComponent({
       previewMouseX = clampedX
       previewMouseY = clampedY
 
-      if (!preview.value.visible || preview.value.src !== src) {
+      if (!preview.value.visible || preview.value.src !== shot.src) {
         previewSmoothX = clampedX
         previewSmoothY = clampedY
-        preview.value = { visible: true, x: clampedX, y: clampedY, src, fallback: previewDataURI(brand) }
+        failed.value = false
+        preview.value = { visible: true, x: clampedX, y: clampedY, ...shot }
         cancelAnimationFrame(previewRafId)
         previewRafId = requestAnimationFrame(previewAnimLoop)
       }
@@ -127,17 +109,17 @@ export default defineComponent({
       if (isTouch) return
       const link = e.target.closest?.('a.bio-link')
       if (!link) { hidePreview(); return }
-      const brand = [...link.classList].find(c => BRAND_PREVIEWS[c])
-      if (!brand) { hidePreview(); return }
-      showPreview(e, BRAND_PREVIEWS[brand])
+      showPreview(e, link)
     }
 
     // Warm the screenshot cache on expand, so the first hover isn't a blank box
+    const bioEl = ref(null)
     let prefetched = false
     function prefetchShots() {
-      if (prefetched || isTouch) return
+      if (prefetched || isTouch || !bioEl.value) return
       prefetched = true
-      Object.values(BRAND_PREVIEWS).forEach(b => { if (b.url) new Image().src = SHOT + b.url })
+      bioEl.value.querySelectorAll('a.bio-link')
+        .forEach(link => { new Image().src = SHOT + link.href })
     }
 
     let startRect   = null
@@ -196,7 +178,6 @@ export default defineComponent({
 
       startRect   = cardEl.value.getBoundingClientRect()
       avatarStart = avatarEl.value.getBoundingClientRect()
-      prefetchShots()
 
       // ① Place flying avatar exactly over the collapsed avatar
       flyStyle.value = {
@@ -217,6 +198,7 @@ export default defineComponent({
       window.addEventListener('keydown', onKeyDown)
 
       await nextTick()
+      prefetchShots()   // bio links exist now
 
       // ② Let start-state paint, then trigger card + avatar transitions
       requestAnimationFrame(() => {
@@ -365,6 +347,7 @@ export default defineComponent({
 
               // Jekyll-rendered bio + pronunciation + principles
               h('div', {
+                ref: bioEl,
                 class: 'about-expanded-body',
                 innerHTML: fillYears(templateHTML('tpl-about')),
                 onMouseover: onBioOver,
@@ -378,20 +361,29 @@ export default defineComponent({
 
           // ── Link preview popup (iOS-style peek) ──
           h('div', {
-            class: ['bio-link-preview', preview.value.visible ? 'bio-link-preview--visible' : ''].join(' '),
+            class: [
+              'bio-link-preview',
+              preview.value.visible ? 'bio-link-preview--visible' : '',
+              failed.value ? 'bio-link-preview--chip' : '',
+            ].filter(Boolean).join(' '),
             style: {
               left: preview.value.x + 'px',
               top:  preview.value.y + 'px',
             },
           }, [
-            preview.value.src ? h('img', {
+            // No screenshot (bot-blocked, offline) → small branded chip
+            failed.value ? h('div', { class: 'bio-link-chip' }, [
+              h('span', { class: 'bio-link-chip-dot', style: { background: preview.value.color } }),
+              h('span', { class: 'bio-link-chip-text' }, [
+                h('span', { class: 'bio-link-chip-label', style: { color: preview.value.color } }, preview.value.label),
+                h('span', { class: 'bio-link-chip-sub' }, preview.value.sub),
+              ]),
+            ]) : preview.value.src ? h('img', {
               key:     preview.value.src,
               class:   'bio-link-preview-img',
               src:     preview.value.src,
               alt:     'Preview',
-              onError: e => {
-                if (e.target.src !== preview.value.fallback) e.target.src = preview.value.fallback
-              },
+              onError: () => { failed.value = true },
             }) : null,
           ]),
         ]),

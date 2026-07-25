@@ -88,7 +88,7 @@ export default defineComponent({
         class: classes,
         onClick: (e) => { spawnRipple(e); handleCopy() },
         onMouseenter: replay,
-        'data-tooltip': 'Click to copy my email address 📨',
+        'data-tooltip': profile.cards.gmail_tooltip,
       }, [
         // Action icon — single persistent element so CSS transitions can fire
         h('span', { class: `action-icon${copied.value ? ' gmail-copied-label' : ''}` }, [

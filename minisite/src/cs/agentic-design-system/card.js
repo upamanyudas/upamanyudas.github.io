@@ -46,7 +46,6 @@ export default defineComponent({
         imageSrc: HERO_SRC,
         imageClass: 'ads-hero-img',
         heroWrapClass: 'ads-hero-wrap',
-        tooltip: 'This site is the case study —\na design system AI can operate 🤖',
         heroSize: 448,
       }, {
         // Collapsed card face: canvas bg + logos + pixel title

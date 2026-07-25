@@ -10,8 +10,9 @@ const ANIM_MS = 700
 const EASE = 'cubic-bezier(0.34, 1.1, 0.64, 1)'
 const FLY_TRANSITION = `left ${ANIM_MS}ms ${EASE}, top ${ANIM_MS}ms ${EASE}, width ${ANIM_MS}ms ${EASE}, height ${ANIM_MS}ms ${EASE}, border-radius ${ANIM_MS}ms ${EASE}`
 
-// Card-key → canonical URL slug, from the Jekyll case-studies collection.
-const CARD_KEY_TO_SLUG = Object.fromEntries(caseStudies.map(cs => [cs.key, cs.slug]))
+// Card-key → canonical URL slug / tooltip, from the Jekyll case-studies collection.
+const CARD_KEY_TO_SLUG    = Object.fromEntries(caseStudies.map(cs => [cs.key, cs.slug]))
+const CARD_KEY_TO_TOOLTIP = Object.fromEntries(caseStudies.map(cs => [cs.key, cs.tooltip]))
 
 /**
  * CsContent — renders the Jekyll-rendered case study body (from its hidden
@@ -84,7 +85,6 @@ export default defineComponent({
     imageSrc:      { type: String, default: '' },
     imageClass:    { type: String, default: '' },
     heroWrapClass: { type: String, default: '' },
-    tooltip:       { type: String, default: '' },
     heroSize:   { type: Number, default: 448 },
   },
 
@@ -428,7 +428,7 @@ export default defineComponent({
           wasOpen.value ? 'cs-card--was-open' : '',
         ].filter(Boolean).join(' '),
         onClick: open,
-        ...(props.tooltip && { 'data-tooltip': props.tooltip }),
+        'data-tooltip': CARD_KEY_TO_TOOLTIP[props.cardKey],
       }, [
         h('a', {
           class:   'action-icon',

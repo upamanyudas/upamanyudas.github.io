@@ -8,7 +8,7 @@
     <span class="about-pronounce-guide">{{ p.pronunciation.guide | markdownify | remove: '<p>' | remove: '</p>' }}</span>
   </div>
   <div class="about-principles">
-    <h3 class="about-principles-title">How I work</h3>
+    <h3 class="about-principles-title">{{ p.principles_title }}</h3>
     {% for pr in p.principles %}
     <div class="about-principle">
       <span class="about-principle-name">{{ pr.title }}</span>

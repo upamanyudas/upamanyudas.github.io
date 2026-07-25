@@ -707,6 +707,51 @@ strong, b {
   background: var(--color-surface-card);
 }
 
+/* ── No screenshot available — compact branded chip ── */
+.bio-link-preview--chip {
+  width: auto;
+  border-radius: 12px;
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.16),
+    0 0 0 1px rgba(0, 0, 0, 0.06);
+}
+
+.bio-link-chip {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px 10px 12px;
+  white-space: nowrap;
+}
+
+.bio-link-chip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.bio-link-chip-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.bio-link-chip-label {
+  font-family: var(--font-family-primary);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.bio-link-chip-sub {
+  font-family: var(--font-family-primary);
+  font-size: 11px;
+  line-height: 1.25;
+  color: var(--color-text-primary);
+  opacity: 0.4;
+}
+
 /* Shrink / close button */
 .about-shrink-btn img {
   filter: var(--filter-action-icon);
@@ -1153,6 +1198,33 @@ strong, b {
 .cs-expanded-content .cs-demo.cs-img-visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* ── "Interactive" hint under a demo ── */
+.cs-hint {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0 32px 0;
+  font-family: var(--font-family-primary);
+  font-size: 13px;
+  color: var(--color-text-primary);
+  opacity: 0.45;
+}
+
+.cs-hint--centered {
+  justify-content: center;
+}
+
+.cc-interactive-tag {
+  flex-shrink: 0;
+  padding: 3px 9px;
+  border-radius: 100px;
+  border: 1px solid currentColor;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* ── Sun / Moon Theme Toggle Card ─────────────────────────── */
@@ -1673,10 +1745,12 @@ strong, b {
     gap: 0;
   }
 
+  /* nowrap: longer filter names must stay one line or the pill grows */
   .nav-pill {
     flex: 1;
     text-align: center;
-    padding: 10px 8px;
+    padding: 10px 4px;
+    white-space: nowrap;
   }
 
   /* Stack logo above grid instead of side-by-side */
@@ -1799,9 +1873,10 @@ strong, b {
     animation-duration: 16s;
   }
 
-  /* ── Hide back-to-top on mobile homepage (nav is already at bottom) ── */
+  /* ── Back-to-top sits above the bottom nav pill ── */
   .back-to-top {
-    display: none;
+    right: 24px;
+    bottom: calc(78px + env(safe-area-inset-bottom, 0px));
   }
 
   /* ── Always show action icon (no hover needed) ── */
@@ -3262,6 +3337,10 @@ strong, b {
 /* ── Mobile — new components ── */
 @media (max-width: 768px) {
   .mobile-page-logo.upa-logo { display: flex; }
+
+  /* Logo lives above the grid on mobile — .upa-logo below re-shows it
+     otherwise, so the hide has to be restated here. */
+  .nav-logo.upa-logo { display: none; }
 
   .stat-card { min-height: calc((100vw - 66px) * 0.42); }
 

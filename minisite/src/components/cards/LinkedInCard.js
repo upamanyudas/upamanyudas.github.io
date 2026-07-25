@@ -4,7 +4,7 @@ import { useAnimReplay } from '../../composables/useAnimReplay.js'
 import { profile } from '../../siteData.js'
 
 const HREF    = profile.linkedin
-const TOOLTIP = 'Connect with me on LinkedIn 💼'
+const TOOLTIP = profile.cards.linkedin_tooltip
 
 export default defineComponent({
   name: 'LinkedInCard',

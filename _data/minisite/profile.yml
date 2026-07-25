@@ -35,7 +35,7 @@ bio: |
   My name is Upamanyu Das, though everyone outside Bengal settles on **Upa**.
   I'm a designer who is happiest with one foot in **strategy** and the other in
   the **pixels** — currently Heading Design at
-  [Octopus Deploy](https://octopus.com){: .bio-link .brand-octopus},
+  [🐙 Octopus](https://octopus.com){: .bio-link .brand-octopus},
   leading a ten-person design org spread across four time zones.
 
   I trained at [Sir JJ School of Art](https://sirjjsaad.edu.in){: .bio-link .brand-jj}
@@ -49,8 +49,8 @@ bio: |
   at [Cleartrip](https://www.cleartrip.com){: .bio-link .brand-cleartrip},
   redesigning how millions book flights and hotels; and at
   [TMNZ](https://www.tmnz.co.nz){: .bio-link .brand-tmnz}, re-imagining how
-  New Zealand businesses pay tax. Along the way my teams closed 21
-  record-setting deals, won back 15 lost contracts, and grew retention by 52%.
+  New Zealand businesses pay tax. Along the way I was instrumental in closing 21
+  record-setting deals, winning back at-least 15 lost contracts, and growing retention by 52%.
 
   Titles never moved me off the tools. I still take a design problem
   end-to-end most weeks — research, flows, wireframes, the last pixel —
@@ -75,6 +75,7 @@ pronunciation:
     Or just say **Upa**.
 
 # ── Design principles (in expanded about) ──────────────────
+principles_title: How I work
 principles:
   - title: Measure twice, cut once.
     body: >-
@@ -98,6 +99,7 @@ principles:
 quotes:
   ux:
     tooltip: My UX philosophy
+    label: My UX philosophy
     quote: "The interface **is** the manual — nobody reads the other one."
     body: |
       If a flow needs a tooltip to survive, the flow is the bug. People
@@ -110,6 +112,7 @@ quotes:
       that needs explaining gets redesigned before it gets documented.
   craft:
     tooltip: My leadership philosophy
+    label: My leadership philosophy
     quote: "I run design teams like a wildlife hide — **preparation, patience**, and knowing when not to press the shutter."
     body: |
       Photographing wild birds and leading designers reward the same
@@ -140,3 +143,13 @@ birds:
   tooltip: "2× Natural History Photographer\nof the Year — my life list lives here 🦅"
   label: Bird photographer
   sub: 2× Natural History Photographer of the Year
+
+# ── Remaining card copy ────────────────────────────────────
+cards:
+  gmail_tooltip: "Click to copy my email address 📨"
+  linkedin_tooltip: "Connect with me on LinkedIn 💼"
+  theme_tooltip:                  # bulb card, one per theme preference
+    light: "Switch to dark mode 🌙"
+    dark: "Match my system 🖥️"
+    auto_dark: "Auto — following your system 🌙\nClick for light mode"
+    auto_light: "Auto — following your system ☀️\nClick for light mode"

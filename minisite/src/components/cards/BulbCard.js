@@ -1,5 +1,6 @@
 import { defineComponent, h, ref, onMounted, onUnmounted, computed } from 'vue'
 import { useRipple } from '../../composables/useRipple.js'
+import { profile } from '../../siteData.js'
 
 const NUM_RAYS   = 12
 const RAY_DELAYS = [0, 0.72, 0.28, 1.05, 0.51, 0.18, 0.88, 0.42, 0.63, 0.95, 0.35, 0.77]
@@ -62,11 +63,11 @@ export default defineComponent({
       spawnRipple(e)
     }
 
+    const t = profile.cards.theme_tooltip
     const tooltip = computed(() => ({
-      light: 'Switch to dark mode 🌙',
-      dark:  'Match my system 🖥️',
-      auto:  isDark.value ? 'Auto — following your system 🌙\nClick for light mode'
-                          : 'Auto — following your system ☀️\nClick for light mode',
+      light: t.light,
+      dark:  t.dark,
+      auto:  isDark.value ? t.auto_dark : t.auto_light,
     }[pref.value]))
 
     return () => {

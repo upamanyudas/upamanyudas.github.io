@@ -2,10 +2,8 @@ import { defineComponent, h, ref, onMounted, onUnmounted, nextTick } from 'vue'
 import { layouts } from '../siteData.js'
 import LazyToggle from './LazyToggle.js'
 
-const NAV_ITEMS = ['All', 'About', 'Work', 'Side Quests']
-
-// Shorter labels for mobile to avoid two-line pills
-const MOBILE_LABELS = { 'Side Quests': 'Hobbies' }
+// Filters are exactly the layouts authored in layouts.yml, in that order
+const NAV_ITEMS = Object.keys(layouts.desktop)
 const SCROLL_THRESHOLD = 80  // px from top before hide kicks in
 
 export default defineComponent({
@@ -14,7 +12,6 @@ export default defineComponent({
   setup(props, { emit }) {
     const active = ref('All')
     const hidden = ref(false)
-    const isMobile = ref(window.innerWidth <= layouts.mobile_breakpoint)
     const pillsRef = ref(null)
     const pillEls = ref([])
     const indicatorStyle = ref({ left: '0px', width: '0px' })
@@ -70,13 +67,13 @@ export default defineComponent({
       lastScrollY = currentY
     }
 
-    const mql = window.matchMedia(`(max-width: ${layouts.mobile_breakpoint}px)`)
-    function onBreakpoint(e) { isMobile.value = e.matches }
+    // Pill widths change with the viewport — keep the indicator on top of them
+    function onResize() { updateIndicator(true) }
 
     onMounted(() => {
       lastScrollY = window.scrollY
       window.addEventListener('scroll', onScroll, { passive: true })
-      mql.addEventListener('change', onBreakpoint)
+      window.addEventListener('resize', onResize)
       nextTick(() => {
         updateIndicator(true)
         requestAnimationFrame(() => { indicatorReady.value = true })
@@ -85,7 +82,7 @@ export default defineComponent({
 
     onUnmounted(() => {
       window.removeEventListener('scroll', onScroll)
-      mql.removeEventListener('change', onBreakpoint)
+      window.removeEventListener('resize', onResize)
     })
 
     // ── Hover ghost pill handlers ──
@@ -192,7 +189,7 @@ export default defineComponent({
               ref: (el) => { if (el) pillEls.value[i] = el },
               onClick: (e) => { e.preventDefault(); selectItem(item) },
               onMouseenter: () => onPillHover(item),
-            }, isMobile.value && MOBILE_LABELS[item] ? MOBILE_LABELS[item] : item)
+            }, item)
           ),
         ]),
 

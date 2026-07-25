@@ -4852,10 +4852,11 @@ strong, b {
 
 .rv-card-title {
   margin: 0;
-  font-family: var(--font-family-primary);
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: var(--text-7xl);
   font-weight: var(--weight-extrabold);
   line-height: var(--leading-tight);
+  letter-spacing: -0.01em;
   white-space: pre-line;
 }
 
@@ -5281,24 +5282,44 @@ strong, b {
   color: var(--color-text-primary);
 }
 
-/* Optimiser card */
-.go-card-bars { display: flex; align-items: center; gap: 6px; height: 60px; }
-
-.go-card-bar {
-  width: 10px;
-  border-radius: 3px;
-  background: rgba(255, 255, 255, 0.85);
-  transition: height 0.1s linear;
+/* Optimiser card — gross positions resolving to a net */
+.go-card-net {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 70px;
 }
 
-.go-card-bar--neg { background: rgba(255, 255, 255, 0.35); }
+.go-net-cap {
+  font-family: var(--font-family-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.go-net-val {
+  font-family: var(--font-family-mono);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  color: rgba(255, 255, 255, 0.92);
+  transition: color 0.25s ease;
+}
+
+.go-net-val--pos { color: #7ce0a3; }
+.go-net-val--neg { color: #ff9d9d; }
 
 .go-card-title {
   margin: 0;
-  font-family: var(--font-family-primary);
+  font-family: 'Space Grotesk', sans-serif;
   font-size: var(--text-7xl);
-  font-weight: var(--weight-extrabold);
+  font-weight: var(--weight-bold);
   line-height: var(--leading-tight);
+  letter-spacing: -0.02em;
   white-space: pre-line;
 }
 

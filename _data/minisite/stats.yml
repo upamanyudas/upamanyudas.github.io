@@ -28,17 +28,17 @@ cards:
       the point is that design moved it.
 
   - key: statusers
-    value: 517M+
+    value: 170M+
     label: people used products my teams designed
     tooltip: "Who those people are 👥"
     breakdown_title: Who those people are
     breakdown:
       - segment: A consumer entertainment platform
-        detail: "450M+ users — one of the world's largest ticketing audiences"
+        detail: "110M+ users — one of the world's largest ticketing audiences"
       - segment: A travel marketplace
         detail: "60M+ travellers across web and app, three markets"
       - segment: Fintech & enterprise tools
-        detail: "7M+ business users who'd never met a designed tax product before"
+        detail: "0.5M+ business users who'd never met a designed tax product before"
     footnote: >-
       Cumulative reach across consumer, enterprise and B2B — plus 52%
       retention growth where my teams owned the experience.

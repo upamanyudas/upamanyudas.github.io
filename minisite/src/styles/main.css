@@ -297,7 +297,7 @@ strong, b {
   display: grid;
   grid-template-columns: repeat(4, 252px);
   grid-auto-rows: 252px;
-  gap: 18px;
+  gap: 18px;   /* card positions computed in pack.js, set inline */
 }
 
 /* ══════════════════════════════════════
@@ -464,8 +464,8 @@ strong, b {
 
 /* ══════════════════════════════════════
    GRID SLOT (wrapper div per card)
-   Grid placement is now driven by inline
-   styles from filterLayouts.js via App.js.
+   Span is set via inline styles in App.js
+   from layouts.yml; the grid auto-packs.
 ══════════════════════════════════════ */
 .grid-slot {
   min-width: 0;
@@ -1791,8 +1791,8 @@ strong, b {
     min-height: calc((100vw - 66px) * 0.75);
   }
 
-  /* Card grid placements are driven by inline styles from MOBILE_LAYOUTS
-     in filterLayouts.js — no CSS placement rules needed here. */
+  /* Card spans come from inline styles in App.js (the `m` value in
+     layouts.yml); grid-auto-flow: dense (inherited) does the packing. */
 
   /* ── Animation delays — re-staggered for mobile reading order ── */
   .about-card-wrapper { --card-enter-delay: 0s;   }

@@ -2,8 +2,8 @@ import { defineComponent, h, ref, onMounted, onUnmounted, nextTick } from 'vue'
 import { layouts } from '../siteData.js'
 import LazyToggle from './LazyToggle.js'
 
-// Filters are exactly the layouts authored in layouts.yml, in that order
-const NAV_ITEMS = Object.keys(layouts.desktop)
+// Filters are authored in layouts.yml, in tab order
+const NAV_ITEMS = layouts.filters
 const SCROLL_THRESHOLD = 80  // px from top before hide kicks in
 
 export default defineComponent({

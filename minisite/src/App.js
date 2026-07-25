@@ -1,5 +1,6 @@
 import { defineComponent, h, ref, nextTick, onMounted, onUnmounted } from 'vue'
 import { isLazy }     from './lazyMode.js'
+import { packLayout } from './pack.js'
 import { layouts, caseStudies } from './siteData.js'
 import NavBar         from './components/NavBar.js'
 import CursorTooltip  from './components/CursorTooltip.js'
@@ -42,9 +43,16 @@ const COMPONENTS = {
   uxquote:    { comp: QuoteCard, props: { quoteKey: 'ux', cardClass: 'ux-quote-card' } },
 }
 
+// key + component + size/filter metadata from layouts.yml, in packing order
 const CARD_ENTRIES = layouts.order
   .filter(key => COMPONENTS[key])
-  .map(key => ({ key, ...COMPONENTS[key] }))
+  .map(key => ({ key, ...COMPONENTS[key], ...layouts.cards[key] }))
+
+// Per-breakpoint pack entries — mobile uses the `m` column span.
+const entriesFor = mobile =>
+  CARD_ENTRIES.map(e => ({ ...e, w: mobile ? e.m : e.w }))
+const DESKTOP_ENTRIES = entriesFor(false)
+const MOBILE_ENTRIES  = entriesFor(true)
 
 export default defineComponent({
   name: 'App',
@@ -149,12 +157,13 @@ export default defineComponent({
 
     /* ── Render ── */
     return () => {
-      const layoutMap = isMobile.value ? layouts.mobile : layouts.desktop
-      const layout = layoutMap[activeFilter.value] || layoutMap.All
+      const mobile = isMobile.value
+      const entries = mobile ? MOBILE_ENTRIES : DESKTOP_ENTRIES
+      const cols = mobile ? 2 : 4
+      const layout = packLayout(entries, activeFilter.value, cols)
 
       const cardSlots = CARD_ENTRIES.map(({ key, comp, props }) => {
         const pos = layout[key]
-        if (!pos) return null
 
         return h('div', {
           key,
@@ -169,7 +178,7 @@ export default defineComponent({
         }, [
           h(comp, props || {}),
         ])
-      }).filter(Boolean)
+      })
 
       return h('div', [
         h(CursorShape),

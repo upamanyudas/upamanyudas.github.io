@@ -1,169 +1,54 @@
-# Bento-grid layouts per nav filter. col/row are CSS grid-line strings
-# ('1 / 3' spans cols 1–2). dim: true → 30% opacity, not clickable.
-# `order` is DOM/tab order; grid placement controls visual order.
-# Desktop: 4 × 252px columns. Mobile (≤768px): 2 fluid columns.
+# Bento grid, auto-packed (pack.js). Each card declares its size once;
+# the packer places them per filter — no hand-placed col/row.
+# w/h  = desktop span in cells (4 × 252px).
+# m    = mobile column span (2 fluid cols); height reuses h.
+# flex = may be stretched to fill leftover cells, so dim cards always
+#        land on a fresh row below (default false → keeps its size).
+# filters = sections the card belongs to; 'All' shows every card. In a
+#        filtered view, off-filter cards render dimmed + inert, below.
 mobile_breakpoint: 768
 
+# Nav filters, in tab order. 'All' shows every card; the rest match a
+# card's `filters` list below.
+filters:
+  - All
+  - About
+  - Work
+  - Side Quests
+
+# DOM order = visual order the packer walks.
 order:
   - about
   - gmail
   - linkedin
   - bulb
   - birds
+  - statmoney
+  - statusers
+  - statyears
   - agenticds
   - ticketing
   - reviews
   - optimiser
   - filmforest
   - filmkea
-  - statmoney
-  - statusers
-  - statyears
   - dsquote
   - uxquote
 
-desktop:
-  All:
-    about:      { col: '1 / 3', row: '1' }
-    gmail:      { col: '3',     row: '1' }
-    linkedin:   { col: '4',     row: '1' }
-    bulb:       { col: '1',     row: '2' }
-    birds:      { col: '2',     row: '2' }
-    agenticds:  { col: '3 / 5', row: '2 / 4' }
-    ticketing:  { col: '1 / 3', row: '3 / 5' }
-    reviews:    { col: '3 / 5', row: '4 / 6' }
-    optimiser:  { col: '1 / 3', row: '5 / 7' }
-    statmoney:  { col: '3',     row: '6' }
-    statusers:  { col: '4',     row: '6' }
-    filmforest: { col: '1',     row: '7 / 9' }
-    filmkea:    { col: '2',     row: '7 / 9' }
-    statyears:  { col: '3 / 5', row: '7' }
-    dsquote:    { col: '3 / 5', row: '8' }
-    uxquote:    { col: '1 / 5', row: '9' }
-
-  About:
-    about:      { col: '1 / 3', row: '1' }
-    gmail:      { col: '3',     row: '1' }
-    linkedin:   { col: '4',     row: '1' }
-    uxquote:    { col: '1 / 3', row: '2' }
-    dsquote:    { col: '3 / 5', row: '2' }
-    agenticds:  { col: '1 / 3', row: '3 / 5', dim: true }
-    ticketing:  { col: '3 / 5', row: '3 / 5', dim: true }
-    reviews:    { col: '1 / 3', row: '5 / 7', dim: true }
-    optimiser:  { col: '3 / 5', row: '5 / 7', dim: true }
-    bulb:       { col: '1',     row: '7',     dim: true }
-    birds:      { col: '2',     row: '7',     dim: true }
-    statmoney:  { col: '3',     row: '7',     dim: true }
-    statusers:  { col: '4',     row: '7',     dim: true }
-    filmforest: { col: '1',     row: '8 / 10', dim: true }
-    filmkea:    { col: '2',     row: '8 / 10', dim: true }
-    statyears:  { col: '3 / 5', row: '8',     dim: true }
-
-  Work:
-    agenticds:  { col: '1 / 3', row: '1 / 3' }
-    ticketing:  { col: '3 / 5', row: '1 / 3' }
-    reviews:    { col: '1 / 3', row: '3 / 5' }
-    optimiser:  { col: '3 / 5', row: '3 / 5' }
-    statmoney:  { col: '1',     row: '5' }
-    statusers:  { col: '2',     row: '5' }
-    statyears:  { col: '3 / 5', row: '5' }
-    dsquote:    { col: '1 / 5', row: '6' }
-    about:      { col: '1 / 3', row: '7',     dim: true }
-    gmail:      { col: '3',     row: '7',     dim: true }
-    linkedin:   { col: '4',     row: '7',     dim: true }
-    bulb:       { col: '1',     row: '8',     dim: true }
-    birds:      { col: '2',     row: '8',     dim: true }
-    filmforest: { col: '3',     row: '8 / 10', dim: true }
-    filmkea:    { col: '4',     row: '8 / 10', dim: true }
-    uxquote:    { col: '1 / 3', row: '9',     dim: true }
-
-  'Side Quests':
-    bulb:       { col: '1',     row: '1' }
-    birds:      { col: '2',     row: '1' }
-    filmforest: { col: '3',     row: '1 / 3' }
-    filmkea:    { col: '4',     row: '1 / 3' }
-    gmail:      { col: '1',     row: '2',     dim: true }
-    linkedin:   { col: '2',     row: '2',     dim: true }
-    about:      { col: '1 / 3', row: '3',     dim: true }
-    statmoney:  { col: '3',     row: '3',     dim: true }
-    statusers:  { col: '4',     row: '3',     dim: true }
-    agenticds:  { col: '1 / 3', row: '4 / 6', dim: true }
-    ticketing:  { col: '3 / 5', row: '4 / 6', dim: true }
-    reviews:    { col: '1 / 3', row: '6 / 8', dim: true }
-    optimiser:  { col: '3 / 5', row: '6 / 8', dim: true }
-    dsquote:    { col: '1 / 3', row: '8',     dim: true }
-    statyears:  { col: '3 / 5', row: '8',     dim: true }
-    uxquote:    { col: '1 / 5', row: '9',     dim: true }
-
-mobile:
-  All:
-    about:      { col: '1 / 3', row: '1' }
-    gmail:      { col: '1',     row: '2' }
-    linkedin:   { col: '2',     row: '2' }
-    agenticds:  { col: '1 / 3', row: '3 / 5' }
-    ticketing:  { col: '1 / 3', row: '5 / 7' }
-    reviews:    { col: '1 / 3', row: '7 / 9' }
-    optimiser:  { col: '1 / 3', row: '9 / 11' }
-    filmforest: { col: '1',     row: '11 / 13' }
-    filmkea:    { col: '2',     row: '11 / 13' }
-    statmoney:  { col: '1 / 3', row: '13' }
-    statusers:  { col: '1 / 3', row: '14' }
-    statyears:  { col: '1 / 3', row: '15' }
-    dsquote:    { col: '1 / 3', row: '16' }
-    uxquote:    { col: '1 / 3', row: '17' }
-    bulb:       { col: '1',     row: '18' }
-    birds:      { col: '2',     row: '18' }
-
-  About:
-    about:      { col: '1 / 3', row: '1' }
-    gmail:      { col: '1',     row: '2' }
-    linkedin:   { col: '2',     row: '2' }
-    uxquote:    { col: '1 / 3', row: '3' }
-    dsquote:    { col: '1 / 3', row: '4' }
-    agenticds:  { col: '1 / 3', row: '5 / 7',   dim: true }
-    ticketing:  { col: '1 / 3', row: '7 / 9',   dim: true }
-    reviews:    { col: '1 / 3', row: '9 / 11',  dim: true }
-    optimiser:  { col: '1 / 3', row: '11 / 13', dim: true }
-    filmforest: { col: '1',     row: '13 / 15', dim: true }
-    filmkea:    { col: '2',     row: '13 / 15', dim: true }
-    statmoney:  { col: '1 / 3', row: '15',      dim: true }
-    statusers:  { col: '1 / 3', row: '16',      dim: true }
-    statyears:  { col: '1 / 3', row: '17',      dim: true }
-    bulb:       { col: '1',     row: '18',      dim: true }
-    birds:      { col: '2',     row: '18',      dim: true }
-
-  Work:
-    agenticds:  { col: '1 / 3', row: '1 / 3' }
-    ticketing:  { col: '1 / 3', row: '3 / 5' }
-    reviews:    { col: '1 / 3', row: '5 / 7' }
-    optimiser:  { col: '1 / 3', row: '7 / 9' }
-    statmoney:  { col: '1 / 3', row: '9' }
-    statusers:  { col: '1 / 3', row: '10' }
-    statyears:  { col: '1 / 3', row: '11' }
-    dsquote:    { col: '1 / 3', row: '12' }
-    about:      { col: '1 / 3', row: '13',      dim: true }
-    gmail:      { col: '1',     row: '14',      dim: true }
-    linkedin:   { col: '2',     row: '14',      dim: true }
-    uxquote:    { col: '1 / 3', row: '15',      dim: true }
-    filmforest: { col: '1',     row: '16 / 18', dim: true }
-    filmkea:    { col: '2',     row: '16 / 18', dim: true }
-    bulb:       { col: '1',     row: '18',      dim: true }
-    birds:      { col: '2',     row: '18',      dim: true }
-
-  'Side Quests':
-    bulb:       { col: '1',     row: '1' }
-    birds:      { col: '2',     row: '1' }
-    filmforest: { col: '1',     row: '2 / 4' }
-    filmkea:    { col: '2',     row: '2 / 4' }
-    about:      { col: '1 / 3', row: '4',       dim: true }
-    gmail:      { col: '1',     row: '5',       dim: true }
-    linkedin:   { col: '2',     row: '5',       dim: true }
-    agenticds:  { col: '1 / 3', row: '6 / 8',   dim: true }
-    ticketing:  { col: '1 / 3', row: '8 / 10',  dim: true }
-    reviews:    { col: '1 / 3', row: '10 / 12', dim: true }
-    optimiser:  { col: '1 / 3', row: '12 / 14', dim: true }
-    statmoney:  { col: '1 / 3', row: '14',      dim: true }
-    statusers:  { col: '1 / 3', row: '15',      dim: true }
-    statyears:  { col: '1 / 3', row: '16',      dim: true }
-    dsquote:    { col: '1 / 3', row: '17',      dim: true }
-    uxquote:    { col: '1 / 3', row: '18',      dim: true }
+cards:
+  about:      { w: 2, h: 1, m: 2, filters: [About] }
+  gmail:      { w: 1, h: 1, m: 1, filters: [About] }
+  linkedin:   { w: 1, h: 1, m: 1, filters: [About] }
+  bulb:       { w: 1, h: 1, m: 1, flex: true, filters: [Side Quests] }
+  birds:      { w: 1, h: 1, m: 1, flex: true, filters: [Side Quests] }
+  agenticds:  { w: 1, h: 2, m: 2, filters: [Work] }
+  ticketing:  { w: 2, h: 2, m: 2, filters: [Work] }
+  reviews:    { w: 1, h: 2, m: 2, filters: [Work] }
+  optimiser:  { w: 2, h: 2, m: 2, filters: [Work] }
+  filmforest: { w: 1, h: 2, m: 1, filters: [Side Quests] }
+  filmkea:    { w: 1, h: 2, m: 1, filters: [Side Quests] }
+  statmoney:  { w: 1, h: 1, m: 2, filters: [Work] }
+  statusers:  { w: 1, h: 1, m: 2, filters: [Work] }
+  statyears:  { w: 2, h: 1, m: 2, flex: true, filters: [Work] }
+  dsquote:    { w: 2, h: 1, m: 2, flex: true, filters: [About, Work] }
+  uxquote:    { w: 4, h: 1, m: 2, flex: true, filters: [About] }

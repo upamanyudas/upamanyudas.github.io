@@ -1,5 +1,6 @@
-import { defineComponent, h, ref } from 'vue'
+import { defineComponent, h } from 'vue'
 import { ICON_EXTERNAL_LINK } from '../../assets/icons/icons.js'
+import { useAnimReplay } from '../../composables/useAnimReplay.js'
 import { profile } from '../../siteData.js'
 
 const HREF    = profile.linkedin
@@ -13,13 +14,7 @@ export default defineComponent({
   },
 
   setup(props) {
-    // Incrementing this key forces Vue to recreate the SVG element,
-    // which restarts the CSS animations from scratch.
-    const animKey = ref(0)
-
-    function replay() {
-      animKey.value++
-    }
+    const { animEl, replay } = useAnimReplay()
 
     return () => {
       const classes = ['bento-card', 'linkedin-card', props.classes]
@@ -41,9 +36,9 @@ export default defineComponent({
           h('img', { src: ICON_EXTERNAL_LINK, alt: 'Open LinkedIn' }),
         ]),
 
-        // Animated LinkedIn "in" SVG — key changes on each mouseenter to replay
+        // Animated LinkedIn "in" SVG — animations rewind on mouseenter
         h('svg', {
-          key: animKey.value,
+          ref: animEl,
           class: 'li-svg',
           viewBox: '0 0 36 36',
           fill: 'none',

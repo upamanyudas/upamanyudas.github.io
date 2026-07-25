@@ -1,5 +1,6 @@
 import { defineComponent, h, ref, onMounted, watch } from 'vue'
 import { ICON_COPY } from '../../assets/icons/icons.js'
+import { useAnimReplay } from '../../composables/useAnimReplay.js'
 import { useRipple } from '../../composables/useRipple.js'
 import { profile } from '../../siteData.js'
 
@@ -17,8 +18,8 @@ export default defineComponent({
 
   setup(props) {
     const copied   = ref(false)
-    const animKey  = ref(0)
     const checkEl  = ref(null)
+    const { animEl, replay } = useAnimReplay()
     const { spawnRipple, renderRipples } = useRipple()
     let lottieAnim = null
     let checkTimer = null
@@ -57,10 +58,6 @@ export default defineComponent({
       })
     }
 
-    function replay() {
-      animKey.value++
-    }
-
     return () => {
       const classes = ['bento-card', 'gmail-card', props.classes]
         .filter(Boolean).join(' ')
@@ -84,9 +81,9 @@ export default defineComponent({
           ]),
         ]),
 
-        // Animated Gmail logo SVG — key changes on mouseenter to replay
+        // Animated Gmail logo SVG — animations rewind on mouseenter
         h('svg', {
-          key: animKey.value,
+          ref: animEl,
           class: 'gm-svg',
           viewBox: '52 42 88 66',
           width: '64',

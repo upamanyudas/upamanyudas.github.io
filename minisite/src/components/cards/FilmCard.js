@@ -5,7 +5,7 @@ import { profile } from '../../siteData.js'
 /**
  * FilmCard — vertical poster card for the two short films, drawn in code.
  *   variant 'forest' → A Forest's Dream (night forest, drifting mist)
- *   variant 'kea'    → The Birds of Play (alpine kea, orange underwing on hover)
+ *   variant 'kea'    → The Birds of Play (alpine tussock and snowcaps)
  */
 
 const forestScene = () => h('svg', { class: 'film-svg', viewBox: '0 0 252 522', preserveAspectRatio: 'xMidYMid slice', xmlns: 'http://www.w3.org/2000/svg', 'aria-hidden': 'true' }, [
@@ -58,26 +58,6 @@ const keaScene = () => h('svg', { class: 'film-svg', viewBox: '0 0 252 522', pre
   // Tussock foreground
   h('path', { d: 'M0 330 C60 314 190 314 252 332 L252 522 L0 522 Z', fill: '#7b7f4e' }),
   h('path', { d: 'M0 380 C80 362 180 366 252 384 L252 522 L0 522 Z', fill: '#4f6151' }),
-
-  // The kea — perched, facing left; wing lifts on hover to flash orange
-  h('g', { class: 'film-kea' }, [
-    // Underwing — revealed when the wing lifts
-    h('path', { class: 'film-kea-underwing', d: 'M118 300 C150 282 184 288 192 310 C182 330 146 336 120 322 Z', fill: '#e8632c' }),
-    // Tail
-    h('path', { d: 'M168 316 L216 348 L202 358 L162 332 Z', fill: '#42543f' }),
-    h('path', { d: 'M204 350 L216 348 L202 358 Z', fill: '#e8632c' }),
-    // Body
-    h('path', { d: 'M86 300 C90 270 158 264 172 296 C182 322 158 346 128 346 C102 346 84 326 86 300 Z', fill: '#556952' }),
-    // Head + hooked beak
-    h('circle', { cx: '84', cy: '272', r: '23', fill: '#5e7257' }),
-    h('path', { d: 'M66 260 C48 256 38 272 44 288 C45 291 49 291 49 288 C46 276 52 266 68 268 Z', fill: '#5a4632' }),
-    h('circle', { cx: '78', cy: '266', r: '3', fill: '#141a12' }),
-    h('circle', { cx: '79.2', cy: '264.8', r: '1', fill: '#ffffff' }),
-    // Wing — rotates up on card hover
-    h('path', { class: 'film-kea-wing', d: 'M112 292 C148 274 180 282 186 304 C176 326 140 332 112 318 Z', fill: '#42543f' }),
-    // Legs
-    h('path', { d: 'M118 344 L114 366 M138 344 L138 366', stroke: '#6b5a44', 'stroke-width': '4', 'stroke-linecap': 'round' }),
-  ]),
 ])
 
 export default defineComponent({

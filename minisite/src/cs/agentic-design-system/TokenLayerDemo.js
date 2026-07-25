@@ -1,37 +1,38 @@
 import { defineComponent, h, ref } from 'vue'
 
-/* The three-tier token architecture — populated with this site's real tokens */
+/* The three-tier token architecture — the fintech system's colour tokens */
 const TOKEN_LAYERS = [
   {
     tier: 'Primitive',
     desc: 'Raw values named by hue + scale. Never used directly in components.',
     tokens: [
-      { name: '--color-primitive-warm-100', value: '#f0ede8', color: '#f0ede8' },
-      { name: '--color-primitive-teal-500', value: '#008B8B', color: '#008B8B' },
-      { name: '--color-primitive-purple-600', value: '#7c5cfc', color: '#7c5cfc' },
-      { name: '--color-primitive-neutral-750', value: '#2c2c2c', color: '#2c2c2c' },
-      { name: '--color-primitive-indigo-100', value: '#e0e0ea', color: '#e0e0ea' },
-      { name: '--color-primitive-forest-600', value: '#6e7a50', color: '#6e7a50' },
+      { name: '--color-primitive-slate-100', value: '#eef1f5', color: '#eef1f5' },
+      { name: '--color-primitive-navy-700', value: '#1b2a4a', color: '#1b2a4a' },
+      { name: '--color-primitive-teal-500', value: '#0f9b8e', color: '#0f9b8e' },
+      { name: '--color-primitive-green-600', value: '#2e9e5b', color: '#2e9e5b' },
+      { name: '--color-primitive-amber-500', value: '#f0a020', color: '#f0a020' },
+      { name: '--color-primitive-red-600', value: '#d13d3d', color: '#d13d3d' },
     ],
   },
   {
     tier: 'Semantic',
     desc: 'Intent-based aliases. Components reference these - they swap in dark mode.',
     tokens: [
-      { name: '--color-text-primary', value: '→ Neutral/750', color: '#2c2c2c', dark: '→ Indigo/100', darkColor: '#e0e0ea' },
-      { name: '--color-bg-body', value: '→ Warm/100', color: '#f0ede8', dark: '→ Indigo/950', darkColor: '#0e0e18' },
-      { name: '--color-primary', value: '→ Teal/500', color: '#008B8B' },
-      { name: '--gradient-brand', value: 'Teal/500 → Purple/600', color: 'linear-gradient(135deg, #008B8B, #7c5cfc)' },
+      { name: '--color-text-primary', value: '→ Navy/700', color: '#1b2a4a', dark: '→ Slate/100', darkColor: '#eef1f5' },
+      { name: '--color-bg-body', value: '→ Slate/100', color: '#eef1f5', dark: '→ Navy/950', darkColor: '#0d1526' },
+      { name: '--color-status-positive', value: '→ Green/600', color: '#2e9e5b' },
+      { name: '--color-status-attention', value: '→ Amber/500', color: '#f0a020' },
+      { name: '--color-status-critical', value: '→ Red/600', color: '#d13d3d' },
     ],
   },
   {
     tier: 'Component',
-    desc: 'Scoped to specific UI patterns like cards, panels and the film posters.',
+    desc: 'Scoped to one pattern — the savings figure, the schedule, the advisor badge.',
     tokens: [
-      { name: '--color-surface-claude', value: '→ Orange/Claude', color: '#D97757' },
-      { name: '--color-widget-bg', value: '→ Neutral/880', color: '#1e1e1e' },
-      { name: '--color-brand-kea-orange', value: '→ Kea/Orange', color: '#e8632c' },
-      { name: '--color-panel-focus', value: '→ Blue/Focus', color: '#589df6' },
+      { name: '--color-savings-figure', value: '→ Status/Positive', color: '#2e9e5b' },
+      { name: '--color-schedule-due', value: '→ Status/Attention', color: '#f0a020' },
+      { name: '--color-schedule-overdue', value: '→ Status/Critical', color: '#d13d3d' },
+      { name: '--color-advisor-badge', value: '→ Teal/500', color: '#0f9b8e' },
     ],
   },
 ]
@@ -69,7 +70,7 @@ export default defineComponent({
                       class: 'ads-token-swatch',
                       style: {
                         background: t.color,
-                        border: t.color === '#ffffff' || t.color === '#f0ede8' || t.color === '#e0e0ea' ? '1px solid #e0e0e0' : 'none',
+                        border: t.color === '#eef1f5' ? '1px solid #d4dae2' : 'none',
                       },
                     }),
                     h('code', { class: 'ads-token-name' }, t.name),

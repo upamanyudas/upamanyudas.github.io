@@ -1,30 +1,30 @@
 import { defineComponent, h, ref, Transition } from 'vue'
 
-/* Four agent workflows that actually ran while building this site */
+/* Four maintenance jobs the agent ran on the production system */
 const AGENT_ACTIONS = [
   {
-    action: 'Stylesheet triage',
-    input: 'Agent diffed a 4,807-line reference stylesheet against the components this site actually ships',
-    output: 'Nearly half the rules styled cards that don’t exist here',
-    outcome: 'Trimmed to ~2,400 lines — every rule now has a consumer',
+    action: 'Drift audit',
+    input: 'One question: do the stylesheet and the Figma variables still agree?',
+    output: '38 semantic tokens existed in code but had never been published to Figma',
+    outcome: 'All 38 reconciled — designers and the build now read the same list',
   },
   {
-    action: 'Orphan token cleanup',
-    input: 'Every CSS custom property grepped against every component and demo',
-    output: '14 tokens had no consumers left — loose gradients, a stray brand orange, an entire unused font stack',
-    outcome: 'Removed from tokens.css — 305 tokens remain, all of them live',
+    action: 'Token consolidation',
+    input: 'Agent grouped every text colour by resolved value, not by name',
+    output: 'Text/Primary and Text/Body were two names for one near-navy, used interchangeably for a year',
+    outcome: 'Collapsed by aliasing — one decision, no visual change, no migration',
   },
   {
-    action: 'Layout as data',
-    input: 'Four filter layouts × two breakpoints, described only in layouts.yml',
-    output: 'Agent computed gapless grid placements for all 12 cards in every state',
-    outcome: 'Re-ordering the portfolio is now a YAML edit, not a code change',
+    action: 'Dead token cleanup',
+    input: 'Every custom property cross-referenced against every component and story',
+    output: '11 tokens had no consumers left — a retired chart ramp, two overlay greys, a legacy brand gradient',
+    outcome: 'Removed from code, with a matching Figma checklist for the library',
   },
   {
-    action: 'A third theme state',
-    input: 'Asked for an auto mode that follows the OS — the reference site had only light and dark',
-    output: 'The semantic token layer meant no component needed to know about it',
-    outcome: 'Light → dark → auto shipped by changing one card and zero components',
+    action: 'Hardcoded colour hunt',
+    input: 'Agent read the stylesheet looking for raw hex outside the primitive layer',
+    output: 'Two components held a near-black directly — invisible in dark mode, invisible in review',
+    outcome: 'Both re-pointed at --color-text-primary; dark mode fixed itself',
   },
 ]
 

@@ -2,17 +2,19 @@ import { defineComponent, h, ref, onMounted, onUnmounted } from 'vue'
 
 /**
  * DriftAuditTerminal — replaces an "agent output" screenshot.
- * Replays the real orphan-token audit that ran while building this site.
+ * Replays the drift audit: one question, no script, an actionable list back.
  */
 const LINES = [
-  { text: '$ claude "is tokens.css in sync with what the components use?"', cls: 'dt-cmd',  pause: 700 },
-  { text: '● Scanning 305 custom properties across 31 modules…',            cls: 'dt-info', pause: 900 },
-  { text: '● 291 tokens resolve to at least one consumer',                  cls: 'dt-ok',   pause: 500 },
-  { text: '● 14 orphans found:',                                            cls: 'dt-warn', pause: 300 },
-  { text: '    --gradient-duo-streak  --color-brand-strava',                cls: 'dt-dim',  pause: 250 },
-  { text: '    --font-family-rayo     --color-primitive-orange-500  …',     cls: 'dt-dim',  pause: 700 },
-  { text: '● Removing orphans, rewriting tokens.css  ✓',                    cls: 'dt-ok',   pause: 1600 },
-  { text: '$ every remaining token is load-bearing.',                       cls: 'dt-cmd',  pause: 2600 },
+  { text: '$ claude "do tokens.css and the Figma variables still agree?"',  cls: 'dt-cmd',  pause: 700 },
+  { text: '● Reading 412 custom properties across 34 modules…',             cls: 'dt-info', pause: 800 },
+  { text: '● Pulling Primitive + Semantic collections over MCP…',           cls: 'dt-info', pause: 800 },
+  { text: '● 374 tokens matched on name and resolved value',                cls: 'dt-ok',   pause: 500 },
+  { text: '● 38 in code, absent from Figma:',                               cls: 'dt-warn', pause: 300 },
+  { text: '    --color-schedule-due      --color-schedule-overdue',         cls: 'dt-dim',  pause: 250 },
+  { text: '    --color-advisor-badge     --color-savings-figure  …',        cls: 'dt-dim',  pause: 700 },
+  { text: '● 11 more resolve, but nothing consumes them  → cleanup list',   cls: 'dt-warn', pause: 900 },
+  { text: '● Wrote drift-report.md, grouped by fix  ✓',                     cls: 'dt-ok',   pause: 1600 },
+  { text: '$ a design system that can tell you how it is doing.',           cls: 'dt-cmd',  pause: 2600 },
 ]
 
 const TYPE_MS = 14
@@ -61,7 +63,7 @@ export default defineComponent({
           h('span', { class: 'tw-dot tw-dot--red' }),
           h('span', { class: 'tw-dot tw-dot--yellow' }),
           h('span', { class: 'tw-dot tw-dot--green' }),
-          h('span', { class: 'dt-title' }, 'token audit — this site, July 2026'),
+          h('span', { class: 'dt-title' }, 'drift audit — code ⇄ Figma'),
         ]),
         h('div', { class: 'dt-body' }, [
           ...done.value.map((l, i) => h('div', { class: `dt-line ${l.cls}`, key: i }, l.text)),

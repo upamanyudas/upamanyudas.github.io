@@ -2,8 +2,8 @@ import { defineComponent, h, ref, computed, onMounted, onUnmounted } from 'vue'
 
 /**
  * ThemeWindow — replaces a "dark mode in Storybook" screenshot.
- * A miniature component gallery with its own working light / dark / auto
- * switch. Auto genuinely follows your OS, scoped to this window only.
+ * Three product surfaces with a working light / dark / auto switch.
+ * Auto genuinely follows your OS, scoped to this window only.
  */
 export default defineComponent({
   name: 'ThemeWindow',
@@ -30,7 +30,7 @@ export default defineComponent({
             h('span', { class: 'tw-dot tw-dot--yellow' }),
             h('span', { class: 'tw-dot tw-dot--green' }),
           ]),
-          h('span', { class: 'tw-title' }, 'components / gallery'),
+          h('span', { class: 'tw-title' }, 'storybook / surfaces'),
           h('div', { class: 'tw-modes' },
             ['light', 'dark', 'auto'].map(m =>
               h('button', {
@@ -41,21 +41,22 @@ export default defineComponent({
           ),
         ]),
 
-        // Mini bento gallery — every surface driven by the same semantic vars
+        // Three product surfaces, every colour resolved through the semantic layer
         h('div', { class: 'tw-canvas' }, [
-          miniCard('tw-mini-about', [
+          miniCard('tw-mini-advisor', [
             h('span', { class: 'tw-mini-avatar' }),
             h('span', { class: 'tw-mini-lines' }, [
               h('span', { class: 'tw-mini-line' }),
               h('span', { class: 'tw-mini-line tw-mini-line--short' }),
             ]),
+            h('span', { class: 'tw-mini-badge tw-mini-badge--advisor' }, 'advisor'),
           ]),
-          miniCard('tw-mini-stat', [
-            h('span', { class: 'tw-mini-stat-value' }, '517M+'),
-            h('span', { class: 'tw-mini-line tw-mini-line--short' }),
+          miniCard('tw-mini-savings', [
+            h('span', { class: 'tw-mini-figure' }, '$41,600'),
+            h('span', { class: 'tw-mini-caption' }, 'saved'),
           ]),
-          miniCard('tw-mini-quote', [
-            h('span', { class: 'tw-mini-quote-mark' }, '“'),
+          miniCard('tw-mini-schedule', [
+            h('span', { class: 'tw-mini-badge tw-mini-badge--overdue' }, 'overdue'),
             h('span', { class: 'tw-mini-lines' }, [
               h('span', { class: 'tw-mini-line' }),
               h('span', { class: 'tw-mini-line tw-mini-line--short' }),

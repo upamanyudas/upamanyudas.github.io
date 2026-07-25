@@ -9,20 +9,20 @@ const ROWS = [
   {
     semantic: '--color-bg-body',
     component: 'body',
-    light: { name: 'Warm/100',    hex: '#f0ede8' },
-    dark:  { name: 'Indigo/950',  hex: '#0e0e18' },
+    light: { name: 'Slate/100',  hex: '#eef1f5' },
+    dark:  { name: 'Navy/950',   hex: '#0d1526' },
   },
   {
     semantic: '--color-text-primary',
-    component: '.bento-card',
-    light: { name: 'Neutral/750', hex: '#2c2c2c' },
-    dark:  { name: 'Indigo/100',  hex: '#e0e0ea' },
+    component: '.savings-figure',
+    light: { name: 'Navy/700',   hex: '#1b2a4a' },
+    dark:  { name: 'Slate/100',  hex: '#eef1f5' },
   },
   {
     semantic: '--color-surface-card',
-    component: '.about-card',
-    light: { name: 'Neutral/50',  hex: '#faf9f7' },
-    dark:  { name: 'Indigo/800',  hex: '#1a1a2e' },
+    component: '.payment-schedule',
+    light: { name: 'Slate/25',   hex: '#fbfcfd' },
+    dark:  { name: 'Navy/800',   hex: '#152038' },
   },
 ]
 

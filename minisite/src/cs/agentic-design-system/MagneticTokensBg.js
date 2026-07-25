@@ -10,7 +10,8 @@ import { defineComponent, h, ref, onMounted, onUnmounted } from 'vue'
 
 // ── Element data ──
 const TOKENS = [
-  'color.primary', 'color.accent', 'color.surface', 'color.muted',
+  'color.primary', 'color.surface', 'color.muted',
+  'status.positive', 'status.attention', 'status.critical',
   'spacing.4', 'spacing.8', 'spacing.16', 'spacing.24',
   'radius.sm', 'radius.md', 'radius.lg',
   'shadow.xs', 'shadow.sm',
@@ -25,11 +26,11 @@ const COMPONENTS = [
 ]
 
 const SWATCHES = [
-  { hex: '#ffffff', name: 'white',   r: 255, g: 255, b: 255 },
-  { hex: '#faf9f7', name: 'neutral', r: 250, g: 249, b: 247 },
-  { hex: '#008B8B', name: 'teal',    r: 0,   g: 139, b: 139 },
-  { hex: '#7c5cfc', name: 'purple',  r: 124, g: 92,  b: 252 },
-  { hex: '#e0e0ea', name: 'indigo',  r: 224, g: 224, b: 234 },
+  { hex: '#ffffff', name: 'white',  r: 255, g: 255, b: 255 },
+  { hex: '#eef1f5', name: 'slate',  r: 238, g: 241, b: 245 },
+  { hex: '#0f9b8e', name: 'teal',   r: 15,  g: 155, b: 142 },
+  { hex: '#2e9e5b', name: 'green',  r: 46,  g: 158, b: 91  },
+  { hex: '#f0a020', name: 'amber',  r: 240, g: 160, b: 32  },
 ]
 
 export default defineComponent({

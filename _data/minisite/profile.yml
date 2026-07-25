@@ -15,20 +15,22 @@ avatar: /minisite/src/assets/images/upa-avatar.png
 favicon: /minisite/src/assets/images/upa-favicon.png   # avatar, circle-cropped
 
 # ── Meta / SEO ─────────────────────────────────────────────
-site_title: Upa Das — Design Leader · Portfolio
+site_title: Upa Das · Product Design Leader
 description: >-
   Portfolio of Upamanyu (Upa) Das, a design leader with {years}+ years of shipped
-  product and teams behind 517M+ users. Head of Design at Octopus Deploy.
-  Case studies on design systems, agentic AI workflows, and craft-led leadership.
+  product and teams behind 517M+ users. Head of Design at Octopus Deploy, building
+  AI-native design orgs. Case studies on agentic design systems, AI workflows,
+  and craft-led leadership.
 keywords: >-
-  Upamanyu Das, Upa Das, design leader, head of design, product design,
-  design systems, agentic AI, Figma, Auckland, New Zealand
+  Upamanyu Das, Upa Das, design leader, head of design, VP of design, product design,
+  AI-native design, AI-native design leadership, agentic design systems, design systems,
+  AI design workflows, agentic AI, Figma, MCP, Auckland, New Zealand
 
 # ── Collapsed about card ───────────────────────────────────
-greeting: "Kia ora 👋"
+greeting: "Namaste 🙏🏽"
 card_bio: >-
-  I'm Upamanyu Das — Upa works too. I lead design at Octopus Deploy,
-  and I still ship pixels every week.
+  I'm Upamanyu Das — Upa works too. I lead design at Octopus Deploy, build
+  AI-native design teams, and still ship pixels every week.
 
 # ── Expanded about bio (markdown; **bold** renders as brand gradient) ──
 bio: |
@@ -52,11 +54,25 @@ bio: |
   New Zealand businesses pay tax. Along the way I was instrumental in closing 21
   record-setting deals, winning back at-least 15 lost contracts, and growing retention by 52%.
 
+  Most of my attention now goes to making design teams **AI-native** — the
+  workflow, not the tool list. In practice that has meant rebuilding a design
+  system so an agent could work inside it: tokens layered for a machine to
+  follow, components that describe their own states, drift caught on a schedule
+  instead of in review. I set the rules, the agent keeps the floor swept, and
+  the designers spend their week on the calls no model is going to make for them.
+
+  I'm blunt about where that line sits. A team that can only prompt isn't
+  designing, it's placing orders — so I hire and coach for the opposite: taste
+  you can defend out loud, and enough fluency with the tooling to know exactly
+  where to stop trusting it. Which makes this a **leadership** problem long
+  before it's a tooling one — what a machine is allowed to decide, what we
+  never hand over, and who answers for the output.
+
   Titles never moved me off the tools. I still take a design problem
   end-to-end most weeks — research, flows, wireframes, the last pixel —
   because a leader who stops making things slowly stops **seeing** them.
-  The kit: Figma, ProtoPie, HTML/CSS, product analytics, and an unreasonable
-  number of whiteboards.
+  The kit: Figma, ProtoPie, HTML/CSS, Claude with an MCP server or two,
+  product analytics, and an unreasonable number of whiteboards.
 
   Away from the screen I'm a wildlife photographer — twice named **Natural
   History Photographer of the Year** — and I've made two short films about
@@ -90,6 +106,11 @@ principles:
     body: >-
       Products ship and sunset; a team's standards compound. Hire people
       who argue back, then back them.
+  - title: Point the machine, keep the judgment.
+    body: >-
+      An agent is fast, confident, and wrong in ways that don't announce
+      themselves. I give it the repeatable work and hold on to the deciding —
+      and I expect the same split from everyone on the team.
   - title: Simple survives.
     body: >-
       Every element is a liability. The designs that last are the ones with

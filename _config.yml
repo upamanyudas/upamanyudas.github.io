@@ -24,3 +24,14 @@ highlighter: rouge
 paginate: 5
 # Gems
 #gems: [jekyll-paginate]
+
+# Minisite (new portfolio) — case studies collection
+collections:
+  case_studies:
+    output: true
+    permalink: /case-studies/:name/
+defaults:
+  - scope:
+      type: case_studies
+    values:
+      layout: case-study

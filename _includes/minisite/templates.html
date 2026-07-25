@@ -1,0 +1,30 @@
+{%- assign p = site.data.minisite.profile -%}
+<!-- Content templates — Jekyll-rendered, injected by Vue components -->
+<template id="tpl-about">
+  <div class="about-expanded-bio">{{ p.bio | markdownify }}</div>
+  <div class="about-pronounce">
+    <span class="about-pronounce-ipa">{{ p.pronunciation.ipa }}</span>
+    <span class="about-pronounce-guide">{{ p.pronunciation.guide | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+  </div>
+  <div class="about-principles">
+    <h3 class="about-principles-title">How I work</h3>
+    {% for pr in p.principles %}
+    <div class="about-principle">
+      <span class="about-principle-name">{{ pr.title }}</span>
+      <p class="about-principle-body">{{ pr.body }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</template>
+
+{% for q in p.quotes %}
+<template id="tpl-quote-{{ q[0] }}">
+  <p class="quote-text-src">{{ q[1].quote | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+  <div class="quote-body-src">{{ q[1].body | markdownify }}</div>
+</template>
+{% endfor %}
+
+{% for cs in site.case_studies %}
+{% comment %} markdownify: docs not yet rendered expose raw markdown here {% endcomment %}
+<template id="tpl-cs-{{ cs.cs_key }}">{% if cs.content contains '<div class="cs-body"' and cs.content contains '</h2>' %}{{ cs.content }}{% else %}{{ cs.content | markdownify }}{% endif %}</template>
+{% endfor %}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+{%- assign p = site.data.minisite.profile -%}
+{%- capture root_abs -%}{{ '/' | absolute_url | replace: 'http://', 'https://' }}{%- endcapture -%}
+{%- capture page_abs -%}{{ page.url | absolute_url | replace: 'http://', 'https://' }}{%- endcapture -%}
+{%- capture avatar_abs -%}{{ p.avatar | absolute_url | replace: 'http://', 'https://' }}{%- endcapture -%}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: p.site_title }}</title>
+
+  <meta name="description" content="{{ page.description | default: p.description }}">
+  <meta name="author" content="{{ p.name }}">
+  <meta name="keywords" content="{{ p.keywords }}">
+  <link rel="canonical" href="{{ page_abs }}">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="{% if page.collection == 'case_studies' %}article{% else %}website{% endif %}">
+  <meta property="og:site_name" content="{{ p.nickname }} Das — Portfolio">
+  <meta property="og:title" content="{{ page.title | default: p.site_title }}">
+  <meta property="og:description" content="{{ page.description | default: p.description }}">
+  <meta property="og:url" content="{{ page_abs }}">
+  <meta property="og:image" content="{{ avatar_abs }}">
+  <meta property="og:locale" content="en_NZ">
+
+  <!-- Twitter/X -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page.title | default: p.site_title }}">
+  <meta name="twitter:description" content="{{ page.description | default: p.description }}">
+  <meta name="twitter:image" content="{{ avatar_abs }}">
+
+  <!-- Resolve relative assets against the site root on sub-pages -->
+  <base href="/">
+
+  <link rel="icon" type="image/svg+xml" href="/minisite/src/assets/logos/upa-mark.svg">
+  <link rel="apple-touch-icon" href="{{ p.avatar }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Fredoka:wght@600&family=Inter:wght@400&family=Tiny5&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="minisite/src/styles/main.css?v={{ site.time | date: '%s' }}">
+
+  <!-- Theme boot — applies saved/system theme before first paint -->
+  <script>
+    (function () {
+      var pref = 'auto'
+      try { pref = localStorage.getItem('upa-theme') || 'auto' } catch (e) {}
+      var dark = pref === 'dark' ||
+        (pref === 'auto' && matchMedia('(prefers-color-scheme: dark)').matches)
+      document.documentElement.dataset.theme = dark ? 'dark' : ''
+      document.documentElement.dataset.themePref = pref
+    })()
+  </script>
+
+  <!-- SEO fallback: hidden for JS users, shown via <noscript> when JS is off -->
+  <style>.seo-fallback { display: none; }</style>
+  <noscript>
+    <style>
+      .seo-fallback { display: block !important; }
+      *, *::before, *::after { cursor: auto !important; }
+      a, a *, button, button * { cursor: pointer !important; }
+    </style>
+  </noscript>
+
+  <!-- PostHog -->
+  <script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init Ce js Ls Te Fs Ds capture Ye calculateEventProperties Us register register_once register_for_session unregister unregister_for_session Ws getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty Bs zs createPersonProfile Hs Ms Gs opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Ns debug L qs getPageViewId captureTraceFeedback captureTraceMetric".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_TaJFjuBc6usSkEKHHVH5VKZFJkqlX4Oka9yCvNTjCyD', {
+        api_host: 'https://us.i.posthog.com',
+        defaults: '2025-05-24',
+        person_profiles: 'identified_only',
+    })
+  </script>
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "{{ root_abs }}#upa",
+        "name": "{{ p.name }}",
+        "alternateName": "{{ p.nickname }} Das",
+        "url": "{{ root_abs }}",
+        "email": "mailto:{{ p.email }}",
+        "jobTitle": "{{ p.job_title }}",
+        "worksFor": { "@type": "Organization", "name": "{{ p.company.name }}", "url": "{{ p.company.url }}" },
+        "address": { "@type": "PostalAddress", "addressLocality": "Auckland", "addressCountry": "NZ" },
+        "sameAs": ["{{ p.linkedin }}", "{{ p.ebird }}"],
+        "knowsAbout": ["Product design", "Design leadership", "Design systems", "User research", "Agentic AI workflows", "Figma", "Wildlife photography"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "{{ root_abs }}#site",
+        "url": "{{ root_abs }}",
+        "name": "{{ p.nickname }} Das — Portfolio",
+        "description": "{{ p.description }}",
+        "publisher": { "@id": "{{ root_abs }}#upa" },
+        "inLanguage": "en-NZ"
+      }{% for cs in site.case_studies %},
+      {
+        "@type": "Article",
+        "@id": "{{ root_abs }}case-studies/{{ cs.slug }}/",
+        "headline": {{ cs.title | jsonify }},
+        "url": "{{ root_abs }}case-studies/{{ cs.slug }}/",
+        "about": {{ cs.description | jsonify }},
+        "author": { "@id": "{{ root_abs }}#upa" },
+        "publisher": { "@id": "{{ root_abs }}#upa" },
+        "datePublished": "{{ cs.date | date: '%Y-%m-%d' }}",
+        "genre": "Case study",
+        "inLanguage": "en-NZ"
+      }{% endfor %}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div id="app"{% if page.cs_key %} data-case-study="{{ page.cs_key }}"{% endif %}>
+    <!-- Pre-hydration fallback: indexable content for crawlers and no-JS visitors -->
+    <main class="seo-fallback" style="max-width:720px;margin:0 auto;padding:48px 24px;font-family:'Inter',system-ui,-apple-system,sans-serif;line-height:1.6;color:#1a1a1a;">
+      {{ content }}
+      <noscript>
+        <p style="margin-top:32px;padding:12px 16px;background:#f5f0e8;border-radius:8px;"><strong>Note:</strong> this portfolio is best viewed with JavaScript enabled for the full interactive experience.</p>
+      </noscript>
+    </main>
+  </div>
+
+  {% include minisite/templates.html %}
+
+  <script type="application/json" id="minisite-data">
+  {
+    "profile": {{ p | jsonify }},
+    "stats": {{ site.data.minisite.stats | jsonify }},
+    "layouts": {{ site.data.minisite.layouts | jsonify }},
+    "caseStudies": [{% for cs in site.case_studies %}{ "key": {{ cs.cs_key | jsonify }}, "slug": {{ cs.slug | jsonify }}, "title": {{ cs.title | jsonify }}, "tooltip": {{ cs.tooltip | jsonify }} }{% unless forloop.last %},{% endunless %}{% endfor %}]
+  }
+  </script>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "vue": "https://cdnjs.cloudflare.com/ajax/libs/vue/3.4.21/vue.esm-browser.prod.min.js"
+      },
+      "integrity": {
+        "https://cdnjs.cloudflare.com/ajax/libs/vue/3.4.21/vue.esm-browser.prod.min.js": "sha384-WehEzmhr8LLx5jGT+36WEUtwMYcCu/8qIdnEWQgSV4m4N+nwjHqk0nqeDogd8v7V"
+      }
+    }
+  </script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"
+    integrity="sha384-J8C0MvgX4WP58J4N2W99vCKd2J6z99ynOJ5bEfE6jeP7kVTW1drYtv/jzrxM5jbm"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+  <script type="module" src="minisite/src/main.js?v={{ site.time | date: '%s' }}"></script>
+</body>
+</html>

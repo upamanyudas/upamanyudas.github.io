@@ -1,0 +1,55 @@
+# Sveltia CMS — content model for the minisite (old projects site to follow)
+backend:
+  name: github
+  repo: upamanyudas/upamanyudas.github.io
+  branch: master
+
+media_folder: minisite/src/assets/images
+public_folder: /minisite/src/assets/images
+
+collections:
+  - name: case_studies
+    label: Case Studies
+    folder: _case_studies
+    extension: md
+    format: frontmatter
+    create: true
+    slug: '{{fields.slug}}'
+    fields:
+      - { name: cs_key, label: Card key, hint: matches the grid card key }
+      - { name: slug, label: URL slug }
+      - { name: title, label: Title }
+      - { name: description, label: Description, widget: text }
+      - { name: date, label: Date, widget: datetime }
+      - { name: tooltip, label: Card tooltip, widget: text }
+      - { name: body, label: Body, widget: markdown }
+
+  - name: minisite_data
+    label: Minisite Content
+    files:
+      - name: profile
+        label: Profile, bio & quotes
+        file: _data/minisite/profile.yml
+        fields:
+          - { name: name, label: Name }
+          - { name: nickname, label: Nickname }
+          - { name: role, label: Role }
+          - { name: greeting, label: Card greeting }
+          - { name: card_bio, label: Card bio, widget: text }
+          - { name: bio, label: Expanded bio, widget: markdown }
+      - name: stats
+        label: Impact stats
+        file: _data/minisite/stats.yml
+        fields:
+          - name: cards
+            label: Stat cards
+            widget: list
+            fields:
+              - { name: key, label: Key }
+              - { name: value, label: Value }
+              - { name: label, label: Label }
+      - name: layouts
+        label: Grid layouts
+        file: _data/minisite/layouts.yml
+        fields:
+          - { name: order, label: Card order, widget: list }

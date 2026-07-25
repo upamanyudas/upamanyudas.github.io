@@ -1,0 +1,140 @@
+# ── Identity ──────────────────────────────────────────────
+name: Upamanyu Das
+nickname: Upa
+role: Design Leader
+job_title: Head of Design
+company:
+  name: Octopus Deploy
+  url: https://octopus.com
+location: Auckland, New Zealand
+email: upamanyu@upamanyu.in
+linkedin: https://www.linkedin.com/in/upamanyudas/
+ebird: https://ebird.org/profile/MTE2NDg1OA
+avatar: /minisite/src/assets/images/upa-avatar.png
+
+# ── Meta / SEO ─────────────────────────────────────────────
+site_title: Upa Das — Design Leader · Portfolio
+description: >-
+  Portfolio of Upamanyu (Upa) Das, a design leader with 13+ years of shipped
+  product and teams behind 517M+ users. Head of Design at Octopus Deploy.
+  Case studies on design systems, agentic AI workflows, and craft-led leadership.
+keywords: >-
+  Upamanyu Das, Upa Das, design leader, head of design, product design,
+  design systems, agentic AI, Figma, Auckland, New Zealand
+
+# ── Collapsed about card ───────────────────────────────────
+greeting: "Kia ora 👋"
+card_bio: >-
+  I'm Upamanyu Das — Upa works too. I lead design at Octopus Deploy,
+  and I still ship pixels every week.
+
+# ── Expanded about bio (markdown; **bold** renders as brand gradient) ──
+bio: |
+  My name is Upamanyu Das, though everyone outside Bengal settles on **Upa**.
+  I'm a designer who is happiest with one foot in **strategy** and the other in
+  the **pixels** — currently Head of Design at
+  [Octopus Deploy](https://octopus.com){: .bio-link .brand-octopus},
+  leading a ten-person design org spread across four time zones.
+
+  I trained at [Sir JJ School of Art](https://en.wikipedia.org/wiki/Sir_J._J._School_of_Art){: .bio-link .brand-jj}
+  and the [National Institute of Design](https://www.nid.edu){: .bio-link .brand-nid},
+  which between them beat two habits into me: draw it before you defend it,
+  and question the brief before you answer it.
+
+  Over the last 13+ years I've built **five design & research functions from
+  the ground up** — at [BookMyShow](https://in.bookmyshow.com){: .bio-link .brand-bms},
+  where we rebuilt one of the most complex booking flows in live entertainment;
+  at [Cleartrip](https://www.cleartrip.com){: .bio-link .brand-cleartrip},
+  redesigning how millions book flights and hotels; and at
+  [TMNZ](https://www.tmnz.co.nz){: .bio-link .brand-tmnz}, re-imagining how
+  New Zealand businesses pay tax. Along the way my teams closed 21
+  record-setting deals, won back 15 lost contracts, and grew retention by 52%.
+
+  Titles never moved me off the tools. I still take a design problem
+  end-to-end most weeks — research, flows, wireframes, the last pixel —
+  because a leader who stops making things slowly stops **seeing** them.
+  The kit: Figma, ProtoPie, HTML/CSS, product analytics, and an unreasonable
+  number of whiteboards.
+
+  Away from the screen I'm a wildlife photographer — twice named **Natural
+  History Photographer of the Year** — and I've made two short films about
+  New Zealand's wild places:
+  [A Forest's Dream](/films/aforestsdream/){: .bio-link .brand-forest} and
+  [The Birds of Play](/films/thebirdsofplay/){: .bio-link .brand-kea}.
+  Waiting out a bird in the rain turns out to be excellent training for
+  design leadership.
+
+# ── Pronunciation widget (in expanded about) ───────────────
+pronunciation:
+  ipa: "/uː·pɔː·mʌn·juː  daːʃ/"
+  guide: >-
+    **U** as in coo, minus the c · **pa** as in paw · **man** as in munch,
+    minus the ch · **u** as in you. Das like pass, with a D.
+    Or just say **Upa**.
+
+# ── Design principles (in expanded about) ──────────────────
+principles:
+  - title: Measure twice, cut once.
+    body: >-
+      Research is cheaper than redesign. I don't start pixels until we can
+      say who it's for and what breaks if we're wrong.
+  - title: Stay in the field.
+    body: >-
+      Wildlife taught me this — you lose the eye the day you stop looking
+      through the lens. I keep half my calendar for craft, whatever my
+      title says.
+  - title: Teams outlive projects.
+    body: >-
+      Products ship and sunset; a team's standards compound. Hire people
+      who argue back, then back them.
+  - title: Simple survives.
+    body: >-
+      Every element is a liability. The designs that last are the ones with
+      the fewest moving parts that still do the job.
+
+# ── Quote cards ────────────────────────────────────────────
+quotes:
+  ux:
+    tooltip: My UX philosophy
+    quote: "The interface **is** the manual — nobody reads the other one."
+    body: |
+      If a flow needs a tooltip to survive, the flow is the bug. People
+      don't arrive wanting to learn your product; they arrive mid-task,
+      distracted, and generous with nothing. The screen has one chance to
+      say **what this is, what just happened, and what happens next**.
+
+      So I design for the person who reads nothing and notices everything.
+      Every label earns its place, every state has an exit, and anything
+      that needs explaining gets redesigned before it gets documented.
+  craft:
+    tooltip: My leadership philosophy
+    quote: "I run design teams like a wildlife hide — **preparation, patience**, and knowing when not to press the shutter."
+    body: |
+      Photographing wild birds and leading designers reward the same
+      instincts. You do the homework before you show up. You stay quiet
+      long enough to see what's actually happening, not what you expected.
+      And you learn that **the restraint is the skill** — most bad products,
+      like most bad photographs, come from firing too early.
+
+      In practice that means fewer, better bets: deep research before
+      commitment, critique that sharpens instead of sands down, and a team
+      trusted to work the problem without me hovering over the viewfinder.
+
+# ── Film side-quest cards ──────────────────────────────────
+films:
+  forest:
+    title: A Forest's Dream
+    subtitle: Fiordland's last great wilderness, told by the forest itself
+    url: /films/aforestsdream/
+    tooltip: "A short film I made about\nFiordland's ancient forest 🌲"
+  kea:
+    title: The Birds of Play
+    subtitle: A short film about the kea, the world's only alpine parrot
+    url: /films/thebirdsofplay/
+    tooltip: "A short film I made about\nthe mischievous kea 🦜"
+
+# ── Birds / eBird card ─────────────────────────────────────
+birds:
+  tooltip: "2× Natural History Photographer\nof the Year — my life list lives here 🦅"
+  label: Bird photographer
+  sub: 2× Natural History Photographer of the Year

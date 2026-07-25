@@ -1,0 +1,133 @@
+# Bento-grid layouts per nav filter. col/row are CSS grid-line strings
+# ('1 / 3' spans cols 1–2). dim: true → 30% opacity, not clickable.
+# `order` is DOM/tab order; grid placement controls visual order.
+# Desktop: 4 × 252px columns. Mobile (≤768px): 2 fluid columns.
+mobile_breakpoint: 768
+
+order:
+  - about
+  - gmail
+  - linkedin
+  - bulb
+  - birds
+  - agenticds
+  - filmforest
+  - filmkea
+  - statmoney
+  - statusers
+  - dsquote
+  - uxquote
+
+desktop:
+  All:
+    about:      { col: '1 / 3', row: '1' }
+    gmail:      { col: '3',     row: '1' }
+    linkedin:   { col: '4',     row: '1' }
+    bulb:       { col: '1',     row: '2' }
+    birds:      { col: '2',     row: '2' }
+    agenticds:  { col: '3 / 5', row: '2 / 4' }
+    filmforest: { col: '1',     row: '3 / 5' }
+    filmkea:    { col: '2',     row: '3 / 5' }
+    statmoney:  { col: '3',     row: '4' }
+    statusers:  { col: '4',     row: '4' }
+    dsquote:    { col: '1 / 3', row: '5' }
+    uxquote:    { col: '3 / 5', row: '5' }
+
+  About:
+    about:      { col: '1 / 3', row: '1' }
+    gmail:      { col: '3',     row: '1' }
+    linkedin:   { col: '4',     row: '1' }
+    uxquote:    { col: '1 / 3', row: '2' }
+    dsquote:    { col: '3 / 5', row: '2' }
+    bulb:       { col: '1',     row: '3',     dim: true }
+    birds:      { col: '2',     row: '3',     dim: true }
+    agenticds:  { col: '3 / 5', row: '3 / 5', dim: true }
+    filmforest: { col: '1',     row: '4 / 6', dim: true }
+    filmkea:    { col: '2',     row: '4 / 6', dim: true }
+    statmoney:  { col: '3',     row: '5',     dim: true }
+    statusers:  { col: '4',     row: '5',     dim: true }
+
+  Work:
+    agenticds:  { col: '1 / 3', row: '1 / 3' }
+    statmoney:  { col: '3',     row: '1' }
+    statusers:  { col: '4',     row: '1' }
+    dsquote:    { col: '3 / 5', row: '2' }
+    about:      { col: '1 / 3', row: '3',     dim: true }
+    gmail:      { col: '3',     row: '3',     dim: true }
+    linkedin:   { col: '4',     row: '3',     dim: true }
+    bulb:       { col: '1',     row: '4',     dim: true }
+    birds:      { col: '2',     row: '4',     dim: true }
+    filmforest: { col: '3',     row: '4 / 6', dim: true }
+    filmkea:    { col: '4',     row: '4 / 6', dim: true }
+    uxquote:    { col: '1 / 3', row: '5',     dim: true }
+
+  'Side Quests':
+    bulb:       { col: '1',     row: '1' }
+    birds:      { col: '2',     row: '1' }
+    filmforest: { col: '3',     row: '1 / 3' }
+    filmkea:    { col: '4',     row: '1 / 3' }
+    gmail:      { col: '1',     row: '2',     dim: true }
+    linkedin:   { col: '2',     row: '2',     dim: true }
+    about:      { col: '1 / 3', row: '3',     dim: true }
+    statmoney:  { col: '3',     row: '3',     dim: true }
+    statusers:  { col: '4',     row: '3',     dim: true }
+    dsquote:    { col: '1 / 3', row: '4',     dim: true }
+    agenticds:  { col: '3 / 5', row: '4 / 6', dim: true }
+    uxquote:    { col: '1 / 3', row: '5',     dim: true }
+
+mobile:
+  All:
+    about:      { col: '1 / 3', row: '1' }
+    gmail:      { col: '1',     row: '2' }
+    linkedin:   { col: '2',     row: '2' }
+    agenticds:  { col: '1 / 3', row: '3 / 5' }
+    filmforest: { col: '1',     row: '5 / 7' }
+    filmkea:    { col: '2',     row: '5 / 7' }
+    statmoney:  { col: '1 / 3', row: '7' }
+    statusers:  { col: '1 / 3', row: '8' }
+    dsquote:    { col: '1 / 3', row: '9' }
+    uxquote:    { col: '1 / 3', row: '10' }
+    bulb:       { col: '1',     row: '11' }
+    birds:      { col: '2',     row: '11' }
+
+  About:
+    about:      { col: '1 / 3', row: '1' }
+    gmail:      { col: '1',     row: '2' }
+    linkedin:   { col: '2',     row: '2' }
+    uxquote:    { col: '1 / 3', row: '3' }
+    dsquote:    { col: '1 / 3', row: '4' }
+    agenticds:  { col: '1 / 3', row: '5 / 7',  dim: true }
+    filmforest: { col: '1',     row: '7 / 9',  dim: true }
+    filmkea:    { col: '2',     row: '7 / 9',  dim: true }
+    statmoney:  { col: '1 / 3', row: '9',      dim: true }
+    statusers:  { col: '1 / 3', row: '10',     dim: true }
+    bulb:       { col: '1',     row: '11',     dim: true }
+    birds:      { col: '2',     row: '11',     dim: true }
+
+  Work:
+    agenticds:  { col: '1 / 3', row: '1 / 3' }
+    statmoney:  { col: '1 / 3', row: '3' }
+    statusers:  { col: '1 / 3', row: '4' }
+    dsquote:    { col: '1 / 3', row: '5' }
+    about:      { col: '1 / 3', row: '6',      dim: true }
+    gmail:      { col: '1',     row: '7',      dim: true }
+    linkedin:   { col: '2',     row: '7',      dim: true }
+    uxquote:    { col: '1 / 3', row: '8',      dim: true }
+    filmforest: { col: '1',     row: '9 / 11', dim: true }
+    filmkea:    { col: '2',     row: '9 / 11', dim: true }
+    bulb:       { col: '1',     row: '11',     dim: true }
+    birds:      { col: '2',     row: '11',     dim: true }
+
+  'Side Quests':
+    bulb:       { col: '1',     row: '1' }
+    birds:      { col: '2',     row: '1' }
+    filmforest: { col: '1',     row: '2 / 4' }
+    filmkea:    { col: '2',     row: '2 / 4' }
+    about:      { col: '1 / 3', row: '4',      dim: true }
+    gmail:      { col: '1',     row: '5',      dim: true }
+    linkedin:   { col: '2',     row: '5',      dim: true }
+    agenticds:  { col: '1 / 3', row: '6 / 8',  dim: true }
+    statmoney:  { col: '1 / 3', row: '8',      dim: true }
+    statusers:  { col: '1 / 3', row: '9',      dim: true }
+    dsquote:    { col: '1 / 3', row: '10',     dim: true }
+    uxquote:    { col: '1 / 3', row: '11',     dim: true }

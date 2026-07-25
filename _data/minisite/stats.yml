@@ -1,0 +1,41 @@
+# Impact stat cards (max 3 — aggregate only, no company names on the site).
+# Derivations for vetting (public figures, conservative):
+#   $2B+  — live-entertainment GMV ≈ $400M/yr (BMS FY25 GMV ₹3,200cr ≈ $380M,
+#           75% market share, ~250M tickets/yr) × 5-yr tenure ≈ $2B; travel
+#           marketplace ≈ $1B+/yr bookings (Cleartrip GMV pre-acquisition);
+#           tax pooling — TMNZ pool peaks ~NZ$10B, >$520M saved for clients.
+#   517M+ — CV: "products used by over 517 million users" (cumulative across
+#           consumer, enterprise & B2B).
+#   52%   — CV: retention growth directly influenced by design work.
+cards:
+  - key: statmoney
+    value: "$2B+"
+    label: moved through experiences my teams shipped
+    tooltip: "Where the money moved 💸"
+    breakdown_title: Where that number comes from
+    breakdown:
+      - segment: Live-entertainment ticketing
+        detail: "~$400M a year in tickets through a checkout we rebuilt — conversion up 38%"
+      - segment: Online travel
+        detail: "$1B+ in annual flight & hotel bookings on a core funnel we redesigned — conversion up 25%"
+      - segment: Business tax
+        detail: "a NZ$10B tax pool whose products my team re-imagined end to end"
+    footnote: >-
+      Conservative, public-market figures. The total isn't the point —
+      the point is that design moved it.
+
+  - key: statusers
+    value: 517M+
+    label: people used products my teams designed
+    tooltip: "Who those people are 👥"
+    breakdown_title: Who those people are
+    breakdown:
+      - segment: A consumer entertainment platform
+        detail: "450M+ users — one of the world's largest ticketing audiences"
+      - segment: A travel marketplace
+        detail: "60M+ travellers across web and app, three markets"
+      - segment: Fintech & enterprise tools
+        detail: "7M+ business users who'd never met a designed tax product before"
+    footnote: >-
+      Cumulative reach across consumer, enterprise and B2B — plus 52%
+      retention growth where my teams owned the experience.

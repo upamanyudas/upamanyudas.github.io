@@ -1,0 +1,501 @@
+/*
+ * ═══════════════════════════════════════════════════════════
+ *  DESIGN TOKENS — mirrors the Figma variable structure
+ *  Portfolio · Design System
+ *
+ *  Three-layer architecture:
+ *   1. Primitive  — raw values, named by hue + scale / category
+ *   2. Semantic   — alias to primitives, named by intent
+ *   3. Component  — scoped to specific UI patterns (widgets, panels)
+ *
+ *  These match exactly the variables to set up in Figma:
+ *   File: Portfolio - Design System
+ *   Collections: "Color", "Typography", "Spacing"
+ * ═══════════════════════════════════════════════════════════
+ */
+
+:root {
+
+  /* ───────────────────────────────────────────
+     LAYER 1 · COLOUR PRIMITIVES
+     Group: Color/Primitive/…
+     (Raw values — do not use directly in components)
+  ─────────────────────────────────────────── */
+
+  /* Neutral — full scale */
+  --color-primitive-neutral-0:      #ffffff;
+  --color-primitive-neutral-50:     #faf9f7;   /* cards, nav background        */
+  --color-primitive-neutral-75:     #f5f5f5;   /* panel surface                */
+  --color-primitive-neutral-100:    #f0f0f0;   /* skeleton shimmer light, miro bg */
+  --color-primitive-neutral-150:    #e0e0e0;   /* skeleton shimmer dark        */
+  --color-primitive-neutral-200:    #d0d0d0;   /* ceiling mount                */
+  --color-primitive-neutral-300:    #aaaaaa;   /* text subtle                  */
+  --color-primitive-neutral-350:    #999999;   /* widget text muted            */
+  --color-primitive-neutral-400:    #888888;   /* checkerboard light           */
+  --color-primitive-neutral-450:    #666666;   /* widget text subtle           */
+  --color-primitive-neutral-500:    #555555;   /* checkerboard dark            */
+  --color-primitive-neutral-600:    #3a3a3a;   /* widget border, surface hover */
+  --color-primitive-neutral-650:    #333333;   /* panel text dark              */
+  --color-primitive-neutral-750:    #2c2c2c;   /* widget surface raised, primary text */
+  --color-primitive-neutral-850:    #252525;   /* widget surface               */
+  --color-primitive-neutral-880:    #1e1e1e;   /* widget bg                    */
+  --color-primitive-neutral-950:    #181818;   /* expanded bio text            */
+  --color-primitive-neutral-1000:   #000000;
+
+  /* Warm — beige / off-white */
+  --color-primitive-warm-100:       #f0ede8;   /* body background              */
+  --color-primitive-warm-50:        #fffcf0;   /* bulb-on card background      */
+
+  /* Teal — Primary */
+  --color-primitive-teal-500:       #008B8B;   /* primary brand colour         */
+
+  /* Green */
+  --color-primitive-green-100:      #e8f8ee;   /* background gradient start    */
+
+  /* Purple */
+  --color-primitive-purple-100:     #e8ebf8;   /* background gradient mid      */
+  --color-primitive-purple-600:     #7c5cfc;   /* brand gradient end           */
+  --color-primitive-purple-widget-accent: #9945ff; /* widget accent           */
+
+  /* Pink */
+  --color-primitive-pink-100:       #f8e8e8;   /* background gradient end      */
+
+  /* Blue */
+  --color-primitive-blue-focus:     #589df6;
+
+  /* Orange */
+  --color-primitive-orange-claude:  #D97757;   /* Claude brand colour          */
+
+  /* Yellow — Sun (decorative) */
+  --color-primitive-yellow-500:     rgba(255, 205, 0, 0.18);  /* bulb glow strong */
+  --color-primitive-yellow-200:     rgba(255, 185, 0, 0.06);  /* bulb glow soft   */
+  --color-primitive-yellow-sun-a:   #ffe877;   /* sun gradient start           */
+  --color-primitive-yellow-sun-b:   #f5a623;   /* sun gradient end             */
+
+  /* Moon (decorative) */
+  --color-primitive-moon-100:       #e8e8ff;   /* moon gradient start          */
+  --color-primitive-moon-200:       #b8b8d8;   /* moon gradient end            */
+  --color-primitive-moon-star:      #c8c8ff;   /* twinkling star               */
+
+  /* Indigo — Dark mode backgrounds with blue undertone */
+  --color-primitive-indigo-950:     #0e0e18;   /* dark body, gradient start, card dark surface */
+  --color-primitive-indigo-930:     #10101e;   /* dark gradient mid + end      */
+  --color-primitive-indigo-850:     #12121e;   /* dark card dark + darkest     */
+  --color-primitive-indigo-800:     #1a1a2e;   /* dark card                    */
+  --color-primitive-indigo-750:     #1e1e34;   /* dark card white / nav        */
+  --color-primitive-indigo-700:     #28283e;   /* dark skeleton shine          */
+  --color-primitive-indigo-600:     #3a3a55;   /* dark ceiling mount           */
+  --color-primitive-indigo-400:     #666680;   /* dark text subtle             */
+  --color-primitive-indigo-200:     #c8c8d8;   /* dark text body               */
+  --color-primitive-indigo-100:     #e0e0ea;   /* dark text primary            */
+
+  /* Alpha / Black — shadow intensity */
+  --color-primitive-alpha-black-4:   rgba(0, 0, 0, 0.04);
+  --color-primitive-alpha-black-6:   rgba(0, 0, 0, 0.06);
+  --color-primitive-alpha-black-8:   rgba(0, 0, 0, 0.08);
+  --color-primitive-alpha-black-10:  rgba(0, 0, 0, 0.10);
+  --color-primitive-alpha-black-20:  rgba(0, 0, 0, 0.20);
+  --color-primitive-alpha-black-30:  rgba(0, 0, 0, 0.30);
+  --color-primitive-alpha-black-40:  rgba(0, 0, 0, 0.40);
+  --color-primitive-alpha-black-50:  rgba(0, 0, 0, 0.50);
+
+  /* Alpha / White — highlight intensity */
+  --color-primitive-alpha-white-6:   rgba(255, 255, 255, 0.06);
+  --color-primitive-alpha-white-10:  rgba(255, 255, 255, 0.10);
+  --color-primitive-alpha-white-15:  rgba(255, 255, 255, 0.15);
+  --color-primitive-alpha-white-40:  rgba(255, 255, 255, 0.40);
+  --color-primitive-alpha-white-50:  rgba(255, 255, 255, 0.50);
+  --color-primitive-alpha-white-80:  rgba(249, 249, 249, 0.80);  /* warm white for text on dark */
+  --color-primitive-alpha-white-90:  rgba(255, 255, 255, 0.90);
+
+  /* Alpha / Tinted — specific hue overlays */
+  --color-primitive-alpha-teal-10:       rgba(0, 139, 139, 0.10);
+  --color-primitive-alpha-teal-dark-18:  rgba(0, 210, 200, 0.18);
+  --color-primitive-alpha-purple-30:     rgba(100, 60, 200, 0.30);
+  --color-primitive-alpha-purple-20:     rgba(100, 60, 200, 0.20);
+  --color-primitive-alpha-purple-widget-18: rgba(99, 69, 255, 0.18);
+  --color-primitive-alpha-neutral50-50:  rgba(249, 249, 249, 0.50);
+  --color-primitive-alpha-indigo-75:     rgba(18, 18, 30, 0.75);
+  --color-primitive-alpha-sun-65:        rgba(245, 166, 35, 0.65);
+  --color-primitive-alpha-moon-55:       rgba(180, 180, 240, 0.55);
+  --color-primitive-alpha-neutral900-30: rgba(44, 44, 44, 0.30);
+  --color-primitive-alpha-indigo-text-30:rgba(224, 224, 234, 0.30);
+  --color-primitive-alpha-indigo-badge-92:rgba(30, 30, 50, 0.92);
+
+  /* Brand — LinkedIn */
+  --color-primitive-linkedin:       #0a66c2;
+
+  /* Brand — companies & links (about card) */
+  --color-primitive-octopus:        #0d80d2;   /* Octopus Deploy blue          */
+  --color-primitive-bms:            #c4242b;   /* BookMyShow red               */
+  --color-primitive-cleartrip:      #ff4f17;   /* Cleartrip orange             */
+  --color-primitive-tmnz:           #0e6e8c;   /* TMNZ teal                    */
+  --color-primitive-nid:            #b01e24;   /* NID red                      */
+  --color-primitive-jj:             #8a6d3b;   /* Sir JJ School ochre          */
+  --color-primitive-ebird:          #3a7d3c;   /* eBird green                  */
+
+  /* Brand — film cards */
+  --color-primitive-forest-600:     #6e7a50;   /* A Forest's Dream moss        */
+  --color-primitive-forest-800:     #3f4a33;   /* forest shadow                */
+  --color-primitive-forest-900:     #2a3324;   /* forest night                 */
+  --color-primitive-kea-700:        #4f6151;   /* kea olive body               */
+  --color-primitive-kea-orange:     #e8632c;   /* kea underwing orange         */
+  --color-primitive-kea-sky:        #cfe0e8;   /* alpine sky                   */
+
+
+  /* ───────────────────────────────────────────
+     LAYER 1 · TYPOGRAPHY PRIMITIVES
+     Group: Typography/Primitive/…
+  ─────────────────────────────────────────── */
+
+  /* Font families */
+  --font-family-primary:  'Syne', sans-serif;
+  --font-family-display:  'Fredoka', sans-serif;
+  --font-family-heading:  'Syne', sans-serif;
+  --font-family-system:   -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+  --font-family-mono:     'SF Mono', 'Fira Code', 'Consolas', monospace;
+
+  /* Font sizes — T-shirt scale */
+  --text-3xs:   9px;
+  --text-2xs:   10px;
+  --text-xs:    11px;
+  --text-sm:    12px;
+  --text-md:    13px;
+  --text-base:  14px;
+  --text-lg:    15px;
+  --text-xl:    16px;
+  --text-2xl:   17px;
+  --text-3xl:   18px;
+  --text-4xl:   20px;
+  --text-5xl:   22px;
+  --text-6xl:   24px;
+  --text-7xl:   32px;
+  --text-8xl:   36px;
+  --text-9xl:   40px;
+  --text-10xl:  48px;
+
+  /* Font weights */
+  --weight-regular:   400;
+  --weight-medium:    500;
+  --weight-semibold:  600;
+  --weight-bold:      700;
+  --weight-extrabold: 800;
+
+  /* Line heights */
+  --leading-none:    1;
+  --leading-tighter: 1.1;
+  --leading-tight:   1.2;
+  --leading-snug:    1.3;
+  --leading-normal:  1.4;
+  --leading-relaxed: 1.5;
+  --leading-loose:   1.55;
+  --leading-looser:  1.6;
+  --leading-loosest: 1.65;
+
+  /* Letter spacing */
+  --tracking-tight:   -0.01em;
+  --tracking-normal:  0;
+  --tracking-wide:    0.02em;
+  --tracking-wider:   0.06em;
+  --tracking-widest:  0.08em;
+  --tracking-ultra:   0.12em;
+
+
+  /* ───────────────────────────────────────────
+     LAYER 2 · SEMANTIC COLOUR ALIASES
+     Group: Color/…
+     (These are what components should reference)
+  ─────────────────────────────────────────── */
+
+  /* Primary */
+  --color-primary:            var(--color-primitive-teal-500);
+
+  /* Brand gradient — teal → purple (used for bold text, tags, buttons) */
+  --gradient-brand:           linear-gradient(135deg, var(--color-primitive-teal-500) 0%, var(--color-primitive-purple-600) 100%);
+
+  /* Background */
+  --color-bg-body:            var(--color-primitive-warm-100);
+
+  /* Border */
+  --color-border-card:             var(--color-primitive-alpha-black-8);
+
+  /* Surface */
+  --color-surface-card:            var(--color-primitive-neutral-50);
+  --color-surface-card-white:      var(--color-primitive-neutral-0);
+  --color-surface-card-dark:       var(--color-primitive-neutral-1000);
+  --color-surface-claude:          var(--color-primitive-orange-claude);  /* Claude brand card bg */
+  --color-surface-nav:             var(--color-primitive-neutral-50);
+  --color-surface-nav-blur:        var(--color-primitive-alpha-neutral50-50);
+  --color-surface-action-icon:     var(--color-primitive-neutral-50);
+  --filter-action-icon:            none;
+  --filter-checkmark:              brightness(0) invert(1);
+  --color-surface-skeleton-base:   var(--color-primitive-neutral-100);
+  --color-surface-skeleton-shine:  var(--color-primitive-neutral-150);
+
+  /* Text */
+  --color-text-primary:       var(--color-primitive-neutral-750);
+  --color-text-body:          var(--color-text-primary);           /* consolidated — was neutral-950 */
+  --color-text-subtle:        var(--color-primitive-neutral-300);
+  --color-text-on-dark:       var(--color-primitive-alpha-white-80);
+  --color-text-on-primary:    var(--color-primitive-neutral-0);  /* white text on teal/gradient bg */
+  --color-text-muted:         var(--color-primitive-alpha-neutral900-30);
+  --color-text-muted-dark:    var(--color-primitive-alpha-white-40);
+
+  /* Card surface treatment — grain + inset glow */
+  --color-card-inset-top:          var(--color-primitive-alpha-white-90);   /* bright lip at top edge */
+  --color-card-inset-bottom:       var(--color-primitive-alpha-black-4);    /* subtle base shadow     */
+  --card-grain-opacity:            0.028;
+  --card-grain-blend:              multiply;
+  --color-card-ripple:             var(--color-primitive-alpha-teal-10);   /* teal pulse on light bg */
+
+  /* Shadow */
+  --color-shadow-card-rest:        var(--color-primitive-alpha-black-4);
+  --color-shadow-card-hover:       var(--color-primitive-alpha-black-8);
+  --color-shadow-card-hover-2:     var(--color-primitive-alpha-black-4);
+  --color-shadow-card-expanded:    var(--color-primitive-alpha-black-20);
+  --color-shadow-nav:              var(--color-primitive-alpha-black-8);
+  --color-shadow-action-icon:      var(--color-primitive-alpha-black-10);
+  --color-shadow-badge:            var(--color-primitive-alpha-black-10);
+
+  /* Overlay */
+  --color-backdrop:           var(--color-primitive-alpha-black-30);
+
+  /* Brand — Bulb */
+  --color-brand-bulb-glow-strong: var(--color-primitive-yellow-500);
+  --color-brand-bulb-glow-soft:   var(--color-primitive-yellow-200);
+
+  /* Brand — LinkedIn */
+  --color-brand-linkedin:        var(--color-primitive-linkedin);
+
+  /* Brand — Sun (decorative) */
+  --gradient-sun:                radial-gradient(circle at 38% 35%, var(--color-primitive-yellow-sun-a), var(--color-primitive-yellow-sun-b));
+  --color-sun-glow:              var(--color-primitive-alpha-sun-65);
+
+  /* Brand — Moon (decorative) */
+  --gradient-moon:               radial-gradient(circle at 40% 40%, var(--color-primitive-moon-100), var(--color-primitive-moon-200));
+  --color-moon-glow:             var(--color-primitive-alpha-moon-55);
+  --color-moon-star:             var(--color-primitive-moon-star);
+
+  /* Brand — About card links */
+  --color-brand-octopus:           var(--color-primitive-octopus);
+  --color-brand-bms:               var(--color-primitive-bms);
+  --color-brand-cleartrip:         var(--color-primitive-cleartrip);
+  --color-brand-tmnz:              var(--color-primitive-tmnz);
+  --color-brand-nid:               var(--color-primitive-nid);
+  --color-brand-jj:                var(--color-primitive-jj);
+  --color-brand-ebird:             var(--color-primitive-ebird);
+
+  /* Brand — film cards */
+  --color-brand-forest:            var(--color-primitive-forest-600);
+  --color-brand-forest-deep:       var(--color-primitive-forest-800);
+  --color-brand-forest-night:      var(--color-primitive-forest-900);
+  --color-brand-kea:               var(--color-primitive-kea-700);
+  --color-brand-kea-orange:        var(--color-primitive-kea-orange);
+  --color-brand-kea-sky:           var(--color-primitive-kea-sky);
+
+
+  /* ───────────────────────────────────────────
+     LAYER 3 · WIDGET CHROME TOKENS
+     Scoped to the Figma-style editor widgets
+     (cv-* colour variables, cc-* collection card)
+  ─────────────────────────────────────────── */
+
+  /* Figma layers panel background */
+  --color-figma-bg:                var(--color-primitive-neutral-750);
+
+  /* Widget — Dark (Figma variables panel) */
+  --color-widget-bg:               var(--color-primitive-neutral-880);
+  --color-widget-surface:          var(--color-primitive-neutral-850);
+  --color-widget-surface-raised:   var(--color-primitive-neutral-750);
+  --color-widget-surface-hover:    var(--color-primitive-neutral-600);
+  --color-widget-surface-active:   var(--color-primitive-alpha-purple-widget-18);
+  --color-widget-border:           var(--color-primitive-neutral-600);
+  --color-widget-text:             var(--color-primitive-neutral-150);
+  --color-widget-text-muted:       var(--color-primitive-neutral-350);
+  --color-widget-text-subtle:      var(--color-primitive-neutral-450);
+  --color-widget-text-active:      var(--color-primitive-neutral-0);
+  --color-widget-text-active-muted:var(--color-primitive-alpha-white-50);
+  --color-widget-accent:           var(--color-primitive-purple-widget-accent);
+  --color-widget-checkerboard-dark:var(--color-primitive-neutral-500);
+  --color-widget-checkerboard-light:var(--color-primitive-neutral-400);
+  --color-widget-scrollbar:        var(--color-primitive-alpha-white-10);
+  --color-widget-alias-bg:         var(--color-primitive-alpha-white-6);
+  --color-widget-alias-border:     var(--color-primitive-alpha-white-6);
+  --color-widget-swatch-border:    var(--color-primitive-alpha-white-10);
+
+  /* Widget — Light (Figma/Storybook panel) */
+  --color-panel-bg:                var(--color-primitive-neutral-0);
+  --color-panel-surface:           var(--color-primitive-neutral-75);
+  --color-panel-border:            var(--color-primitive-neutral-150);
+  --color-panel-border-subtle:     var(--color-primitive-neutral-100);
+  --color-panel-text:              var(--color-primitive-neutral-880);
+  --color-panel-text-muted:        var(--color-primitive-neutral-450);
+  --color-panel-text-subtle:       var(--color-primitive-neutral-350);
+  --color-panel-text-dark:         var(--color-primitive-neutral-650);
+  --color-panel-focus:             var(--color-primitive-blue-focus);
+  --color-panel-caret:             var(--color-primitive-neutral-350);
+
+  /* Widget — Miro board viewer */
+  --color-miro-bg:                 var(--color-primitive-neutral-100);
+  --color-miro-grid:               var(--color-primitive-alpha-black-6);
+
+  /* Widget — Prototype phone */
+  --color-proto-bezel:             var(--color-primitive-neutral-1000);
+  --color-proto-screen:            var(--color-primitive-neutral-0);
+
+
+  /* ───────────────────────────────────────────
+     SEMANTIC TYPOGRAPHY TOKENS
+     Group: Typography/…
+     Composite tokens for common text styles
+  ─────────────────────────────────────────── */
+
+  /* Case study headings */
+  --cs-title-size:           var(--text-7xl);     /* 32px */
+  --cs-title-weight:         var(--weight-bold);
+  --cs-title-leading:        var(--leading-relaxed);
+
+  --cs-section-size:         var(--text-6xl);     /* 24px */
+  --cs-section-weight:       var(--weight-bold);
+  --cs-section-leading:      var(--leading-relaxed);
+
+  --cs-subsection-size:      var(--text-3xl);     /* 18px */
+  --cs-subsection-weight:    var(--weight-bold);
+  --cs-subsection-leading:   var(--leading-relaxed);
+
+  /* Case study body */
+  --cs-body-size:            var(--text-3xl);     /* 18px */
+  --cs-body-weight:          var(--weight-regular);
+  --cs-body-leading:         var(--leading-relaxed);
+
+  /* Navigation */
+  --nav-pill-size:           var(--text-xl);      /* 16px */
+  --nav-pill-weight:         var(--weight-medium);
+
+  /* Action / badge */
+  --action-size:             var(--text-lg);      /* 15px */
+  --action-weight:           var(--weight-medium);
+
+  /* About card */
+  --about-bio-size:          var(--text-2xl);     /* 17px */
+  --about-bio-leading:       var(--leading-loose); /* 1.55 */
+  --about-expanded-size:     var(--text-3xl);     /* 18px */
+  --about-expanded-leading:  var(--leading-looser); /* 1.6 */
+
+  /* Hint / caption */
+  --hint-size:               var(--text-xl);      /* 16px */
+  --hint-weight:             var(--weight-regular);
+
+  /* Quote cards */
+  --quote-size:              var(--text-4xl);     /* 20px */
+  --quote-weight:            var(--weight-medium);
+  --quote-leading:           var(--leading-loose); /* 1.55 */
+
+  --quote-expanded-size:     var(--text-5xl);     /* 22px */
+  --quote-expanded-weight:   var(--weight-medium);
+  --quote-expanded-leading:  var(--leading-relaxed);
+
+  --quote-body-size:         var(--text-2xl);     /* 17px */
+  --quote-body-leading:      var(--leading-loosest); /* 1.65 */
+
+  /* Review cards (Alexa) */
+  --review-title-size:       var(--text-xl);      /* 16px */
+  --review-title-weight:     var(--weight-bold);
+  --review-body-size:        var(--text-base);    /* 14px */
+  --review-body-weight:      var(--weight-regular);
+  --review-body-leading:     var(--leading-relaxed);
+
+  /* Cursor tooltip */
+  --tooltip-size:            var(--text-3xl);     /* 18px */
+  --tooltip-weight:          var(--weight-regular);
+  --tooltip-leading:         var(--leading-snug);  /* 1.3 */
+
+  /* Design principle label */
+  --principle-size:          var(--text-xs);      /* 11px */
+  --principle-weight:        var(--weight-semibold);
+  --principle-tracking:      var(--tracking-ultra);
+
+
+  /* Strava stats */
+  --strava-distance-size:    var(--text-xl);      /* 16px */
+  --strava-distance-weight:  var(--weight-bold);
+  --strava-elev-size:        var(--text-sm);      /* 12px */
+  --strava-elev-weight:      var(--weight-medium);
+
+  /* Claw Invest */
+  --claw-title-size:         var(--text-lg);      /* 15px */
+  --claw-title-weight:       var(--weight-bold);
+  --claw-title-tracking:     var(--tracking-wide);
+
+  /* Stars */
+  --stars-size:              var(--text-base);    /* 14px */
+
+  /* Project label */
+  --project-label-size:      var(--text-md);      /* 13px */
+  --project-label-weight:    var(--weight-bold);
+  --project-label-tracking:  var(--tracking-widest);
+
+  /* Interactive tag */
+  --tag-size:                var(--text-sm);      /* 12px */
+  --tag-weight:              var(--weight-semibold);
+  --tag-tracking:            var(--tracking-wide);
+}
+
+
+/* ═══════════════════════════════════════════════════════════
+ *  DARK MODE — overrides semantic aliases only
+ *  Activated by toggling data-theme="dark" on <html>
+ * ═══════════════════════════════════════════════════════════ */
+[data-theme="dark"] {
+
+  /* Card surface treatment — dark mode overrides */
+  --color-card-ripple:             var(--color-primitive-alpha-teal-dark-18);  /* teal pulse on dark bg */
+  --color-card-inset-top:          var(--color-primitive-alpha-white-6);       /* whisper-thin highlight */
+  --color-card-inset-bottom:       var(--color-primitive-alpha-black-20);
+  --card-grain-opacity:            0.045;
+  --card-grain-blend:              screen;                    /* screen lightens on dark bg */
+
+  /* Border */
+  --color-border-card:             var(--color-primitive-alpha-white-6);
+
+  /* Background */
+  --color-bg-body:                 var(--color-primitive-indigo-950);
+
+  /* Surface */
+  --color-surface-card:            var(--color-primitive-indigo-800);
+  --color-surface-card-white:      var(--color-primitive-indigo-750);
+  --color-surface-card-dark:       var(--color-primitive-indigo-850);
+  --color-surface-nav:             var(--color-primitive-indigo-750);
+  --color-surface-nav-blur:        var(--color-primitive-alpha-indigo-75);
+  --color-surface-action-icon:     var(--color-primitive-indigo-750);
+  --filter-action-icon:            brightness(0) invert(1);
+  --filter-checkmark:              none;
+  --color-surface-skeleton-base:   var(--color-primitive-indigo-800);
+  --color-surface-skeleton-shine:  var(--color-primitive-indigo-700);
+
+  /* Text */
+  --color-text-primary:            var(--color-primitive-indigo-100);
+  --color-text-body:               var(--color-text-primary);        /* consolidated — was indigo-200 */
+  --color-text-subtle:             var(--color-primitive-indigo-400);
+  --color-text-muted:              var(--color-primitive-alpha-indigo-text-30);
+  --color-text-muted-dark:         var(--color-primitive-alpha-white-40);
+
+  /* Shadow */
+  --color-shadow-card-rest:        var(--color-primitive-alpha-black-20);
+  --color-shadow-card-hover:       var(--color-primitive-alpha-black-30);
+  --color-shadow-card-hover-2:     var(--color-primitive-alpha-black-20);
+  --color-shadow-card-expanded:    var(--color-primitive-alpha-black-50);
+  --color-shadow-nav:              var(--color-primitive-alpha-black-30);
+  --color-shadow-action-icon:      var(--color-primitive-alpha-black-30);
+  --color-shadow-badge:            var(--color-primitive-alpha-black-40);
+
+  /* Overlay */
+  --color-backdrop:                var(--color-primitive-alpha-black-50);
+
+  /* Widget — Miro board dark variant */
+  --color-miro-bg:                 var(--color-primitive-neutral-880);
+  --color-miro-grid:               var(--color-primitive-alpha-white-6);
+
+  /* Brand — About card links (dark overrides) */
+  --color-brand-bauer:             #C28FFF;
+}

@@ -1,160 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: minisite
+---
+{%- assign p = site.data.minisite.profile -%}
+<header>
+  <h1 style="font-family:'Syne',sans-serif;font-size:2rem;margin:0 0 12px;">{{ p.name }} — {{ p.role }}</h1>
+  <p>{{ p.description }}</p>
+  <p>Contact: <a href="mailto:{{ p.email }}">{{ p.email }}</a> · <a href="{{ p.linkedin }}">LinkedIn</a></p>
+</header>
 
-<head>
-  <title>Upamanyu Das | Product Design Leader</title>
+<section>
+  <h2 style="font-family:'Syne',sans-serif;margin-top:40px;">About</h2>
+  {{ p.bio | markdownify }}
+</section>
 
-  <!-- Base Meta -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Meta -->
-  <meta name="description" content="Upamanyu Das; Product Design Leader">
-  <meta name="author" content="Upamanyu Das">
-
-  <base href="/">
-  <!-- <base href="//localhost:5757"> -->
-
-  <!-- Core CSS -->
-  <link href="minisite/css/reboot.css" rel="stylesheet">
-  <link href="minisite/css/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@900&display=swap" rel="stylesheet">
-
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" href="minisite/img/profile.png">
-  <link rel="icon" href="minisite/img/profile.png">
-
-  <!-- Facebook -->
-  <meta property="og:url" content="Upamanyu Das; Product Design Leader">
-  <meta property="og:title" content="Upamanyu Das; Product Design Leader">
-  <meta property="og:description" content="Upamanyu Das; Product Design Leader">
-
-  <meta property="og:image" content="Upamanyu Das; Product Design Leader">
-  <meta property="og:image:secure_url" content="Upamanyu Das; Product Design Leader">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-
-  <!-- Twitter -->
-  <meta name="twitter:site" content="Upamanyu Das; Product Design Leader">
-  <meta name="twitter:title" content="Upamanyu Das; Product Design Leader">
-  <meta name="twitter:description" content="Upamanyu Das; Product Design Leader">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="Upamanyu Das; Product Design Leader">
-  <meta name="twitter:creator" content="Upamanyu Das; Product Design Leader">
-
-  <!-- Google+ -->
-  <meta itemprop="name" content="Upamanyu Das; Product Design Leader">
-  <meta itemprop="description" content="Upamanyu Das; Product Design Leader">
-  <meta itemprop="image" content="Upamanyu Das; Product Design Leader">
-
-  <!-- PostHog Web Tracking -->
-  <script>
-    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init Ce js Ls Te Fs Ds capture Ye calculateEventProperties Us register register_once register_for_session unregister unregister_for_session Ws getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty Bs zs createPersonProfile Hs Ms Gs opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Ns debug L qs getPageViewId captureTraceFeedback captureTraceMetric".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-    posthog.init('phc_TaJFjuBc6usSkEKHHVH5VKZFJkqlX4Oka9yCvNTjCyD', {
-        api_host: 'https://us.i.posthog.com',
-        defaults: '2025-05-24',
-        person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
-    })
-  </script>
-
-  <!-- Scripts in head -->
-  <script></script>
-  <style>
-    body {
-      background-color: #FBEECA;
-      font-family: 'Lato', sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    header {
-      margin-bottom: 20px;
-    }
-    .responsive {
-      width: 100%;
-      max-width: 360px;
-      /* Profile picture grayscale to colour */
-      /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-      filter: gray !important; /* IE5+ */
-      -webkit-filter: grayscale(1) !important; /* Webkit Nightlies & Chrome Canary */
-      -webkit-transition: all .5s ease-in-out !important;
-    }
-
-    .responsive:hover {
-      filter: none !important;
-      -webkit-filter: grayscale(0) !important;
-    }
-    .resume {
-      background-color: #333;
-      color: #fff;
-      padding: 12px 40px;
-      border-radius: 4px;
-      box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-    }
-    .linkedin {
-      float: right;
-      margin-right: 20px;
-      margin-top: -5px;
-      display: block;
-    }
-    .raleway {
-      font-family: 'Raleway', sans-serif;
-      font-size: 36px;
-      font-weight: 900;
-    }
-    h2 {
-      font-size: 24px;
-      line-height: 30px;
-      margin-bottom: 20px;
-    }
-    p {
-      font-size: 16px;
-      line-height: 24px;
-      max-width: 100%;
-    }
-    a {
-      text-decoration: none !important;
-      transition: all 0.3s ease-in-out;
-    }
-    a.link {
-      text-decoration: underline !important;
-      color: #333;
-    }
-    .resume:hover {
-        box-shadow: 4px 5px 10px 0px rgba(0, 0, 0, 0.2);
-        color: #fff;
-      }
-    }
-  </style>
-</head>
-
-<body class="">
-  <div class="container">
-    <header>
-      <h1 class="raleway">Upamanyu Das</h1>
-    </header>
-
-    <main>
-      <h2>Design Leader. Communicator.</h2>
-      <h3 style="margin-top: -3%;margin-bottom: 5%;">Currently simplifying Tax Pooling at <a href="https://www.tmnz.co.nz/" target="_blank">TMNZ</a>.</h3>
-      <img src="minisite/img/upamanyudas-photo.png" alt="Upamanyu Das" class="responsive">
-      <p>With over <script>date = new Date().getFullYear(); document.write(date - 2012)</script> years of hands-on experience in solving design challenges - I am a design leader who focuses on mentoring and building design teams.</p>
-    </main>
-
-    <footer>
-      <a class="resume" href="minisite/resume" target="_blank">
-        Resume
-      </a>
-      <a href="http://linkedin.com/in/upamanyudas/" target="_blank" class="linkedin">
-          <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M24 22H18.6957V14.2661C18.6957 12.2418 17.866 10.8598 16.0414 10.8598C14.6458 10.8598 13.8697 11.7924 13.5085 12.6912C13.373 13.0138 13.3942 13.4631 13.3942 13.9125V22H8.13924C8.13924 22 8.20697 8.30019 8.13924 7.05488H13.3942V9.4004C13.7046 8.37486 15.3838 6.91119 18.0635 6.91119C21.388 6.91119 24 9.0609 24 13.69V22ZM2.82502 5.18551H2.79116C1.09784 5.18551 0 4.04302 0 2.59486C0 1.11852 1.13029 0 2.85748 0C4.58325 0 5.6444 1.11572 5.67827 2.59065C5.67827 4.03881 4.58325 5.18551 2.82502 5.18551ZM0.605347 7.05488H5.28316V22H0.605347V7.05488Z" fill="#007EBB"/>
-        </svg>
-      </a>
-    </footer>
-</div>
-
-</body>
-
-</html>
+<section>
+  <h2 style="font-family:'Syne',sans-serif;margin-top:40px;">Case studies</h2>
+  {% for cs in site.case_studies %}
+  <article style="margin-bottom:24px;">
+    <h3 style="margin-bottom:4px;"><a href="{{ cs.url }}">{{ cs.title }}</a></h3>
+    <p style="margin-top:4px;">{{ cs.description }}</p>
+  </article>
+  {% endfor %}
+</section>

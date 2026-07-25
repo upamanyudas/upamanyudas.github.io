@@ -2,15 +2,17 @@
 layout: minisite
 ---
 {%- assign p = site.data.minisite.profile -%}
+{%- assign years = 'now' | date: '%Y' | plus: 0 | minus: p.career_start -%}
+{%- assign tok = '{years}' -%}
 <header>
   <h1 style="font-family:'Syne',sans-serif;font-size:2rem;margin:0 0 12px;">{{ p.name }} — {{ p.role }}</h1>
-  <p>{{ p.description }}</p>
+  <p>{{ p.description | replace: tok, years }}</p>
   <p>Contact: <a href="mailto:{{ p.email }}">{{ p.email }}</a> · <a href="{{ p.linkedin }}">LinkedIn</a></p>
 </header>
 
 <section>
   <h2 style="font-family:'Syne',sans-serif;margin-top:40px;">About</h2>
-  {{ p.bio | markdownify }}
+  {{ p.bio | replace: tok, years | markdownify }}
 </section>
 
 <section>

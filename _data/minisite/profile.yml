@@ -3,6 +3,7 @@ name: Upamanyu Das
 nickname: Upa
 role: Design Leader
 job_title: Head of Design
+career_start: 2012          # `{years}` in copy resolves against this
 company:
   name: Octopus Deploy
   url: https://octopus.com
@@ -16,7 +17,7 @@ favicon: /minisite/src/assets/images/upa-favicon.png   # avatar, circle-cropped
 # ── Meta / SEO ─────────────────────────────────────────────
 site_title: Upa Das — Design Leader · Portfolio
 description: >-
-  Portfolio of Upamanyu (Upa) Das, a design leader with 13+ years of shipped
+  Portfolio of Upamanyu (Upa) Das, a design leader with {years}+ years of shipped
   product and teams behind 517M+ users. Head of Design at Octopus Deploy.
   Case studies on design systems, agentic AI workflows, and craft-led leadership.
 keywords: >-
@@ -33,17 +34,17 @@ card_bio: >-
 bio: |
   My name is Upamanyu Das, though everyone outside Bengal settles on **Upa**.
   I'm a designer who is happiest with one foot in **strategy** and the other in
-  the **pixels** — currently Head of Design at
+  the **pixels** — currently Heading Design at
   [Octopus Deploy](https://octopus.com){: .bio-link .brand-octopus},
   leading a ten-person design org spread across four time zones.
 
-  I trained at [Sir JJ School of Art](https://en.wikipedia.org/wiki/Sir_J._J._School_of_Art){: .bio-link .brand-jj}
+  I trained at [Sir JJ School of Art](https://sirjjsaad.edu.in){: .bio-link .brand-jj}
   and the [National Institute of Design](https://www.nid.edu){: .bio-link .brand-nid},
   which between them beat two habits into me: draw it before you defend it,
   and question the brief before you answer it.
 
-  Over the last 13+ years I've built **five design & research functions from
-  the ground up** — at [BookMyShow](https://in.bookmyshow.com){: .bio-link .brand-bms},
+  Over the last {years}+ years I've built **five design & research functions from
+  the ground up** — at [BookMyShow](https://in.bookmyshow.com/explore/home/mumbai){: .bio-link .brand-bms},
   where we rebuilt one of the most complex booking flows in live entertainment;
   at [Cleartrip](https://www.cleartrip.com){: .bio-link .brand-cleartrip},
   redesigning how millions book flights and hotels; and at

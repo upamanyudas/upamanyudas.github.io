@@ -1,5 +1,6 @@
 {%- assign p = site.data.minisite.profile -%}
-<!-- Content templates — Jekyll-rendered, injected by Vue components -->
+<!-- Content templates — Jekyll-rendered, injected by Vue components.
+     `{years}` tokens stay put; fillYears() resolves them at page load. -->
 <template id="tpl-about">
   <div class="about-expanded-bio">{{ p.bio | markdownify }}</div>
   <div class="about-pronounce">

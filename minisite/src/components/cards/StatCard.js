@@ -2,7 +2,7 @@ import { defineComponent, h } from 'vue'
 import { ICON_EXPAND, ICON_SHRINK } from '../../assets/icons/icons.js'
 import { useExpandOverlay } from '../../composables/useExpandOverlay.js'
 import { useRipple } from '../../composables/useRipple.js'
-import { stats } from '../../siteData.js'
+import { fillYears, stats } from '../../siteData.js'
 
 /**
  * StatCard — headline impact number; expands to an anonymised breakdown.
@@ -19,8 +19,8 @@ export default defineComponent({
   },
 
   setup(props) {
-    const stat = stats.cards.find(c => c.key === props.statKey) || {}
-    const cardClass = props.statKey === 'statmoney' ? 'stat-money-card' : 'stat-users-card'
+    const stat = fillYears(stats.cards.find(c => c.key === props.statKey) || {})
+    const cardClass = `stat-${props.statKey.slice(4)}-card`   // statmoney → stat-money-card
     const { cardEl, innerEl, expanded, settled, closing, expandedStyle, open, close } = useExpandOverlay()
     const { spawnRipple, renderRipples } = useRipple()
 

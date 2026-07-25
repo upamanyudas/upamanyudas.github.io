@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 {%- assign p = site.data.minisite.profile -%}
+{%- assign years = 'now' | date: '%Y' | plus: 0 | minus: p.career_start -%}
+{%- assign site_desc = p.description | replace: '{years}', years -%}
 {%- capture root_abs -%}{{ '/' | absolute_url | replace: 'http://', 'https://' }}{%- endcapture -%}
 {%- capture page_abs -%}{{ page.url | absolute_url | replace: 'http://', 'https://' }}{%- endcapture -%}
 {%- capture avatar_abs -%}{{ p.avatar | absolute_url | replace: 'http://', 'https://' }}{%- endcapture -%}
@@ -9,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: p.site_title }}</title>
 
-  <meta name="description" content="{{ page.description | default: p.description }}">
+  <meta name="description" content="{{ page.description | default: site_desc }}">
   <meta name="author" content="{{ p.name }}">
   <meta name="keywords" content="{{ p.keywords }}">
   <link rel="canonical" href="{{ page_abs }}">
@@ -18,7 +20,7 @@
   <meta property="og:type" content="{% if page.collection == 'case_studies' %}article{% else %}website{% endif %}">
   <meta property="og:site_name" content="{{ p.nickname }} Das — Portfolio">
   <meta property="og:title" content="{{ page.title | default: p.site_title }}">
-  <meta property="og:description" content="{{ page.description | default: p.description }}">
+  <meta property="og:description" content="{{ page.description | default: site_desc }}">
   <meta property="og:url" content="{{ page_abs }}">
   <meta property="og:image" content="{{ avatar_abs }}">
   <meta property="og:locale" content="en_NZ">
@@ -26,7 +28,7 @@
   <!-- Twitter/X -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ page.title | default: p.site_title }}">
-  <meta name="twitter:description" content="{{ page.description | default: p.description }}">
+  <meta name="twitter:description" content="{{ page.description | default: site_desc }}">
   <meta name="twitter:image" content="{{ avatar_abs }}">
 
   <!-- Resolve relative assets against the site root on sub-pages -->
@@ -95,7 +97,7 @@
         "@id": "{{ root_abs }}#site",
         "url": "{{ root_abs }}",
         "name": "{{ p.nickname }} Das — Portfolio",
-        "description": "{{ p.description }}",
+        "description": "{{ site_desc }}",
         "publisher": { "@id": "{{ root_abs }}#upa" },
         "inLanguage": "en-NZ"
       }{% for cs in site.case_studies %},

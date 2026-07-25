@@ -2,22 +2,33 @@ import { defineComponent, h, ref, nextTick } from 'vue'
 import { ICON_SHRINK, ICON_EXPAND } from '../../assets/icons/icons.js'
 import { useRipple } from '../../composables/useRipple.js'
 import { isLazy } from '../../lazyMode.js'
-import { profile, templateHTML } from '../../siteData.js'
+import { fillYears, profile, templateHTML } from '../../siteData.js'
 
 const AVATAR   = profile.avatar
 const ABOUT_MAX_W = 800   // max width for the expanded about card
 const ANIM_MS = 700   // must match CSS transition duration
 
-/* ── Link peek previews — code-drawn brand cards, keyed by .brand-* class ── */
+/* ── Link peek previews — keyed by .brand-* class ──────────────────────
+   `url` renders a live screenshot of the real site; sites that block
+   screenshot bots (BookMyShow) fall back to the drawn card. */
+const SHOT = 'https://image.thum.io/get/viewportWidth/1280/crop/800/width/640/png/'
+
 const BRAND_PREVIEWS = {
-  'brand-octopus':   { label: 'Octopus Deploy', sub: 'octopus.com',      color: '#0d80d2' },
+  'brand-octopus':   { url: 'https://octopus.com',
+                       label: 'Octopus Deploy', sub: 'octopus.com',      color: '#0d80d2' },
   'brand-bms':       { label: 'BookMyShow',     sub: 'in.bookmyshow.com', color: '#c4242b' },
-  'brand-cleartrip': { label: 'Cleartrip',      sub: 'cleartrip.com',    color: '#ff4f17' },
-  'brand-tmnz':      { label: 'TMNZ',           sub: 'tmnz.co.nz',       color: '#0e6e8c' },
-  'brand-nid':       { label: 'National Institute of Design', sub: 'nid.edu', color: '#b01e24' },
-  'brand-jj':        { label: 'Sir JJ School of Art', sub: 'est. 1857',  color: '#8a6d3b' },
-  'brand-forest':    { label: "A Forest's Dream", sub: 'a short film',   color: '#6e7a50' },
-  'brand-kea':       { label: 'The Birds of Play', sub: 'a short film',  color: '#e8632c' },
+  'brand-cleartrip': { url: 'https://www.cleartrip.com',
+                       label: 'Cleartrip',      sub: 'cleartrip.com',    color: '#ff4f17' },
+  'brand-tmnz':      { url: 'https://www.tmnz.co.nz',
+                       label: 'TMNZ',           sub: 'tmnz.co.nz',       color: '#0e6e8c' },
+  'brand-nid':       { url: 'https://www.nid.edu',
+                       label: 'National Institute of Design', sub: 'nid.edu', color: '#b01e24' },
+  'brand-jj':        { url: 'https://en.wikipedia.org/wiki/Sir_J._J._School_of_Art',
+                       label: 'Sir JJ School of Art', sub: 'est. 1857',  color: '#8a6d3b' },
+  'brand-forest':    { url: 'https://upamanyu.in/films/aforestsdream/',
+                       label: "A Forest's Dream", sub: 'a short film',   color: '#6e7a50' },
+  'brand-kea':       { url: 'https://upamanyu.in/films/thebirdsofplay/',
+                       label: 'The Birds of Play', sub: 'a short film',  color: '#e8632c' },
 }
 
 function previewDataURI({ label, sub, color }) {
@@ -30,6 +41,8 @@ function previewDataURI({ label, sub, color }) {
   </svg>`
   return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg)
 }
+
+const previewSrc = b => (b.url ? SHOT + b.url : previewDataURI(b))
 
 // Shared cubic-bezier for all FLIP transitions
 const EASE = 'cubic-bezier(0.34, 1.1, 0.64, 1)'
@@ -83,7 +96,8 @@ export default defineComponent({
       previewRafId = requestAnimationFrame(previewAnimLoop)
     }
 
-    function showPreview(e, src) {
+    function showPreview(e, brand) {
+      const src = previewSrc(brand)
       clearTimeout(previewTimer)
       const rawX = e.clientX + PREVIEW_OFFSET
       const rawY = e.clientY + PREVIEW_OFFSET
@@ -95,7 +109,7 @@ export default defineComponent({
       if (!preview.value.visible || preview.value.src !== src) {
         previewSmoothX = clampedX
         previewSmoothY = clampedY
-        preview.value = { visible: true, x: clampedX, y: clampedY, src }
+        preview.value = { visible: true, x: clampedX, y: clampedY, src, fallback: previewDataURI(brand) }
         cancelAnimationFrame(previewRafId)
         previewRafId = requestAnimationFrame(previewAnimLoop)
       }
@@ -115,7 +129,15 @@ export default defineComponent({
       if (!link) { hidePreview(); return }
       const brand = [...link.classList].find(c => BRAND_PREVIEWS[c])
       if (!brand) { hidePreview(); return }
-      showPreview(e, previewDataURI(BRAND_PREVIEWS[brand]))
+      showPreview(e, BRAND_PREVIEWS[brand])
+    }
+
+    // Warm the screenshot cache on expand, so the first hover isn't a blank box
+    let prefetched = false
+    function prefetchShots() {
+      if (prefetched || isTouch) return
+      prefetched = true
+      Object.values(BRAND_PREVIEWS).forEach(b => { if (b.url) new Image().src = SHOT + b.url })
     }
 
     let startRect   = null
@@ -174,6 +196,7 @@ export default defineComponent({
 
       startRect   = cardEl.value.getBoundingClientRect()
       avatarStart = avatarEl.value.getBoundingClientRect()
+      prefetchShots()
 
       // ① Place flying avatar exactly over the collapsed avatar
       flyStyle.value = {
@@ -343,7 +366,7 @@ export default defineComponent({
               // Jekyll-rendered bio + pronunciation + principles
               h('div', {
                 class: 'about-expanded-body',
-                innerHTML: templateHTML('tpl-about'),
+                innerHTML: fillYears(templateHTML('tpl-about')),
                 onMouseover: onBioOver,
                 onMousemove: onBioOver,
                 onMouseleave: hidePreview,
@@ -362,9 +385,13 @@ export default defineComponent({
             },
           }, [
             preview.value.src ? h('img', {
-              class: 'bio-link-preview-img',
-              src:   preview.value.src,
-              alt:   'Preview',
+              key:     preview.value.src,
+              class:   'bio-link-preview-img',
+              src:     preview.value.src,
+              alt:     'Preview',
+              onError: e => {
+                if (e.target.src !== preview.value.fallback) e.target.src = preview.value.fallback
+              },
             }) : null,
           ]),
         ]),

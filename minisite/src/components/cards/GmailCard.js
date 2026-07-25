@@ -50,12 +50,34 @@ export default defineComponent({
       }
     })
 
+    // navigator.clipboard is undefined off https/localhost — fall back to execCommand
+    function legacyCopy(text) {
+      const ta = document.createElement('textarea')
+      ta.value = text
+      ta.setAttribute('readonly', '')
+      ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;font-size:16px'
+      document.body.appendChild(ta)
+      ta.select()
+      ta.setSelectionRange(0, text.length)   // iOS Safari needs the explicit range
+      const ok = document.execCommand('copy')
+      ta.remove()
+      return ok
+    }
+
+    function flashCopied() {
+      copied.value = true
+      clearTimeout(timer)
+      timer = setTimeout(() => { copied.value = false }, 2000)
+    }
+
     function handleCopy() {
-      navigator.clipboard.writeText(EMAIL).then(() => {
-        copied.value = true
-        clearTimeout(timer)
-        timer = setTimeout(() => { copied.value = false }, 2000)
-      })
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(EMAIL)
+          .then(flashCopied)
+          .catch(() => { if (legacyCopy(EMAIL)) flashCopied() })
+        return
+      }
+      if (legacyCopy(EMAIL)) flashCopied()
     }
 
     return () => {
@@ -64,7 +86,7 @@ export default defineComponent({
 
       return h('div', {
         class: classes,
-        onClick: (e) => { handleCopy(); spawnRipple(e) },
+        onClick: (e) => { spawnRipple(e); handleCopy() },
         onMouseenter: replay,
         'data-tooltip': 'Click to copy my email address 📨',
       }, [

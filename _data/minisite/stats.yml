@@ -1,4 +1,6 @@
-# Impact stat cards (max 3 — aggregate only, no company names on the site).
+# Impact stat cards (aggregate only, no company names on the site).
+# `{years}` / `{start}` resolve against profile.career_start at page load,
+# so the experience count rolls over on its own each January.
 # Derivations for vetting (public figures, conservative):
 #   $2B+  — live-entertainment GMV ≈ $400M/yr (BMS FY25 GMV ₹3,200cr ≈ $380M,
 #           75% market share, ~250M tickets/yr) × 5-yr tenure ≈ $2B; travel
@@ -7,6 +9,7 @@
 #   517M+ — CV: "products used by over 517 million users" (cumulative across
 #           consumer, enterprise & B2B).
 #   52%   — CV: retention growth directly influenced by design work.
+#   14+   — derived: current year minus profile.career_start (2012).
 cards:
   - key: statmoney
     value: "$2B+"
@@ -39,3 +42,19 @@ cards:
     footnote: >-
       Cumulative reach across consumer, enterprise and B2B — plus 52%
       retention growth where my teams owned the experience.
+
+  - key: statyears
+    value: "{years}+"
+    label: years designing, shipping and leading design teams
+    tooltip: "What the years add up to ⏳"
+    breakdown_title: What the years add up to
+    breakdown:
+      - segment: Five design & research functions
+        detail: "built from zero — the hires, the craft bar, the rituals, all of it"
+      - segment: A ten-person org across four time zones
+        detail: "led today, with half the calendar still held back for craft"
+      - segment: 21 record-setting deals, 15 contracts won back
+        detail: "design was in the room where each of those was argued and won"
+    footnote: >-
+      The titles kept changing; taking a problem
+      end-to-end never did.

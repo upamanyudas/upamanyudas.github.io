@@ -31,6 +31,7 @@ const COMPONENTS = {
   filmkea:    { comp: FilmCard, props: { variant: 'kea' } },
   statmoney:  { comp: StatCard, props: { statKey: 'statmoney' } },
   statusers:  { comp: StatCard, props: { statKey: 'statusers' } },
+  statyears:  { comp: StatCard, props: { statKey: 'statyears' } },
   dsquote:    { comp: QuoteCard, props: { quoteKey: 'craft', cardClass: 'ds-quote-card' } },
   uxquote:    { comp: QuoteCard, props: { quoteKey: 'ux', cardClass: 'ux-quote-card' } },
 }

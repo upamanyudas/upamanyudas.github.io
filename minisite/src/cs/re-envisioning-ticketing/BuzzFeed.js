@@ -20,10 +20,12 @@ export default defineComponent({
   setup() {
     const story = ref(0)
     const liked = ref({})
+    const burst = ref(-1)
     const dwell = ref(0)
     const scroller = ref(null)
     let timer = null
     let lastScroll = 0
+    const lastTap = {}
 
     // Dwell only counts while the thumb is moving — same rule as the analytics.
     function onScroll() { lastScroll = Date.now() }
@@ -42,6 +44,17 @@ export default defineComponent({
     }
 
     const toggleLike = i => { liked.value = { ...liked.value, [i]: !liked.value[i] } }
+
+    // Double-tap likes (never unlikes) — one click handler covers mouse and touch.
+    const tapLike = i => {
+      const now = Date.now()
+      if (now - (lastTap[i] || 0) < 300) {
+        liked.value = { ...liked.value, [i]: true }
+        burst.value = i
+        setTimeout(() => { if (burst.value === i) burst.value = -1 }, 650)
+      }
+      lastTap[i] = now
+    }
 
     const heart = on => h('svg', {
       class: ['tk-heart', on ? 'tk-heart--on' : ''].join(' '),
@@ -71,11 +84,18 @@ export default defineComponent({
             h('div', { ref: scroller, class: 'tk-buzz-scroll', onScroll }, [
               h('p', { class: 'tk-buzz-now' }, STORIES[story.value] + ' — tap through the highlights'),
               ...POSTS.map((p, i) =>
-                h('article', { key: p.title, class: ['tk-post', p.tall ? 'tk-post--tall' : ''].join(' ') }, [
-                  h('div', { class: 'tk-post-art' }, [h('span', { class: 'tk-post-kicker' }, p.kicker)]),
+                h('article', {
+                  key: p.title,
+                  class: ['tk-post', p.tall ? 'tk-post--tall' : ''].join(' '),
+                  onClick: () => tapLike(i),
+                }, [
+                  h('div', { class: 'tk-post-art' }, [
+                    h('span', { class: 'tk-post-kicker' }, p.kicker),
+                    burst.value === i ? h('span', { class: 'tk-post-burst' }, heart(true)) : null,
+                  ]),
                   h('h5', null, p.title),
                   h('div', { class: 'tk-post-foot' }, [
-                    h('button', { class: 'tk-post-like', onClick: () => toggleLike(i) }, [
+                    h('button', { class: 'tk-post-like', onClick: e => { e.stopPropagation(); toggleLike(i) } }, [
                       heart(!!liked.value[i]),
                       h('span', null, String(p.likes + (liked.value[i] ? 1 : 0))),
                     ]),

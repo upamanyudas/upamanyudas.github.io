@@ -60,11 +60,11 @@ export default defineComponent({
                 aud().slots.some(s => s.kind === 'splash')
                   ? h('div', { class: 'tk-ad tk-ad--splash' }, [h('span', null, 'Sponsored'), h('em', null, 'splash')])
                   : null,
-                h('div', { class: 'tk-grid' }, Array.from({ length: 4 }, (_, i) => h('span', { key: i, class: 'tk-tile' }))),
+                h('div', { class: 'tk-grid' }, Array.from({ length: 3 }, (_, i) => h('span', { key: i, class: 'tk-tile' }))),
                 aud().slots.some(s => s.kind === 'echo')
                   ? h('div', { class: 'tk-ad tk-ad--echo' }, [h('span', null, 'Sponsored'), h('em', null, 'echo banner')])
                   : null,
-                h('div', { class: 'tk-grid' }, Array.from({ length: 2 }, (_, i) => h('span', { key: i, class: 'tk-tile' }))),
+                h('div', { class: 'tk-grid' }, Array.from({ length: 3 }, (_, i) => h('span', { key: i, class: 'tk-tile' }))),
                 aud().slots.some(s => s.kind === 'native')
                   ? h('div', { class: 'tk-ad tk-ad--native' }, [h('span', null, 'Sponsored'), h('em', null, 'native card')])
                   : null,

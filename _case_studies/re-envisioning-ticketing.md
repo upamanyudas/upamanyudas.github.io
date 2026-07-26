@@ -20,7 +20,7 @@ tooltip: "The forty million who never\nbought a ticket 🎟️"
 For twenty years the company had sold one thing: a seat. A seat at a small-town Christmas gig, a seat at an 80,000-capacity cricket final, a seat in row H for the Friday release. Fifty million people a month opened the app. Ten million of them bought something.
 {: .cs-body-text}
 
-Everyone read that gap as a conversion problem. I read it as an audience nobody had designed for — forty million people showing up every month for something the product didn't sell.
+Everyone read that gap as a conversion problem, and every fix on the roadmap was pointed at closing it. I spent a month in the session logs before I'd say the other thing out loud: this wasn't leakage to plug, it was an audience nobody had designed for — forty million people showing up every month for something the product didn't sell.
 {: .cs-body-text}
 </div>
 
@@ -40,7 +40,7 @@ Sketch and Figma, InVision, Google Analytics, CleverTap, Jira, a CDN-side image 
 {: .cs-section-title}
 
 <div class="tldr-collapsible" markdown="1">
-The revenue line was a booking fee on a ticket. Fine while cinemas are the default Friday night — much less fine once streaming becomes the default *every* night. Three things made the case for me.
+Seeing the audience is free; getting a twenty-year-old business to build for it is not. Before a single screen existed I had to argue the gap was worth chasing at all. The revenue line was a booking fee on a ticket — fine while cinemas are the default Friday night, much less fine once streaming becomes the default *every* night. Three things made the case for me.
 {: .cs-body-text}
 
 **Streaming had quietly become the competition.** Not another ticketing app. A phone, a sofa, and no seat to choose.
@@ -59,14 +59,14 @@ The revenue line was a booking fee on a ticket. Fine while cinemas are the defau
 {: .cs-section-title}
 
 <div class="tldr-collapsible" markdown="1">
-Three tabs, three moods. **Home** stays exactly where the muscle memory is — you came to book, book. It gains smarter filters and better discovery, and nothing else moves. **Store** is for when someone wants the merch, not the seat. **Buzz** is for the other twenty-nine days of the month, when nobody is buying anything and everybody is scrolling.
+Leadership gave us a quarter to prove the direction before it touched the roadmap. We watched what the forty million already did between bookings, then designed to it: three tabs, three moods. **Home** stays exactly where the muscle memory is — you came to book, book. It gains smarter filters and better discovery, and nothing else moves. **Store** is for when someone wants the merch, not the seat. **Buzz** is for the other twenty-nine days of the month, when nobody is buying anything and everybody is scrolling.
 {: .cs-body-text}
 
 The restraint was the design work. Every instinct in the room wanted to make the home tab do the new job too. Leaving it alone is what let us ship the rest without a conversion scare.
 {: .cs-body-text}
 </div>
 
-<div class="cs-demo" data-demo="nav-shift" data-hint="Flip between the old and new shell, then tap the tabs"></div>
+<div class="cs-demo" data-demo="pitch-morph" data-hint="Toggle Before/After — watch the home screen re-shape"></div>
 
 <div class="tldr-collapsible" markdown="1">
 Underneath, the business case is a loop rather than a line. Ticketing earns directly. Engagement doesn't earn anything by itself — it earns by making an ad server worth building, and by putting a dreamer within one tap of a booking on a week they can afford it.
@@ -152,6 +152,8 @@ It was this platform that kept revenue moving through 2020, when nobody in the c
 
 <div class="cs-demo" data-demo="ad-rules" data-hint="Switch the audience — the rules change what loads"></div>
 
+<div class="cs-demo" data-demo="ad-tech-shot" data-hint="Three live units, all built from the same card template"></div>
+
 ## Results
 {: .cs-section-title}
 
@@ -165,7 +167,7 @@ It was this platform that kept revenue moving through 2020, when nobody in the c
     <span class="cs-result-label">to make a show live, down from twenty-four</span>
   </div>
   <div class="cs-result-card">
-    <span class="cs-result-number">11→2</span>
+    <span class="cs-result-number">11<span class="cs-result-arrow">→</span>2</span>
     <span class="cs-result-label">image sizes in production, per show</span>
   </div>
   <div class="cs-result-card">

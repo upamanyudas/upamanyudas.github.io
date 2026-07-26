@@ -13,13 +13,14 @@ import FigmaSourcePanel   from './agentic-design-system/FigmaSourcePanel.js'
 import DriftAuditTerminal from './agentic-design-system/DriftAuditTerminal.js'
 
 import AudienceSplit      from './re-envisioning-ticketing/AudienceSplit.js'
-import NavShift           from './re-envisioning-ticketing/NavShift.js'
+import PitchMorph         from './re-envisioning-ticketing/PitchMorph.js'
 import RevenueLoop        from './re-envisioning-ticketing/RevenueLoop.js'
 import TeamShape          from './re-envisioning-ticketing/TeamShape.js'
 import TemplatePipeline   from './re-envisioning-ticketing/TemplatePipeline.js'
 import BuzzFeed           from './re-envisioning-ticketing/BuzzFeed.js'
 import WatchGuide         from './re-envisioning-ticketing/WatchGuide.js'
 import AdRules            from './re-envisioning-ticketing/AdRules.js'
+import AdShot             from './re-envisioning-ticketing/AdShot.js'
 
 import RatingBias         from './ten-second-reviews/RatingBias.js'
 import RatingTakes        from './ten-second-reviews/RatingTakes.js'
@@ -52,13 +53,14 @@ export const DEMOS = {
 
   // Re-envisioning a mass ticketing platform
   'audience-split':    AudienceSplit,
-  'nav-shift':         NavShift,
+  'pitch-morph':       PitchMorph,
   'revenue-loop':      RevenueLoop,
   'team-shape':        TeamShape,
   'template-pipeline': TemplatePipeline,
   'buzz-feed':         BuzzFeed,
   'watch-guide':       WatchGuide,
   'ad-rules':          AdRules,
+  'ad-tech-shot':      AdShot,
 
   // Ratings and reviews in ten seconds
   'rating-bias':       RatingBias,

@@ -1,6 +1,6 @@
 ---
 cs_key: reviews
-slug: ten-second-reviews
+slug: nine-second-reviews
 title: "Eight people in a hundred wrote a review. The other ninety-two weren't lazy — the form was."
 description: "Rebuilding ratings and reviews on a mass ticketing platform: a rating construct that finally matched its own scale, a three-step form that took nine seconds, and a trust model that made the number worth quoting. Time on task 60s → 10s, reviews up 24%."
 date: 2020-11-24

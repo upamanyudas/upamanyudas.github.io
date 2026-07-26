@@ -22,14 +22,14 @@ import WatchGuide         from './re-envisioning-ticketing/WatchGuide.js'
 import AdRules            from './re-envisioning-ticketing/AdRules.js'
 import AdShot             from './re-envisioning-ticketing/AdShot.js'
 
-import RatingBias         from './ten-second-reviews/RatingBias.js'
-import RatingTakes        from './ten-second-reviews/RatingTakes.js'
-import ReviewForm         from './ten-second-reviews/ReviewForm.js'
-import TagMine            from './ten-second-reviews/TagMine.js'
-import Benchmark          from './ten-second-reviews/Benchmark.js'
-import TrustWeight        from './ten-second-reviews/TrustWeight.js'
-import NudgeStory         from './ten-second-reviews/NudgeStory.js'
-import ReviewSummary      from './ten-second-reviews/ReviewSummary.js'
+import RatingBias         from './nine-second-reviews/RatingBias.js'
+import RatingTakes        from './nine-second-reviews/RatingTakes.js'
+import ReviewForm         from './nine-second-reviews/ReviewForm.js'
+import TagMine            from './nine-second-reviews/TagMine.js'
+import Benchmark          from './nine-second-reviews/Benchmark.js'
+import TrustWeight        from './nine-second-reviews/TrustWeight.js'
+import NudgeStory         from './nine-second-reviews/NudgeStory.js'
+import ReviewSummary      from './nine-second-reviews/ReviewSummary.js'
 
 import SpreadsheetPain    from './group-optimiser/SpreadsheetPain.js'
 import OptimiserSteps     from './group-optimiser/OptimiserSteps.js'
@@ -62,7 +62,7 @@ export const DEMOS = {
   'ad-rules':          AdRules,
   'ad-tech-shot':      AdShot,
 
-  // Ratings and reviews in ten seconds
+  // Ratings and reviews in nine seconds
   'rating-bias':       RatingBias,
   'rating-takes':      RatingTakes,
   'review-form':       ReviewForm,

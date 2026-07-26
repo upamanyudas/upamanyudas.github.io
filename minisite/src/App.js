@@ -16,7 +16,7 @@ import StatCard       from './components/cards/StatCard.js'
 import QuoteCard      from './components/cards/QuoteCard.js'
 import AgenticDSCard  from './cs/agentic-design-system/card.js'
 import TicketingCard  from './cs/re-envisioning-ticketing/card.js'
-import ReviewsCard    from './cs/ten-second-reviews/card.js'
+import ReviewsCard    from './cs/nine-second-reviews/card.js'
 import OptimiserCard  from './cs/group-optimiser/card.js'
 
 const MOBILE_BREAKPOINT = layouts.mobile_breakpoint

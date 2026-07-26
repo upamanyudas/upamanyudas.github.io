@@ -27,7 +27,7 @@ Everyone read that gap as a conversion problem, and every fix on the roadmap was
 ## My role
 {: .cs-section-title}
 
-I was Head of Design. With the Head of Product I re-architected the platform from a pure transaction engine into a content and engagement app — the pitch, the navigation model, the three new products, and the operating change underneath that made any of it affordable. Seventy people in design reported into me while we did it.
+I was Head of Design. With the Head of Product I re-architected the platform from a pure transaction engine into a content and engagement app — the pitch, the navigation model, the three new products, and the operating change underneath that made any of it affordable. Seventy people in the design org reported to me while we did it.
 {: .cs-body-text}
 
 ## Stack
@@ -40,7 +40,7 @@ Sketch and Figma, InVision, Google Analytics, CleverTap, Jira, a CDN-side image 
 {: .cs-section-title}
 
 <div class="tldr-collapsible" markdown="1">
-Seeing the audience is free; getting a twenty-year-old business to build for it is not. Before a single screen existed I had to argue the gap was worth chasing at all. The revenue line was a booking fee on a ticket — fine while cinemas are the default Friday night, much less fine once streaming becomes the default *every* night. Three things made the case for me.
+Seeing the audience is free; getting a twenty-year-old business to build for it is not. Before a single screen existed I had to argue the gap was worth chasing at all. The revenue line was a booking fee on a ticket — works in our favour while cinemas are the default Friday night, but breaks down once streaming becomes the default *every* night. Three things made the case for me.
 {: .cs-body-text}
 
 **Streaming had quietly become the competition.** Not another ticketing app. A phone, a sofa, and no seat to choose.
@@ -49,7 +49,7 @@ Seeing the audience is free; getting a twenty-year-old business to build for it 
 **We were sitting on the country's largest opinion set about films.** More user ratings than the two best-known international review sites put together, on some titles. That number moved box office, and we were using it as a decoration on a listing page.
 {: .cs-body-text}
 
-**And the forty million.** We called them non-bookers and dreamers, which sounds dismissive and wasn't — a dreamer is someone who wants the Friday show and can't justify it this week. We had the stars, the comedians, the sportspeople and the production houses on speed dial. We had every lever needed to keep those people around.
+**And the forty million.** We called them non-bookers and dreamers, someone who wants the Friday show and can't justify it this week. We had the stars, the comedians, the sportspeople and the production houses on speed dial. We had every lever needed to keep those people around.
 {: .cs-body-text}
 </div>
 
@@ -177,7 +177,7 @@ It was this platform that kept revenue moving through 2020, when nobody in the c
 </div>
 
 <div class="tldr-collapsible" markdown="1">
-Fifty designers became twenty. Nobody was let go — the rest were repurposed into ad-tech, Watch Guide and Buzz, which is the only version of that sentence I'd be willing to write. Three products shipped in under two quarters on a codebase old enough to have opinions, with every change rolled out on a three-to-six-month adoption cycle because you don't hard-cut an app fifty million people rely on.
+Fifty designers became twenty. Nobody was let go — the rest were repurposed into ad-tech, Watch Guide and Buzz. Three products shipped in under two quarters on a codebase old enough to have opinions, with every change rolled out on a three-to-six-month adoption cycle because you don't hard-cut an app fifty million people rely on.
 {: .cs-body-text}
 </div>
 

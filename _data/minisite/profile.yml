@@ -5,7 +5,7 @@ role: Design Leader
 job_title: Head of Design
 career_start: 2012          # `{years}` in copy resolves against this
 company:
-  name: Octopus Deploy
+  name: Octopus
   url: https://octopus.com
 location: Auckland, New Zealand
 email: upamanyu@upamanyu.in
@@ -18,7 +18,7 @@ favicon: /minisite/src/assets/images/upa-favicon.png   # avatar, circle-cropped
 site_title: Upa Das · Product Design Leader
 description: >-
   Portfolio of Upamanyu (Upa) Das, a design leader with {years}+ years of shipped
-  product and teams behind 517M+ users. Head of Design at Octopus Deploy, building
+  product and teams behind 517M+ users. Head of Design at Octopus, building
   AI-native design orgs. Case studies on agentic design systems, AI workflows,
   and craft-led leadership.
 keywords: >-
@@ -29,92 +29,55 @@ keywords: >-
 # ── Collapsed about card ───────────────────────────────────
 greeting: "Namaste 🙏🏽"
 card_bio: >-
-  I'm Upamanyu Das — Upa works too. I lead design at Octopus Deploy, build
+  I'm Upamanyu Das — Upa works too. I lead design at Octopus, build
   AI-native design teams, and still ship pixels every week.
 
 # ── Expanded about bio (markdown; **bold** renders as brand gradient) ──
 bio: |
-  My name is Upamanyu Das, though everyone outside Bengal settles on **Upa**.
-  I'm a designer who is happiest with one foot in **strategy** and the other in
-  the **pixels** — currently Heading Design at
-  [🐙 Octopus](https://octopus.com){: .bio-link .brand-octopus},
-  leading a ten-person design org spread across four time zones.
+  I'm Upa a design leader who is happiest with one foot in **strategy** and the other in the **pixels**. currently Heading Design at **🐙 Octopus**, leading a ten-person design org spread across four time zones.
 
-  I trained at [Sir JJ School of Art](https://sirjjsaad.edu.in){: .bio-link .brand-jj}
-  and the [National Institute of Design](https://www.nid.edu){: .bio-link .brand-nid},
-  which between them beat two habits into me: draw it before you defend it,
-  and question the brief before you answer it.
+  I have been designing digital products for the past {years}+ years. The title and the work kept changing shape — but its core motivation stays the same: building others up and leaving both people & organizations better than I found them. My skill set is a blend of hands-on craftsmanship and building highly functional teams. Together, we create delightful products and drive business growth. I’ve started and grown 5 Product Design & User Research functions from the ground up, helped scale 3 mid-size companies, and managed Product Design teams of 25+ (ICs and leaders). I’ve delivered products across Consumer, Enterprise, and B2B environments, used by over 517 million users. My work has had direct influence on closing 21 record-setting deals, won back 15 lost contracts, and been responsible for 52% retention growth.
 
-  Over the last {years}+ years I've built **five design & research functions from
-  the ground up** — at [BookMyShow](https://in.bookmyshow.com/explore/home/mumbai){: .bio-link .brand-bms},
-  where we rebuilt one of the most complex booking flows in live entertainment;
-  at [Cleartrip](https://www.cleartrip.com){: .bio-link .brand-cleartrip},
-  redesigning how millions book flights and hotels; and at
-  [TMNZ](https://www.tmnz.co.nz){: .bio-link .brand-tmnz}, re-imagining how
-  New Zealand businesses pay tax. Along the way I was instrumental in closing 21
-  record-setting deals, winning back at-least 15 lost contracts, and growing retention by 52%.
+  I trained at [Sir JJ School of Art](https://sirjjsaad.edu.in){: .bio-link .brand-jj} and the [National Institute of Design](https://www.nid.edu){: .bio-link .brand-nid}, which between them beat two habits into me: draw it before you defend it, and question the brief before you answer it.
 
-  Most of my attention now goes to making design teams **AI-native** — the
-  workflow, not the tool list. In practice that has meant rebuilding a design
-  system so an agent could work inside it: tokens layered for a machine to
-  follow, components that describe their own states, drift caught on a schedule
-  instead of in review. I set the rules, the agent keeps the floor swept, and
-  the designers spend their week on the calls no model is going to make for them.
+  Over the last {years}+ years I've built **five design & research functions from the ground up** — at [BookMyShow](https://in.bookmyshow.com/explore/home/mumbai){: .bio-link .brand-bms}, where we rebuilt one of the most complex booking flows in live entertainment; at [Cleartrip](https://www.cleartrip.com){: .bio-link .brand-cleartrip}, redesigning how millions book flights and hotels; and at [TMNZ](https://www.tmnz.co.nz){: .bio-link .brand-tmnz}, re-imagining how New Zealand businesses pay tax. Along the way I was instrumental in closing 21 record-setting deals, winning back at-least 15 lost contracts, and growing retention by 52%.
 
-  I'm blunt about where that line sits. A team that can only prompt isn't
-  designing, it's placing orders — so I hire and coach for the opposite: taste
-  you can defend out loud, and enough fluency with the tooling to know exactly
-  where to stop trusting it. Which makes this a **leadership** problem long
-  before it's a tooling one — what a machine is allowed to decide, what we
-  never hand over, and who answers for the output.
+  I bring **proven leadership**, design expertise, and a proactive mentality to the table. I excel at facilitating cross-functional involvement and recognize that great products aren't designed in isolation. My approach emphasizes building bridges between design, product, and engineering to create alignment that drives results. Most of my attention now goes to making design teams **AI-native** — the workflow, not the tool list.
 
-  Titles never moved me off the tools. I still take a design problem
-  end-to-end most weeks — research, flows, wireframes, the last pixel —
-  because a leader who stops making things slowly stops **seeing** them.
-  The kit: Figma, ProtoPie, HTML/CSS, Claude with an MCP server or two,
-  product analytics, and an unreasonable number of whiteboards.
+  I may not be a founder, but I am an **entrepreneur**. I invest in company success proactively, understand business fundamentals, and contribute to organizational vision. I treat every team I join as if it were my own company — measuring success in outcomes, not outputs.
 
-  Away from the screen I'm a wildlife photographer — twice named **Natural
-  History Photographer of the Year** — and I've made two short films about
-  New Zealand's wild places:
-  [A Forest's Dream](/films/aforestsdream/){: .bio-link .brand-forest} and
-  [The Birds of Play](/films/thebirdsofplay/){: .bio-link .brand-kea}.
-  Waiting out a bird in the rain turns out to be excellent training for
-  design leadership.
+  I've spent the last decade maturing how design gets done — capacity planning, workflow systems, critique culture, and AI-augmented pipelines that compound team throughput. DesignOps is where strategy becomes leverage; I treat it as a primary leadership discipline, not back-office plumbing.
+
+  I write extensively, mentor younger designers, and volunteer in design communities. Giving back isn't optional — it's how the discipline grows. I've built and grown 5 Product Design & User Research functions from scratch throughout my career.
+
+  Titles never moved me off the tools and my core passion. I still take a design problem end-to-end most weeks — research, flows and wireframes — because a leader who stops making things slowly stops **seeing** them. The kit: Figma, ProtoPie, HTML/CSS, Claude with an MCP server or two, product analytics, and an unreasonable number of whiteboards.
+
+  Away from the screen I'm a wildlife photographer — twice named **Natural History Photographer of the Year** — and I've made two short films about New Zealand's wild places: [A Forest's Dream](/films/aforestsdream/){: .bio-link .brand-forest} and [The Birds of Play](/films/thebirdsofplay/){: .bio-link .brand-kea}. Waiting out a bird in the rain turns out to be excellent training for design leadership.
 
 # ── Pronunciation widget (in expanded about) ───────────────
 pronunciation:
   ipa: "/uː·pɔː·mʌn·juː  daːʃ/"
   guide: >-
-    **U** as in coo, minus the c · **pa** as in paw · **man** as in munch,
-    minus the ch · **u** as in you. Das like pass, with a D.
-    Or just say **Upa**.
+    **U** as in coo, minus the c · **pa** as in paw · **man** as in munch, minus the ch · **u** as in you. Das like pass, with a D. Or just say **Upa**.
 
 # ── Design principles (in expanded about) ──────────────────
 principles_title: How I work
 principles:
   - title: Measure twice, cut once.
     body: >-
-      Research is cheaper than redesign. I don't start pixels until we can
-      say who it's for and what breaks if we're wrong.
+      Research is cheaper than redesign. I don't start pixels until we can say who it's for and what breaks if we're wrong.
   - title: Stay in the field.
     body: >-
-      Wildlife taught me this — you lose the eye the day you stop looking
-      through the lens. I keep half my calendar for craft, whatever my
-      title says.
-  - title: Teams outlive projects.
+      Wildlife taught me this — you lose the eye the day you stop looking through the lens. I keep half my calendar for craft, whatever my title says.
+  - title: People-focused problem solving
     body: >-
-      Products ship and sunset; a team's standards compound. Hire people
-      who argue back, then back them.
+      Every design decision starts and ends with the people using the product. Deep user research and empathy aren't nice-to-haves — they're the foundation of everything we build.
   - title: Point the machine, keep the judgment.
     body: >-
-      An agent is fast, confident, and wrong in ways that don't announce
-      themselves. I give it the repeatable work and hold on to the deciding —
-      and I expect the same split from everyone on the team.
-  - title: Simple survives.
+      An agent is fast, confident, and wrong in ways that don't announce themselves. I give it the repeatable work and hold on to the deciding — and I expect the same split from everyone on the team.
+  - title: Simplicity is the ultimate sophistication
     body: >-
-      Every element is a liability. The designs that last are the ones with
-      the fewest moving parts that still do the job.
+      The best interfaces are invisible. I push teams to strip away complexity until what remains is intuitive, efficient, and delightful. If a user has to think about the UI, we haven't done our job.
 
 # ── Quote cards ────────────────────────────────────────────
 quotes:
@@ -123,28 +86,19 @@ quotes:
     label: My UX philosophy
     quote: "The interface **is** the manual — nobody reads the other one."
     body: |
-      If a flow needs a tooltip to survive, the flow is the bug. People
-      don't arrive wanting to learn your product; they arrive mid-task,
-      distracted, and generous with nothing. The screen has one chance to
-      say **what this is, what just happened, and what happens next**.
+      If a flow needs a tooltip to survive, the flow is the bug. People don't arrive wanting to learn your product; they arrive mid-task, distracted, and generous with nothing. The screen has one chance to say **what this is, what just happened, and what happens next**.
 
-      So I design for the person who reads nothing and notices everything.
-      Every label earns its place, every state has an exit, and anything
-      that needs explaining gets redesigned before it gets documented.
+      So I design for the person who reads nothing and notices everything. Every label earns its place, every state has an exit, and anything that needs explaining gets redesigned before it gets documented.
   craft:
     tooltip: My leadership philosophy
     label: My leadership philosophy
-    quote: "I run design teams like a wildlife hide — **preparation, patience**, and knowing when not to press the shutter."
+    quote: "A leader's core strenth lies in their ability to lead their team through failure."
     body: |
-      Photographing wild birds and leading designers reward the same
-      instincts. You do the homework before you show up. You stay quiet
-      long enough to see what's actually happening, not what you expected.
-      And you learn that **the restraint is the skill** — most bad products,
-      like most bad photographs, come from firing too early.
+      It brings me joy to help people achieve their full creative potential.
 
-      In practice that means fewer, better bets: deep research before
-      commitment, critique that sharpens instead of sands down, and a team
-      trusted to work the problem without me hovering over the viewfinder.
+      **My design leadership style is people first:** people are foundational to building great things. With people at the center, I operate using what I've coined as the 4Ps of Leadership: Success for People, Partners, Projects, and Processes.
+      
+      **And this style is backed by substance:** I've honed my leadership approach over many years of experience in multiple tech sectors, company sizes, and scenarios.
 
 # ── Film side-quest cards ──────────────────────────────────
 films:

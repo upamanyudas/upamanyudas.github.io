@@ -1,6 +1,7 @@
 import { defineComponent, h, ref, nextTick, onUnmounted, onMounted, createApp } from 'vue'
 import { ICON_SHRINK, ICON_FULL_SCREEN } from '../assets/icons/icons.js'
 import { useRipple } from '../composables/useRipple.js'
+import { useLinkPreview } from '../composables/useLinkPreview.js'
 import { caseStudies, templateHTML } from '../siteData.js'
 import { DEMOS } from '../cs/registry.js'
 import InteractiveTag from './InteractiveTag.js'
@@ -28,9 +29,14 @@ const CsContent = defineComponent({
     const tldr = ref(false)
     let demoApps = []
 
+    // Same branded link peek as the about bio
+    const { handlers: previewHandlers, bindLinks, renderPreview } = useLinkPreview()
+
     onMounted(() => {
       const host = hostEl.value
       if (!host) return
+
+      bindLinks(host)
 
       // Wrap each TL;DR-collapsible block's children (CSS grid-rows animation
       // needs a single child) so the markdown source stays clean.
@@ -67,7 +73,9 @@ const CsContent = defineComponent({
         ref: hostEl,
         class: ['cs-jekyll-body', tldr.value ? 'tldr-on' : ''].filter(Boolean).join(' '),
         innerHTML: templateHTML(`tpl-cs-${props.cardKey}`),
+        ...previewHandlers,
       }),
+      renderPreview(),
     ])
   },
 })

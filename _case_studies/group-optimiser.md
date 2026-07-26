@@ -32,13 +32,13 @@ Getting it there meant building a spreadsheet per entity, working out by hand wh
 ## My role
 {: .cs-section-title}
 
-I led design at [TMNZ](https://www.tmnz.co.nz), New Zealand's original tax pooling provider. Group Optimiser was mine end to end: the discovery with tax agents, the flow, the interaction model for the netting table, the terminology, every state and every empty state, and the arguments with myself about how much of this to automate.
+I led design at [TMNZ](https://www.tmnz.co.nz){: .bio-link .brand-tmnz}, New Zealand's original tax pooling provider. Group Optimiser was mine end to end: the discovery with tax agents, the flow, the interaction model for the netting table, the terminology, every state and every empty state, and the arguments with myself about how much of this to automate.
 {: .cs-body-text}
 
 ## Stack
 {: .cs-section-title}
 
-Figma with a component library and variables, ClickUp for the brief-in, real accountant sessions for validation, and a design system named after New Zealand plants.
+Figma with a component library and variables, ClickUp for the brief-in and real accountant sessions for validation.
 {: .cs-body-text}
 
 ## The before

@@ -1,28 +1,12 @@
 import { defineComponent, h, ref, nextTick } from 'vue'
 import { ICON_SHRINK, ICON_EXPAND } from '../../assets/icons/icons.js'
 import { useRipple } from '../../composables/useRipple.js'
-import { isLazy } from '../../lazyMode.js'
+import { useLinkPreview } from '../../composables/useLinkPreview.js'
 import { fillYears, profile, templateHTML } from '../../siteData.js'
 
 const AVATAR   = profile.avatar
 const ABOUT_MAX_W = 800   // max width for the expanded about card
 const ANIM_MS = 700   // must match CSS transition duration
-
-/* ── Link peek previews ────────────────────────────────────────────────
-   Everything is read off the link itself — href, text, brand colour — so
-   editing the bio in profile.yml is the only edit. maxAge is in hours;
-   sites that block screenshot bots fall back to the drawn card. */
-const SHOT = 'https://image.thum.io/get/crop/800/width/640/maxAge/24/png/'
-
-function previewOf(link) {
-  const { href, hostname } = link          // href is already absolute here
-  return {
-    src:   SHOT + href,
-    label: link.textContent.trim(),
-    sub:   hostname.replace(/^www\./, ''),
-    color: getComputedStyle(link).color,   // the .brand-* colour it already wears
-  }
-}
 
 // Shared cubic-bezier for all FLIP transitions
 const EASE = 'cubic-bezier(0.34, 1.1, 0.64, 1)'
@@ -42,84 +26,16 @@ export default defineComponent({
     const flyStyle        = ref({})
     const { spawnRipple: spawnExpandedRipple, renderRipples } = useRipple()
 
-    // ── Touch / mobile detection (skip link previews) ──
-    const isTouch = 'ontouchstart' in window
-      || navigator.maxTouchPoints > 0
-      || (typeof matchMedia !== 'undefined' && matchMedia('(pointer: coarse)').matches)
-      || window.innerWidth <= 768
+    // ── Link peek previews (shared with case studies) ──
+    const { handlers: previewHandlers, bindLinks, renderPreview } = useLinkPreview()
 
-    // ── Link preview (iOS-style peek) ──
-    const preview = ref({ visible: false, x: 0, y: 0, src: '' })
-    const failed  = ref(false)   // screenshot unavailable → compact chip instead
-    let previewTimer = null
-    const PREVIEW_OFFSET = 24
-    const PREVIEW_W = 320
-    const PREVIEW_H = 200
-    const PREVIEW_LERP = 0.07
-
-    let previewMouseX = 0
-    let previewMouseY = 0
-    let previewSmoothX = 0
-    let previewSmoothY = 0
-    let previewRafId = null
-
-    function lerpVal(a, b, t) { return a + (b - a) * t }
-
-    function previewAnimLoop() {
-      const pl = isLazy.value ? PREVIEW_LERP : 1
-      previewSmoothX = lerpVal(previewSmoothX, previewMouseX, pl)
-      previewSmoothY = lerpVal(previewSmoothY, previewMouseY, pl)
-      preview.value = {
-        ...preview.value,
-        x: previewSmoothX,
-        y: previewSmoothY,
-      }
-      previewRafId = requestAnimationFrame(previewAnimLoop)
-    }
-
-    function showPreview(e, link) {
-      const shot = previewOf(link)
-      clearTimeout(previewTimer)
-      const rawX = e.clientX + PREVIEW_OFFSET
-      const rawY = e.clientY + PREVIEW_OFFSET
-      const clampedX = Math.min(rawX, window.innerWidth  - PREVIEW_W - 12)
-      const clampedY = Math.min(rawY, window.innerHeight - PREVIEW_H - 12)
-      previewMouseX = clampedX
-      previewMouseY = clampedY
-
-      if (!preview.value.visible || preview.value.src !== shot.src) {
-        previewSmoothX = clampedX
-        previewSmoothY = clampedY
-        failed.value = false
-        preview.value = { visible: true, x: clampedX, y: clampedY, ...shot }
-        cancelAnimationFrame(previewRafId)
-        previewRafId = requestAnimationFrame(previewAnimLoop)
-      }
-    }
-
-    function hidePreview() {
-      previewTimer = setTimeout(() => {
-        preview.value = { ...preview.value, visible: false }
-        cancelAnimationFrame(previewRafId)
-      }, 80)
-    }
-
-    // Delegated hover on the injected bio HTML
-    function onBioOver(e) {
-      if (isTouch) return
-      const link = e.target.closest?.('a.bio-link')
-      if (!link) { hidePreview(); return }
-      showPreview(e, link)
-    }
-
-    // Warm the screenshot cache on expand, so the first hover isn't a blank box
+    // Tag + warm the screenshots on expand, so the first hover isn't a blank box
     const bioEl = ref(null)
-    let prefetched = false
-    function prefetchShots() {
-      if (prefetched || isTouch || !bioEl.value) return
-      prefetched = true
-      bioEl.value.querySelectorAll('a.bio-link')
-        .forEach(link => { new Image().src = SHOT + link.href })
+    let prepared = false
+    function prepareLinks() {
+      if (prepared) return
+      prepared = true
+      bindLinks(bioEl.value)
     }
 
     let startRect   = null
@@ -198,7 +114,7 @@ export default defineComponent({
       window.addEventListener('keydown', onKeyDown)
 
       await nextTick()
-      prefetchShots()   // bio links exist now
+      prepareLinks()   // bio links exist now
 
       // ② Let start-state paint, then trigger card + avatar transitions
       requestAnimationFrame(() => {
@@ -350,42 +266,14 @@ export default defineComponent({
                 ref: bioEl,
                 class: 'about-expanded-body',
                 innerHTML: fillYears(templateHTML('tpl-about')),
-                onMouseover: onBioOver,
-                onMousemove: onBioOver,
-                onMouseleave: hidePreview,
+                ...previewHandlers,
               }),
             ]),
           ]),
 
           ...renderRipples(),
 
-          // ── Link preview popup (iOS-style peek) ──
-          h('div', {
-            class: [
-              'bio-link-preview',
-              preview.value.visible ? 'bio-link-preview--visible' : '',
-              failed.value ? 'bio-link-preview--chip' : '',
-            ].filter(Boolean).join(' '),
-            style: {
-              left: preview.value.x + 'px',
-              top:  preview.value.y + 'px',
-            },
-          }, [
-            // No screenshot (bot-blocked, offline) → small branded chip
-            failed.value ? h('div', { class: 'bio-link-chip' }, [
-              h('span', { class: 'bio-link-chip-dot', style: { background: preview.value.color } }),
-              h('span', { class: 'bio-link-chip-text' }, [
-                h('span', { class: 'bio-link-chip-label', style: { color: preview.value.color } }, preview.value.label),
-                h('span', { class: 'bio-link-chip-sub' }, preview.value.sub),
-              ]),
-            ]) : preview.value.src ? h('img', {
-              key:     preview.value.src,
-              class:   'bio-link-preview-img',
-              src:     preview.value.src,
-              alt:     'Preview',
-              onError: () => { failed.value = true },
-            }) : null,
-          ]),
+          renderPreview(),
         ]),
 
       ]) : null,

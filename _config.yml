@@ -22,6 +22,9 @@ google_analytics_tracking_id: UA-39534503-2
 highlighter: rouge
 
 paginate: 5
+
+# Jekyll's defaults, plus build-time tooling that isn't site content
+exclude: [Gemfile, Gemfile.lock, vendor, node_modules, minisite/src/assets/link-previews/capture.sh]
 # Gems
 #gems: [jekyll-paginate]
 

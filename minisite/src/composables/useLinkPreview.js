@@ -4,21 +4,30 @@ import { isLazy } from '../lazyMode.js'
 /**
  * useLinkPreview — iOS-style peek for prose links (about bio, case studies).
  * Everything is read off the link itself — href, text, brand colour — so
- * authoring a link is the only edit. maxAge is in hours; sites that block
- * screenshot bots fall back to the drawn chip.
+ * authoring a link is the only edit. Shots are baked by assets/link-previews/
+ * capture.sh; anything without one falls back to the drawn chip.
  */
-const SHOT = 'https://image.thum.io/get/crop/800/width/640/maxAge/24/png/'
+const SHOT = '/minisite/src/assets/link-previews/'
 const OFFSET = 24
 const W = 320
 const H = 200
 const LERP = 0.07
 
+/** Baked capture for a link — name rule mirrors capture.sh. */
+function shotSrc(link) {
+  const own = link.host === location.host
+  const name = ((own ? '' : link.hostname) + link.pathname)
+    .replace(/[^a-z0-9]+/gi, '-')
+    .replace(/^-|-$/g, '')
+    .toLowerCase()
+  return SHOT + name + '.jpg'
+}
+
 function previewOf(link) {
-  const { href, hostname } = link          // href is already absolute here
   return {
-    src:   SHOT + href,
+    src:   shotSrc(link),
     label: link.textContent.trim(),
-    sub:   hostname.replace(/^www\./, ''),
+    sub:   link.hostname.replace(/^www\./, ''),
     color: getComputedStyle(link).color,   // the .brand-* colour it already wears
   }
 }
@@ -80,7 +89,7 @@ export function useLinkPreview() {
     if (!root) return
     root.querySelectorAll('a[href]').forEach(a => a.classList.add('bio-link'))
     if (isTouch) return
-    root.querySelectorAll('a.bio-link').forEach(a => { new Image().src = SHOT + a.href })
+    root.querySelectorAll('a.bio-link').forEach(a => { new Image().src = shotSrc(a) })
   }
 
   const handlers = { onMouseover: onLinkOver, onMousemove: onLinkOver, onMouseleave: hide }
